@@ -99,7 +99,7 @@
       "displays": [
         {
           "type": "LinearVariantDisplay",
-          "displayId": "rat_variants-LinearVariantDisplay",
+          "displayId": "rat_variants-LinearVariantDisplay"
         },
         {
           "type": "ChordVariantDisplay",
