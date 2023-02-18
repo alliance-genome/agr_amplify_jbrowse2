@@ -99,7 +99,8 @@
       "displays": [
         {
           "type": "LinearVariantDisplay",
-          "displayId": "rat_variants-LinearVariantDisplay"
+          "displayId": "rat_variants-LinearVariantDisplay",
+          "color1": "jexl:variantColor(feature)"
         },
         {
           "type": "ChordVariantDisplay",
