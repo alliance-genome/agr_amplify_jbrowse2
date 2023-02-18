@@ -1,0 +1,111 @@
+{
+  "plugins" : [
+     {
+       "name" : "VariantColorPlugin",
+       "umdLoc" : {
+          "uri" : "variantColor_plugin.js"
+       }
+     }
+  ],
+  "assemblies": [
+    {
+      "name": "Rattus_norvegicus",
+      "displayName": "Rattus norvegicus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Rattus_norvegicus_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Rattus_norvegicus_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Rattus_norvegicus_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    }
+  ],
+  "tracks" : [
+    {
+      "type": "FeatureTrack",
+      "trackId": "rat_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "trackdata.jsonz-1676655636388-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'violet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "trackdata.jsonz-1676655636388-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "rat_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/rat-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/rat-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "rat_variants-LinearVariantDisplay",
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "rat_variants-ChordVariantDisplay"
+        }
+      ]
+    }
+  ]
+}
