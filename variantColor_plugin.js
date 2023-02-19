@@ -5,7 +5,8 @@
 
     install(pluginManager) {
       pluginManager.jexl.addFunction('variantColor', f => {
-            if (  typeof f['variant']['INFO']                  !== 'undefined'
+            if (  typeof f['variant']                          !== 'undefined'
+               && typeof f['variant']['INFO']                  !== 'undefined'
                && typeof f['variant']['INFO']['geneImpact']    !== 'undefined'
                && typeof f['variant']['INFO']['geneImpact'][0] !== 'undefined') {
                 var cons = f['variant']['INFO']['geneImpact'][0]
