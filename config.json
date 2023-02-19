@@ -5,6 +5,12 @@
        "umdLoc" : {
           "uri" : "variantColor_plugin.js"
        }
+     },
+     {
+       "name" : "HTVariantColorPlugin",
+       "umdLoc" : {
+          "uri" : "htVariantColor_plugin.js"
+       }
      }
   ],
   "assemblies": [
@@ -135,7 +141,7 @@
         {
            "renderer" : {
               "type" : "SvgFeatureRenderer",
-              "color1" : "jexl:variantColor(feature)"
+              "color1" : "jexl:htVariantColor(feature)"
            },
           "type": "LinearVariantDisplay",
           "displayId": "rat_ht_variants-LinearVariantDisplay"
