@@ -6,7 +6,7 @@
     install(pluginManager) {
       pluginManager.jexl.addFunction('variantColor', f => {
             console.log(f['variant']['INFO']['geneImpact'])
-            if (f['variant']['INFO']['geneImpact']) {
+            if (f['variant']['INFO']['geneImpact'][0]) {
                 var cons = f['variant']['INFO']['geneImpact'][0]
              console.log(cons)
                 var color = 'black'
