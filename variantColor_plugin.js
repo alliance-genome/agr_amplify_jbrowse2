@@ -8,6 +8,7 @@
             console.log(f['variant']['INFO']['geneImpact'])
             if (f['variant']['INFO']['geneImpact']) {
                 var cons = f['variant']['INFO']['geneImpact'][0]
+             console.log(cons)
                 var color = 'black'
                      if(cons == 'HIGH')     {return 'red';}
                 else if(cons == 'MODIFIER') {return 'purple';}
