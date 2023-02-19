@@ -14,6 +14,7 @@
                 else if(cons == 'MODIFIER') {return 'purple';}
                 else if(cons == 'MODERATE') {return 'gold';}
                 else if(cons == 'LOW')      {return 'cyan';}
+             console.log(color)
                 return color;
             }
             else {
