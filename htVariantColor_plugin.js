@@ -6,7 +6,9 @@
     install(pluginManager) {
       pluginManager.jexl.addFunction('htVariantColor', f => {
             if(f?.variant?.INFO?.CSQ !== 'undefined')     {
-                f.variant.INFO.CSQ.foreach(function(line) {
+                var csq = [];
+                csq = f.variant.INFO.CSQ;
+                csq.foreach(function(line) {
                     cons.push(line.split('|')[2])
                 })
             }
