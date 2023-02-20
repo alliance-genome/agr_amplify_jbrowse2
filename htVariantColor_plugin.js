@@ -8,6 +8,7 @@
             if(f?.variant?.INFO?.CSQ !== 'undefined')     {
                 var csq = [];
                 csq = f.variant.INFO.CSQ;
+                console.log(csq)
                 csq.foreach(function(line) {
                     cons.push(line.split('|')[2])
                 })
