@@ -5,13 +5,14 @@
 
     install(pluginManager) {
       pluginManager.jexl.addFunction('htVariantColor', f => {
-            if(f?.variant?.INFO?.CSQ !== 'undefined')     {
-                csq = f.variant.INFO.CSQ;
-                if (typeof csq === 'undefined' || !Array.isArray(csq)) {return 'black'}
+            if(f?.variant?.INFO?.CSQ)     {
+                var csq = f.variant.INFO.CSQ;
+                if (typeof csq === 'undefined') {return 'black'}
                 csq.foreach(function(line) {
                     cons.push(line.split('|')[2])
                 })
             }
+            else {return 'black'}
             console.log(cons); 
             cons.foreach(function(item) {
                 if (item==='HIGH')     {return 'red';} 
