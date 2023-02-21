@@ -10,18 +10,17 @@
                 && typeof f.variant !=='undefined'
                 && typeof f.variant.INFO !== 'undefined'
                 && typeof f.variant.INFO.CSQ !== 'undefined') {
-/*            if(typeof f?.variant?.INFO?.CSQ !== 'undefined') { */
                 var csq = f.variant.INFO.CSQ;
            console.log(csq)
                 if (csq === 'undefined') {return 'black'}
                 if (!Array.isArray(csq)) {return 'green'}
                 
                 csq.forEach(function(line) {
+                    if (typeof line === 'undefined') {return 'pink'}
                     console.log(line)
-                    if (typeof line === 'undefined') {return 'pink'} 
                     var tmp = line.split('|')[2]
-                    console.log(tmp)
                     if (typeof tmp === 'undefined') {return 'lightgreen'}
+                    console.log(tmp)
                     cons.push(tmp)
                     console.log(cons)
                 })
