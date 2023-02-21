@@ -18,6 +18,7 @@
                 
                 csq.forEach(function(line) {
                     console.log(line)
+                    if (typeof line === 'undefined') {return 'pink'} 
                     cons.push(line.split('|')[2])
                 })
             } else {return 'black'}
