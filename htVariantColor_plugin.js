@@ -16,29 +16,27 @@
                 
                 csq.forEach(function(line) {
                     if (typeof line === 'undefined') {return 'pink'}
-                    console.log(line)
                     var tmp = line.split('|')[2]
                     if (typeof tmp === 'undefined') {return 'lightgreen'}
-                    console.log(tmp)
                     cons.push(tmp)
-                    console.log(cons)
                 })
             } else {return 'black'}
             console.log(cons); 
             cons.forEach(function(item) {
-                if (item==='HIGH')     {return 'red';} 
+                if (item=='HIGH')     {return 'red';} 
             }) 
 
             cons.forEach(function(item) {
-                if (item==='MODIFIER') {return 'purple';}
+                console.log('--'+item+'--')
+                if (item=='MODIFIER') {return 'purple';}
             }) 
 
             cons.forEach(function(item) {
-                if (item==='MODERATE') {return 'gold';}
+                if (item=='MODERATE') {return 'gold';}
             })
 
             cons.forEach(function(item) {
-                if (item==='LOW')      {return 'cyan';}
+                if (item=='LOW')      {return 'cyan';}
             })
 
             return 'black';
