@@ -73,6 +73,7 @@
           "displayId": "trackdata.jsonz-1676655636388-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
           }
         },
