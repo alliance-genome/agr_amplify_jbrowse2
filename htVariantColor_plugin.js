@@ -20,8 +20,10 @@
                     console.log(line)
                     if (typeof line === 'undefined') {return 'pink'} 
                     var tmp = line.split('|')[2]
+                    console.log(tmp)
                     if (typeof tmp === 'undefined') {return 'lightgreen'}
                     cons.push(tmp)
+                    console.log(cons)
                 })
             } else {return 'black'}
             console.log(cons); 
