@@ -25,19 +25,19 @@
                 })
             } else {return 'black'}
             console.log(cons); 
-            cons.foreach(function(item) {
+            cons.forEach(function(item) {
                 if (item==='HIGH')     {return 'red';} 
             }) 
 
-            cons.foreach(function(item) {
+            cons.forEach(function(item) {
                 if (item==='MODIFIER') {return 'purple';}
             }) 
 
-            cons.foreach(function(item) {
+            cons.forEach(function(item) {
                 if (item==='MODERATE') {return 'gold';}
             })
 
-            cons.foreach(function(item) {
+            cons.forEach(function(item) {
                 if (item==='LOW')      {return 'cyan';}
             })
 
