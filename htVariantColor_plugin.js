@@ -13,6 +13,7 @@
                 var csq = f.variant.INFO.CSQ;
            console.log(csq)
                 if (csq === 'undefined') {return 'black'}
+                if (!Array.isArray(csq)) {return 'green'}
                 csq.foreach(function(line) {
                     cons.push(line.split('|')[2])
                 })
