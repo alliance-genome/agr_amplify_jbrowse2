@@ -23,23 +23,23 @@
             } else {return 'black'}
             console.log(cons); 
             cons.forEach(function(item) {
-                if (item=='HIGH')     {return 'red';} 
+                if (item=='HIGH')     {return 'red'} 
             }) 
 
             cons.forEach(function(item) {
                 console.log('--'+item+'--')
-                if (item=='MODIFIER') {return 'purple';}
+                if (item=='MODIFIER') {return 'purple'}
             }) 
 
             cons.forEach(function(item) {
-                if (item=='MODERATE') {return 'gold';}
+                if (item=='MODERATE') {return 'gold'}
             })
 
             cons.forEach(function(item) {
-                if (item=='LOW')      {return 'cyan';}
+                if (item=='LOW')      {return 'cyan'}
             })
 
-            return 'black';
+            return 'violet';
       })
     }
 
