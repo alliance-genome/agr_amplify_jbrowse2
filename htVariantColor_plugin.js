@@ -5,6 +5,15 @@
 
     install(pluginManager) {
       pluginManager.jexl.addFunction('htVariantColor', f => {
+
+        const csq = f.get('INFO')?.CSQ || []
+        const cons = csq.map(line => line.split('|')[2])
+        if (cons.includes('HIGH')) return 'red'
+        else if (cons.includes('MODIFIER')) return 'purple'
+        else if (cons.includes('MODERATE')) return 'gold'
+        else if (cons.includes('LOW')) return 'cyan'
+        return 'black'
+/*
             var cons = [];
             if (   typeof f !== 'undefined'
                 && typeof f.variant !=='undefined'
@@ -40,6 +49,7 @@
             })
 
             return 'violet';
+*/
       })
     }
 
