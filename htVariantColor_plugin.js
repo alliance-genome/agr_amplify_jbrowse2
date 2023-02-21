@@ -5,13 +5,12 @@
 
     install(pluginManager) {
       pluginManager.jexl.addFunction('htVariantColor', f => {
-            var cons;
+            var cons = [];
             if (   typeof f !== 'undefined'
                 && typeof f.variant !=='undefined'
                 && typeof f.variant.INFO !== 'undefined'
                 && typeof f.variant.INFO.CSQ !== 'undefined') {
                 var csq = f.variant.INFO.CSQ;
-           console.log(csq)
                 if (csq === 'undefined') {return 'black'}
                 if (!Array.isArray(csq)) {return 'green'}
                 
