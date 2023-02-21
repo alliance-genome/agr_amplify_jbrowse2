@@ -17,6 +17,7 @@
                 if (!Array.isArray(csq)) {return 'green'}
                 
                 csq.forEach(function(line) {
+                    console.log(line)
                     cons.push(line.split('|')[2])
                 })
             } else {return 'black'}
