@@ -14,7 +14,7 @@
            console.log(csq)
                 if (csq === 'undefined') {return 'black'}
                 if (!Array.isArray(csq)) {return 'green'}
-                csq.foreach(function(line) {
+                csq.forEach(function(line) {
                     cons.push(line.split('|')[2])
                 })
             } else {return 'black'}
