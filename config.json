@@ -50,6 +50,43 @@
           }
         ]
       }
+    },
+    {
+      "name": "Drosophila_melanogaster",
+      "displayName": "Drosophila melanogaster",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Drosophila_melanogaster_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Drosophila_melanogaster_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Drosophila_melanogaster_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
     }
   ],
   "tracks" : [
@@ -80,6 +117,36 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "trackdata.jsonz-1676655636388-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "fruitfly_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "fruitfly_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "fruitfly_all_genes-LinearArcDisplay"
         }
       ]
     },
@@ -120,6 +187,41 @@
     },
     {
       "type": "VariantTrack",
+      "trackId": "fruitfly_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/fly-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/fly-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "fruitfly_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "fruitfly_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
       "trackId": "rat_ht_variants",
       "name": "High Throughput Variants",
       "assemblyNames": [
@@ -150,6 +252,41 @@
         {
           "type": "ChordVariantDisplay",
           "displayId": "rat_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "fruitfly_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/HTPOSTVEPVCF_FB_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "fruitfly_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "fruitfly_ht_variants-ChordVariantDisplay"
         }
       ]
     }
