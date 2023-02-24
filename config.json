@@ -292,7 +292,7 @@
            "renderer" : {
               "type" : "SvgFeatureRenderer",
               "labels" : {
-                  "name" : "jexl:variantLabel(feature)"
+                  "name" : "jexl:'hello'"
               },
               "color1" : "jexl:htVariantColor(feature)"
            },
