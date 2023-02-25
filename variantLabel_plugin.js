@@ -6,16 +6,18 @@
     install(pluginManager) {
       pluginManager.jexl.addFunction('variantLabel', f => {
 
-        const symbols = f.variant?.INFO?.allele_symbols || []
-        const symbol  = symbols[0]
-        if  (! (typeof symbol === 'undefined') ) {
-            var temp = symbol.replace('<sup>', '<').replace('</sup>','>');
+        const symbols = f.variant?.INFO?.allele_symbols 
+        if (! (typeof symbols=== 'undefined') ) {
+            var temp = symbols[0].replace('<sup>', '<').replace('</sup>','>');
+        console.log(temp);
             return temp;
         }
 
         const name = f.variant?.name 
+     console.log(name)
         if (! (typeof name === 'undefined') ) {
             var temp = name[0].replace('<sup>', '<').replace('</sup>','>');
+        console.log(temp)
             return temp;
         }
         return 'no name';
