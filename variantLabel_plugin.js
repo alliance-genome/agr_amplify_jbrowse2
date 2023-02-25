@@ -12,12 +12,13 @@
      console.log(symbol)
         if  (! (typeof symbol === 'undefined') ) {
             var temp = symbol.replace('<sup>', '<').replace('</sup>','>');
+      console.log(temp);
             return temp;
         }
 
         const name = f.variant?.name || []
         if (! (typeof name === 'undefined') ) {
-            var temp = name.replace('<sup>', '<').replace('</sup>','>');
+            var temp = name[0].replace('<sup>', '<').replace('</sup>','>');
             return temp;
         }
         return;
