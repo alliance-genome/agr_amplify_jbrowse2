@@ -7,21 +7,18 @@
       pluginManager.jexl.addFunction('variantLabel', f => {
 
         const symbols = f.variant?.INFO?.allele_symbols || []
-     console.log(symbols)
         const symbol  = symbols[0]
-     console.log(symbol)
         if  (! (typeof symbol === 'undefined') ) {
             var temp = symbol.replace('<sup>', '<').replace('</sup>','>');
-      console.log(temp);
             return temp;
         }
 
-        const name = f.variant?.name || []
+        const name = f.variant?.name 
         if (! (typeof name === 'undefined') ) {
             var temp = name[0].replace('<sup>', '<').replace('</sup>','>');
             return temp;
         }
-        return;
+        return 'no name';
       
       })
     }
