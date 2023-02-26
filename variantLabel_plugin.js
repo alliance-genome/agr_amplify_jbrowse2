@@ -9,15 +9,12 @@
         const symbols = f.get('INFO').allele_symbols 
         if (! (typeof symbols=== 'undefined') ) {
             var temp = symbols[0].replace('<sup>', '<').replace('</sup>','>');
-        console.log(temp);
             return temp;
         }
 
         const name = f.get('name')
-     console.log(name)
         if (! (typeof name === 'undefined') ) {
             var temp = name.replace('<sup>', '<').replace('</sup>','>');
-        console.log(temp)
             return temp;
         }
         return 'no name';

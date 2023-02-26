@@ -186,6 +186,9 @@
         {
            "renderer" : {
               "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)"
+              },
               "color1" : "jexl:variantColor(feature)"
            },
           "type": "LinearVariantDisplay",
