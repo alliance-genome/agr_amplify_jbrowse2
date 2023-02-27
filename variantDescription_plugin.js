@@ -8,11 +8,15 @@
 
     var type = f.get('INFO').soTerm;
     type = type[0];
+console.log(type)
     if (type == 'point_mutation') {
         type = 'SNV';
     }
+console.log(type)
     var ref_allele = f.get('REF');
+console.log(ref_allele)
     var alt_allele = f.get('ALT');
+console.log(alt_allele)
     if (alt_allele == '<R>') {
         alt_allele = 'A or G';
     }
