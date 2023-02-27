@@ -93,7 +93,7 @@
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "trackdata.jsonz-1676655636388-LinearBasicDisplay",
+          "displayId": "trackdata.jsonz-1676655636388-LinearBasicDisplay"
         },
         {
           "type": "LinearArcDisplay",
@@ -118,7 +118,7 @@
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "fruitfly_all_genes-LinearBasicDisplay",
+          "displayId": "fruitfly_all_genes-LinearBasicDisplay"
         },
         {
           "type": "LinearArcDisplay",
