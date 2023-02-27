@@ -266,10 +266,6 @@
       },
       "displays": [
         {
-          "renderer" : {
-              "type" : "SvgFeatureRenderer",
-              "color1" : "jexl:multiVariantColor(feature)"
-          },
           "type": "LinearBasicDisplay",
           "displayId": "fruitfly_multiple-variant_alleles-LinearBasicDisplay"
         },
