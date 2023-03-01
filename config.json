@@ -31,6 +31,18 @@
        }
      }
   ],
+  "aggregateTextSearchAdapters" : [
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/FlyBase/fruitfly/names/"
+         },
+         "assemblyNames" : [
+            "Drosophila_melanogaster"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "fruitfly_generate-names-index"
+      }
+  ],
   "assemblies": [
     {
       "name": "Rattus_norvegicus",
