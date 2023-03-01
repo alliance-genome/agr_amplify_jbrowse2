@@ -41,6 +41,16 @@
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "fruitfly_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/RGD/rat/names/"
+         },
+         "assemblyNames" : [
+            "Rattus_norvegicus"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "rat_generate-names-index"
       }
   ],
   "assemblies": [
