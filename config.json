@@ -131,6 +131,52 @@
   ],
   "tracks" : [
     {
+      "type": "SyntenyTrack",
+      "trackId": "rat2fly.anchors",
+      "name": "Rat to Fruitfly orthology",
+      "assemblyNames": [
+        "Drosophila_melanogaster",
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
       "type": "FeatureTrack",
       "trackId": "rat_all_genes",
       "name": "All Genes",
