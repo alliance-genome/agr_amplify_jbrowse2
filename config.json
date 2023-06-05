@@ -61,9 +61,56 @@
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "mouse_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/human/names/"
+         },
+         "assemblyNames" : [
+            "Homo sapiens"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "human_generate-names-index"
       }
   ],
   "assemblies": [
+    {
+      "name": "Homo_sapiens",
+      "displayName": "Homo sapiens",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Homo_sapiens_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Homo_sapiens_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Homo_sapiens_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
     {
       "name": "Rattus_norvegicus",
       "displayName": "Rattus norvegicus",
@@ -177,6 +224,52 @@
     }
   ],
   "tracks" : [
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2fly.anchors",
+      "name": "Human to Fruitfly orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
     {
       "type": "SyntenyTrack",
       "trackId": "rat2fly.anchors",
@@ -312,6 +405,36 @@
         {
           "type": "LGVSyntenyDisplay",
           "displayId": "mouse2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "human_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Homo_sapiens"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/human/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "human_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "human_all_genes-LinearArcDisplay"
         }
       ]
     },
