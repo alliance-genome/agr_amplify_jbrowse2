@@ -34,7 +34,7 @@
   "aggregateTextSearchAdapters" : [
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/FlyBase/fruitfly/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/FlyBase/fruitfly/names/"
          },
          "assemblyNames" : [
             "Drosophila_melanogaster"
@@ -44,13 +44,23 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/RGD/rat/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/RGD/rat/names/"
          },
          "assemblyNames" : [
             "Rattus_norvegicus"
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "rat_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/MGI/mouse/names/"
+         },
+         "assemblyNames" : [
+            "Mus_musculus"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "mouse_generate-names-index"
       }
   ],
   "assemblies": [
@@ -87,6 +97,43 @@
           {
             "type": "LinearGCContentDisplay",
             "displayId": "Rattus_norvegicus_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mus_musculus",
+      "displayName": "Mus musculus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Mus_musculus_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Mus_musculus_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Mus_musculus_refseq-LinearGCContentDisplay"
           }
         ]
       }
@@ -177,6 +224,98 @@
       ]
     },
     {
+      "type": "SyntenyTrack",
+      "trackId": "rat2mouse.anchors",
+      "name": "Rat to Mouse orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2mouse.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Mus_musculus"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2mouse.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2mouse.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2mouse.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2mouse.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2fly.anchors",
+      "name": "Mouse to Fruitfly orthology",
+      "assemblyNames": [
+        "Drosophila_melanogaster",
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
       "type": "FeatureTrack",
       "trackId": "rat_all_genes",
       "name": "All Genes",
@@ -187,7 +326,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -208,6 +347,36 @@
     },
     {
       "type": "FeatureTrack",
+      "trackId": "mouse_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mouse_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "mouse_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "fruitfly_all_genes",
       "name": "All Genes",
       "assemblyNames": [
@@ -217,7 +386,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.3.0/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -247,12 +416,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/rat-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/rat-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/rat-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/rat-latest.vcf.gz.tbi"
           }
         }
       },
@@ -286,12 +455,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/fly-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/fly-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/fly-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/fly-latest.vcf.gz.tbi"
           }
         }
       },
@@ -325,12 +494,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/HTPOSTVEPVCF_RGD_latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_RGD_latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/HTPOSTVEPVCF_RGD_latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_RGD_latest.vcf.gz.tbi"
           }
         }
       },
@@ -360,12 +529,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/HTPOSTVEPVCF_FB_latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_FB_latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.3.0/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
           }
         }
       },
