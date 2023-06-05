@@ -67,7 +67,7 @@
             "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/human/names/"
          },
          "assemblyNames" : [
-            "Homo sapiens"
+            "Homo_sapiens"
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "human_generate-names-index"
