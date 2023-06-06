@@ -365,7 +365,7 @@
     },
     {
       "type": "SyntenyTrack",
-      "trackId": "human2fish.anchors",
+      "trackId": "human2zebrafish.anchors",
       "name": "Human to Zebrafish orthology",
       "assemblyNames": [
         "Homo_sapiens",
@@ -375,7 +375,7 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2fish.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2zebrafish.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
@@ -393,19 +393,19 @@
       "displays": [
         {
           "type": "DotplotDisplay",
-          "displayId": "human2fish.anchors-DotplotDisplay"
+          "displayId": "human2zebrafish.anchors-DotplotDisplay"
         },
         {
           "type": "LinearComparativeDisplay",
-          "displayId": "human2fish.anchors-LinearComparativeDisplay"
+          "displayId": "human2zebrafish.anchors-LinearComparativeDisplay"
         },
         {
           "type": "LinearSyntenyDisplay",
-          "displayId": "human2fish.anchors-LinearSyntenyDisplay"
+          "displayId": "human2zebrafish.anchors-LinearSyntenyDisplay"
         },
         {
           "type": "LGVSyntenyDisplay",
-          "displayId": "human2fish.anchors-LGVSyntenyDisplay"
+          "displayId": "human2zebrafish.anchors-LGVSyntenyDisplay"
         }
       ]
     },
