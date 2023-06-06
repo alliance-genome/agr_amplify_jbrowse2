@@ -874,6 +874,52 @@
     },
     {
       "type": "SyntenyTrack",
+      "trackId": "zebrafish2xenopustropicalis.anchors",
+      "name": "Zebrafish to X. tropicalis orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
       "trackId": "worm2fly.anchors",
       "name": "Worm to Fruitfly orthology",
       "assemblyNames": [
@@ -915,6 +961,98 @@
         {
           "type": "LGVSyntenyDisplay",
           "displayId": "worm2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "xenopustropicalis2worm.anchors",
+      "name": "X. tropicalis to Worm orthology",
+      "assemblyNames": [
+        "Xenopus_tropicalis",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/xenopustropicalis2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Xenopus_tropicalis",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "xenopustropicalis2fly.anchors",
+      "name": "X. tropicalis to Fruitfly orthology",
+      "assemblyNames": [
+        "Xenopus_tropicalis",
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/xenopustropicalis2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Xenopus_tropicalis",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-LGVSyntenyDisplay"
         }
       ]
     },
