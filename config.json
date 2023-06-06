@@ -230,7 +230,7 @@
       "name": "Human to Fruitfly orthology",
       "assemblyNames": [
         "Homo_sapiens",
-        "Rattus_norvegicus"
+        "Drosophila_melanogaster"
       ],
       "adapter": {
         "type": "MCScanAnchorsAdapter",
