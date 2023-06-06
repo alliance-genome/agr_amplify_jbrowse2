@@ -81,6 +81,16 @@
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "zebrafish_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/WormBase/c_elegans_PRJNA13758/names/"
+         },
+         "assemblyNames" : [
+            "Caenorhabditis_elegans"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "worm_generate-names-index"
       }
   ],
   "assemblies": [
@@ -228,6 +238,43 @@
           {
             "type": "LinearGCContentDisplay",
             "displayId": "Mus_musculus_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Caenorhabditis_elegans",
+      "displayName": "Caenorhabditis elegans",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Caenorhabditis_elegans_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Caenorhabditis_elegans_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Caenorhabditis_elegans_refseq-LinearGCContentDisplay"
           }
         ]
       }
@@ -595,6 +642,52 @@
     },
     {
       "type": "SyntenyTrack",
+      "trackId": "human2worm.anchors",
+      "name": "Human to Worm orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2worm.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
       "trackId": "rat2fly.anchors",
       "name": "Rat to Fruitfly orthology",
       "assemblyNames": [
@@ -878,6 +971,36 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "fruitfly_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "worm_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "worm_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "worm_all_genes-LinearArcDisplay"
         }
       ]
     },
