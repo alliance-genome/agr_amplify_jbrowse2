@@ -101,6 +101,16 @@
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "xlaevis_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/XenBase/x_tropicalis/names/"
+         },
+         "assemblyNames" : [
+            "Xenopus_tropicalis"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "xtropicalis_generate-names-index"
       }
   ],
   "assemblies": [
@@ -285,6 +295,43 @@
           {
             "type": "LinearGCContentDisplay",
             "displayId": "Xenopus_laevis_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xenopus_tropicalis",
+      "displayName": "Xenopus tropicalis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Xenopus_tropicalis_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Xenopus_tropicalis_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Xenopus_tropicalis_refseq-LinearGCContentDisplay"
           }
         ]
       }
@@ -551,6 +598,98 @@
     },
     {
       "type": "SyntenyTrack",
+      "trackId": "human2xenopustropicalis.anchors",
+      "name": "Human to X. tropicalis orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2xenopustropicalis.anchors",
+      "name": "Rat to X. tropicalis orthology",
+      "assemblyNames": [
+        "Rattus_norvegicus",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
       "trackId": "rat2zebrafish.anchors",
       "name": "Rat to Zebrafish orthology",
       "assemblyNames": [
@@ -592,6 +731,52 @@
         {
           "type": "LGVSyntenyDisplay",
           "displayId": "rat2zebrafish.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2xenopustropicalis.anchors",
+      "name": "Mouse to X. tropicalis orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-LGVSyntenyDisplay"
         }
       ]
     },
@@ -1188,6 +1373,36 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "xlaevis_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "xtropicalis_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "xtropicalis_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "xtropicalis_all_genes-LinearArcDisplay"
         }
       ]
     },
