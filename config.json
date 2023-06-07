@@ -1564,6 +1564,144 @@
       ]
     },
     {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2yeast.anchors",
+      "name": "Mouse to Yeast orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "zebrafish2yeast.anchors",
+      "name": "Zebrafish to Yeast orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "2yeast.anchors",
+      "name": "Zebrafish to Yeast orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
       "type": "FeatureTrack",
       "trackId": "human_all_genes",
       "name": "All Genes",
@@ -1582,6 +1720,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "human_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1642,6 +1781,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "zebrafish_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1672,6 +1812,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "xlaevis_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1702,6 +1843,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "xtropicalis_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1732,6 +1874,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "trackdata.jsonz-1676655636388-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1762,6 +1905,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "mouse_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1792,6 +1936,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "fruitfly_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1822,6 +1967,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "worm_all_genes-LinearBasicDisplay",
           "renderer": {
+            "maxHeight" : 5000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
@@ -1856,6 +2002,7 @@
       "displays": [
         {
            "renderer" : {
+              "maxHeight" : 5000,
               "type" : "SvgFeatureRenderer",
               "labels" : {
                   "name" : "jexl:variantLabel(feature)",
@@ -1895,6 +2042,7 @@
       "displays": [
         {
            "renderer" : {
+              "maxHeight" : 5000,
               "type" : "SvgFeatureRenderer",
               "labels" : {
                   "name" : "jexl:variantLabel(feature)",
@@ -1934,6 +2082,7 @@
       "displays": [
         {
            "renderer" : {
+              "maxHeight" : 5000,
               "type" : "SvgFeatureRenderer",
               "color1" : "jexl:htVariantColor(feature)"
            },
@@ -1969,6 +2118,7 @@
       "displays": [
         {
            "renderer" : {
+              "maxHeight" : 5000,
               "type" : "SvgFeatureRenderer",
               "color1" : "jexl:htVariantColor(feature)"
            },
