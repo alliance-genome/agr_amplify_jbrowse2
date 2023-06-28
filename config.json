@@ -1769,6 +1769,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
