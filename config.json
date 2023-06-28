@@ -1868,15 +1868,15 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
           "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Phenotype/{refseq}/trackData.jsonz"
         }
-      },
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
       },
       "displays": [
         {
@@ -1897,7 +1897,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
@@ -1925,7 +1925,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
@@ -1952,6 +1952,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -2012,7 +2015,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
@@ -2043,6 +2046,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -2073,7 +2079,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
@@ -2105,7 +2111,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
