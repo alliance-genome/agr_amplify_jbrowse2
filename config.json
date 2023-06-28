@@ -1769,9 +1769,6 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
-      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -1806,6 +1803,9 @@
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
       },
+      "category": [
+        "ZFIN tracks"
+      ],
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -1843,6 +1843,9 @@
           "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
         }
       },
+      "category": [
+        "ZFIN tracks"
+      ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
       },
@@ -1867,6 +1870,9 @@
       "name": "ZFIN Genes with Phenotype",
       "assemblyNames": [
         "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
       ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
@@ -1896,6 +1902,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "category": [
+        "ZFIN tracks"
+      ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
       },
@@ -1924,6 +1933,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "category": [
+        "ZFIN tracks"
+      ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
       },
@@ -1951,6 +1963,9 @@
       "name": "Complete Assembly Clones",
       "assemblyNames": [
         "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
       ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
@@ -1985,6 +2000,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "category": [
+        "ZFIN tracks"
+      ],
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -2013,6 +2031,9 @@
       "name": "Knockdown Reagent",
       "assemblyNames": [
         "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
       ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
@@ -2046,6 +2067,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "category": [
+        "ZFIN tracks"
+      ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
       },
@@ -2077,6 +2101,9 @@
       "name": "Zebrafish Mutation Project",
       "assemblyNames": [
         "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
       ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
@@ -2110,6 +2137,9 @@
       "assemblyNames": [
         "Danio_rerio"
       ],
+      "category": [
+        "ZFIN tracks"
+      ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
       },
@@ -2141,6 +2171,9 @@
       "name": "Transgenic Insertion",
       "assemblyNames": [
         "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
       ],
       "formatDetails": {
         "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
