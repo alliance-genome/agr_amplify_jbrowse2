@@ -1,3 +1,37 @@
+	45030	.	-	.	Name=seg14
+ctgA	example	match	45231	45488	.	-	.	Name=seg14
+ctgA	example	match	45281	45375	.	-	.	Name=seg15
+ctgA	example	match	45373	45600	.	-	.	Name=seg07
+ctgA	example	match	45711	46041	.	-	.	Name=seg15
+ctgA	example	match	45790	46022	.	-	.	Name=seg14
+ctgA	example	match	45897	46315	.	-	.	Name=seg07
+ctgA	example	polypeptide_domain	46012	48851	.	+	.	Name=m09;Note=kinase
+ctgA	example	match	46092	46318	.	-	.	Name=seg14
+ctgA	example	match	46425	46564	.	-	.	Name=seg15
+ctgA	example	match	46491	46890	.	-	.	Name=seg07
+ctgA	example	match	46738	47087	.	-	.	Name=seg15
+ctgA	example	match	46816	46992	.	-	.	Name=seg14
+ctgA	example	remark	46990	48410	.	-	.	Name=f11
+ctgA	example	match	47126	47297	.	-	.	Name=seg07
+ctgA	example	match	47329	47595	.	-	.	Name=seg15
+ctgA	example	match	47449	47829	.	-	.	Name=seg14
+ctgA	example	match	47735	47983	.	-	.	Name=seg07
+ctgA	example	match	47858	47979	.	-	.	Name=seg15
+ctgA	example	match	48169	48453	.	-	.	Name=seg15
+ctgA	example	polypeptide_domain	48253	48366	.	+	.	Name=m01;Note=WD40
+ctgA	example	match	48447	48709	.	-	.	Name=seg07
+ctgA	example	match	48931	49186	.	-	.	Name=seg07
+ctgA	example	match	49406	49476	.	+	.	Name=seg13
+ctgA	example	match	49472	49699	.	-	.	Name=seg07
+ctgA	example	remark	49758	50000	.	-	.	Name=f12
+ctgA	example	match	49762	50000	.	+	.	Name=seg13
+ctgA	example	match	49957	50000	.	-	.	Name=seg07
+ctgA	example	match	49957	50000	.	-	.	Name=seg07
+ctgB	example	contig	1	6079	.	.	.	Name=ctgB
+ctgB	example	BAC	1000	2000	.	.	.	ID=b101.2;Name=b101.2;Note=Fingerprinted BAC with end reads
+ctgB	example	remark	1659	1984	.	+	.	Name=f07;Note=This is an example
+ctgB	example	remark	3014	6130	.	+	.	Name=f06;Note=This is another example
+ctgB	example	remark	4715	5968	.	-	.	Name=f05;Note=ああ、この機能は、世界中を旅しています！
 # Note: See http://song.sourceforge.net
 # multi-exon gene - several linked CDSs
 # single exon gene - one CDS only
@@ -212,37 +246,4 @@ ctgA	example	match	44191	44514	.	-	.	Name=seg07
 ctgA	example	match	44399	44888	.	-	.	Name=seg15
 ctgA	example	match	44552	45043	.	-	.	Name=seg07
 ctgA	example	remark	44705	47713	.	-	.	Name=f01
-ctgA	example	match	44763	45030	.	-	.	Name=seg14
-ctgA	example	match	45231	45488	.	-	.	Name=seg14
-ctgA	example	match	45281	45375	.	-	.	Name=seg15
-ctgA	example	match	45373	45600	.	-	.	Name=seg07
-ctgA	example	match	45711	46041	.	-	.	Name=seg15
-ctgA	example	match	45790	46022	.	-	.	Name=seg14
-ctgA	example	match	45897	46315	.	-	.	Name=seg07
-ctgA	example	polypeptide_domain	46012	48851	.	+	.	Name=m09;Note=kinase
-ctgA	example	match	46092	46318	.	-	.	Name=seg14
-ctgA	example	match	46425	46564	.	-	.	Name=seg15
-ctgA	example	match	46491	46890	.	-	.	Name=seg07
-ctgA	example	match	46738	47087	.	-	.	Name=seg15
-ctgA	example	match	46816	46992	.	-	.	Name=seg14
-ctgA	example	remark	46990	48410	.	-	.	Name=f11
-ctgA	example	match	47126	47297	.	-	.	Name=seg07
-ctgA	example	match	47329	47595	.	-	.	Name=seg15
-ctgA	example	match	47449	47829	.	-	.	Name=seg14
-ctgA	example	match	47735	47983	.	-	.	Name=seg07
-ctgA	example	match	47858	47979	.	-	.	Name=seg15
-ctgA	example	match	48169	48453	.	-	.	Name=seg15
-ctgA	example	polypeptide_domain	48253	48366	.	+	.	Name=m01;Note=WD40
-ctgA	example	match	48447	48709	.	-	.	Name=seg07
-ctgA	example	match	48931	49186	.	-	.	Name=seg07
-ctgA	example	match	49406	49476	.	+	.	Name=seg13
-ctgA	example	match	49472	49699	.	-	.	Name=seg07
-ctgA	example	remark	49758	50000	.	-	.	Name=f12
-ctgA	example	match	49762	50000	.	+	.	Name=seg13
-ctgA	example	match	49957	50000	.	-	.	Name=seg07
-ctgA	example	match	49957	50000	.	-	.	Name=seg07
-ctgB	example	contig	1	6079	.	.	.	Name=ctgB
-ctgB	example	BAC	1000	2000	.	.	.	ID=b101.2;Name=b101.2;Note=Fingerprinted BAC with end reads
-ctgB	example	remark	1659	1984	.	+	.	Name=f07;Note=This is an example
-ctgB	example	remark	3014	6130	.	+	.	Name=f06;Note=This is another example
-ctgB	example	remark	4715	5968	.	-	.	Name=f05;Note=ああ、この機能は、世界中を旅しています！
+ctgA	example	match	44763

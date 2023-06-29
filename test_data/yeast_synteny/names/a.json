@@ -1,18 +1,4 @@
-{
-  "yal026c-a": {
-    "exact": [["YAL026C-A", 0, "YAL026C-A", "chrI", 95386, 95824]],
-    "prefix": []
-  },
-  "rd": { "exact": [], "prefix": ["RDH54"] },
-  "ybr1": {
-    "exact": [],
-    "prefix": [
-      "YBR100W",
-      "YBR101C",
-      "YBR102C",
-      "YBR103W",
-      "YBR103C-A",
-      "YBR104W",
+W",
       "YBR105C",
       "YBR106W",
       "YBR107C",
@@ -582,3 +568,18 @@
     "exact": [["YBR015C", 0, "YBR015C", "chrII", 267709, 269503]]
   }
 }
+{
+  "yal026c-a": {
+    "exact": [["YAL026C-A", 0, "YAL026C-A", "chrI", 95386, 95824]],
+    "prefix": []
+  },
+  "rd": { "exact": [], "prefix": ["RDH54"] },
+  "ybr1": {
+    "exact": [],
+    "prefix": [
+      "YBR100W",
+      "YBR101C",
+      "YBR102C",
+      "YBR103W",
+      "YBR103C-A",
+      "YBR104
