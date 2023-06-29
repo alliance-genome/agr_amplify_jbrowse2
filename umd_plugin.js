@@ -1,4 +1,4 @@
-/* eslint-disable no-restricted-globals */
+stricted-globals */
 // we put the code in a function to avoid variable name collisions with the
 // global scope
 ;(function () {
@@ -17,3 +17,4 @@
     default: Plugin,
   }
 })()
+/* eslint-disable no-re

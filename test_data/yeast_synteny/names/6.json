@@ -1,13 +1,4 @@
-{
-  "snf5": {
-    "exact": [["SNF5", 0, "YBR289W", "chrII", 779662, 782380]],
-    "prefix": []
-  },
-  "nup60": {
-    "exact": [["NUP60", 0, "YAR002W", "chrI", 152258, 153878]],
-    "prefix": []
-  },
-  "ybr239": { "exact": [], "prefix": ["YBR239C"] },
+"] },
   "eg": { "prefix": ["EGO3"], "exact": [] },
   "ego3": {
     "prefix": [],
@@ -447,3 +438,13 @@
   },
   "ybl092": { "prefix": ["YBL092W"], "exact": [] }
 }
+{
+  "snf5": {
+    "exact": [["SNF5", 0, "YBR289W", "chrII", 779662, 782380]],
+    "prefix": []
+  },
+  "nup60": {
+    "exact": [["NUP60", 0, "YAR002W", "chrI", 152258, 153878]],
+    "prefix": []
+  },
+  "ybr239": { "exact": [], "prefix": ["YBR239C
