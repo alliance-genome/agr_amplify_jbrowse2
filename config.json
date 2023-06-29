@@ -2573,7 +2573,6 @@
         }
       ]
     },
-
       {
          "name" : "RNAi experiments (primary targets)",
          "description" : "This track represents RNAi probes that have been aligned to the genome using a combination of BLAST and BLAT programs and have sequence identity to the target location of at least 95% over a stretch of at least 100 nt. Probes that satisfy these criteria are almost certain to produce RNAi effect on overlapping genes and the corresponding locations are usually the primary genomic targets of an RNAi experiment. Note that it is possible for a probe to have multiple primary targets within the genome. Click on the RNAi element to get more information about the experiment.",
