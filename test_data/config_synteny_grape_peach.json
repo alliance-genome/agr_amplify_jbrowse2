@@ -1,4 +1,41 @@
-{
+104",
+                "start": 0,
+                "end": 10646,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_72",
+                "start": 0,
+                "end": 10595,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_71",
+                "start": 0,
+                "end": 10576,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_77",
+                "start": 0,
+                "end": 10450,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_196",
+                "start": 0,
+                "end": 10371,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_80",
+                "start": 0,
+             {
   "assemblies": [
     {
       "name": "grape",
@@ -503,44 +540,7 @@
                 "assemblyName": "peach"
               },
               {
-                "refName": "scaffold_104",
-                "start": 0,
-                "end": 10646,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_72",
-                "start": 0,
-                "end": 10595,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_71",
-                "start": 0,
-                "end": 10576,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_77",
-                "start": 0,
-                "end": 10450,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_196",
-                "start": 0,
-                "end": 10371,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_80",
-                "start": 0,
-                "end": 9725,
+                "refName": "scaffold_   "end": 9725,
                 "reversed": false,
                 "assemblyName": "peach"
               },

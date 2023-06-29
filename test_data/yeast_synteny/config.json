@@ -1,3 +1,241 @@
+  "reversed": false,
+                "assemblyName": "R64"
+              },
+              {
+                "refName": "NC_001145.3",
+                "start": 0,
+                "end": 924431,
+                "reversed": false,
+                "assemblyName": "R64"
+              },
+              {
+                "refName": "NC_001146.8",
+                "start": 0,
+                "end": 784333,
+                "reversed": false,
+                "assemblyName": "R64"
+              },
+              {
+                "refName": "NC_001147.6",
+                "start": 0,
+                "end": 1091291,
+                "reversed": false,
+                "assemblyName": "R64"
+              },
+              {
+                "refName": "NC_001148.4",
+                "start": 0,
+                "end": 948066,
+                "reversed": false,
+                "assemblyName": "R64"
+              },
+              {
+                "refName": "NC_001224.1",
+                "start": 0,
+                "end": 85779,
+                "reversed": false,
+                "assemblyName": "R64"
+              }
+            ],
+            "tracks": [],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "trackSelectorType": "hierarchical",
+            "trackLabels": "overlapping",
+            "showCenterLine": false
+          },
+          {
+            "id": "SJ2Arejmyi",
+            "type": "LinearGenomeView",
+            "offsetPx": 42482,
+            "bpPerPx": 196.5935285786031,
+            "displayedRegions": [
+              {
+                "refName": "I",
+                "start": 0,
+                "end": 198540,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "II",
+                "start": 0,
+                "end": 781048,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "III",
+                "start": 0,
+                "end": 306081,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "IV",
+                "start": 0,
+                "end": 1464523,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "IX",
+                "start": 0,
+                "end": 416633,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "MT",
+                "start": 0,
+                "end": 74237,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "V",
+                "start": 0,
+                "end": 556288,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "VI",
+                "start": 0,
+                "end": 279643,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "VII",
+                "start": 0,
+                "end": 1065782,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "VIII",
+                "start": 0,
+                "end": 522291,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "X",
+                "start": 0,
+                "end": 692549,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "XI",
+                "start": 0,
+                "end": 659272,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "XII",
+                "start": 0,
+                "end": 1556556,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "XIII",
+                "start": 0,
+                "end": 895110,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "XIV",
+                "start": 0,
+                "end": 756080,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "XV",
+                "start": 0,
+                "end": 1081906,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              },
+              {
+                "refName": "XVI",
+                "start": 0,
+                "end": 909714,
+                "reversed": false,
+                "assemblyName": "YJM1447"
+              }
+            ],
+            "tracks": [],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "trackSelectorType": "hierarchical",
+            "trackLabels": "overlapping",
+            "showCenterLine": false
+          }
+        ],
+        "viewTrackConfigs": []
+      }
+    ],
+    "widgets": {
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "collapsed": {},
+        "filterText": "",
+        "view": "JI_FpqCPi"
+      }
+    },
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
+    },
+    "connectionInstances": [],
+    "sessionTracks": [],
+    "sessionConnections": [],
+    "sessionAssemblies": [],
+    "minimized": false
+  },
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "R64-index",
+      "ixFilePath": {
+        "uri": "trix/R64.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/R64.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/R64_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["R64"]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "YJM1447-index",
+      "ixFilePath": {
+        "uri": "trix/YJM1447.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/YJM1447.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/YJM1447_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["YJM1447"]
+    }
+  ]
+}
 {
   "assemblies": [
     {
@@ -564,241 +802,4 @@
                 "refName": "NC_001144.5",
                 "start": 0,
                 "end": 1078177,
-                "reversed": false,
-                "assemblyName": "R64"
-              },
-              {
-                "refName": "NC_001145.3",
-                "start": 0,
-                "end": 924431,
-                "reversed": false,
-                "assemblyName": "R64"
-              },
-              {
-                "refName": "NC_001146.8",
-                "start": 0,
-                "end": 784333,
-                "reversed": false,
-                "assemblyName": "R64"
-              },
-              {
-                "refName": "NC_001147.6",
-                "start": 0,
-                "end": 1091291,
-                "reversed": false,
-                "assemblyName": "R64"
-              },
-              {
-                "refName": "NC_001148.4",
-                "start": 0,
-                "end": 948066,
-                "reversed": false,
-                "assemblyName": "R64"
-              },
-              {
-                "refName": "NC_001224.1",
-                "start": 0,
-                "end": 85779,
-                "reversed": false,
-                "assemblyName": "R64"
-              }
-            ],
-            "tracks": [],
-            "hideHeader": true,
-            "hideHeaderOverview": false,
-            "trackSelectorType": "hierarchical",
-            "trackLabels": "overlapping",
-            "showCenterLine": false
-          },
-          {
-            "id": "SJ2Arejmyi",
-            "type": "LinearGenomeView",
-            "offsetPx": 42482,
-            "bpPerPx": 196.5935285786031,
-            "displayedRegions": [
-              {
-                "refName": "I",
-                "start": 0,
-                "end": 198540,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "II",
-                "start": 0,
-                "end": 781048,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "III",
-                "start": 0,
-                "end": 306081,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "IV",
-                "start": 0,
-                "end": 1464523,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "IX",
-                "start": 0,
-                "end": 416633,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "MT",
-                "start": 0,
-                "end": 74237,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "V",
-                "start": 0,
-                "end": 556288,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "VI",
-                "start": 0,
-                "end": 279643,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "VII",
-                "start": 0,
-                "end": 1065782,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "VIII",
-                "start": 0,
-                "end": 522291,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "X",
-                "start": 0,
-                "end": 692549,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "XI",
-                "start": 0,
-                "end": 659272,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "XII",
-                "start": 0,
-                "end": 1556556,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "XIII",
-                "start": 0,
-                "end": 895110,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "XIV",
-                "start": 0,
-                "end": 756080,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "XV",
-                "start": 0,
-                "end": 1081906,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              },
-              {
-                "refName": "XVI",
-                "start": 0,
-                "end": 909714,
-                "reversed": false,
-                "assemblyName": "YJM1447"
-              }
-            ],
-            "tracks": [],
-            "hideHeader": true,
-            "hideHeaderOverview": false,
-            "trackSelectorType": "hierarchical",
-            "trackLabels": "overlapping",
-            "showCenterLine": false
-          }
-        ],
-        "viewTrackConfigs": []
-      }
-    ],
-    "widgets": {
-      "hierarchicalTrackSelector": {
-        "id": "hierarchicalTrackSelector",
-        "type": "HierarchicalTrackSelectorWidget",
-        "collapsed": {},
-        "filterText": "",
-        "view": "JI_FpqCPi"
-      }
-    },
-    "activeWidgets": {
-      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
-    },
-    "connectionInstances": [],
-    "sessionTracks": [],
-    "sessionConnections": [],
-    "sessionAssemblies": [],
-    "minimized": false
-  },
-  "aggregateTextSearchAdapters": [
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "R64-index",
-      "ixFilePath": {
-        "uri": "trix/R64.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/R64.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/R64_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": ["R64"]
-    },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "YJM1447-index",
-      "ixFilePath": {
-        "uri": "trix/YJM1447.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri": "trix/YJM1447.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri": "trix/YJM1447_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": ["YJM1447"]
-    }
-  ]
-}
+              
