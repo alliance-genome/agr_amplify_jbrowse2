@@ -1,5 +1,11 @@
 {
   "plugins" : [
+      {
+         "name" : "HexJexlPlugin",
+         "umdLoc" : {
+            "uri" : "hex_plugin.js"
+         }
+      },
      {
        "name" : "VariantColorPlugin",
        "umdLoc" : {
