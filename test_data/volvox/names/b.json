@@ -1,3 +1,21 @@
+3"] },
+  "rs7869": { "exact": [], "prefix": ["rs78694163"] },
+  "4_tx": {
+    "exact": [["4_Tx", 1, "4_Tx", "ctgA", 29360, 29560]],
+    "prefix": []
+  },
+  "rs118": { "exact": [], "prefix": ["rs118132937"] },
+  "cds-app": { "exact": [], "prefix": ["cds-Apple2"] },
+  "agt83": { "exact": [], "prefix": ["agt830.5", "agt830.3"] },
+  "agt76": { "exact": [], "prefix": ["agt767.5", "agt767.3"] },
+  "rs1788049": { "exact": [], "prefix": ["rs17880490"] },
+  "rs17881807": {
+    "exact": [["rs17881807", 16, "rs17881807", "contigA", 5348, 5349]],
+    "prefix": []
+  },
+  "gene:": { "prefix": ["Gene:hga", "Gene:hgb"], "exact": [] },
+  "rs4998": { "exact": [], "prefix": ["rs4998557"] }
+}
 {
   "seg08": {
     "exact": [
@@ -109,21 +127,4 @@
   "rs11298": { "prefix": ["rs112989936"], "exact": [] },
   "rs117304": { "prefix": ["rs117304270"], "exact": [] },
   "rs771": { "exact": [], "prefix": ["rs77112488"] },
-  "rna": { "exact": [], "prefix": ["rna-Apple3"] },
-  "rs7869": { "exact": [], "prefix": ["rs78694163"] },
-  "4_tx": {
-    "exact": [["4_Tx", 1, "4_Tx", "ctgA", 29360, 29560]],
-    "prefix": []
-  },
-  "rs118": { "exact": [], "prefix": ["rs118132937"] },
-  "cds-app": { "exact": [], "prefix": ["cds-Apple2"] },
-  "agt83": { "exact": [], "prefix": ["agt830.5", "agt830.3"] },
-  "agt76": { "exact": [], "prefix": ["agt767.5", "agt767.3"] },
-  "rs1788049": { "exact": [], "prefix": ["rs17880490"] },
-  "rs17881807": {
-    "exact": [["rs17881807", 16, "rs17881807", "contigA", 5348, 5349]],
-    "prefix": []
-  },
-  "gene:": { "prefix": ["Gene:hga", "Gene:hgb"], "exact": [] },
-  "rs4998": { "exact": [], "prefix": ["rs4998557"] }
-}
+  "rna": { "exact": [], "prefix": ["rna-Apple
