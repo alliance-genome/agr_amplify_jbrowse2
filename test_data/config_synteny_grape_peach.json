@@ -1,546 +1,4 @@
-104",
-                "start": 0,
-                "end": 10646,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_72",
-                "start": 0,
-                "end": 10595,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_71",
-                "start": 0,
-                "end": 10576,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_77",
-                "start": 0,
-                "end": 10450,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_196",
-                "start": 0,
-                "end": 10371,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_80",
-                "start": 0,
-             {
-  "assemblies": [
-    {
-      "name": "grape",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "grape-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "BgzipFastaAdapter",
-          "fastaLocation": {
-            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/grape/Vvinifera_145_Genoscope.12X.fa.gz",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/grape/Vvinifera_145_Genoscope.12X.fa.gz.fai",
-            "locationType": "UriLocation"
-          },
-          "gziLocation": {
-            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/grape/Vvinifera_145_Genoscope.12X.fa.gz.gzi",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    },
-    {
-      "name": "peach",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "peach-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "BgzipFastaAdapter",
-          "fastaLocation": {
-            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/peach/Ppersica_298_v2.0.fa.gz",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/peach/Ppersica_298_v2.0.fa.gz.fai",
-            "locationType": "UriLocation"
-          },
-          "gziLocation": {
-            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/peach/Ppersica_298_v2.0.fa.gz.gzi",
-            "locationType": "UriLocation"
-          }
-        }
-      }
-    }
-  ],
-  "configuration": {},
-  "connections": [],
-  "defaultSession": {
-    "id": "Afiay0eI1",
-    "name": "Grape vs Peach Demo 3/7/2022, 6:01:44 PM",
-    "margin": 0,
-    "drawerWidth": 384,
-    "views": [
-      {
-        "id": "test1",
-        "displayName": "Grape vs Peach - MCScan (Python version) synteny",
-        "type": "LinearSyntenyView",
-        "height": 400,
-        "trackSelectorType": "hierarchical",
-        "showIntraviewLinks": true,
-        "linkViews": false,
-        "interactToggled": false,
-        "middleComparativeHeight": 100,
-        "tracks": [
-          {
-            "id": "J4VCa6xoWN",
-            "type": "SyntenyTrack",
-            "configuration": "grape_peach_synteny_mcscan",
-            "displays": [
-              {
-                "id": "v9h9kOmHjU",
-                "type": "LinearSyntenyDisplay",
-                "configuration": "grape_peach_synteny_mcscan-LinearSyntenyDisplay",
-                "height": 100
-              }
-            ]
-          }
-        ],
-        "views": [
-          {
-            "id": "test1_1",
-            "type": "LinearGenomeView",
-            "offsetPx": 9499,
-            "bpPerPx": 2864.5268987341774,
-            "displayedRegions": [
-              {
-                "refName": "Pp01",
-                "start": 0,
-                "end": 100000000,
-                "reversed": false,
-                "assemblyName": "peach"
-              }
-            ],
-            "tracks": [],
-            "hideHeader": true,
-            "hideHeaderOverview": false,
-            "trackSelectorType": "hierarchical",
-            "trackLabels": "overlapping",
-            "showCenterLine": false,
-            "showCytobandsSetting": true
-          },
-          {
-            "id": "test1_2",
-            "type": "LinearGenomeView",
-            "offsetPx": -313,
-            "bpPerPx": 1964.3106540084389,
-            "displayedRegions": [
-              {
-                "refName": "chr1",
-                "start": 0,
-                "end": 100000000,
-                "reversed": false,
-                "assemblyName": "grape"
-              }
-            ],
-            "tracks": [],
-            "hideHeader": true,
-            "hideHeaderOverview": false,
-            "trackSelectorType": "hierarchical",
-            "trackLabels": "overlapping",
-            "showCenterLine": false,
-            "showCytobandsSetting": true
-          }
-        ],
-        "viewTrackConfigs": [],
-        "drawCurves": false
-      },
-      {
-        "id": "d1asEMtmS",
-        "displayName": "Grape vs Peach - PAF file synteny",
-        "type": "LinearSyntenyView",
-        "height": 400,
-        "trackSelectorType": "hierarchical",
-        "showIntraviewLinks": true,
-        "linkViews": false,
-        "interactToggled": false,
-        "middleComparativeHeight": 100,
-        "tracks": [
-          {
-            "id": "0JxrbvMHE0",
-            "type": "SyntenyTrack",
-            "configuration": "fileName-1606319049337",
-            "displays": [
-              {
-                "id": "nX0MnvhRZS",
-                "type": "LinearSyntenyDisplay",
-                "configuration": "fileName-1606319049337-LinearSyntenyDisplay",
-                "height": 100
-              }
-            ]
-          }
-        ],
-        "views": [
-          {
-            "id": "z4UaSu11M",
-            "type": "LinearGenomeView",
-            "offsetPx": 9499.327893614769,
-            "bpPerPx": 2864.526711683889,
-            "displayedRegions": [
-              {
-                "refName": "Pp01",
-                "start": 0,
-                "end": 47851208,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp02",
-                "start": 0,
-                "end": 30405870,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp03",
-                "start": 0,
-                "end": 27368013,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp04",
-                "start": 0,
-                "end": 25843236,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp05",
-                "start": 0,
-                "end": 18496696,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp06",
-                "start": 0,
-                "end": 30767194,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp07",
-                "start": 0,
-                "end": 22388614,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "Pp08",
-                "start": 0,
-                "end": 22573980,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_12",
-                "start": 0,
-                "end": 167479,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_15",
-                "start": 0,
-                "end": 72028,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_13",
-                "start": 0,
-                "end": 69962,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_16",
-                "start": 0,
-                "end": 38727,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_18",
-                "start": 0,
-                "end": 32503,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_19",
-                "start": 0,
-                "end": 32043,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_20",
-                "start": 0,
-                "end": 30119,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_21",
-                "start": 0,
-                "end": 28663,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_23",
-                "start": 0,
-                "end": 27846,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_24",
-                "start": 0,
-                "end": 25707,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_26",
-                "start": 0,
-                "end": 23005,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_32",
-                "start": 0,
-                "end": 22324,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_28",
-                "start": 0,
-                "end": 21453,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_40",
-                "start": 0,
-                "end": 18616,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_30",
-                "start": 0,
-                "end": 18507,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_38",
-                "start": 0,
-                "end": 18477,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_34",
-                "start": 0,
-                "end": 18055,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_33",
-                "start": 0,
-                "end": 17159,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_35",
-                "start": 0,
-                "end": 16788,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_37",
-                "start": 0,
-                "end": 16633,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_39",
-                "start": 0,
-                "end": 15657,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_101",
-                "start": 0,
-                "end": 15118,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_42",
-                "start": 0,
-                "end": 14945,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_58",
-                "start": 0,
-                "end": 14802,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_57",
-                "start": 0,
-                "end": 13972,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_199",
-                "start": 0,
-                "end": 13173,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_51",
-                "start": 0,
-                "end": 12576,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_295",
-                "start": 0,
-                "end": 12535,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_69",
-                "start": 0,
-                "end": 12322,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_53",
-                "start": 0,
-                "end": 12283,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_54",
-                "start": 0,
-                "end": 12175,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_62",
-                "start": 0,
-                "end": 12137,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_55",
-                "start": 0,
-                "end": 12005,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_61",
-                "start": 0,
-                "end": 11986,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_60",
-                "start": 0,
-                "end": 11897,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_67",
-                "start": 0,
-                "end": 11828,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_68",
-                "start": 0,
-                "end": 11057,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_73",
-                "start": 0,
-                "end": 11032,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_66",
-                "start": 0,
-                "end": 11015,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_78",
-                "start": 0,
-                "end": 10992,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_70",
-                "start": 0,
-                "end": 10689,
-                "reversed": false,
-                "assemblyName": "peach"
-              },
-              {
-                "refName": "scaffold_   "end": 9725,
+   "end": 9725,
                 "reversed": false,
                 "assemblyName": "peach"
               },
@@ -1091,7 +549,549 @@
                 "assemblyName": "peach"
               },
               {
-                "refName": "scaffold_192",
+                "refName": "scaffold_192{
+  "assemblies": [
+    {
+      "name": "grape",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "grape-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/grape/Vvinifera_145_Genoscope.12X.fa.gz",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/grape/Vvinifera_145_Genoscope.12X.fa.gz.fai",
+            "locationType": "UriLocation"
+          },
+          "gziLocation": {
+            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/grape/Vvinifera_145_Genoscope.12X.fa.gz.gzi",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "peach",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "peach-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/peach/Ppersica_298_v2.0.fa.gz",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/peach/Ppersica_298_v2.0.fa.gz.fai",
+            "locationType": "UriLocation"
+          },
+          "gziLocation": {
+            "uri": "https://s3.amazonaws.com/jbrowse.org/genomes/peach/Ppersica_298_v2.0.fa.gz.gzi",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "id": "Afiay0eI1",
+    "name": "Grape vs Peach Demo 3/7/2022, 6:01:44 PM",
+    "margin": 0,
+    "drawerWidth": 384,
+    "views": [
+      {
+        "id": "test1",
+        "displayName": "Grape vs Peach - MCScan (Python version) synteny",
+        "type": "LinearSyntenyView",
+        "height": 400,
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "linkViews": false,
+        "interactToggled": false,
+        "middleComparativeHeight": 100,
+        "tracks": [
+          {
+            "id": "J4VCa6xoWN",
+            "type": "SyntenyTrack",
+            "configuration": "grape_peach_synteny_mcscan",
+            "displays": [
+              {
+                "id": "v9h9kOmHjU",
+                "type": "LinearSyntenyDisplay",
+                "configuration": "grape_peach_synteny_mcscan-LinearSyntenyDisplay",
+                "height": 100
+              }
+            ]
+          }
+        ],
+        "views": [
+          {
+            "id": "test1_1",
+            "type": "LinearGenomeView",
+            "offsetPx": 9499,
+            "bpPerPx": 2864.5268987341774,
+            "displayedRegions": [
+              {
+                "refName": "Pp01",
+                "start": 0,
+                "end": 100000000,
+                "reversed": false,
+                "assemblyName": "peach"
+              }
+            ],
+            "tracks": [],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "trackSelectorType": "hierarchical",
+            "trackLabels": "overlapping",
+            "showCenterLine": false,
+            "showCytobandsSetting": true
+          },
+          {
+            "id": "test1_2",
+            "type": "LinearGenomeView",
+            "offsetPx": -313,
+            "bpPerPx": 1964.3106540084389,
+            "displayedRegions": [
+              {
+                "refName": "chr1",
+                "start": 0,
+                "end": 100000000,
+                "reversed": false,
+                "assemblyName": "grape"
+              }
+            ],
+            "tracks": [],
+            "hideHeader": true,
+            "hideHeaderOverview": false,
+            "trackSelectorType": "hierarchical",
+            "trackLabels": "overlapping",
+            "showCenterLine": false,
+            "showCytobandsSetting": true
+          }
+        ],
+        "viewTrackConfigs": [],
+        "drawCurves": false
+      },
+      {
+        "id": "d1asEMtmS",
+        "displayName": "Grape vs Peach - PAF file synteny",
+        "type": "LinearSyntenyView",
+        "height": 400,
+        "trackSelectorType": "hierarchical",
+        "showIntraviewLinks": true,
+        "linkViews": false,
+        "interactToggled": false,
+        "middleComparativeHeight": 100,
+        "tracks": [
+          {
+            "id": "0JxrbvMHE0",
+            "type": "SyntenyTrack",
+            "configuration": "fileName-1606319049337",
+            "displays": [
+              {
+                "id": "nX0MnvhRZS",
+                "type": "LinearSyntenyDisplay",
+                "configuration": "fileName-1606319049337-LinearSyntenyDisplay",
+                "height": 100
+              }
+            ]
+          }
+        ],
+        "views": [
+          {
+            "id": "z4UaSu11M",
+            "type": "LinearGenomeView",
+            "offsetPx": 9499.327893614769,
+            "bpPerPx": 2864.526711683889,
+            "displayedRegions": [
+              {
+                "refName": "Pp01",
+                "start": 0,
+                "end": 47851208,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp02",
+                "start": 0,
+                "end": 30405870,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp03",
+                "start": 0,
+                "end": 27368013,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp04",
+                "start": 0,
+                "end": 25843236,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp05",
+                "start": 0,
+                "end": 18496696,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp06",
+                "start": 0,
+                "end": 30767194,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp07",
+                "start": 0,
+                "end": 22388614,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "Pp08",
+                "start": 0,
+                "end": 22573980,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_12",
+                "start": 0,
+                "end": 167479,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_15",
+                "start": 0,
+                "end": 72028,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_13",
+                "start": 0,
+                "end": 69962,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_16",
+                "start": 0,
+                "end": 38727,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_18",
+                "start": 0,
+                "end": 32503,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_19",
+                "start": 0,
+                "end": 32043,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_20",
+                "start": 0,
+                "end": 30119,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_21",
+                "start": 0,
+                "end": 28663,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_23",
+                "start": 0,
+                "end": 27846,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_24",
+                "start": 0,
+                "end": 25707,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_26",
+                "start": 0,
+                "end": 23005,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_32",
+                "start": 0,
+                "end": 22324,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_28",
+                "start": 0,
+                "end": 21453,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_40",
+                "start": 0,
+                "end": 18616,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_30",
+                "start": 0,
+                "end": 18507,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_38",
+                "start": 0,
+                "end": 18477,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_34",
+                "start": 0,
+                "end": 18055,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_33",
+                "start": 0,
+                "end": 17159,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_35",
+                "start": 0,
+                "end": 16788,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_37",
+                "start": 0,
+                "end": 16633,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_39",
+                "start": 0,
+                "end": 15657,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_101",
+                "start": 0,
+                "end": 15118,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_42",
+                "start": 0,
+                "end": 14945,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_58",
+                "start": 0,
+                "end": 14802,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_57",
+                "start": 0,
+                "end": 13972,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_199",
+                "start": 0,
+                "end": 13173,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_51",
+                "start": 0,
+                "end": 12576,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_295",
+                "start": 0,
+                "end": 12535,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_69",
+                "start": 0,
+                "end": 12322,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_53",
+                "start": 0,
+                "end": 12283,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_54",
+                "start": 0,
+                "end": 12175,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_62",
+                "start": 0,
+                "end": 12137,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_55",
+                "start": 0,
+                "end": 12005,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_61",
+                "start": 0,
+                "end": 11986,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_60",
+                "start": 0,
+                "end": 11897,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_67",
+                "start": 0,
+                "end": 11828,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_68",
+                "start": 0,
+                "end": 11057,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_73",
+                "start": 0,
+                "end": 11032,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_66",
+                "start": 0,
+                "end": 11015,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_78",
+                "start": 0,
+                "end": 10992,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_70",
+                "start": 0,
+                "end": 10689,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_104",
+                "start": 0,
+                "end": 10646,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_72",
+                "start": 0,
+                "end": 10595,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_71",
+                "start": 0,
+                "end": 10576,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_77",
+                "start": 0,
+                "end": 10450,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_196",
+                "start": 0,
+                "end": 10371,
+                "reversed": false,
+                "assemblyName": "peach"
+              },
+              {
+                "refName": "scaffold_80",
+                "start": 0,
+             ",
                 "start": 0,
                 "end": 4533,
                 "reversed": false,
