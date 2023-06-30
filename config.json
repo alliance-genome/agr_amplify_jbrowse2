@@ -501,7 +501,8 @@
         },
         {
           "type": "LGVSyntenyDisplay",
-          "displayId": "human2rat.anchors-LGVSyntenyDisplay"
+          "displayId": "human2rat.anchors-LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name"
         }
       ]
     },
@@ -1237,7 +1238,8 @@
         },
         {
           "type": "LGVSyntenyDisplay",
-          "displayId": "human2worm.anchors-LGVSyntenyDisplay"
+          "displayId": "human2worm.anchors-LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name"
         }
       ]
     },
