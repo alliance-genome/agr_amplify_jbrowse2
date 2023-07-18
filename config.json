@@ -461,6 +461,42 @@
   "tracks" : [
     {
       "type": "SyntenyTrack",
+      "trackId": "x_tropicalis_v_x_laevis_paf",
+      "name": "X. tropicalis v X. laevis nucleotide",
+      "assemblyNames": [
+        "Xenopus_tropicalis",
+        "Xenopus_laevis"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "targetAssembly": "Xenopus_tropicalis",
+        "queryAssembly": "Xenopus_laevis",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/frog_bigger_window.paf.gz"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "x_tropicalis_v_x_laevis_paf-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "x_tropicalis_v_x_laevis_paf-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "x_tropicalis_v_x_laevis_paf-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "x_tropicalis_v_x_laevis_paf-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
       "trackId": "human2rat.anchors",
       "name": "Human to Rat orthology",
       "assemblyNames": [
@@ -1803,7 +1839,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{id:null,curie:null,ZFIN:'<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
       },
       "category": [
         "ZFIN tracks"
@@ -2638,7 +2674,7 @@
       },
       {
          "formatDetails" : {
-            "feature" : "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: feature.source=='WormBase'?'<a href=\"/get?name='+feature.name+';class=Gene\">Gene Page</a>':''}"
+            "feature" : "jexl:{curie:null,Alliance:'<a href=\"https://alliancegenome.org/gene/'+feature.curie+'\">'+feature.curie+'</a>',JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: feature.source=='WormBase'?'<a href=\"/get?name='+feature.name+';class=Gene\">Gene Page</a>':''}"
          },
          "trackId" : "c_elegans_PRJNA13758_curated_genes",
          "assemblyNames" : [
@@ -2676,7 +2712,7 @@
       },
       {
          "formatDetails" : {
-            "feature" : "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+            "feature" : "jexl:{JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
          },
          "assemblyNames" : [
             "Caenorhabditis_elegans"
