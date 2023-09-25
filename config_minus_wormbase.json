@@ -1,0 +1,2573 @@
+{
+  "plugins" : [
+     {
+       "name" : "VariantColorPlugin",
+       "umdLoc" : {
+          "uri" : "variantColor_plugin.js"
+       }
+     },
+     {
+       "name" : "HTVariantColorPlugin",
+       "umdLoc" : {
+          "uri" : "htVariantColor_plugin.js"
+       }
+     },
+     {
+       "name" : "MultiVariantColorPlugin",
+       "umdLoc" : {
+          "uri" : "multiVariartColor_plugin.js"
+       }
+     },
+     {
+       "name" : "VariantLabelPlugin",
+       "umdLoc" : {
+          "uri" : "variantLabel_plugin.js"
+       }
+     },
+     {
+       "name" : "VariantDescriptionPlugin",
+       "umdLoc" : {
+          "uri" : "variantDescription_plugin.js"
+       }
+     }
+  ],
+  "aggregateTextSearchAdapters" : [
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/FlyBase/fruitfly/names/"
+         },
+         "assemblyNames" : [
+            "Drosophila_melanogaster"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "fruitfly_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/RGD/rat/names/"
+         },
+         "assemblyNames" : [
+            "Rattus_norvegicus"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "rat_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/MGI/mouse/names/"
+         },
+         "assemblyNames" : [
+            "Mus_musculus"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "mouse_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/human/names/"
+         },
+         "assemblyNames" : [
+            "Homo_sapiens"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "human_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/zfin/zebrafish-11/names/"
+         },
+         "assemblyNames" : [
+            "Danio_rerio"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "zebrafish_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/WormBase/c_elegans_PRJNA13758/names/"
+         },
+         "assemblyNames" : [
+            "Caenorhabditis_elegans"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "worm_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/XenBase/x_laevis/names/"
+         },
+         "assemblyNames" : [
+            "Xenopus_laevis"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "xlaevis_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/XenBase/x_tropicalis/names/"
+         },
+         "assemblyNames" : [
+            "Xenopus_tropicalis"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "xtropicalis_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/SGD/yeast/names/"
+         },
+         "assemblyNames" : [
+            "Saccharomyces_cerevisiae"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "yeast_generate-names-index"
+      }
+  ],
+  "assemblies": [
+    {
+      "name": "Homo_sapiens",
+      "displayName": "Homo sapiens",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Homo_sapiens_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001405.40_GRCh38.p14_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Homo_sapiens_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Homo_sapiens_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Danio_rerio",
+      "displayName": "Danio rerio",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Danio_rerio_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Danio_rerio_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Danio_rerio_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rattus_norvegicus",
+      "displayName": "Rattus norvegicus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Rattus_norvegicus_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_015227675.2_mRatBN7.2_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Rattus_norvegicus_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Rattus_norvegicus_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mus_musculus",
+      "displayName": "Mus musculus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Mus_musculus_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001635.27_GRCm39_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Mus_musculus_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Mus_musculus_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xenopus_laevis",
+      "displayName": "Xenopus laevis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Xenopus_laevis_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENLA_9.2_genome.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENLA_9.2_genome.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENLA_9.2_genome.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENLA_9.2_genome.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Xenopus_laevis_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Xenopus_laevis_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xenopus_tropicalis",
+      "displayName": "Xenopus tropicalis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Xenopus_tropicalis_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/XENTR_9.1_genome.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Xenopus_tropicalis_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Xenopus_tropicalis_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Caenorhabditis_elegans",
+      "displayName": "Caenorhabditis elegans",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Caenorhabditis_elegans_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002985.6_WBcel235_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Caenorhabditis_elegans_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Caenorhabditis_elegans_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drosophila_melanogaster",
+      "displayName": "Drosophila melanogaster",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Drosophila_melanogaster_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Drosophila_melanogaster_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Drosophila_melanogaster_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Saccharomyces_cerevisiae",
+      "displayName": "Saccharomyces cerevisiae",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Saccharomyces_cerevisiae_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000146045.2_R64_genomic.fna.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000146045.2_R64_genomic.fna.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000146045.2_R64_genomic.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000146045.2_R64_genomic.fna.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "Saccharomyces_cerevisiae_refseq-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "Saccharomyces_cerevisiae_refseq-LinearGCContentDisplay"
+          }
+        ]
+      }
+    }
+  ],
+  "tracks" : [
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2rat.anchors",
+      "name": "Human to Rat orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2rat.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Rattus_norvegicus"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2rat.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2rat.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2rat.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2rat.anchors-LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2mouse.anchors",
+      "name": "Human to Mouse orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2mouse.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Mus_musculus"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2mouse.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2mouse.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2mouse.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2mouse.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2zebrafish.anchors",
+      "name": "Human to Zebrafish orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2zebrafish.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Danio_rerio"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2zebrafish.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2zebrafish.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2zebrafish.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2zebrafish.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2xenopuslaevis.anchors",
+      "name": "Human to X. laevis orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Xenopus_laevis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2xenopuslaevis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXL.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Xenopus_laevis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2xenopuslaevis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2xenopuslaevis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2xenopuslaevis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2xenopuslaevis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2xenopustropicalis.anchors",
+      "name": "Human to X. tropicalis orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2xenopustropicalis.anchors",
+      "name": "Rat to X. tropicalis orthology",
+      "assemblyNames": [
+        "Rattus_norvegicus",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2zebrafish.anchors",
+      "name": "Rat to Zebrafish orthology",
+      "assemblyNames": [
+        "Rattus_norvegicus",
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2zebrafish.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Danio_rerio"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2zebrafish.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2zebrafish.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2zebrafish.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2zebrafish.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2xenopustropicalis.anchors",
+      "name": "Mouse to X. tropicalis orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2zebrafish.anchors",
+      "name": "Mouse to Zebrafish orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2zebrafish.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Danio_rerio"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2zebrafish.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2zebrafish.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2zebrafish.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2zebrafish.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "zebrafish2worm.anchors",
+      "name": "Zebrafish to Worm orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2worm.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "zebrafish2xenopustropicalis.anchors",
+      "name": "Zebrafish to X. tropicalis orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2xenopustropicalis.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Xenopus_tropicalis"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2xenopustropicalis.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "worm2fly.anchors",
+      "name": "Worm to Fruitfly orthology",
+      "assemblyNames": [
+        "Caenorhabditis_elegans",
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/worm2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Caenorhabditis_elegans",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "worm2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "worm2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "worm2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "worm2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "xenopustropicalis2worm.anchors",
+      "name": "X. tropicalis to Worm orthology",
+      "assemblyNames": [
+        "Xenopus_tropicalis",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/xenopustropicalis2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Xenopus_tropicalis",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "xenopustropicalis2worm.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "xenopustropicalis2fly.anchors",
+      "name": "X. tropicalis to Fruitfly orthology",
+      "assemblyNames": [
+        "Xenopus_tropicalis",
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/xenopustropicalis2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Xenopus_tropicalis",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "xenopustropicalis2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "zebrafish2fly.anchors",
+      "name": "Zebrafish to Fruitfly orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2fly.anchors",
+      "name": "Human to Fruitfly orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2worm.anchors",
+      "name": "Human to Worm orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2worm.anchors-LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "human2yeast.anchors",
+      "name": "Human to Yeast orthology",
+      "assemblyNames": [
+        "Homo_sapiens",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/human2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Homo_sapiens",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "human2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "human2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "human2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "human2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2worm.anchors",
+      "name": "Rat to Worm orthology",
+      "assemblyNames": [
+        "Rattus_norvegicus",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2worm.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2fly.anchors",
+      "name": "Rat to Fruitfly orthology",
+      "assemblyNames": [
+        "Drosophila_melanogaster",
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2worm.anchors",
+      "name": "Mouse to Worm orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2worm.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Caenorhabditis_elegans"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2worm.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2worm.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2worm.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2worm.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2mouse.anchors",
+      "name": "Rat to Mouse orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2mouse.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Mus_musculus"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2mouse.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2mouse.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2mouse.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2mouse.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2fly.anchors",
+      "name": "Mouse to Fruitfly orthology",
+      "assemblyNames": [
+        "Drosophila_melanogaster",
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2fly.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Drosophila_melanogaster"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2fly.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2fly.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2fly.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2fly.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "rat2yeast.anchors",
+      "name": "Rat to Yeast orthology",
+      "assemblyNames": [
+        "Rattus_norvegicus",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/rat2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Rattus_norvegicus",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "rat2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "rat2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "rat2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "rat2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "mouse2yeast.anchors",
+      "name": "Mouse to Yeast orthology",
+      "assemblyNames": [
+        "Mus_musculus",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/mouse2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Mus_musculus",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "mouse2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "mouse2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "mouse2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "mouse2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "zebrafish2yeast.anchors",
+      "name": "Zebrafish to Yeast orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "2yeast.anchors",
+      "name": "Zebrafish to Yeast orthology",
+      "assemblyNames": [
+        "Danio_rerio",
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Danio_rerio",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "zebrafish2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "displayId": "zebrafish2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "human_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Homo_sapiens"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/human/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "human_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "human_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "yeast_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/SGD/yeast/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "yeast_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "yeast_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zebrafish_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/zfin/zebrafish-11/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zebrafish_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zebrafish_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_gene",
+      "name": "ZFIN Gene",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{id:null,curie:null,ZFIN:'<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "category": [
+        "ZFIN tracks"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zfin_gene-1687907419159-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#088080",
+            "displayMode": "reducedRepresentation"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zfin_gene-1687907419159-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_transcript",
+      "name": "Transcript",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
+        }
+      },
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "transcript-1687907635485-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#6792ED"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "transcript-1687907635485-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_genes_with_phenotype",
+      "name": "ZFIN Genes with Phenotype",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Phenotype/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zfin_genes_with_phenotype-1687908071014-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zfin_genes_with_phenotype-1687908071014-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_genes_with_antibody_data",
+      "name": "ZFIN Genes with Antibody Data",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Antibody_Data/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zfin_genes_with_antibody_data-1687908124039-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zfin_genes_with_antibody_data-1687908124039-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_genes_with_expression",
+      "name": "ZFIN Genes with Expression",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Expression/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zfin_genes_with_expression-1687908166699-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zfin_genes_with_expression-1687908166699-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_complete_assembly_clones",
+      "name": "Complete Assembly Clones",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Complete_Assembly_Clones/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "complete_assembly_clones-1687908227633-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "white",
+            "outline": "#8CADF1"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "complete_assembly_clones-1687908227633-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_additional_transcripts",
+      "name": "Additional Transcripts",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Additional_Transcripts/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "additional_transcripts-1687908387689-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#FE0200"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "additional_transcripts-1687908387689-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_knockdown_reagent",
+      "name": "Knockdown Reagent",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Knockdown_Reagent/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "knockdown_reagent-1687908500113-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#3DB471"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "knockdown_reagent-1687908500113-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_assembly",
+      "name": "Assembly",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Assembly/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "assembly-1687908614561-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#6792ED"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "assembly-1687908614561-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_zebrafish_mutation_project",
+      "name": "Zebrafish Mutation Project",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Zebrafish_Mutation_Project/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zebrafish_mutation_project-1687908719190-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#800080"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zebrafish_mutation_project-1687908719190-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_features",
+      "name": "ZFIN Features",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Features/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "zfin_features-1687908884139-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#800080"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "zfin_features-1687908884139-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "zfin_transgenic_insertion",
+      "name": "Transgenic Insertion",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "category": [
+        "ZFIN tracks"
+      ],
+      "formatDetails": {
+        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Transgenic_Insertion/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "transgenic_insertion-1687908986143-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "#7135B3"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "transgenic_insertion-1687908986143-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "xlaevis_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/XenBase/x_laevis/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "xlaevis_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "xlaevis_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "xtropicalis_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "xtropicalis_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "xtropicalis_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rat_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "trackdata.jsonz-1676655636388-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "trackdata.jsonz-1676655636388-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mouse_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mouse_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "mouse_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "fruitfly_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "fruitfly_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "fruitfly_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "worm_all_genes",
+      "name": "All Genes",
+      "assemblyNames": [
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/5.4.0/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "worm_all_genes-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "worm_all_genes-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "rat_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/rat-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/rat-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "rat_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "rat_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "fruitfly_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/fly-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/fly-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "fruitfly_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "fruitfly_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "rat_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_RGD_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_RGD_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "rat_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "rat_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "fruitfly_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_FB_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/5.4.0/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "fruitfly_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "fruitfly_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "fruitfly_multiple-variant_alleles",
+      "name": "Multiple-Variant Alleles",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/FlyBase/fruitfly/tracks/Multiple-Variant Alleles/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "renderer" : {
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:multiVariantColor(feature)"
+          },
+          "type": "LinearBasicDisplay",
+          "displayId": "fruitfly_multiple-variant_alleles-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "fruitfly_multiple-variant_alleles-LinearArcDisplay"
+        }
+      ]
+    }
+   ]
+}

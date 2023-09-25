@@ -501,7 +501,8 @@
         },
         {
           "type": "LGVSyntenyDisplay",
-          "displayId": "human2rat.anchors-LGVSyntenyDisplay"
+          "displayId": "human2rat.anchors-LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name"
         }
       ]
     },
@@ -1237,7 +1238,8 @@
         },
         {
           "type": "LGVSyntenyDisplay",
-          "displayId": "human2worm.anchors-LGVSyntenyDisplay"
+          "displayId": "human2worm.anchors-LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name"
         }
       ]
     },
@@ -1801,7 +1803,7 @@
         "Danio_rerio"
       ],
       "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+        "feature": "jexl:{id:null,curie:null,ZFIN:'<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
       },
       "category": [
         "ZFIN tracks"
@@ -2636,7 +2638,7 @@
       },
       {
          "formatDetails" : {
-            "feature" : "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: feature.source=='WormBase'?'<a href=\"/get?name='+feature.name+';class=Gene\">Gene Page</a>':''}"
+            "feature" : "jexl:{curie:null,Alliance:'<a href=\"https://alliancegenome.org/gene/'+feature.curie+'\">'+feature.curie+'</a>',JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: feature.source=='WormBase'?'<a href=\"/get?name='+feature.name+';class=Gene\">Gene Page</a>':''}"
          },
          "trackId" : "c_elegans_PRJNA13758_curated_genes",
          "assemblyNames" : [
@@ -2674,7 +2676,7 @@
       },
       {
          "formatDetails" : {
-            "feature" : "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+            "feature" : "jexl:{JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
          },
          "assemblyNames" : [
             "Caenorhabditis_elegans"
