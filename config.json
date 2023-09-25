@@ -1,4 +1,17 @@
 {
+   "configuration" : {
+      "hierarchical": {
+        "sort": {
+          "trackNames": true,
+          "categories": true
+        },
+      "defaultCollapsed": {
+          "subCategories": true ,
+          "topLevelCategories": true,
+          "categoryNames": ["modERN/early embryonic"]
+          }
+      }
+  },
   "plugins" : [
      {
        "name" : "VariantColorPlugin",
