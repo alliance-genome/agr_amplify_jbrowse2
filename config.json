@@ -1735,7 +1735,7 @@
           "type": "LinearBasicDisplay",
           "displayId": "human_all_genes-LinearBasicDisplay",
           "renderer": {
-            "maxHeight" : 5000,
+            "maxHeight" : 6000,
             "type": "SvgFeatureRenderer",
             "color3": "#30332E",
             "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
