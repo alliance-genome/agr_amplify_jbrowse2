@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_jbrowse_web=self.webpackChunk_jbrowse_web||[]).push([[278],{80278:function(e,n,r){r.r(n),r.d(n,{cardClasses:function(){return s.Z},default:function(){return t.Z},getCardUtilityClass:function(){return s.y}});var t=r(61369),s=r(64734)}}]);
