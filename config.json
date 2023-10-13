@@ -1671,52 +1671,6 @@
       ]
     },
     {
-      "type": "SyntenyTrack",
-      "trackId": "2yeast.anchors",
-      "name": "Zebrafish to Yeast orthology",
-      "assemblyNames": [
-        "Danio_rerio",
-        "Saccharomyces_cerevisiae"
-      ],
-      "adapter": {
-        "type": "MCScanAnchorsAdapter",
-        "mcscanAnchorsLocation": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/zebrafish2yeast.anchors"
-        },
-        "bed1Location": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
-        },
-        "bed2Location": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
-        },
-        "assemblyNames": [
-          "Danio_rerio",
-          "Saccharomyces_cerevisiae"
-        ]
-      },
-      "displays": [
-        {
-          "type": "DotplotDisplay",
-          "displayId": "zebrafish2yeast.anchors-DotplotDisplay"
-        },
-        {
-          "type": "LinearComparativeDisplay",
-          "displayId": "zebrafish2yeast.anchors-LinearComparativeDisplay"
-        },
-        {
-          "type": "LinearSyntenyDisplay",
-          "displayId": "zebrafish2yeast.anchors-LinearSyntenyDisplay"
-        },
-        {
-          "type": "LGVSyntenyDisplay",
-          "displayId": "zebrafish2yeast.anchors-LGVSyntenyDisplay"
-        }
-      ]
-    },
-    {
       "type": "FeatureTrack",
       "trackId": "human_all_genes",
       "name": "All Genes",
