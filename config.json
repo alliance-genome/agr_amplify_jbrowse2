@@ -2443,6 +2443,46 @@
     },
     {
       "type": "VariantTrack",
+      "trackId": "zebrafish_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/6.0.0/zebrafish-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/6.0.0/zebrafish-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "zebrafish_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "zebrafish_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
       "trackId": "fruitfly_variants",
       "name": "Variants",
       "assemblyNames": [
@@ -2514,6 +2554,42 @@
         {
           "type": "ChordVariantDisplay",
           "displayId": "rat_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "zebrafish_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/6.0.0/HTPOSTVEPVCF_ZFIN_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/6.0.0/HTPOSTVEPVCF_ZFIN_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "zebrafish_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "zebrafish_ht_variants-ChordVariantDisplay"
         }
       ]
     },
