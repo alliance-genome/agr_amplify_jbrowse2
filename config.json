@@ -567,6 +567,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "human2mouse.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -616,6 +617,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "human2zebrafish.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -665,6 +667,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "human2xenopuslaevis.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -714,6 +717,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "human2xenopustropicalis.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -763,6 +767,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "rat2xenopustropicalis.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -812,6 +817,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "rat2zebrafish.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -861,6 +867,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "mouse2xenopustropicalis.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -910,6 +917,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "mouse2zebrafish.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -959,6 +967,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "zebrafish2worm.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1008,6 +1017,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "zebrafish2xenopustropicalis.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1057,6 +1067,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "worm2fly.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1106,6 +1117,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "xenopustropicalis2worm.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1155,6 +1167,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "xenopustropicalis2fly.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1204,6 +1217,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "zebrafish2fly.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1253,6 +1267,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "human2fly.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1352,6 +1367,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "human2yeast.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1401,6 +1417,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "rat2worm.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1450,6 +1467,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "rat2fly.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1499,6 +1517,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "mouse2worm.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1548,6 +1567,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "rat2mouse.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1597,6 +1617,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "mouse2fly.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1646,6 +1667,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "rat2yeast.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1695,6 +1717,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "mouse2yeast.anchors-LGVSyntenyDisplay"
         }
       ]
@@ -1744,6 +1767,7 @@
         },
         {
           "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
           "displayId": "zebrafish2yeast.anchors-LGVSyntenyDisplay"
         }
       ]
