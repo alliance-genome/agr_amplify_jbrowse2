@@ -1,5 +1,3 @@
-{
-  "aggregateTextSearchAdapters": [
     {
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "hg38-index",
@@ -38,5 +36,3 @@
         "Rattus_norvegicus"
       ]
     }
-  ]
-}
