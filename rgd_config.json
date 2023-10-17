@@ -1,35 +1,3 @@
-{
-  "assemblies": [
-    {
-      "name": "rn7.2",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "rn7.2-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2.fa",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2.fa.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      },
-      "refNameAliases": {
-        "adapter": {
-          "type": "RefNameAliasAdapter",
-          "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/aliases/aliases_rn7.2.txt",
-            "locationType": "UriLocation"
-          }
-        }
-      },
-      "displayName": "mRatBN7.2 (Rat)"
-    }
-  },
-  "tracks": [
     {
       "type": "FeatureTrack",
       "trackId": "Animal Diseases Related Genes-rn7.2",
@@ -53,7 +21,7 @@
         "Animal Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -79,7 +47,7 @@
         "Animal Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -105,7 +73,7 @@
         "Animal Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -131,7 +99,7 @@
         "Bacterial Infections and Mycoses"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -157,7 +125,7 @@
         "Bacterial Infections and Mycoses"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -183,7 +151,7 @@
         "Bacterial Infections and Mycoses"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -209,7 +177,7 @@
         "Cardiovascular Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -235,7 +203,7 @@
         "Cardiovascular Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -261,7 +229,7 @@
         "Cardiovascular Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -287,7 +255,7 @@
         "Congenital-Hereditary-Neonatal Diseases and Abnormalities"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -313,7 +281,7 @@
         "Congenital-Hereditary-Neonatal Diseases and Abnormalities"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -339,7 +307,7 @@
         "Congenital-Hereditary-Neonatal Diseases and Abnormalities"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -365,7 +333,7 @@
         "Developmental Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -391,7 +359,7 @@
         "Developmental Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -417,7 +385,7 @@
         "Developmental Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -443,7 +411,7 @@
         "Digestive System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -469,7 +437,7 @@
         "Digestive System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -495,7 +463,7 @@
         "Digestive System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -521,7 +489,7 @@
         "Diseases of the Aged"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -547,7 +515,7 @@
         "Diseases of the Aged"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -573,7 +541,7 @@
         "Endocrine System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -599,7 +567,7 @@
         "Endocrine System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -625,7 +593,7 @@
         "Endocrine System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -651,7 +619,7 @@
         "Eye Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -677,7 +645,7 @@
         "Eye Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -703,7 +671,7 @@
         "Eye Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -729,7 +697,7 @@
         "Female Urogenital Diseases and Pregnancy Complications"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -755,7 +723,7 @@
         "Female Urogenital Diseases and Pregnancy Complications"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -781,7 +749,7 @@
         "Female Urogenital Diseases and Pregnancy Complications"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -807,7 +775,7 @@
         "Hemic and Lymphatic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -833,7 +801,7 @@
         "Hemic and Lymphatic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -859,7 +827,7 @@
         "Hemic and Lymphatic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -885,7 +853,7 @@
         "Immune System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -911,7 +879,7 @@
         "Immune System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -937,7 +905,7 @@
         "Immune System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -963,7 +931,7 @@
         "Induced Disorders"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -989,7 +957,7 @@
         "Induced Disorders"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1015,7 +983,7 @@
         "Induced Disorders"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1041,7 +1009,7 @@
         "Male Urogenital Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1067,7 +1035,7 @@
         "Male Urogenital Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1093,7 +1061,7 @@
         "Male Urogenital Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1119,7 +1087,7 @@
         "Mental Disorders"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1145,7 +1113,7 @@
         "Mental Disorders"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1171,7 +1139,7 @@
         "Mental Disorders"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1197,7 +1165,7 @@
         "Musculoskeletal Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1223,7 +1191,7 @@
         "Musculoskeletal Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1249,7 +1217,7 @@
         "Musculoskeletal Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1275,7 +1243,7 @@
         "Neoplasms"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1301,7 +1269,7 @@
         "Neoplasms"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1327,7 +1295,7 @@
         "Neoplasms"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1353,7 +1321,7 @@
         "Nervous System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1379,7 +1347,7 @@
         "Nervous System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1405,7 +1373,7 @@
         "Nervous System Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1431,7 +1399,7 @@
         "Nutritional and Metabolic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1457,7 +1425,7 @@
         "Nutritional and Metabolic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1483,7 +1451,7 @@
         "Nutritional and Metabolic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1509,7 +1477,7 @@
         "Occupational Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1535,7 +1503,7 @@
         "Otorhinolaryngologic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1561,7 +1529,7 @@
         "Otorhinolaryngologic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1587,7 +1555,7 @@
         "Otorhinolaryngologic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1613,7 +1581,7 @@
         "Parasitic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1639,7 +1607,7 @@
         "Parasitic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1665,7 +1633,7 @@
         "Parasitic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1691,7 +1659,7 @@
         "Respiratory Tract Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1717,7 +1685,7 @@
         "Respiratory Tract Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1743,7 +1711,7 @@
         "Respiratory Tract Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1769,7 +1737,7 @@
         "Signs and Symptoms"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1795,7 +1763,7 @@
         "Signs and Symptoms"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1821,7 +1789,7 @@
         "Signs and Symptoms"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1847,7 +1815,7 @@
         "Skin and Connective Tissue Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1873,7 +1841,7 @@
         "Skin and Connective Tissue Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1899,7 +1867,7 @@
         "Skin and Connective Tissue Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1925,7 +1893,7 @@
         "Stomatognathic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1951,7 +1919,7 @@
         "Stomatognathic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -1977,7 +1945,7 @@
         "Stomatognathic Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2003,7 +1971,7 @@
         "Virus Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2029,7 +1997,7 @@
         "Virus Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2055,7 +2023,7 @@
         "Virus Diseases"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2081,7 +2049,7 @@
         "Wounds and Injuries"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2107,7 +2075,7 @@
         "Wounds and Injuries"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2134,7 +2102,7 @@
         "Aetiopathogenetic Role"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2161,7 +2129,7 @@
         "Antigen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2188,7 +2156,7 @@
         "Antimicrobial Agent"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2215,7 +2183,7 @@
         "Antimutagen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2242,7 +2210,7 @@
         "Biochemical Role"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2269,7 +2237,7 @@
         "Biophysical Role"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2296,7 +2264,7 @@
         "Epitope"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2323,7 +2291,7 @@
         "Fixative"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2350,7 +2318,7 @@
         "Glutathione Depleting Agent"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2377,7 +2345,7 @@
         "Growth Regulator"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2404,7 +2372,7 @@
         "Hapten"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2431,7 +2399,7 @@
         "Immunomodulator"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2458,7 +2426,7 @@
         "Inhibitor"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2485,7 +2453,7 @@
         "Insect Attractant"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2512,7 +2480,7 @@
         "Mitogen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2539,7 +2507,7 @@
         "Molecular Messenger"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2566,7 +2534,7 @@
         "Osmolyte"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2593,7 +2561,7 @@
         "Pharmacological Role"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2620,7 +2588,7 @@
         "Physiological Role"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2647,7 +2615,7 @@
         "Poison"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2674,7 +2642,7 @@
         "Prohormone"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2701,7 +2669,7 @@
         "Provitamin"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2728,7 +2696,7 @@
         "Specialized Proresolving Mediator"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2755,7 +2723,7 @@
         "Xenobiotic"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2781,7 +2749,7 @@
         "Ensembl Gene Features"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2807,7 +2775,7 @@
         "Ensembl Gene Features"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2833,7 +2801,7 @@
         "NCBI Gene Features"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2859,7 +2827,7 @@
         "NCBI Gene Features"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2885,7 +2853,7 @@
         "NCBI Gene Features"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2910,7 +2878,7 @@
         "QTLs"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2935,7 +2903,7 @@
         "Strains"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2960,7 +2928,7 @@
         "Strains"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -2986,7 +2954,7 @@
         "European Variation Archive"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3012,7 +2980,7 @@
         "Micro Satellite Markers"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3038,7 +3006,7 @@
         "Phenotypic Alleles Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3065,7 +3033,7 @@
         "Adrenal_Gland"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3092,7 +3060,7 @@
         "Adrenal_Gland"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3119,7 +3087,7 @@
         "Amygdala"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3146,7 +3114,7 @@
         "Amygdala"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3173,7 +3141,7 @@
         "Auditory_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3200,7 +3168,7 @@
         "Auditory_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3227,7 +3195,7 @@
         "Cerebellum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3254,7 +3222,7 @@
         "Cerebellum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3281,7 +3249,7 @@
         "Cerebellum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3308,7 +3276,7 @@
         "Cerebellum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3335,7 +3303,7 @@
         "Epididymis"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3362,7 +3330,7 @@
         "Epididymis"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3389,7 +3357,7 @@
         "Heart"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3416,7 +3384,7 @@
         "Heart"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3443,7 +3411,7 @@
         "Heart"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3470,7 +3438,7 @@
         "Heart"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3497,7 +3465,7 @@
         "Hippocampus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3524,7 +3492,7 @@
         "Hippocampus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3551,7 +3519,7 @@
         "Hippocampus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3578,7 +3546,7 @@
         "Hippocampus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3605,7 +3573,7 @@
         "Hypothalamus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3632,7 +3600,7 @@
         "Hypothalamus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3659,7 +3627,7 @@
         "Hypothalamus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3686,7 +3654,7 @@
         "Hypothalamus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3713,7 +3681,7 @@
         "Ileum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3740,7 +3708,7 @@
         "Ileum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3767,7 +3735,7 @@
         "Kidney"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3794,7 +3762,7 @@
         "Kidney"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3821,7 +3789,7 @@
         "Kidney"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3848,7 +3816,7 @@
         "Kidney"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3875,7 +3843,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3902,7 +3870,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3929,7 +3897,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3956,7 +3924,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -3983,7 +3951,7 @@
         "Lung"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4010,7 +3978,7 @@
         "Lung"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4037,7 +4005,7 @@
         "Lung"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4064,7 +4032,7 @@
         "Lung"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4091,7 +4059,7 @@
         "Motor_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4118,7 +4086,7 @@
         "Motor_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4145,7 +4113,7 @@
         "Olfactory_Bulb"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4172,7 +4140,7 @@
         "Olfactory_Bulb"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4199,7 +4167,7 @@
         "Olfactory_Bulb"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4226,7 +4194,7 @@
         "Olfactory_Bulb"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4253,7 +4221,7 @@
         "Ovary"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4280,7 +4248,7 @@
         "Ovary"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4307,7 +4275,7 @@
         "Pancreas"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4334,7 +4302,7 @@
         "Pancreas"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4361,7 +4329,7 @@
         "Pancreas"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4388,7 +4356,7 @@
         "Pancreas"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4415,7 +4383,7 @@
         "Prefrontal_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4442,7 +4410,7 @@
         "Prefrontal_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4469,7 +4437,7 @@
         "Primary_Visual_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4496,7 +4464,7 @@
         "Primary_Visual_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4523,7 +4491,7 @@
         "Somatosensory_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4550,7 +4518,7 @@
         "Somatosensory_Cortex"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4577,7 +4545,7 @@
         "Spermaduct"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4604,7 +4572,7 @@
         "Spermaduct"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4631,7 +4599,7 @@
         "Spleen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4658,7 +4626,7 @@
         "Spleen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4685,7 +4653,7 @@
         "Spleen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4712,7 +4680,7 @@
         "Spleen"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4739,7 +4707,7 @@
         "Striatum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4766,7 +4734,7 @@
         "Striatum"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4793,7 +4761,7 @@
         "Testis"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4820,7 +4788,7 @@
         "Testis"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4847,7 +4815,7 @@
         "Thalamus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4874,7 +4842,7 @@
         "Thalamus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4901,7 +4869,7 @@
         "Thymus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4928,7 +4896,7 @@
         "Thymus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4955,7 +4923,7 @@
         "Thymus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -4982,7 +4950,7 @@
         "Thymus"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5009,7 +4977,7 @@
         "Denervated Gastrocnemius Muscle"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5036,7 +5004,7 @@
         "Denervated Gastrocnemius Muscle"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5063,7 +5031,7 @@
         "Gastrocnemius Muscle"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5090,7 +5058,7 @@
         "Gastrocnemius Muscle"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5117,7 +5085,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5144,7 +5112,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5171,7 +5139,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5198,7 +5166,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5225,7 +5193,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5252,7 +5220,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5279,7 +5247,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5306,7 +5274,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5333,7 +5301,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5360,7 +5328,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5387,7 +5355,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5414,7 +5382,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5441,7 +5409,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5468,7 +5436,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5495,7 +5463,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5522,7 +5490,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5549,7 +5517,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5576,7 +5544,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5603,7 +5571,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5630,7 +5598,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5657,7 +5625,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5684,7 +5652,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5711,7 +5679,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5738,7 +5706,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5765,7 +5733,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5792,7 +5760,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5819,7 +5787,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5846,7 +5814,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5873,7 +5841,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5900,7 +5868,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5927,7 +5895,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5954,7 +5922,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -5981,7 +5949,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6008,7 +5976,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6035,7 +6003,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6062,7 +6030,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6089,7 +6057,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6116,7 +6084,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6143,7 +6111,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6170,7 +6138,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6197,7 +6165,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6224,7 +6192,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6251,7 +6219,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6278,7 +6246,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6305,7 +6273,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6332,7 +6300,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6359,7 +6327,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6386,7 +6354,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6413,7 +6381,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6440,7 +6408,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6460,7 +6428,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6480,7 +6448,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6500,7 +6468,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6520,7 +6488,7 @@
         "Liver"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6538,7 +6506,7 @@
         "RNA-Seq"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6556,7 +6524,7 @@
         "RNA-Seq"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6582,7 +6550,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6608,7 +6576,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6634,7 +6602,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6660,7 +6628,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6686,7 +6654,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6712,7 +6680,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6738,7 +6706,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6764,7 +6732,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6790,7 +6758,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6816,7 +6784,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6842,7 +6810,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6868,7 +6836,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6894,7 +6862,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6920,7 +6888,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6946,7 +6914,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6972,7 +6940,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -6998,7 +6966,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7024,7 +6992,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7050,7 +7018,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7076,7 +7044,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7102,7 +7070,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7128,7 +7096,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7154,7 +7122,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7180,7 +7148,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7206,7 +7174,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7232,7 +7200,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7258,7 +7226,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7284,7 +7252,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7310,7 +7278,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7336,7 +7304,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7362,7 +7330,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7388,7 +7356,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7414,7 +7382,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7440,7 +7408,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7466,7 +7434,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7492,7 +7460,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7518,7 +7486,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7544,7 +7512,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7570,7 +7538,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7596,7 +7564,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7622,7 +7590,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7648,7 +7616,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7674,7 +7642,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7700,7 +7668,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7726,7 +7694,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7752,7 +7720,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7778,7 +7746,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7804,7 +7772,7 @@
         "Damaging Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7830,7 +7798,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7856,7 +7824,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7882,7 +7850,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7908,7 +7876,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7934,7 +7902,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7960,7 +7928,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -7986,7 +7954,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8012,7 +7980,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8038,7 +8006,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8064,7 +8032,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8090,7 +8058,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8116,7 +8084,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8142,7 +8110,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8168,7 +8136,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8194,7 +8162,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8220,7 +8188,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8246,7 +8214,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8272,7 +8240,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8298,7 +8266,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8324,7 +8292,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8350,7 +8318,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8376,7 +8344,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8402,7 +8370,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8428,7 +8396,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8454,7 +8422,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8480,7 +8448,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8506,7 +8474,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8532,7 +8500,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8558,7 +8526,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8584,7 +8552,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8610,7 +8578,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8636,7 +8604,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8662,7 +8630,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8688,7 +8656,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8714,7 +8682,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8740,7 +8708,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8766,7 +8734,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8792,7 +8760,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8818,7 +8786,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8844,7 +8812,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8870,7 +8838,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8896,7 +8864,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8922,7 +8890,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8948,7 +8916,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -8974,7 +8942,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -9000,7 +8968,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -9026,7 +8994,7 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     },
     {
@@ -9052,29 +9020,6 @@
         "Strain Specific Variants"
       ],
       "assemblyNames": [
-        "rn7.2"
+        "Rattus_norvegicus"
       ]
     }
-  ],
-  "aggregateTextSearchAdapters": [
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "rn7.2-index",
-      "ixFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/rn7.2.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/rn7.2.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/rn7.2_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "rn7.2"
-      ]
-    }
-  ]
-}

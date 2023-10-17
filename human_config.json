@@ -1,35 +1,3 @@
-{
-  "assemblies": [
-    {
-      "name": "hg38",
-      "sequence": {
-        "type": "ReferenceSequenceTrack",
-        "trackId": "hg38-ReferenceSequenceTrack",
-        "adapter": {
-          "type": "IndexedFastaAdapter",
-          "fastaLocation": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38.fa",
-            "locationType": "UriLocation"
-          },
-          "faiLocation": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38.fa.fai",
-            "locationType": "UriLocation"
-          }
-        }
-      },
-      "refNameAliases": {
-        "adapter": {
-          "type": "RefNameAliasAdapter",
-          "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/aliases/aliases_hg38.txt",
-            "locationType": "UriLocation"
-          }
-        }
-      },
-      "displayName": "hg38 (Human)"
-    }
-  ],
-  "tracks": [
     {
       "type": "FeatureTrack",
       "trackId": "Animal Diseases Related Genes-hg38",
@@ -53,7 +21,7 @@
         "Animal Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -79,7 +47,7 @@
         "Bacterial Infections and Mycoses"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -105,7 +73,7 @@
         "Cardiovascular Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -131,7 +99,7 @@
         "Congenital-Hereditary-Neonatal Diseases and Abnormalities"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -157,7 +125,7 @@
         "Developmental Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -183,7 +151,7 @@
         "Digestive System Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -209,7 +177,7 @@
         "Diseases of the Aged"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -235,7 +203,7 @@
         "Endocrine System Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -261,7 +229,7 @@
         "Eye Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -287,7 +255,7 @@
         "Female Urogenital Diseases and Pregnancy Complications"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -313,7 +281,7 @@
         "Hemic and Lymphatic Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -339,7 +307,7 @@
         "Immune System Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -365,7 +333,7 @@
         "Induced Disorders"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -391,7 +359,7 @@
         "Male Urogenital Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -417,7 +385,7 @@
         "Mental Disorders"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -443,7 +411,7 @@
         "Musculoskeletal Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -469,7 +437,7 @@
         "Neoplasms"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -495,7 +463,7 @@
         "Nervous System Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -521,7 +489,7 @@
         "Nutritional and Metabolic Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -547,7 +515,7 @@
         "Occupational Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -573,7 +541,7 @@
         "Otorhinolaryngologic Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -599,7 +567,7 @@
         "Parasitic Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -625,7 +593,7 @@
         "Respiratory Tract Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -651,7 +619,7 @@
         "Signs and Symptoms"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -677,7 +645,7 @@
         "Skin and Connective Tissue Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -703,7 +671,7 @@
         "Stomatognathic Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -729,7 +697,7 @@
         "Virus Diseases"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -755,7 +723,7 @@
         "Wounds and Injuries"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -782,7 +750,7 @@
         "Aetiopathogenetic Role"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -809,7 +777,7 @@
         "Antigen"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -836,7 +804,7 @@
         "Antimicrobial Agent"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -863,7 +831,7 @@
         "Antimutagen"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -890,7 +858,7 @@
         "Biochemical Role"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -917,7 +885,7 @@
         "Biophysical Role"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -944,7 +912,7 @@
         "Epitope"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -971,7 +939,7 @@
         "Fixative"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -998,7 +966,7 @@
         "Glutathione Depleting Agent"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1025,7 +993,7 @@
         "Growth Regulator"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1052,7 +1020,7 @@
         "Hapten"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1079,7 +1047,7 @@
         "Immunomodulator"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1106,7 +1074,7 @@
         "Inhibitor"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1133,7 +1101,7 @@
         "Insect Attractant"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1160,7 +1128,7 @@
         "Mitogen"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1187,7 +1155,7 @@
         "Molecular Messenger"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1214,7 +1182,7 @@
         "Osmolyte"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1241,7 +1209,7 @@
         "Pharmacological Role"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1268,7 +1236,7 @@
         "Physiological Role"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1295,7 +1263,7 @@
         "Poison"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1322,7 +1290,7 @@
         "Prohormone"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1349,7 +1317,7 @@
         "Provitamin"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1376,7 +1344,7 @@
         "Specialized Proresolving Mediator"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1403,7 +1371,7 @@
         "Xenobiotic"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1429,7 +1397,7 @@
         "Ensembl Gene Features"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1455,7 +1423,7 @@
         "Ensembl Gene Features"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1481,7 +1449,7 @@
         "NCBI Gene Features"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1507,7 +1475,7 @@
         "NCBI Gene Features"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1533,7 +1501,7 @@
         "NCBI Gene Features"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     },
     {
@@ -1558,29 +1526,6 @@
         "QTLs"
       ],
       "assemblyNames": [
-        "hg38"
+        "Homo_sapiens"
       ]
     }
-  ],
-  "aggregateTextSearchAdapters": [
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "hg38-index",
-      "ixFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/hg38.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/hg38.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/hg38_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "hg38"
-      ]
-    }
-  ]
-}
