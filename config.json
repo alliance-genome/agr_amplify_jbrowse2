@@ -40815,12 +40815,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Animal Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Animal_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Animal Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Animal_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
