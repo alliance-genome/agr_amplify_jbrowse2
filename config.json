@@ -1112,6 +1112,56 @@
     },
     {
       "type": "SyntenyTrack",
+      "trackId": "worm2yeast.anchors",
+      "name": "Worm to Yeast orthology",
+      "assemblyNames": [
+        "Caenorhabditis_elegans",
+        "Saccharomyces_cerevisiae"
+      ],
+      "category": [
+        "Alliance Orthology"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/worm2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
+        },
+        "assemblyNames": [
+          "Caenorhabditis_elegans",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "worm2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "worm2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "worm2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
+          "displayId": "worm2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
       "trackId": "xenopustropicalis2worm.anchors",
       "name": "X. tropicalis to Worm orthology",
       "assemblyNames": [
