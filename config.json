@@ -261,6 +261,15 @@
     {
       "name": "Rattus_norvegicus",
       "displayName": "Rattus norvegicus",
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "uri": "aliases/aliases_rn7.2.txt",
+            "locationType": "UriLocation"
+          }
+        }
+      },
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Rattus_norvegicus_refseq",
