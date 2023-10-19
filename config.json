@@ -42355,12 +42355,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Animal Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Animal_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Animal Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Animal_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42381,12 +42381,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Animal Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Animal_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Animal Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Animal_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42407,12 +42407,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Animal Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Animal_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Animal Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Animal_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42433,12 +42433,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Bacterial Infections and Mycoses Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Bacterial_Infections_and_Mycoses_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Bacterial Infections and Mycoses Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Bacterial_Infections_and_Mycoses_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42459,12 +42459,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Bacterial Infections and Mycoses Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Bacterial_Infections_and_Mycoses_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Bacterial Infections and Mycoses Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Bacterial_Infections_and_Mycoses_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42485,12 +42485,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Bacterial Infections and Mycoses Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Bacterial_Infections_and_Mycoses_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Bacterial Infections and Mycoses Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Bacterial_Infections_and_Mycoses_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42511,12 +42511,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Cardiovascular Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Cardiovascular_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Cardiovascular Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Cardiovascular_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42537,12 +42537,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Cardiovascular Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Cardiovascular_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Cardiovascular Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Cardiovascular_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42563,12 +42563,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Cardiovascular Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Cardiovascular_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Cardiovascular Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Cardiovascular_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42589,12 +42589,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42615,12 +42615,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42641,12 +42641,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42667,12 +42667,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Developmental Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Developmental_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Developmental Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Developmental_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42693,12 +42693,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Developmental Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Developmental_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Developmental Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Developmental_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42719,12 +42719,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Developmental Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Developmental_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Developmental Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Developmental_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42745,12 +42745,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Digestive System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Digestive_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Digestive System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Digestive_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42771,12 +42771,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Digestive System Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Digestive_System_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Digestive System Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Digestive_System_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42797,12 +42797,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Digestive System Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Digestive_System_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Digestive System Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Digestive_System_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42823,12 +42823,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Diseases of the Aged Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Diseases_of_the_Aged_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Diseases of the Aged Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Diseases_of_the_Aged_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42849,12 +42849,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Diseases of the Aged Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Diseases_of_the_Aged_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Diseases of the Aged Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Diseases_of_the_Aged_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42875,12 +42875,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Endocrine System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Endocrine_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Endocrine System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Endocrine_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42901,12 +42901,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Endocrine System Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Endocrine_System_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Endocrine System Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Endocrine_System_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42927,12 +42927,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Endocrine System Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Endocrine_System_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Endocrine System Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Endocrine_System_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42953,12 +42953,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Eye Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Eye_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Eye Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Eye_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42979,12 +42979,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Eye Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Eye_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Eye Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Eye_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43005,12 +43005,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Eye Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Eye_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Eye Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Eye_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43031,12 +43031,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43057,12 +43057,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Female Urogenital Diseases and Pregnancy Complications Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Female Urogenital Diseases and Pregnancy Complications Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43083,12 +43083,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Female Urogenital Diseases and Pregnancy Complications Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Female Urogenital Diseases and Pregnancy Complications Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43109,12 +43109,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hemic and Lymphatic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hemic_and_Lymphatic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hemic and Lymphatic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hemic_and_Lymphatic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43135,12 +43135,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hemic and Lymphatic Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hemic_and_Lymphatic_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hemic and Lymphatic Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hemic_and_Lymphatic_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43161,12 +43161,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hemic and Lymphatic Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hemic_and_Lymphatic_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hemic and Lymphatic Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hemic_and_Lymphatic_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43187,12 +43187,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immune System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immune_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immune System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immune_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43213,12 +43213,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immune System Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immune_System_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immune System Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immune_System_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43239,12 +43239,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immune System Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immune_System_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immune System Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immune_System_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43265,12 +43265,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Induced Disorders Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Induced_Disorders_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Induced Disorders Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Induced_Disorders_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43291,12 +43291,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Induced Disorders Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Induced_Disorders_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Induced Disorders Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Induced_Disorders_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43317,12 +43317,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Induced Disorders Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Induced_Disorders_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Induced Disorders Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Induced_Disorders_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43343,12 +43343,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Male Urogenital Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Male_Urogenital_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Male Urogenital Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Male_Urogenital_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43369,12 +43369,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Male Urogenital Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Male_Urogenital_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Male Urogenital Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Male_Urogenital_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43395,12 +43395,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Male Urogenital Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Male_Urogenital_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Male Urogenital Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Male_Urogenital_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43421,12 +43421,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mental Disorders Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mental_Disorders_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mental Disorders Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mental_Disorders_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43447,12 +43447,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mental Disorders Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mental_Disorders_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mental Disorders Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mental_Disorders_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43473,12 +43473,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mental Disorders Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mental_Disorders_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mental Disorders Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mental_Disorders_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43499,12 +43499,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Musculoskeletal Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Musculoskeletal_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Musculoskeletal Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Musculoskeletal_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43525,12 +43525,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Musculoskeletal Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Musculoskeletal_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Musculoskeletal Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Musculoskeletal_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43551,12 +43551,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Musculoskeletal Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Musculoskeletal_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Musculoskeletal Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Musculoskeletal_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43577,12 +43577,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Neoplasms Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Neoplasms_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Neoplasms Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Neoplasms_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43603,12 +43603,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Neoplasms Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Neoplasms_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Neoplasms Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Neoplasms_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43629,12 +43629,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Neoplasms Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Neoplasms_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Neoplasms Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Neoplasms_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43655,12 +43655,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nervous System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nervous_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nervous System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nervous_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43681,12 +43681,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nervous System Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nervous_System_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nervous System Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nervous_System_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43707,12 +43707,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nervous System Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nervous_System_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nervous System Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nervous_System_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43733,12 +43733,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nutritional and Metabolic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nutritional_and_Metabolic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nutritional and Metabolic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nutritional_and_Metabolic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43759,12 +43759,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nutritional and Metabolic Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nutritional_and_Metabolic_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nutritional and Metabolic Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nutritional_and_Metabolic_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43785,12 +43785,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nutritional and Metabolic Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nutritional_and_Metabolic_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Nutritional and Metabolic Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Nutritional_and_Metabolic_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43811,12 +43811,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Occupational Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Occupational_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Occupational Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Occupational_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43837,12 +43837,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Otorhinolaryngologic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Otorhinolaryngologic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Otorhinolaryngologic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Otorhinolaryngologic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43863,12 +43863,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Otorhinolaryngologic Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Otorhinolaryngologic_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Otorhinolaryngologic Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Otorhinolaryngologic_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43889,12 +43889,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Otorhinolaryngologic Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Otorhinolaryngologic_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Otorhinolaryngologic Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Otorhinolaryngologic_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43915,12 +43915,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Parasitic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Parasitic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Parasitic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Parasitic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43941,12 +43941,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Parasitic Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Parasitic_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Parasitic Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Parasitic_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43967,12 +43967,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Parasitic Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Parasitic_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Parasitic Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Parasitic_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -43993,12 +43993,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Respiratory Tract Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Respiratory_Tract_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Respiratory Tract Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Respiratory_Tract_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44019,12 +44019,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Respiratory Tract Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Respiratory_Tract_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Respiratory Tract Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Respiratory_Tract_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44045,12 +44045,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Respiratory Tract Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Respiratory_Tract_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Respiratory Tract Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Respiratory_Tract_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44071,12 +44071,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Signs and Symptoms Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Signs_and_Symptoms_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Signs and Symptoms Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Signs_and_Symptoms_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44097,12 +44097,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Signs and Symptoms Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Signs_and_Symptoms_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Signs and Symptoms Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Signs_and_Symptoms_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44123,12 +44123,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Signs and Symptoms Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Signs_and_Symptoms_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Signs and Symptoms Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Signs_and_Symptoms_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44149,12 +44149,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Skin and Connective Tissue Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Skin_and_Connective_Tissue_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Skin and Connective Tissue Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Skin_and_Connective_Tissue_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44175,12 +44175,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Skin and Connective Tissue Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Skin_and_Connective_Tissue_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Skin and Connective Tissue Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Skin_and_Connective_Tissue_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44201,12 +44201,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Skin and Connective Tissue Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Skin_and_Connective_Tissue_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Skin and Connective Tissue Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Skin_and_Connective_Tissue_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44227,12 +44227,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Stomatognathic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Stomatognathic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Stomatognathic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Stomatognathic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44253,12 +44253,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Stomatognathic Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Stomatognathic_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Stomatognathic Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Stomatognathic_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44279,12 +44279,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Stomatognathic Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Stomatognathic_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Stomatognathic Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Stomatognathic_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44305,12 +44305,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Virus Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Virus_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Virus Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Virus_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44331,12 +44331,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Virus Diseases Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Virus_Diseases_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Virus Diseases Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Virus_Diseases_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44357,12 +44357,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Virus Diseases Related Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Virus_Diseases_Related_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Virus Diseases Related Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Virus_Diseases_Related_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44383,12 +44383,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Wounds and Injuries Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Wounds_and_Injuries_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Wounds and Injuries Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Wounds_and_Injuries_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44409,12 +44409,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Wounds and Injuries Related QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Wounds_and_Injuries_Related_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Wounds and Injuries Related QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Wounds_and_Injuries_Related_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44435,12 +44435,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Aetiopathogenetic Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Aetiopathogenetic_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Aetiopathogenetic Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Aetiopathogenetic_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44462,12 +44462,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Antigen Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Antigen_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Antigen Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Antigen_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44489,12 +44489,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Antimicrobial Agent Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Antimicrobial_Agent_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Antimicrobial Agent Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Antimicrobial_Agent_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44516,12 +44516,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Antimutagen Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Antimutagen_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Antimutagen Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Antimutagen_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44543,12 +44543,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Biochemical Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Biochemical_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Biochemical Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Biochemical_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44570,12 +44570,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Biophysical Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Biophysical_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Biophysical Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Biophysical_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44597,12 +44597,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Epitope Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Epitope_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Epitope Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Epitope_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44624,12 +44624,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Fixative Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Fixative_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Fixative Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Fixative_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44651,12 +44651,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Glutathione Depleting Agent Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Glutathione_Depleting_Agent_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Glutathione Depleting Agent Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Glutathione_Depleting_Agent_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44678,12 +44678,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Growth Regulator Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Growth_Regulator_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Growth Regulator Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Growth_Regulator_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44705,12 +44705,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hapten Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hapten_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Hapten Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Hapten_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44732,12 +44732,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immunomodulator Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immunomodulator_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Immunomodulator Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Immunomodulator_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44759,12 +44759,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Inhibitor Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Inhibitor_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Inhibitor Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Inhibitor_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44786,12 +44786,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Insect Attractant Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Insect_Attractant_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Insect Attractant Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Insect_Attractant_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44813,12 +44813,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mitogen Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mitogen_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Mitogen Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Mitogen_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44840,12 +44840,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Molecular Messenger Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Molecular_Messenger_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Molecular Messenger Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Molecular_Messenger_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44867,12 +44867,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Osmolyte Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Osmolyte_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Osmolyte Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Osmolyte_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44894,12 +44894,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Pharmacological Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Pharmacological_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Pharmacological Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Pharmacological_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44921,12 +44921,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Physiological Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Physiological_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Physiological Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Physiological_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44948,12 +44948,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Poison Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Poison_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Poison Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Poison_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -44975,12 +44975,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Prohormone Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Prohormone_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Prohormone Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Prohormone_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45002,12 +45002,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Provitamin Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Provitamin_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Provitamin Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Provitamin_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45029,12 +45029,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Specialized Proresolving Mediator Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Specialized_Proresolving_Mediator_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Specialized Proresolving Mediator Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Specialized_Proresolving_Mediator_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45056,12 +45056,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Xenobiotic Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Xenobiotic_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Xenobiotic Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Xenobiotic_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45083,12 +45083,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Ensembl (mRatBN7.2.110) Features.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Features.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Ensembl (mRatBN7.2.110) Features.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Features.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45109,12 +45109,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Ensembl (mRatBN7.2.110) Model.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Model.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Ensembl (mRatBN7.2.110) Model.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Model.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45135,12 +45135,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Genes and Transcripts.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes and Transcripts.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Genes and Transcripts.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes and Transcripts.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45161,12 +45161,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Genes Only.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes Only.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Genes Only.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes Only.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45187,12 +45187,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Protein Domains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Protein Domains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Protein Domains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Protein Domains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45213,12 +45213,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45238,12 +45238,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Congenic Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Congenic Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Congenic Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Congenic Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45263,12 +45263,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Mutant Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Mutant Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Mutant Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Mutant Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45288,12 +45288,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/EVA Release 4.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/EVA_Release_4.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/EVA Release 4.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/EVA_Release_4.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45314,12 +45314,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Markers.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Markers.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Markers.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Markers.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45340,12 +45340,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Phenotypic Alleles Variants.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Phenotypic Alleles Variants.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat mRatBN7.2 (rn7) Phenotypic Alleles Variants.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Phenotypic Alleles Variants.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48884,12 +48884,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_EurMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_EurMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_EurMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_EurMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48910,12 +48910,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48936,12 +48936,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN-Lx_CubMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN-Lx_CubMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN-Lx_CubMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN-Lx_CubMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48962,12 +48962,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48988,12 +48988,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49014,12 +49014,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_SsN (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_SsN_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_SsN (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_SsN_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49040,12 +49040,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BUF_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BUF_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BUF_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BUF_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49066,12 +49066,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH2_CubMcwi (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH2_CubMcwi_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH2_CubMcwi (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH2_CubMcwi_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49092,12 +49092,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH3_CubMcwi (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH3_CubMcwi_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH3_CubMcwi (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH3_CubMcwi_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49118,12 +49118,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/DA_OlaHsd (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/DA_OlaHsd_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/DA_OlaHsd (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/DA_OlaHsd_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49144,12 +49144,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_DuCrl (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_DuCrl_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_DuCrl (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_DuCrl_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49170,12 +49170,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49196,12 +49196,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_NCrl (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_NCrl_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_NCrl (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_NCrl_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49222,12 +49222,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_Stm (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_Stm_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_Stm (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_Stm_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49248,12 +49248,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FHH_EurMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FHH_EurMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FHH_EurMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FHH_EurMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49274,12 +49274,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE16_Stm (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE16_Stm_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE16_Stm (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE16_Stm_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49300,12 +49300,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE18_Stm (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE18_Stm_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE18_Stm (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE18_Stm_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49326,12 +49326,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/GK_FarMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/GK_FarMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/GK_FarMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/GK_FarMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49352,12 +49352,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB10_IpcvMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB10_IpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB10_IpcvMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB10_IpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49378,12 +49378,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB20_IpcvMcwi (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB20_IpcvMcwi_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB20_IpcvMcwi (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB20_IpcvMcwi_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49404,12 +49404,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB2_IpcvMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB2_IpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB2_IpcvMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB2_IpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49430,12 +49430,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB31_IpcvMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB31_IpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB31_IpcvMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB31_IpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49456,12 +49456,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB4_IpcvMcwi (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB4_IpcvMcwi_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB4_IpcvMcwi (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB4_IpcvMcwi_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49482,12 +49482,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LE_Stm (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LE_Stm_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LE_Stm (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LE_Stm_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49508,12 +49508,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEW_Crl (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEW_Crl_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEW_Crl (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEW_Crl_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49534,12 +49534,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF10A_StmMcwi (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF10A_StmMcwi_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF10A_StmMcwi (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF10A_StmMcwi_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49560,12 +49560,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF11_Stm (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF11_Stm_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF11_Stm (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF11_Stm_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49586,12 +49586,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1A_Stm (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1A_Stm_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1A_Stm (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1A_Stm_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49612,12 +49612,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1C_Stm (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1C_Stm_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1C_Stm (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1C_Stm_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49638,12 +49638,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF2B_Stm (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF2B_Stm_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF2B_Stm (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF2B_Stm_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49664,12 +49664,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF3_Stm (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF3_Stm_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF3_Stm (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF3_Stm_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49690,12 +49690,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF4_Stm (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF4_Stm_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF4_Stm (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF4_Stm_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49716,12 +49716,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LH_MavRrrcAek (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LH_MavRrrcAek_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LH_MavRrrcAek (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LH_MavRrrcAek_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49742,12 +49742,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LL_MavRrrcAek (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LL_MavRrrcAek_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LL_MavRrrcAek (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LL_MavRrrcAek_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49768,12 +49768,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LN_MavRrrcAek (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LN_MavRrrcAek_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LN_MavRrrcAek (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LN_MavRrrcAek_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49794,12 +49794,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49820,12 +49820,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_NRrrcMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_NRrrcMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_NRrrcMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_NRrrcMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49846,12 +49846,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MR_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MR_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MR_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MR_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49872,12 +49872,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MWF_Hsd (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MWF_Hsd_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MWF_Hsd (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MWF_Hsd_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49898,12 +49898,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/PVG_Seac (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/PVG_Seac_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/PVG_Seac (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/PVG_Seac_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49924,12 +49924,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHR_OlalpcvMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHR_OlalpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHR_OlalpcvMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHR_OlalpcvMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49950,12 +49950,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHRSP_A3NCrl (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHRSP_A3NCrl_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHRSP_A3NCrl (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHRSP_A3NCrl_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -49976,12 +49976,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SR_JrHsd (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SR_JrHsd_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SR_JrHsd (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SR_JrHsd_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50002,12 +50002,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SS_JrHsdMcwi (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SS_JrHsdMcwi_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SS_JrHsdMcwi (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SS_JrHsdMcwi_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50028,12 +50028,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WAG_RijCrl (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WAG_RijCrl_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WAG_RijCrl (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WAG_RijCrl_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50054,12 +50054,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50080,12 +50080,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_NCrl (2019)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_NCrl_(2019)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_NCrl (2019)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_NCrl_(2019)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50106,12 +50106,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WN_N (2020)_damaging.gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WN_N_(2020)_damaging.gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WN_N (2020)_damaging.gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WN_N_(2020)_damaging.gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50132,12 +50132,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_EurMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_EurMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_EurMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_EurMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50158,12 +50158,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/ACI_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/ACI_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50184,12 +50184,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN-Lx_CubMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN-Lx_CubMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN-Lx_CubMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN-Lx_CubMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50210,12 +50210,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50236,12 +50236,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_NHsdMcwi (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_NHsdMcwi_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50262,12 +50262,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_SsN (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_SsN_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BN_SsN (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BN_SsN_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50288,12 +50288,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BUF_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BUF_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BUF_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BUF_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50314,12 +50314,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH2_CubMcwi (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH2_CubMcwi_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH2_CubMcwi (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH2_CubMcwi_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50340,12 +50340,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH3_CubMcwi (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH3_CubMcwi_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/BXH3_CubMcwi (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/BXH3_CubMcwi_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50366,12 +50366,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/DA_OlaHsd (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/DA_OlaHsd_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/DA_OlaHsd (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/DA_OlaHsd_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50392,12 +50392,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_DuCrl (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_DuCrl_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_DuCrl (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_DuCrl_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50418,12 +50418,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50444,12 +50444,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_NCrl (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_NCrl_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_NCrl (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_NCrl_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50470,12 +50470,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_Stm (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_Stm_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/F344_Stm (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/F344_Stm_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50496,12 +50496,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FHH_EurMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FHH_EurMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FHH_EurMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FHH_EurMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50522,12 +50522,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE16_Stm (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE16_Stm_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE16_Stm (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE16_Stm_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50548,12 +50548,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE18_Stm (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE18_Stm_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/FXLE18_Stm (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/FXLE18_Stm_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50574,12 +50574,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/GK_FarMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/GK_FarMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/GK_FarMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/GK_FarMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50600,12 +50600,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB10_IpcvMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB10_IpcvMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB10_IpcvMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB10_IpcvMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50626,12 +50626,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB20_IpcvMcwi (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB20_IpcvMcwi_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB20_IpcvMcwi (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB20_IpcvMcwi_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50652,12 +50652,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB2_IpcvMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB2_IpcvMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB2_IpcvMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB2_IpcvMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50678,12 +50678,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB31_IpcvMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB31_IpcvMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB31_IpcvMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB31_IpcvMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50704,12 +50704,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB4_IpcvMcwi (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB4_IpcvMcwi_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/HXB4_IpcvMcwi (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/HXB4_IpcvMcwi_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50730,12 +50730,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LE_Stm (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LE_Stm_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LE_Stm (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LE_Stm_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50756,12 +50756,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEW_Crl (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEW_Crl_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEW_Crl (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEW_Crl_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50782,12 +50782,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF10A_StmMcwi (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF10A_StmMcwi_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF10A_StmMcwi (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF10A_StmMcwi_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50808,12 +50808,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF11_Stm (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF11_Stm_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF11_Stm (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF11_Stm_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50834,12 +50834,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1A_Stm (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1A_Stm_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1A_Stm (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1A_Stm_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50860,12 +50860,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1C_Stm (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1C_Stm_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF1C_Stm (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF1C_Stm_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50886,12 +50886,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF2B_Stm (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF2B_Stm_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF2B_Stm (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF2B_Stm_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50912,12 +50912,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF3_Stm (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF3_Stm_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF3_Stm (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF3_Stm_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50938,12 +50938,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF4_Stm (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF4_Stm_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LEXF4_Stm (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LEXF4_Stm_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50964,12 +50964,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LH_MavRrrcAek (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LH_MavRrrcAek_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LH_MavRrrcAek (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LH_MavRrrcAek_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -50990,12 +50990,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LL_MavRrrcAek (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LL_MavRrrcAek_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LL_MavRrrcAek (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LL_MavRrrcAek_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51016,12 +51016,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LN_MavRrrcAek (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LN_MavRrrcAek_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/LN_MavRrrcAek (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/LN_MavRrrcAek_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51042,12 +51042,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51068,12 +51068,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_NRrrcMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_NRrrcMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/M520_NRrrcMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/M520_NRrrcMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51094,12 +51094,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MR_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MR_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MR_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MR_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51120,12 +51120,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MWF_Hsd (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MWF_Hsd_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/MWF_Hsd (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/MWF_Hsd_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51146,12 +51146,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/PVG_Seac (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/PVG_Seac_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/PVG_Seac (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/PVG_Seac_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51172,12 +51172,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHR_OlalpcvMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHR_OlalpcvMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHR_OlalpcvMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHR_OlalpcvMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51198,12 +51198,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHRSP_A3NCrl (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHRSP_A3NCrl_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SHRSP_A3NCrl (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SHRSP_A3NCrl_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51224,12 +51224,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SR_JrHsd (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SR_JrHsd_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SR_JrHsd (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SR_JrHsd_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51250,12 +51250,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SS_JrHsdMcwi (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SS_JrHsdMcwi_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/SS_JrHsdMcwi (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/SS_JrHsdMcwi_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51276,12 +51276,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WAG_RijCrl (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WAG_RijCrl_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WAG_RijCrl (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WAG_RijCrl_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51302,12 +51302,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51328,12 +51328,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_NCrl (2019).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_NCrl_(2019).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WKY_NCrl (2019).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WKY_NCrl_(2019).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -51354,12 +51354,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WN_N (2020).gff3.sorted.gff.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WN_N_(2020).gff3.sorted.gff.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/WN_N (2020).gff3.sorted.gff.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/WN_N_(2020).gff3.sorted.gff.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
