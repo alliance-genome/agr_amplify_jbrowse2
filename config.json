@@ -42200,12 +42200,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl (GRCh38.110) Features.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl_(GRCh38.110)_Features.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl (GRCh38.110) Features.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl_(GRCh38.110)_Features.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42226,12 +42226,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl (GRCh38.110) Model.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl_(GRCh38.110)_Model.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl (GRCh38.110) Model.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Ensembl_(GRCh38.110)_Model.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42252,12 +42252,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) Genes and Transcripts.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_Genes_and_Transcripts.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) Genes and Transcripts.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_Genes_and_Transcripts.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42278,12 +42278,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) Genes Only.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_Genes_Only.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) Genes Only.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_Genes_Only.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42304,12 +42304,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) Protein Domains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_Protein_Domains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) Protein Domains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_Protein_Domains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42330,12 +42330,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human GRCh38.p14 (hg38) QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Human_GRCh38.p14_(hg38)_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
