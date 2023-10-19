@@ -178,6 +178,15 @@
     {
       "name": "Homo_sapiens",
       "displayName": "Homo sapiens",
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "uri": "aliases/aliases_hg38.txt",
+            "locationType": "UriLocation"
+          }
+        }
+      },
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Homo_sapiens_refseq",
