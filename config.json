@@ -40850,12 +40850,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Bacterial Infections and Mycoses Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Bacterial_Infections_and_Mycoses_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Bacterial Infections and Mycoses Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Bacterial_Infections_and_Mycoses_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -40876,12 +40876,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Cardiovascular Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Cardiovascular_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Cardiovascular Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Cardiovascular_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -40902,12 +40902,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Congenital-Hereditary-Neonatal_Diseases_and_Abnormalities_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -40928,12 +40928,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Developmental Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Developmental_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Developmental Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Developmental_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -40954,12 +40954,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Digestive System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Digestive_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Digestive System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Digestive_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -40980,12 +40980,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Diseases of the Aged Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Diseases_of_the_Aged_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Diseases of the Aged Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Diseases_of_the_Aged_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41006,12 +41006,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Endocrine System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Endocrine_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Endocrine System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Endocrine_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41032,12 +41032,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Eye Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Eye_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Eye Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Eye_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41058,12 +41058,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Female_Urogenital_Diseases_and_Pregnancy_Complications_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41084,12 +41084,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hemic and Lymphatic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hemic_and_Lymphatic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hemic and Lymphatic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hemic_and_Lymphatic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41110,12 +41110,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immune System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immune_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immune System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immune_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41136,12 +41136,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Induced Disorders Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Induced_Disorders_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Induced Disorders Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Induced_Disorders_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41162,12 +41162,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Male Urogenital Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Male_Urogenital_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Male Urogenital Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Male_Urogenital_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41188,12 +41188,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mental Disorders Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mental_Disorders_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mental Disorders Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mental_Disorders_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41214,12 +41214,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Musculoskeletal Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Musculoskeletal_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Musculoskeletal Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Musculoskeletal_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41240,12 +41240,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Neoplasms Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Neoplasms_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Neoplasms Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Neoplasms_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41266,12 +41266,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nervous System Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nervous_System_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nervous System Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nervous_System_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41292,12 +41292,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nutritional and Metabolic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nutritional_and_Metabolic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nutritional and Metabolic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Nutritional_and_Metabolic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41318,12 +41318,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Occupational Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Occupational_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Occupational Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Occupational_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41344,12 +41344,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Otorhinolaryngologic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Otorhinolaryngologic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Otorhinolaryngologic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Otorhinolaryngologic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41370,12 +41370,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Parasitic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Parasitic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Parasitic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Parasitic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41396,12 +41396,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Respiratory Tract Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Respiratory_Tract_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Respiratory Tract Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Respiratory_Tract_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41422,12 +41422,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Signs and Symptoms Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Signs_and_Symptoms_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Signs and Symptoms Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Signs_and_Symptoms_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41448,12 +41448,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Skin and Connective Tissue Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Skin_and_Connective_Tissue_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Skin and Connective Tissue Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Skin_and_Connective_Tissue_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41474,12 +41474,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Stomatognathic Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Stomatognathic_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Stomatognathic Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Stomatognathic_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41500,12 +41500,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Virus Diseases Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Virus_Diseases_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Virus Diseases Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Virus_Diseases_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41526,12 +41526,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Wounds and Injuries Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Wounds_and_Injuries_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Wounds and Injuries Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Wounds_and_Injuries_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41552,12 +41552,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Aetiopathogenetic Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Aetiopathogenetic_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Aetiopathogenetic Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Aetiopathogenetic_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41579,12 +41579,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antigen Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antigen_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antigen Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antigen_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41606,12 +41606,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimicrobial Agent Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimicrobial_Agent_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimicrobial Agent Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimicrobial_Agent_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41633,12 +41633,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimutagen Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimutagen_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimutagen Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Antimutagen_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41660,12 +41660,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biochemical Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biochemical_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biochemical Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biochemical_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41687,12 +41687,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biophysical Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biophysical_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biophysical Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Biophysical_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41714,12 +41714,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Epitope Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Epitope_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Epitope Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Epitope_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41741,12 +41741,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Fixative Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Fixative_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Fixative Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Fixative_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41768,12 +41768,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Glutathione Depleting Agent Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Glutathione_Depleting_Agent_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Glutathione Depleting Agent Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Glutathione_Depleting_Agent_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41795,12 +41795,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Growth Regulator Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Growth_Regulator_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Growth Regulator Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Growth_Regulator_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41822,12 +41822,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hapten Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hapten_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hapten Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Hapten_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41849,12 +41849,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immunomodulator Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immunomodulator_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immunomodulator Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Immunomodulator_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41876,12 +41876,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Inhibitor Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Inhibitor_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Inhibitor Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Inhibitor_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41903,12 +41903,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Insect Attractant Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Insect_Attractant_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Insect Attractant Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Insect_Attractant_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41930,12 +41930,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mitogen Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mitogen_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mitogen Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Mitogen_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41957,12 +41957,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Molecular Messenger Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Molecular_Messenger_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Molecular Messenger Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Molecular_Messenger_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -41984,12 +41984,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Osmolyte Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Osmolyte_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Osmolyte Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Osmolyte_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42011,12 +42011,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Pharmacological Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Pharmacological_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Pharmacological Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Pharmacological_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42038,12 +42038,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Physiological Role Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Physiological_Role_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Physiological Role Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Physiological_Role_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42065,12 +42065,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Poison Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Poison_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Poison Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Poison_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42092,12 +42092,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Prohormone Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Prohormone_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Prohormone Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Prohormone_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42119,12 +42119,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Provitamin Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Provitamin_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Provitamin Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Provitamin_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42146,12 +42146,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Specialized Proresolving Mediator Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Specialized_Proresolving_Mediator_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Specialized Proresolving Mediator Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Specialized_Proresolving_Mediator_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -42173,12 +42173,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Xenobiotic Related Genes.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Xenobiotic_Related_Genes.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Xenobiotic Related Genes.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/human/Xenobiotic_Related_Genes.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
