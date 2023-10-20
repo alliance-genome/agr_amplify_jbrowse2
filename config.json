@@ -49,15 +49,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "hg38-index",
       "ixFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/hg38.ix",
+        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/hg38.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/hg38.ixx",
+        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/hg38.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/hg38_meta.json",
+        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/hg38_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": [
@@ -68,15 +68,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "rn7.2-index",
       "ixFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/rn7.2.ix",
+        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/rn7.2.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/rn7.2.ixx",
+        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/rn7.2.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri" : "https://rgd.mcw.edu/jbrowse2/trix/rn7.2_meta.json",
+        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/rn7.2_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": [
@@ -45375,12 +45375,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Adrenal_Gland_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Adrenal_Gland_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Adrenal_Gland_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Adrenal_Gland_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45402,12 +45402,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Adrenal_Gland_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Adrenal_Gland_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Adrenal_Gland_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Adrenal_Gland_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45429,12 +45429,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Amygdala_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Amygdala_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Amygdala_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Amygdala_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45456,12 +45456,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Amygdala_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Amygdala_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Amygdala_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Amygdala_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45483,12 +45483,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Auditory_Cortex_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Auditory_Cortex_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Auditory_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Auditory_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45510,12 +45510,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Auditory_Cortex_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Auditory_Cortex_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Auditory_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Auditory_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45537,12 +45537,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45564,12 +45564,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45591,12 +45591,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45618,12 +45618,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Cerebellum_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Cerebellum_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45645,12 +45645,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Epididymis_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Epididymis_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Epididymis_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Epididymis_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45672,12 +45672,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Epididymis_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Epididymis_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Epididymis_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Epididymis_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45699,12 +45699,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45726,12 +45726,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45753,12 +45753,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45780,12 +45780,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Heart_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Heart_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45807,12 +45807,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45834,12 +45834,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45861,12 +45861,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45888,12 +45888,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hippocampus_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hippocampus_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45915,12 +45915,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45942,12 +45942,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45969,12 +45969,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45996,12 +45996,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Hypothalamus_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Hypothalamus_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46023,12 +46023,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ileum_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ileum_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ileum_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ileum_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46050,12 +46050,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ileum_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ileum_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ileum_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ileum_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46077,12 +46077,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46104,12 +46104,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46131,12 +46131,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46158,12 +46158,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Kidney_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Kidney_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46185,12 +46185,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46212,12 +46212,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46239,12 +46239,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46266,12 +46266,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46293,12 +46293,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46320,12 +46320,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46347,12 +46347,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46374,12 +46374,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Lung_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Lung_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46401,12 +46401,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Motor_Cortex_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Motor_Cortex_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Motor_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Motor_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46428,12 +46428,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Motor_Cortex_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Motor_Cortex_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Motor_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Motor_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46455,12 +46455,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46482,12 +46482,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46509,12 +46509,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46536,12 +46536,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Olfactory_Bulb_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Olfactory_Bulb_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46563,12 +46563,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ovary_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ovary_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ovary_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ovary_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46590,12 +46590,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ovary_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ovary_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Ovary_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Ovary_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46617,12 +46617,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46644,12 +46644,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46671,12 +46671,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46698,12 +46698,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Pancreas_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Pancreas_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46725,12 +46725,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Prefrontal_Cortex_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Prefrontal_Cortex_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Prefrontal_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Prefrontal_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46752,12 +46752,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Prefrontal_Cortex_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Prefrontal_Cortex_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Prefrontal_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Prefrontal_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46779,12 +46779,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Primary_Visual_Cortex_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Primary_Visual_Cortex_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Primary_Visual_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Primary_Visual_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46806,12 +46806,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Primary_Visual_Cortex_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Primary_Visual_Cortex_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Primary_Visual_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Primary_Visual_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46833,12 +46833,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Somatosensory_Cortex_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Somatosensory_Cortex_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Somatosensory_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Somatosensory_Cortex_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46860,12 +46860,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Somatosensory_Cortex_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Somatosensory_Cortex_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Somatosensory_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Somatosensory_Cortex_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46887,12 +46887,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spermaduct_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spermaduct_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spermaduct_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spermaduct_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46914,12 +46914,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spermaduct_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spermaduct_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spermaduct_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spermaduct_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46941,12 +46941,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46968,12 +46968,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -46995,12 +46995,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47022,12 +47022,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Spleen_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Spleen_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47049,12 +47049,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Striatum_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Striatum_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Striatum_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Striatum_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47076,12 +47076,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Striatum_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Striatum_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Striatum_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Striatum_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47103,12 +47103,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Testis_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Testis_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Testis_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Testis_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47130,12 +47130,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Testis_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Testis_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Testis_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Testis_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47157,12 +47157,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thalamus_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thalamus_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thalamus_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thalamus_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47184,12 +47184,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thalamus_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thalamus_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thalamus_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thalamus_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47211,12 +47211,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_F1_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_F1_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_F1_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_F1_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47238,12 +47238,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_F2_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_F2_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_F2_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_F2_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47265,12 +47265,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_M3_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_M3_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_M3_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_M3_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47292,12 +47292,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_M4_ATAC_SD_s1.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_M4_ATAC_SD_s1.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Thymus_M4_ATAC_SD_s1.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Thymus_M4_ATAC_SD_s1.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47319,12 +47319,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47346,12 +47346,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Denervated_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47373,12 +47373,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Gastrocnemius_Muscle_ChIP_H3K27Ac_s6.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47400,12 +47400,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Gastrocnemius_Muscle_ChIP_inputDNA_s6.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47427,12 +47427,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_CTCF_s1.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_CTCF_s1.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_CTCF_s1.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_CTCF_s1.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47454,12 +47454,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47481,12 +47481,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47508,12 +47508,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47535,12 +47535,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47562,12 +47562,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_inputDNA_s1.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_inputDNA_s1.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver1_ChIP_inputDNA_s1.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver1_ChIP_inputDNA_s1.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47589,12 +47589,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_CTCF_s1.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_CTCF_s1.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_CTCF_s1.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_CTCF_s1.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47616,12 +47616,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47643,12 +47643,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47670,12 +47670,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47697,12 +47697,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47724,12 +47724,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_inputDNA_s1.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_inputDNA_s1.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver2_ChIP_inputDNA_s1.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver2_ChIP_inputDNA_s1.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47751,12 +47751,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K27ac_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47778,12 +47778,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K27me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47805,12 +47805,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K4me1_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47832,12 +47832,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver3_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver3_ChIP_H3K4me3_Hsd:SD_s5.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47859,12 +47859,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47886,12 +47886,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47913,12 +47913,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47940,12 +47940,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ChIP_H3K4me2_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ChIP_H3K4me2_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ChIP_H3K4me2_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ChIP_H3K4me2_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47967,12 +47967,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ChIP_H3K4me3_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ChIP_H3K4me3_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F2_ChIP_H3K4me3_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F2_ChIP_H3K4me3_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -47994,12 +47994,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_F3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_F3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48021,12 +48021,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Fpooled1_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Fpooled1_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Fpooled1_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Fpooled1_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48048,12 +48048,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Fpooled2_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Fpooled2_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Fpooled2_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Fpooled2_ChIP_input_DNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48075,12 +48075,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_CEBPA_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_CEBPA_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_CEBPA_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_CEBPA_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48102,12 +48102,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_CEBPA_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_CEBPA_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_CEBPA_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_CEBPA_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48129,12 +48129,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_FOXA1_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_FOXA1_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_FOXA1_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_FOXA1_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48156,12 +48156,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_FOXA1_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_FOXA1_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_FOXA1_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_FOXA1_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48183,12 +48183,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48210,12 +48210,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48237,12 +48237,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_HNF4A_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_HNF4A_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_HNF4A_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_HNF4A_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48264,12 +48264,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_HNF4A_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_HNF4A_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_HNF4A_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_HNF4A_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48291,12 +48291,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_HNF6_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_HNF6_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_HNF6_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_HNF6_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48318,12 +48318,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_inputDNA_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_inputDNA_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_inputDNA_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_inputDNA_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48345,12 +48345,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_inputDNA_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_inputDNA_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M1_ChIP_inputDNA_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M1_ChIP_inputDNA_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48372,12 +48372,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_CEBPA_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_CEBPA_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_CEBPA_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_CEBPA_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48399,12 +48399,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_CEBPA_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_CEBPA_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_CEBPA_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_CEBPA_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48426,12 +48426,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_FOXA1_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_FOXA1_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_FOXA1_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_FOXA1_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48453,12 +48453,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_FOXA1_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_FOXA1_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_FOXA1_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_FOXA1_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48480,12 +48480,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48507,12 +48507,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48534,12 +48534,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_HNF4A_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_HNF4A_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_HNF4A_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_HNF4A_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48561,12 +48561,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_HNF4A_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_HNF4A_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_HNF4A_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_HNF4A_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48588,12 +48588,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_HNF6_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_HNF6_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_HNF6_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_HNF6_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48615,12 +48615,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_inputDNA_s2.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_inputDNA_s2.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_inputDNA_s2.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_inputDNA_s2.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48642,12 +48642,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_inputDNA_s3.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_inputDNA_s3.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M2_ChIP_inputDNA_s3.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M2_ChIP_inputDNA_s3.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48669,12 +48669,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M3_ChIP_H3K27ac_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48696,12 +48696,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M3_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M3_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_M3_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_M3_ChIP_H3K4me1_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48723,12 +48723,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Mpooled1_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Mpooled1_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Mpooled1_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Mpooled1_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48750,12 +48750,12 @@
       "adapter": {
         "type": "BedTabixAdapter",
         "bedGzLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Mpooled2_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Mpooled2_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/R_Liver_Mpooled2_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/R_Liver_Mpooled2_ChIP_inputDNA_Crl:WI_s4.bed.sorted.bed.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -48777,7 +48777,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat1_liver_ATACseq.bigwig",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat1_liver_ATACseq.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -48797,7 +48797,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat2_liver_ATACseq.bigwig",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat2_liver_ATACseq.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -48817,7 +48817,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat3_liver_ATACseq.bigwig",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat3_liver_ATACseq.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -48837,7 +48837,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/Rat4_liver_ATACseq.bigwig",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat4_liver_ATACseq.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -48857,7 +48857,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/mRatBN7.2.ENA.Kidney.bam.bigwig",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/mRatBN7.2.ENA.Kidney.bam.bigwig",
           "locationType": "UriLocation"
         }
       },
@@ -48875,7 +48875,7 @@
       "adapter": {
         "type": "BigWigAdapter",
         "bigWigLocation": {
-          "uri" : "https://rgd.mcw.edu/jbrowse2/rn7.2/mRatBN7.2.ENA.Liver.bam.bigwig",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/mRatBN7.2.ENA.Liver.bam.bigwig",
           "locationType": "UriLocation"
         }
       },
