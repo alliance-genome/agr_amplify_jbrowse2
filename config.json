@@ -45092,12 +45092,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Features.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl_(mRatBN7.2.110)_Features.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Features.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl_(mRatBN7.2.110)_Features.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45118,12 +45118,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Model.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl_(mRatBN7.2.110)_Model.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl (mRatBN7.2.110) Model.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Ensembl_(mRatBN7.2.110)_Model.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45144,12 +45144,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes and Transcripts.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Genes_and_Transcripts.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes and Transcripts.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Genes_and_Transcripts.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45170,12 +45170,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes Only.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Genes_Only.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Genes Only.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Genes_Only.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45196,12 +45196,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Protein Domains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Protein Domains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Protein Domains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Protein Domains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45222,12 +45222,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) QTLs.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_QTLs.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) QTLs.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_QTLs.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45247,12 +45247,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Congenic Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Congenic_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Congenic Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Congenic_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45272,12 +45272,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Mutant Strains.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Mutant_Strains.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Mutant Strains.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Mutant_Strains.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45323,12 +45323,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Markers.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Markers.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Markers.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Markers.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
@@ -45349,12 +45349,12 @@
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Phenotypic Alleles Variants.gff3.gz",
+          "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Phenotypic_Alleles_Variants.gff3.gz",
           "locationType": "UriLocation"
         },
         "index": {
           "location": {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat mRatBN7.2 (rn7) Phenotypic Alleles Variants.gff3.gz.tbi",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/rn7.2/Rat_mRatBN7.2_(rn7)_Phenotypic_Alleles_Variants.gff3.gz.tbi",
             "locationType": "UriLocation"
           },
           "indexType": "TBI"
