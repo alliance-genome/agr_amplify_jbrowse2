@@ -2872,6 +2872,42 @@
       ]
     },
     {
+      "type": "VariantTrack",
+      "trackId": "yeast_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/6.0.0/HTPOSTVEPVCF_SGD_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/6.0.0/HTPOSTVEPVCF_SGD_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "yeast_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "yeast_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
       "type": "FeatureTrack",
       "trackId": "fruitfly_multiple-variant_alleles",
       "name": "Multiple-Variant Alleles",
@@ -2897,6 +2933,35 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "fruitfly_multiple-variant_alleles-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mouse_multiple-variant_alleles",
+      "name": "Multiple-Variant Alleles",
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/MGI/mouse/tracks/Multiple-Variant Alleles/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "renderer" : {
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:multiVariantColor(feature)"
+          },
+          "type": "LinearBasicDisplay",
+          "displayId": "mouse_multiple-variant_alleles-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "mouse_multiple-variant_alleles-LinearArcDisplay"
         }
       ]
     },
