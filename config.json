@@ -2504,7 +2504,7 @@
     {
       "type": "FeatureTrack",
       "trackId": "mouse_MGI_Genome_Features",
-      "name": ""MGI Genome Features,
+      "name": "MGI Genome Features",
       "assemblyNames": [
         "Mus_musculus"
       ],
