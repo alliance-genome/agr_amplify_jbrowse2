@@ -2503,6 +2503,31 @@
     },
     {
       "type": "FeatureTrack",
+      "trackId": "mouse_MGI_Genome_Features",
+      "name": ""MGI Genome Features,
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "http://jbrowse.informatics.jax.org/data/GRCm39/tracks/MGI_Genome_Features/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mouse_MGI_Genome_Features-LinearBasicDisplay",
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "mouse_MGI_Genome_Features-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "fruitfly_all_genes",
       "name": "All Genes",
       "assemblyNames": [
