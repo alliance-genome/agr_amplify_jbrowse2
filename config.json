@@ -2518,7 +2518,7 @@
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "mouse_MGI_Genome_Features-LinearBasicDisplay",
+          "displayId": "mouse_MGI_Genome_Features-LinearBasicDisplay"
         },
         {
           "type": "LinearArcDisplay",
