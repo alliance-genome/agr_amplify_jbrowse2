@@ -547,11 +547,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -597,11 +597,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -647,11 +647,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -697,11 +697,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXL.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXL.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -747,11 +747,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -797,11 +797,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "assemblyNames": [
           "Rattus_norvegicus",
@@ -847,11 +847,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "assemblyNames": [
           "Rattus_norvegicus",
@@ -897,11 +897,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "assemblyNames": [
           "Mus_musculus",
@@ -947,11 +947,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "assemblyNames": [
           "Mus_musculus",
@@ -997,11 +997,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "assemblyNames": [
           "Danio_rerio",
@@ -1047,11 +1047,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "assemblyNames": [
           "Danio_rerio",
@@ -1097,11 +1097,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXL.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXL.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "assemblyNames": [
           "Xenopus_laevis",
@@ -1147,11 +1147,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
         },
         "assemblyNames": [
           "Caenorhabditis_elegans",
@@ -1197,11 +1197,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
         },
         "assemblyNames": [
           "Caenorhabditis_elegans",
@@ -1247,11 +1247,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "assemblyNames": [
           "Xenopus_tropicalis",
@@ -1297,11 +1297,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
         },
         "assemblyNames": [
           "Xenopus_tropicalis",
@@ -1347,11 +1347,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/XBXT.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
         },
         "assemblyNames": [
           "Xenopus_tropicalis",
@@ -1397,11 +1397,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
         },
         "assemblyNames": [
           "Danio_rerio",
@@ -1447,11 +1447,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -1497,11 +1497,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -1547,11 +1547,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
         },
         "assemblyNames": [
           "Homo_sapiens",
@@ -1597,11 +1597,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "assemblyNames": [
           "Rattus_norvegicus",
@@ -1647,11 +1647,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
         },
         "assemblyNames": [
           "Rattus_norvegicus",
@@ -1697,11 +1697,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/WB.bed"
         },
         "assemblyNames": [
           "Mus_musculus",
@@ -1747,11 +1747,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "assemblyNames": [
           "Rattus_norvegicus",
@@ -1797,11 +1797,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/FB.bed"
         },
         "assemblyNames": [
           "Mus_musculus",
@@ -1847,11 +1847,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
         },
         "assemblyNames": [
           "Rattus_norvegicus",
@@ -1897,11 +1897,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
         },
         "assemblyNames": [
           "Mus_musculus",
@@ -1947,11 +1947,11 @@
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/6.0.1/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/SGD.bed"
         },
         "assemblyNames": [
           "Danio_rerio",
