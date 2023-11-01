@@ -18,7 +18,7 @@
       ],
       "adapter" : {
          "rootUrlTemplate" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/human/tracks/All_Genes/{refseq}/trackData.jsonz",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/human/tracks/All_Genes/{refseq}/trackData.jsonz",
             "locationType" : "UriLocation"
          },
          "type" : "NCListAdapter"

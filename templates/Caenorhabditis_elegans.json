@@ -3,7 +3,7 @@
       "adapter" : {
          "type" : "NCListAdapter",
          "rootUrlTemplate" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz",
             "locationType" : "UriLocation"
          }
       },

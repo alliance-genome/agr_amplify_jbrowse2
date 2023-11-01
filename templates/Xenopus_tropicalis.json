@@ -9,7 +9,7 @@
       "adapter" : {
          "type" : "NCListAdapter",
          "rootUrlTemplate" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz",
             "locationType" : "UriLocation"
          }
       },

@@ -26,7 +26,7 @@
          "type" : "NCListAdapter",
          "rootUrlTemplate" : {
             "locationType" : "UriLocation",
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
          }
       }
    },
