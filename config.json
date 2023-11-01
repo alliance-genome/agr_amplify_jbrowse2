@@ -85,7 +85,7 @@
     },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/FlyBase/fruitfly/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/FlyBase/fruitfly/names/"
          },
          "assemblyNames" : [
             "Drosophila_melanogaster"
@@ -95,7 +95,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/RGD/rat/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/RGD/rat/names/"
          },
          "assemblyNames" : [
             "Rattus_norvegicus"
@@ -105,7 +105,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/MGI/mouse/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/MGI/mouse/names/"
          },
          "assemblyNames" : [
             "Mus_musculus"
@@ -115,7 +115,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/human/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/human/names/"
          },
          "assemblyNames" : [
             "Homo_sapiens"
@@ -125,7 +125,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/zfin/zebrafish-11/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/zfin/zebrafish-11/names/"
          },
          "assemblyNames" : [
             "Danio_rerio"
@@ -135,7 +135,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/WormBase/c_elegans_PRJNA13758/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/WormBase/c_elegans_PRJNA13758/names/"
          },
          "assemblyNames" : [
             "Caenorhabditis_elegans"
@@ -145,7 +145,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/XenBase/x_laevis/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/XenBase/x_laevis/names/"
          },
          "assemblyNames" : [
             "Xenopus_laevis"
@@ -155,7 +155,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/XenBase/x_tropicalis/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/XenBase/x_tropicalis/names/"
          },
          "assemblyNames" : [
             "Xenopus_tropicalis"
@@ -165,7 +165,7 @@
       },
       {
          "namesIndexLocation" : {
-            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/SGD/yeast/names/"
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/SGD/yeast/names/"
          },
          "assemblyNames" : [
             "Saccharomyces_cerevisiae"
@@ -1989,7 +1989,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/human/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/human/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2020,7 +2020,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/SGD/yeast/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/SGD/yeast/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2050,7 +2050,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/zfin/zebrafish-11/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/zfin/zebrafish-11/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2488,7 +2488,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/XenBase/x_laevis/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/XenBase/x_laevis/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2519,7 +2519,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2550,7 +2550,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2581,7 +2581,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2637,7 +2637,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -2668,7 +2668,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.0/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
