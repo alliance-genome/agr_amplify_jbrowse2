@@ -1,0 +1,32 @@
+[
+   {
+      "name" : "All Genes",
+      "type" : "FeatureTrack",
+      "trackId" : "yeast_all_genes",
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/6.0.1/SGD/yeast/tracks/All_Genes/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "renderer" : {
+               "color3" : "#30332E",
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'",
+               "type" : "SvgFeatureRenderer"
+            },
+            "displayId" : "yeast_all_genes-LinearBasicDisplay",
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "displayId" : "yeast_all_genes-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ]
+   }
+]
