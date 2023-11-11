@@ -1,0 +1,62 @@
+[
+   {
+      "name" : "All Genes",
+      "type" : "FeatureTrack",
+      "trackId" : "fruitfly_all_genes",
+      "assemblyNames" : [
+         "Drosophila_melanogaster"
+      ],
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "maxHeight" : 5000,
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'",
+               "color3" : "#30332E"
+            },
+            "displayId" : "fruitfly_all_genes-LinearBasicDisplay"
+         },
+         {
+            "displayId" : "fruitfly_all_genes-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ]
+   },
+   {
+      "trackId" : "fruitfly_multiple-variant_alleles",
+      "assemblyNames" : [
+         "Drosophila_melanogaster"
+      ],
+      "name" : "Multiple-Variant Alleles",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/FlyBase/fruitfly/tracks/Multiple-Variant Alleles/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "jexl:multiVariantColor(feature)",
+               "type" : "SvgFeatureRenderer"
+            },
+            "displayId" : "fruitfly_multiple-variant_alleles-LinearBasicDisplay"
+         },
+         {
+            "displayId" : "fruitfly_multiple-variant_alleles-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ]
+   }
+]

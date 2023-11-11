@@ -1,0 +1,33 @@
+[
+   {
+      "name" : "All Genes",
+      "type" : "FeatureTrack",
+      "trackId" : "xtropicalis_all_genes",
+      "assemblyNames" : [
+         "Xenopus_tropicalis"
+      ],
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "displayId" : "xtropicalis_all_genes-LinearBasicDisplay",
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'",
+               "maxHeight" : 5000,
+               "color3" : "#30332E"
+            },
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "xtropicalis_all_genes-LinearArcDisplay"
+         }
+      ]
+   }
+]
