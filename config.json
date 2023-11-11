@@ -2690,6 +2690,37 @@
     },
     {
       "type": "FeatureTrack",
+      "trackId": "mouse_all_genes_from_mgi",
+      "name": "test from mgi Genes",
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "http://dev.wormbase.org:9019/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mouse_all_genes_from_mgi-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "mouse_all_genes_from_mgi_-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "worm_all_genes",
       "name": "All Genes",
       "assemblyNames": [
