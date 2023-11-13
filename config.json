@@ -2699,7 +2699,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://cors-anywhere.herokuapp.com/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/1/trackData.json"
+          "uri": "https://cors-anywhere.herokuapp.com/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/chr1/trackData.json"
         }
       },
       "displays": [
