@@ -2724,6 +2724,31 @@
     },
     {
       "type": "FeatureTrack",
+      "trackId": "yeast_3'UTRs_rom_SGD",
+      "name": "test from sgd 3' UTRs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/3'UTRs/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "yeast_3'UTRs_rom_SGD-LinearBasicDisplay",
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "yeast_3'UTRs_rom_SGD-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "mouse_all_genes_from_mgi",
       "name": "test from mgi Genes",
       "assemblyNames": [
