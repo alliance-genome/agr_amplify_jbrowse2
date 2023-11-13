@@ -2748,6 +2748,21 @@
       ]
     },
     {
+      "name" : "RNA_secondary_structure_PARS_score",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kertesz_2010/Kertesz_2010_merged_PARS_scores_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "Kertesz_2010_merged_PARS_scores_V64"
+   },
+    {
       "type": "FeatureTrack",
       "trackId": "mouse_all_genes_from_mgi",
       "name": "test from mgi Genes",
