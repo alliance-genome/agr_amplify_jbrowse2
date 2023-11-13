@@ -307,6 +307,15 @@
     {
       "name": "Mus_musculus",
       "displayName": "Mus musculus",
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "uri": "aliases/aliases_mm39.txt",
+            "locationType": "UriLocation"
+          }
+        }
+      },
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Mus_musculus_refseq",
@@ -2699,7 +2708,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://cors-anywhere.herokuapp.com/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/chr1/trackData.json"
+          "uri": "https://cors-anywhere.herokuapp.com/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/{refseq}/trackData.json"
         }
       },
       "displays": [
