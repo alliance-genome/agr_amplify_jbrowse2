@@ -2739,7 +2739,7 @@
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "yeast_3'UTRs_rom_SGD-LinearBasicDisplay",
+          "displayId": "yeast_3'UTRs_rom_SGD-LinearBasicDisplay"
         },
         {
           "type": "LinearArcDisplay",
