@@ -2708,7 +2708,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "/SGDJBrowse/tracks/All Annotated Sequence Features/{refseq}/trackData.json"
+          "uri": "/SGDJBrowse/tracks/All%20Annotated%20Sequence%20Features/{refseq}/trackData.json"
         }
       },
       "displays": [
