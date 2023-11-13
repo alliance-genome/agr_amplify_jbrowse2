@@ -2677,7 +2677,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "http://dev.wormbase.org:9019/https://flybase.org/jbrowse/data/json/dmel/tracks/Gene/{refseq}/trackData.jsonz"
+          "uri": "/FlyBaseJBrowse/tracks/Gene/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
