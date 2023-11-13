@@ -2714,7 +2714,7 @@
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "yeast_all_features_from_SGD-LinearBasicDisplay",
+          "displayId": "yeast_all_features_from_SGD-LinearBasicDisplay"
         },
         {
           "type": "LinearArcDisplay",
