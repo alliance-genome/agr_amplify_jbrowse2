@@ -2715,12 +2715,6 @@
         {
           "type": "LinearBasicDisplay",
           "displayId": "yeast_all_features_from_SGD-LinearBasicDisplay",
-          "renderer": {
-            "maxHeight" : 5000,
-            "type": "SvgFeatureRenderer",
-            "color3": "#30332E",
-            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
-          }
         },
         {
           "type": "LinearArcDisplay",
