@@ -2699,7 +2699,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "http://dev.wormbase.org:9019/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/{refseq}/trackData.json"
+          "uri": "https://cors-anywhere.herokuapp.com/http://jbrowse.informatics.jax.org/data/mouse/tracks/MGI_Genome_Features/{refseq}/trackData.json"
         }
       },
       "displays": [
