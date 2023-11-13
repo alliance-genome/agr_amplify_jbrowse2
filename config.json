@@ -2762,6 +2762,42 @@
       ],
       "trackId" : "Kertesz_2010_merged_PARS_scores_V64"
    },
+       {
+      "type": "VariantTrack",
+      "trackId": "SGD_BC187_indel",
+      "name": "BY4741_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BC187.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BC187.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "SGD_BC187_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "SGD_BC187_indel-ChordVariantDisplay"
+        }
+      ]
+    },
     {
       "type": "FeatureTrack",
       "trackId": "mouse_all_genes_from_mgi",
