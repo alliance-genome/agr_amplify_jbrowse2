@@ -51682,6 +51682,2966 @@
       "assemblyNames": [
         "Rattus_norvegicus"
       ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YPH499_indel",
+      "name": "YPH499_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPH499.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPH499.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YPH499_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YPH499_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.UWOPS05_217_3_indel",
+      "name": "UWOPS05_217_3_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/UWOPS05_217_3.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/UWOPS05_217_3.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.UWOPS05_217_3_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.UWOPS05_217_3_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.FL100_indel",
+      "name": "FL100_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FL100.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FL100.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.FL100_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.FL100_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Wacholder_2023_riboseq_chx_minus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_chx_minus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_chx_minus"
+   },
+    {
+      "name" : "Kniewel_2017_anti-H3-T11ph_4h_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_anti-H3-T11ph_4h_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_anti-H3-T11ph_4h_WT"
+   },
+    {
+      "name" : "Kniewel_2017_anti-H3-T11ph_spo11-Y135F_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_anti-H3-T11ph_3.5h_spo11-Y135F_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_anti-H3-T11ph_spo11-Y135F"
+   },
+    {
+      "name" : "Kniewel_2017_Red1_WT_3h_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_Red1_WT_3h_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_Red1_WT_3h"
+   },
+    {
+      "name" : "minus_strand_coverage_gal",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/minus_strand_coverage_gal.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.minus_strand_coverage_gal"
+   },
+    {
+      "name" : "Lee_2018_ChIP_H3_log_sas2D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_H3_log_sas2D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_H3_log_sas2D_vs_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.RM11-1A_snp",
+      "name": "RM11-1A_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RM11-1A.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RM11-1A.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.RM11-1A_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.RM11-1A_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.SEY6210_indel",
+      "name": "SEY6210_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SEY6210.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SEY6210.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.SEY6210_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.SEY6210_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_sas2D_turnover_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_sas2D_turnover_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_sas2D_turnover"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_sd_plus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_sd_plus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_sd_plus"
+   },
+    {
+      "name" : "minus_strand_coverage_ypd",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/minus_strand_coverage_ypd.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.minus_strand_coverage_ypd"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.JK9-3d_indel",
+      "name": "JK9-3d_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/JK9-3d.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/JK9-3d.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.JK9-3d_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.JK9-3d_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_dot1Dset2D_H4ac_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_dot1Dset2D_H4ac_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_dot1Dset2D_H4ac_H3"
+   },
+    {
+      "name" : "Baptista_2017_Ubp8_Ctrl_5min_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Baptista_2017_PMID_28918903/track_files/Baptista_2017_Ubp8_Ctrl_5min_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Baptista_2017_Ubp8_Ctrl_5min"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.X2180-1A_indel",
+      "name": "X2180-1A_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/X2180-1A.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/X2180-1A.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.X2180-1A_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.X2180-1A_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Joo_2017_Rpb1-AA_60min_Taf1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Rpb1-AA_60min_Taf1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Rpb1-AA_60min_Taf1"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.W303_indel",
+      "name": "W303_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/W303.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/W303.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.W303_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.W303_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Joo_2017_Sua7_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Sua7_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Sua7"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YJM339_snp",
+      "name": "YJM339_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YJM339.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YJM339.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YJM339_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YJM339_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_mRNA_set2D_Forward_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_mRNA_set2D_Forward_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_mRNA_set2D_Forward"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.BY4742_indel",
+      "name": "BY4742_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4742.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4742.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.BY4742_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.BY4742_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.FY1679_indel",
+      "name": "FY1679_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FY1679.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FY1679.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.FY1679_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.FY1679_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Wacholder_2023_riboseq_chx_plus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_chx_plus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_chx_plus"
+   },
+    {
+      "name" : "Lee_2018_ChIP_sas2D_H4ac_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_sas2D_H4ac_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_sas2D_H4ac_H3"
+   },
+    {
+      "name" : "Joo_2017_Rpb1-AA_60min_TBP_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Rpb1-AA_60min_TBP_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Rpb1-AA_60min_TBP"
+   },
+    {
+      "name" : "Hu_2015_Rad51-ChIP_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_Rad51-ChIP_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_Rad51-ChIP_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.K11_indel",
+      "name": "K11_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/K11.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/K11.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.K11_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.K11_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Rossbach_2017_ty5_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Rossbach_2017_PMID_28924058/track_files/Rossbach_2017_ty5_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Rossbach_2017_ty5"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.FL100_snp",
+      "name": "FL100_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FL100.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FL100.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.FL100_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.FL100_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_MNase-seq_H4K44R-YPA_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_MNase-seq_H4K44R-YPA_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_MNase-seq_H4K44R-YPA"
+   },
+    {
+      "name" : "Lee_2018_ChIP_WT_turnover_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_WT_turnover_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_WT_turnover"
+   },
+    {
+      "name" : "Lee_2018_ChIP_WT_H4ac_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_WT_H4ac_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_WT_H4ac_H3"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.Sigma1278b-10560-6B_snp",
+      "name": "Sigma1278b-10560-6B_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Sigma1278b-10560-6B.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Sigma1278b-10560-6B.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.Sigma1278b-10560-6B_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.Sigma1278b-10560-6B_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.RedStar_indel",
+      "name": "RedStar_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RedStar.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RedStar.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.RedStar_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.RedStar_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Chereji_2018_Dyads_H3_CC_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Chereji_2018_PMID_29426353/track_files/Chereji_2018_Dyads_H3_CC_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Chereji_2018_Dyads_H3_CC"
+   },
+    {
+      "name" : "Baptista_2017_pSpt3_free_MNase_15min_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Baptista_2017_PMID_28918903/track_files/Baptista_2017_pSpt3_free_MNase_15min_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Baptista_2017_pSpt3_free_MNase_15min"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.K11_snp",
+      "name": "K11_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/K11.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/K11.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.K11_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.K11_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.Sigma1278b-10560-6B_indel",
+      "name": "Sigma1278b-10560-6B_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Sigma1278b-10560-6B.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Sigma1278b-10560-6B.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.Sigma1278b-10560-6B_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.Sigma1278b-10560-6B_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YPS163_indel",
+      "name": "YPS163_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS163.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS163.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YPS163_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YPS163_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "UCSC_Conservation_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDJBrowse/tracks/Conservation/sacCer3.phastCons7way.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.UCSC_Saccharomyces_Clade_Conservation"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.UWOPS05_217_3_snp",
+      "name": "UWOPS05_217_3_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/UWOPS05_217_3.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/UWOPS05_217_3.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.UWOPS05_217_3_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.UWOPS05_217_3_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_MNase-seq_WT-YPD_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_MNase-seq_WT-YPD_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_MNase-seq_WT-YPD"
+   },
+    {
+      "name" : "Kniewel_2017_anti-H3_3h_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_anti-H3_3h_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_anti-H3_3h_WT"
+   },
+    {
+      "name" : "Lee_2018_ChIP_H4K16ac_log_sas2D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_H4K16ac_log_sas2D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_H4K16ac_log_sas2D_vs_WT"
+   },
+    {
+      "name" : "Hu_2015_H4K44ac-ChIP_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_H4K44ac-ChIP_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_H4K44ac-ChIP_WT"
+   },
+    {
+      "name" : "Lee_2018_mRNA_set2D_Reverse_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_mRNA_set2D_Reverse_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_mRNA_set2D_Reverse"
+   },
+    {
+      "name" : "Baptista_2017_Spt8_Ctrl_5min_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Baptista_2017_PMID_28918903/track_files/Baptista_2017_Spt8_Ctrl_5min_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Baptista_2017_Spt8_Ctrl_5min"
+   },
+    {
+      "name" : "Baptista_2017_Spt3_Ctrl_5min_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Baptista_2017_PMID_28918903/track_files/Baptista_2017_Spt3_Ctrl_5min_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Baptista_2017_Spt3_Ctrl_5min"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_ypd_nochx_minus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_ypd_nochx_minus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_ypd_nochx_minus"
+   },
+    {
+      "name" : "Lee_2018_ChIP_H3_log_set2D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_H3_log_set2D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_H3_log_set2D_vs_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.D273-10B_snp",
+      "name": "D273-10B_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/D273-10B.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/D273-10B.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.D273-10B_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.D273-10B_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Wacholder_2023_riboseq_ypd_minus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_ypd_minus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_ypd_minus"
+   },
+    {
+      "name" : "Joo_2017_Bdf1-AA_60min_TBP_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Bdf1-AA_60min_TBP_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Bdf1-AA_60min_TBP"
+   },
+    {
+      "name" : "Gutierrez_2017_unambiguous-naked_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Gutierrez_2017_PMID_29212533/track_files/Gutierrez_2017_unambiguous-naked_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Gutierrez_2017_unambiguous-naked"
+   },
+    {
+      "name" : "Joo_2017_Swr1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Swr1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Swr1"
+   },
+    {
+      "name" : "Lee_2018_ChIP_sas2Dset2D_H4ac_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_sas2Dset2D_H4ac_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_sas2Dset2D_H4ac_H3"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.BY4741_snp",
+      "name": "BY4741_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4741.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4741.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.BY4741_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.BY4741_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Joo_2017_Bdf1-AA_0min_Taf1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Bdf1-AA_0min_Taf1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Bdf1-AA_0min_Taf1"
+   },
+    {
+      "name" : "plus_strand_coverage_ypd",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/plus_strand_coverage_ypd.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.plus_strand_coverage_ypd"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.W303_snp",
+      "name": "W303_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/W303.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/W303.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.W303_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.W303_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YPS128_indel",
+      "name": "YPS128_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS128.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS128.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YPS128_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YPS128_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Rossbach_2017_cdc7kd_cterm_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Rossbach_2017_PMID_28924058/track_files/Rossbach_2017_cdc7kd_cterm_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Rossbach_2017_cdc7kd_cterm"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_nochx_plus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_nochx_plus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_nochx_plus"
+   },
+    {
+      "name" : "Lee_2018_ChIP_sas2D_H3K79me3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_sas2D_H3K79me3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_sas2D_H3K79me3"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.X2180-1A_snp",
+      "name": "X2180-1A_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/X2180-1A.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/X2180-1A.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.X2180-1A_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.X2180-1A_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.SK1_snp",
+      "name": "SK1_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SK1.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SK1.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.SK1_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.SK1_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.BY4741_indel",
+      "name": "BY4741_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4741.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4741.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.BY4741_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.BY4741_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Joo_2017_H4ac_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_H4ac_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_H4ac"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.BC187_snp",
+      "name": "BC187_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BC187.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BC187.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.BC187_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.BC187_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Joo_2017_Bdf1-AA_60min_Taf1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Bdf1-AA_60min_Taf1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Bdf1-AA_60min_Taf1"
+   },
+    {
+      "name" : "Gutierrez_2017_unambiguous-dst1D_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Gutierrez_2017_PMID_29212533/track_files/Gutierrez_2017_unambiguous-dst1D_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Gutierrez_2017_unambiguous-dst1D"
+   },
+    {
+      "name" : "Lee_2018_ChIP_H3_log_dot1Dset2D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_H3_log_dot1Dset2D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_H3_log_dot1Dset2D_vs_WT"
+   },
+    {
+      "name" : "Hu_2015_MNase-seq_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_MNase-seq_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_MNase-seq_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.Y55_snp",
+      "name": "Y55_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Y55.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Y55.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.Y55_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.Y55_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YS9_snp",
+      "name": "YS9_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YS9.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YS9.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YS9_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YS9_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_mRNA_dot1Dset2D_Reverse_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_mRNA_dot1Dset2D_Reverse_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_mRNA_dot1Dset2D_Reverse"
+   },
+    {
+      "name" : "Lee_2018_ATAC_log_set2D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ATAC_log_set2D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ATAC_log_set2D_vs_WT"
+   },
+    {
+      "name" : "Lee_2018_ATAC_log_sas2D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ATAC_log_sas2D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ATAC_log_sas2D_vs_WT"
+   },
+    {
+      "name" : "Chereji_2018_Occupancy_H3_CC_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Chereji_2018_PMID_29426353/track_files/Chereji_2018_Occupancy_H3_CC_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Chereji_2018_Occupancy_H3_CC"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_ypd_plus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_ypd_plus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_ypd_plus"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YPS128_snp",
+      "name": "YPS128_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS128.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS128.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YPS128_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YPS128_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Rossbach_2017_cdc7kd",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Rossbach_2017_PMID_28924058/track_files/Rossbach_2017_cdc7kd_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Rossbach_2017_cdc7kd"
+   },
+    {
+      "name" : "Hu_2015_H3K4me3-ChIP_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_H3K4me3-ChIP_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_H3K4me3-ChIP_WT"
+   },
+    {
+      "name" : "Lee_2018_mRNA_WT_Forward_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_mRNA_WT_Forward_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_mRNA_WT_Forward"
+   },
+    {
+      "name" : "Joo_2017_Bdf1-AA_0min_TBP_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Bdf1-AA_0min_TBP_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Bdf1-AA_0min_TBP"
+   },
+    {
+      "name" : "Joo_2017_Rpb1-AA_0min_TBP_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Rpb1-AA_0min_TBP_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Rpb1-AA_0min_TBP"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.RedStar_snp",
+      "name": "RedStar_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RedStar.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RedStar.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.RedStar_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.RedStar_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_mRNA_dot1Dset2D_Forward_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_mRNA_dot1Dset2D_Forward_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_mRNA_dot1Dset2D_Forward"
+   },
+    {
+      "name" : "Baptista_2017_Spt7_Ctrl_5min_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Baptista_2017_PMID_28918903/track_files/Baptista_2017_Spt7_Ctrl_5min_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Baptista_2017_Spt7_Ctrl_5min"
+   },
+    {
+      "name" : "Lee_2018_ChIP_set2D_H4ac_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_set2D_H4ac_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_set2D_H4ac_H3"
+   },
+    {
+      "name" : "Kniewel_2017_anti-H3-T11ph_3h_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_anti-H3-T11ph_3h_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_anti-H3-T11ph_3h_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.DBVPG6044_indel",
+      "name": "DBVPG6044_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/DBVPG6044.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/DBVPG6044.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.DBVPG6044_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.DBVPG6044_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_H3_log_dot1-101-140D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_H3_log_dot1-101-140D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_H3_log_dot1-101-140D_vs_WT"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_ypd_nochx_plus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_ypd_nochx_plus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_ypd_nochx_plus"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.CEN_PK2-1Ca_snp",
+      "name": "CEN_PK2-1Ca_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/CEN_PK2-1Ca.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/CEN_PK2-1Ca.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.CEN_PK2-1Ca_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.CEN_PK2-1Ca_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YPS163_snp",
+      "name": "YPS163_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS163.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPS163.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YPS163_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YPS163_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.BC187_indel",
+      "name": "BC187_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BC187.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BC187.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.BC187_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.BC187_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Joo_2017_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_H3"
+   },
+    {
+      "name" : "Joo_2017_Bdf1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Bdf1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Bdf1"
+   },
+    {
+      "name" : "Rossbach_2017_gal4_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Rossbach_2017_PMID_28924058/track_files/Rossbach_2017_gal4_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Rossbach_2017_gal4"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.L1528_snp",
+      "name": "L1528_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/L1528.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/L1528.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.L1528_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.L1528_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_WT_H3K79me3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_WT_H3K79me3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_WT_H3K79me3"
+   },
+    {
+      "name" : "Joo_2017_TBP_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_TBP_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_TBP"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.FY1679_snp",
+      "name": "FY1679_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FY1679.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/FY1679.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.FY1679_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.FY1679_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_H3K56ac-ChIP_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_H3K56ac-ChIP_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_H3K56ac-ChIP_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.D273-10B_indel",
+      "name": "D273-10B_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/D273-10B.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/D273-10B.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.D273-10B_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.D273-10B_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_H3K56ac-ChIP_H4K44R_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_H3K56ac-ChIP_H4K44R_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_H3K56ac-ChIP_H4K44R"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.JK9-3d_snp",
+      "name": "JK9-3d_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/JK9-3d.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/JK9-3d.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.JK9-3d_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.JK9-3d_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_H3_log_dot1D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_H3_log_dot1D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_H3_log_dot1D_vs_WT"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_plus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_plus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_plus"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YJM339_indel",
+      "name": "YJM339_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YJM339.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YJM339.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YJM339_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YJM339_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.BY4742_snp",
+      "name": "BY4742_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4742.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/BY4742.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.BY4742_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.BY4742_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_MNase-seq_H4K44R-YPD_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_MNase-seq_H4K44R-YPD_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_MNase-seq_H4K44R-YPD"
+   },
+    {
+      "name" : "Joo_2017_Htz1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Htz1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Htz1"
+   },
+    {
+      "name" : "Kniewel_2017_anti-H3_spo11-Y135F_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_anti-H3_3.5h_spo11-Y135F_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_anti-H3_spo11-Y135F"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.CEN_PK2-1Ca_indel",
+      "name": "CEN_PK2-1Ca_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/CEN_PK2-1Ca.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/CEN_PK2-1Ca.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.CEN_PK2-1Ca_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.CEN_PK2-1Ca_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_H3K4me3-ChIP_H4K44R_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_H3K4me3-ChIP_H4K44R_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_H3K4me3-ChIP_H4K44R"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_sd_minus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_sd_minus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_sd_minus"
+   },
+    {
+      "name" : "Lee_2018_ATAC_log_dot1D_vs_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ATAC_log_dot1D_vs_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ATAC_log_dot1D_vs_WT"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.DBVPG6044_snp",
+      "name": "DBVPG6044_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/DBVPG6044.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/DBVPG6044.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.DBVPG6044_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.DBVPG6044_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Kniewel_2017_anti-H3_4h_WT_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Kniewel_2017_PMID_28986445/track_files/Kniewel_2017_anti-H3_4h_WT_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Kniewel_2017_anti-H3_4h_WT"
+   },
+    {
+      "name" : "Hu_2015_Rad51-ChIP_H4K44R_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_Rad51-ChIP_H4K44R_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_Rad51-ChIP_H4K44R"
+   },
+    {
+      "name" : "Hu_2015_MNase-seq_WT-YPA_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_MNase-seq_WT-YPA_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_MNase-seq_WT-YPA"
+   },
+    {
+      "name" : "Joo_2017_Taf1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Taf1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Taf1"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_nochx_minus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_nochx_minus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_nochx_minus"
+   },
+    {
+      "name" : "Lee_2018_mRNA_WT_Reverse_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_mRNA_WT_Reverse_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_mRNA_WT_Reverse"
+   },
+    {
+      "name" : "plus_strand_coverage_gal",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/plus_strand_coverage_gal.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.plus_strand_coverage_gal"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YPH499_snp",
+      "name": "YPH499_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPH499.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YPH499.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YPH499_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YPH499_snp-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_sas2D_H3K79me1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_sas2D_H3K79me1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_sas2D_H3K79me1"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.YS9_indel",
+      "name": "YS9_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YS9.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/YS9.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.YS9_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.YS9_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.Y55_indel",
+      "name": "Y55_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Y55.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/Y55.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.Y55_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.Y55_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_dot1D_turnover_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_dot1D_turnover_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_dot1D_turnover"
+   },
+    {
+      "name" : "Wacholder_2023_riboseq_minus",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Wacholder_2023_PMID_37164009/Wacholder_2023_riboseq_minus.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Wacholder_2023_riboseq_minus"
+   },
+    {
+      "name" : "Lee_2018_ChIP_WT_H3K79me1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_WT_H3K79me1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_WT_H3K79me1"
+   },
+    {
+      "name" : "Joo_2017_Rpb1-AA_0min_Taf1_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Joo_2017_PMID_29203645/track_files/Joo_2017_Rpb1-AA_0min_Taf1_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Joo_2017_Rpb1-AA_0min_Taf1"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.L1528_indel",
+      "name": "L1528_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/L1528.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/L1528.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.L1528_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.L1528_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Lee_2018_ChIP_dot1D_H4ac_H3_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Lee_2018_PMID_29339748/track_files/Lee_2018_ChIP_dot1D_H4ac_H3_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Lee_2018_ChIP_dot1D_H4ac_H3"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.SK1_indel",
+      "name": "SK1_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SK1.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SK1.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.SK1_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.SK1_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "name" : "Hu_2015_MNase-seq_H4K44R_V64",
+      "type" : "QuantitativeTrack",
+      "adapter" : {
+         "bigWigLocation" : {
+            "uri" : "/SGDData/bigwig/Hu_2015_PMID_26628362/track_files/Hu_2015_MNase-seq_H4K44R_V64.bw",
+            "locationType" : "UriLocation"
+         },
+         "type" : "BigWigAdapter"
+      },
+      "assemblyNames" : [
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "tracks.Hu_2015_MNase-seq_H4K44R"
+   },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.RM11-1A_indel",
+      "name": "RM11-1A_indel_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RM11-1A.indel.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/RM11-1A.indel.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.RM11-1A_indel-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.RM11-1A_indel-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "tracks.SEY6210_snp",
+      "name": "SEY6210_snp_V64",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SEY6210.gatk.vcf.bgz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "/SGDJBrowse/tracks/Song_2015_PMID_25781462/SEY6210.gatk.vcf.bgz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "tracks.SEY6210_snp-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "tracks.SEY6210_snp-ChordVariantDisplay"
+        }
+      ]
     }
    ]
 }
