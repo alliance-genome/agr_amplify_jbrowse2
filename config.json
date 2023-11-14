@@ -2677,7 +2677,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "/FlyBaseJBrowse/tracks/Gene/{refseq}/trackData.jsonz"
+          "uri": "/FlyBaseJBrowse/tracks/Gene/{refseq}/trackData.json"
         }
       },
       "displays": [
@@ -2694,6 +2694,37 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "fruitfly_all_genes_from_flybase_-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "fruitfly_rna_from_flybase",
+      "name": "test rna from fb Genes",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "/FlyBaseJBrowse/tracks/RNA/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "fruitfly_rna_from_flybase-LinearBasicDisplay",
+          "renderer": {
+            "maxHeight" : 5000,
+            "type": "SvgFeatureRenderer",
+            "color3": "#30332E",
+            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "fruitfly_rna_from_flybase_-LinearArcDisplay"
         }
       ]
     },
