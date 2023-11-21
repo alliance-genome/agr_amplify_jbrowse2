@@ -68524,10 +68524,10 @@
         }
       ]
     },
-    {
+   {
       "type": "MultiQuantitativeTrack",
-      "trackId": "SGD_Weiner_2015_h2ak5ac_0_to_60_mins",
-      "name": "h2ak5ac_0_to_60_mins",
+      "trackId": "SGD_Weiner_2015_h3s10ph_0_to_60_mins",
+      "name": "h3s10ph_0_to_60_mins",
       "assemblyNames": [
         "Saccharomyces_cerevisiae"
       ],
@@ -68538,10 +68538,10 @@
         "lab_pi" : "Friedman, Nir",
         "lab" : "The Hebrew University",
         "year" : "2015",
-        "dataset_description" : "High resolution chromosome dynamics time course of h2ak5ac; 0 to 60 minutes after daimide addition",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3s10ph; 0 to 60 minutes after daimide addition",
         "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
         "assay_term_id" : "OBI:0000716",
-        "assay_term_name" : "ChIP-seq assay",
+	"assay_term_name" : "ChIP-seq assay",
         "biosample_id" : "OBI:0001051",
         "biosample_term_name" : "DNA extract",
         "strain_background" : "S288C",
@@ -68550,76 +68550,78 @@
         "gbrowse_category" : "",
         "old_category" : "histone modification"
       },
+
       "adapter": {
         "type": "MultiWiggleAdapter",
-        "subadapters": [
-          {
+	"subadapters": [
+            
+	  {
             "type": "BigWigAdapter",
             "group": "group1",
-            "name": "h2ak5ac_60_min",
-            "color": "#08519c",
+            "name": "h3s10ph_60_min",
+            "color": "rgba(16,83,154,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp6_60_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3s10ph_tp6_60_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group2",
-            "name": "h2ak5ac_30_min",
-            "color": "#6baed6",
+            "name": "h3s10ph_30_min",
+            "color": "rgba(107,174,214,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp5_30_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3s10ph_tp5_30_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group3",
-            "name": "h2ak5ac_15_min",
-            "color": "#bdd7e7",
+            "name": "h3s10ph_15_min",
+            "color": "rgba(189,215,231,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp4_15_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3s10ph_tp4_15_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group4",
-            "name": "h2ak5ac_8_min",
-            "color": "#fcae91",
+            "name": "h3s10ph_8_min",
+            "color": "rgba(252,174,145,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp3_8_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3s10ph_tp3_8_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group5",
-            "name": "h2ak5ac_4_min",
-            "color": "#fb6a4a",
+            "name": "h3s10ph_4_min",
+            "color": "rgba(251,106,74,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp2_4_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3s10ph_tp2_4_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group6",
-            "name": "h2ak5ac_0_min",
-            "color": "#a50f15",
+            "name": "h3s10ph_0_min",
+            "color": "rgba(165,15,21,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp1_0_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3s10ph_tp1_0_V64.bw"
             }
           }
-        ]
+	]
       },
       "displays": [
         {
           "type": "MultiLinearWiggleDisplay",
-          "displayId": "SGD_Weiner_2015_h2ak5ac_0_to_60_mins-MultiLinearWiggleDisplay"
+          "displayId": "SGD_Weiner_2015_h3s10ph_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
-    },
-    {
+   },     
+   {
       "type": "MultiQuantitativeTrack",
-      "trackId": "SGD_Weiner_2015_h2as129ph_0_to_60_mins",
-      "name": "h2as129ph_0_to_60_mins",
+      "trackId": "SGD_Weiner_2015_h3k79me3_0_to_60_mins",
+      "name": "h3k79me3_0_to_60_mins",
       "assemblyNames": [
         "Saccharomyces_cerevisiae"
       ],
@@ -68630,10 +68632,10 @@
         "lab_pi" : "Friedman, Nir",
         "lab" : "The Hebrew University",
         "year" : "2015",
-        "dataset_description" : "High resolution chromosome dynamics time course of h2as129ph; 0 to 60 minutes after daimide addition",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k79me3; 0 to 60 minutes after daimide addition",
         "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
         "assay_term_id" : "OBI:0000716",
-        "assay_term_name" : "ChIP-seq assay",
+	"assay_term_name" : "ChIP-seq assay",
         "biosample_id" : "OBI:0001051",
         "biosample_term_name" : "DNA extract",
         "strain_background" : "S288C",
@@ -68642,73 +68644,75 @@
         "gbrowse_category" : "",
         "old_category" : "histone modification"
       },
+
       "adapter": {
         "type": "MultiWiggleAdapter",
-        "subadapters": [
-          {
+	"subadapters": [
+            
+	  {
             "type": "BigWigAdapter",
             "group": "group1",
-            "name": "h2as129ph_60_min",
-            "color": "#08519c",
+            "name": "h3k79me3_60_min",
+            "color": "rgba(0,91,120,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp6_60_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me3_tp6_60_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group2",
-            "name": "h2as129ph_30_min",
-            "color": "#6baed6",
+            "name": "h3k79me3_30_min",
+            "color": "rgba(107,174,214,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp5_30_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me3_tp5_30_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group3",
-            "name": "h2as129ph_15_min",
-            "color": "#bdd7e7",
+            "name": "h3k79me3_15_min",
+            "color": "rgba(189,215,231,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp4_15_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me3_tp4_15_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group4",
-            "name": "h2as129ph_8_min",
-            "color": "#fcae91",
+            "name": "h3k79me3_8_min",
+            "color": "rgba(252,174,145,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp3_8_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me3_tp3_8_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group5",
-            "name": "h2as129ph_4_min",
-            "color": "#fb6a4a",
+            "name": "h3k79me3_4_min",
+            "color": "rgba(251,106,74,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp2_4_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me3_tp2_4_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group6",
-            "name": "h2as129ph_0_min",
-            "color": "#a50f15",
+            "name": "h3k79me3_0_min",
+            "color": "rgba(165,15,21,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp1_0_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me3_tp1_0_V64.bw"
             }
           }
-        ]
+	]
       },
       "displays": [
         {
           "type": "MultiLinearWiggleDisplay",
-          "displayId": "SGD_Weiner_2015_h2as129ph_0_to_60_mins-MultiLinearWiggleDisplay"
+          "displayId": "SGD_Weiner_2015_h3k79me3_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
-    },
-    {
+   },     
+   {
       "type": "MultiQuantitativeTrack",
       "trackId": "SGD_Weiner_2015_h3k4ac_0_to_60_mins",
       "name": "h3k4ac_0_to_60_mins",
@@ -68725,7 +68729,7 @@
         "dataset_description" : "High resolution chromosome dynamics time course of h3k4ac; 0 to 60 minutes after daimide addition",
         "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
         "assay_term_id" : "OBI:0000716",
-        "assay_term_name" : "ChIP-seq assay",
+	"assay_term_name" : "ChIP-seq assay",
         "biosample_id" : "OBI:0001051",
         "biosample_term_name" : "DNA extract",
         "strain_background" : "S288C",
@@ -68734,64 +68738,66 @@
         "gbrowse_category" : "",
         "old_category" : "histone modification"
       },
+
       "adapter": {
         "type": "MultiWiggleAdapter",
-        "subadapters": [
-          {
+	"subadapters": [
+            
+	  {
             "type": "BigWigAdapter",
             "group": "group1",
             "name": "h3k4ac_60_min",
-            "color": "#08519c",
+            "color": "rgba(8,81,156,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp6_60_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp6_60_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group2",
             "name": "h3k4ac_30_min",
-            "color": "#6baed6",
+            "color": "rgba(107,174,214,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp5_30_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp5_30_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group3",
             "name": "h3k4ac_15_min",
-            "color": "#bdd7e7",
+            "color": "rgba(189,215,231,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp4_15_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp4_15_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group4",
             "name": "h3k4ac_8_min",
-            "color": "#fcae91",
+            "color": "rgba(252,174,145,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp3_8_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp3_8_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group5",
             "name": "h3k4ac_4_min",
-            "color": "#fb6a4a",
+            "color": "rgba(251,106,74,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp2_4_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp2_4_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group6",
             "name": "h3k4ac_0_min",
-            "color": "#a50f15",
+            "color": "rgba(165,15,21,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp1_0_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4ac_tp1_0_V64.bw"
             }
           }
-        ]
+	]
       },
       "displays": [
         {
@@ -68799,8 +68805,2424 @@
           "displayId": "SGD_Weiner_2015_h3k4ac_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
-    },
-    {
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_mag1_0hr_to_2_hrs_NMPseq_Greads_plus",
+      "name": "mag1_methylpurine_guanine_plus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP guanine lesions on the plus strand in mag1 deletion strain under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "mag1_0hr_NMPseq_Greads_plus",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-0hr_NMPseq_Greads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "mag1_1hr_NMPseq_Greads_plus",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-1hr_NMPseq_Greads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "mag1_2hr_NMPseq_Greads_plus",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-2hr_NMPseq_Greads-plus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_mag1_0hr_to_2_hrs_NMPseq_Greads_plus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k36me3_0_to_60_mins",
+      "name": "h3k36me3_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k36me3; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k36me3_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me3_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k36me3_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me3_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k36me3_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me3_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k36me3_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me3_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k36me3_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me3_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k36me3_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me3_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k36me3_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_mag1_0_to_2_hrs_NMPseq_Areads_minus",
+      "name": "mag1_methylpurine_adenine_minus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP adenine lesions on the minus strand in mag1 deletion strain under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "mag1_0hr_NMPseq_Areads_minus",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-0hr_NMPseq_Areads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "mag1_1hr_NMPseq_Areads_minus",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-1hr_NMPseq_Areads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "mag1_2hr_NMPseq_Areads_minus",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-2hr_NMPseq_Areads-minus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_mag1_0_to_2_hrs_NMPseq_Areads_minus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h2ak5ac_0_to_60_mins",
+      "name": "h2ak5ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h2ak5ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h2ak5ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h2ak5ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h2ak5ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h2ak5ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h2ak5ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h2ak5ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2ak5ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h2ak5ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_htz1_0_to_60_mins",
+      "name": "htz1_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of htz1; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "htz1_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_htz1_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "htz1_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_htz1_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "htz1_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_htz1_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "htz1_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_htz1_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "htz1_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_htz1_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "htz1_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_htz1_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_htz1_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k79me_0_to_60_mins",
+      "name": "h3k79me_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k79me; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k79me_60_min",
+            "color": "rgba(0,91,120,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k79me_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k79me_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k79me_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k79me_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k79me_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k79me_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k79me_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4k20me_0_to_60_mins",
+      "name": "h4k20me_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4k20me; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4k20me_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k20me_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4k20me_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k20me_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4k20me_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k20me_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4k20me_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k20me_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4k20me_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k20me_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4k20me_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k20me_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4k20me_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Areads_plus",
+      "name": "wt_methylpurine_adenine_plus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP adenine lesions on the plus strand in strain expressing WT MAG1 under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "wt_0hr_NMPseq_Areads_plus",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-0hr_NMPseq_Areads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "wt_1hr_NMPseq_Areads_plus",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-1hr_NMPseq_Areads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "wt_2hr_NMPseq_Areads_plus",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-2hr_NMPseq_Areads-plus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Areads_plus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4k8ac_0_to_60_mins",
+      "name": "h4k8ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4k8ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4k8ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k8ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4k8ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k8ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4k8ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k8ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4k8ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k8ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4k8ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k8ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4k8ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k8ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4k8ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_mag1_0hr_to_2_hrs_NMPseq_Areads_plus",
+      "name": "mag1_methylpurine_adenine_plus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP adenine lesions on the plus strand in mag1 deletion strain under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "mag1_0hr_NMPseq_Areads_plus",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-0hr_NMPseq_Areads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "mag1_1hr_NMPseq_Areads_plus",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-1hr_NMPseq_Areads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "mag1_2hr_NMPseq_Areads_plus",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-2hr_NMPseq_Areads-plus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_mag1_0hr_to_2_hrs_NMPseq_Areads_plus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4k16ac_0_to_60_mins",
+      "name": "h4k16ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4k16ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4k16ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k16ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4k16ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k16ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4k16ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k16ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4k16ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k16ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4k16ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k16ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4k16ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k16ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4k16ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k36me_0_to_60_mins",
+      "name": "h3k36me_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k36me; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k36me_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k36me_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k36me_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k36me_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k36me_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k36me_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k36me_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k14ac_0_to_60_mins",
+      "name": "h3k14ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k14ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k14ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k14ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k14ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k14ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k14ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k14ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k14ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k14ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k14ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k14ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k14ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k14ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k14ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k18ac_0_to_60_mins",
+      "name": "h3k18ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k18ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k18ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k18ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k18ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k18ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k18ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k18ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k18ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k18ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k18ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k18ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k18ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k18ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k18ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Areads_minus",
+      "name": "wt_methylpurine_adenine_minus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP adenine lesions on the minus strand in strain expressing WT MAG1 under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "wt_0hr_NMPseq_Areads_minus",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-0hr_NMPseq_Areads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "wt_1hr_NMPseq_Areads_minus",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-1hr_NMPseq_Areads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "wt_2hr_NMPseq_Areads_minus",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-2hr_NMPseq_Areads-minus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Areads_minus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h2as129ph_0_to_60_mins",
+      "name": "h2as129ph_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h2as129ph; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h2as129ph_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h2as129ph_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h2as129ph_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h2as129ph_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h2as129ph_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h2as129ph_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h2as129ph_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k9ac_0_to_60_mins",
+      "name": "h3k9ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k9ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k9ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k9ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k9ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k9ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k9ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k9ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k9ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k9ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k9ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k9ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k9ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k9ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k9ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Greads_minus",
+      "name": "wt_methylpurine_guanine_minus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP guanine lesions on the minus strand in strain expressing WT MAG1 under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "wt_0hr_NMPseq_Greads_minus",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-0hr_NMPseq_Greads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "wt_1hr_NMPseq_Greads_minus",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-1hr_NMPseq_Greads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "wt_2hr_NMPseq_Greads_minus",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-2hr_NMPseq_Greads-minus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Greads_minus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4k12ac_0_to_60_mins",
+      "name": "h4k12ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4k12ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4k12ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k12ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4k12ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k12ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4k12ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k12ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4k12ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k12ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4k12ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k12ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4k12ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k12ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4k12ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4r3me2s_0_to_60_mins",
+      "name": "h4r3me2s_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4r3me2s; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4r3me2s_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me2s_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4r3me2s_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me2s_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4r3me2s_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me2s_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4r3me2s_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me2s_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4r3me2s_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me2s_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4r3me2s_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me2s_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4r3me2s_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4r3me_0_to_60_mins",
+      "name": "h4r3me_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4r3me; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4r3me_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4r3me_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4r3me_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4r3me_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4r3me_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4r3me_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4r3me_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4r3me_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Greads_plus",
+      "name": "wt_methylpurine_guanine_plus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP guanine lesions on the plus strand in strain expressing WT MAG1 under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "wt_0hr_NMPseq_Greads_plus",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-0hr_NMPseq_Greads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "wt_1hr_NMPseq_Greads_plus",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-1hr_NMPseq_Greads-plus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "wt_2hr_NMPseq_Greads_plus",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_wt-2hr_NMPseq_Greads-plus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_wt_0hr_to_2_hrs_NMPseq_Greads_plus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k36me2_0_to_60_mins",
+      "name": "h3k36me2_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k36me2; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k36me2_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me2_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k36me2_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me2_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k36me2_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me2_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k36me2_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me2_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k36me2_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me2_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k36me2_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k36me2_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k36me2_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h4k5ac_0_to_60_mins",
+      "name": "h4k5ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h4k5ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h4k5ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k5ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h4k5ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k5ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h4k5ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k5ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h4k5ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k5ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h4k5ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k5ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h4k5ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h4k5ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h4k5ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k27ac_0_to_60_mins",
+      "name": "h3k27ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k27ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k27ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k27ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k27ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k27ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k27ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k27ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k27ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k27ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k27ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k27ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k27ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k27ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k27ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Mao_2017_mag1_0hr_to_2_hrs_NMPseq_Greads_minus",
+      "name": "mag1_methylpurine_guanine_minus_0_to_2_hrs",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "DNA replication, recombination and repair" ],
+      "metadata" : {
+        "pmid" : "28912372",
+        "first_author" : "Mao",
+        "lab_pi" : "Wyrick, John J.",
+        "lab" : "Washington State University",
+        "year" : "2017",
+        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
+        "experiment_description" : "NMP guanine lesions on the minus strand in mag1 deletion strain under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
+        "assay_term_id" : "OBI:0001266",
+	"assay_term_name" : "DNA methylation sequencing assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE98031",
+        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "DNA replication, recombination and repair"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "mag1_0hr_NMPseq_Greads_minus",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-0hr_NMPseq_Greads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "mag1_1hr_NMPseq_Greads_minus",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-1hr_NMPseq_Greads-minus_v64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "mag1_2hr_NMPseq_Greads_minus",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Mao_2017/Mao_2017_mag1-2hr_NMPseq_Greads-minus_v64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Mao_2017_mag1_0hr_to_2_hrs_NMPseq_Greads_minus-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k23ac_0_to_60_mins",
+      "name": "h3k23ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k23ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k23ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k23ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k23ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k23ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k23ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k23ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k23ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k23ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k23ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k23ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k23ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k23ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k23ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k56ac_0_to_60_mins",
+      "name": "h3k56ac_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k56ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k56ac_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k56ac_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k56ac_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k56ac_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k56ac_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k56ac_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k56ac_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k56ac_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k56ac_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k56ac_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k56ac_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k56ac_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k56ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
       "type": "MultiQuantitativeTrack",
       "trackId": "SGD_Weiner_2015_h3k4me_0_to_60_mins",
       "name": "h3k4me_0_to_60_mins",
@@ -68817,7 +71239,7 @@
         "dataset_description" : "High resolution chromosome dynamics time course of h3k4me; 0 to 60 minutes after daimide addition",
         "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
         "assay_term_id" : "OBI:0000716",
-        "assay_term_name" : "ChIP-seq assay",
+	"assay_term_name" : "ChIP-seq assay",
         "biosample_id" : "OBI:0001051",
         "biosample_term_name" : "DNA extract",
         "strain_background" : "S288C",
@@ -68826,64 +71248,66 @@
         "gbrowse_category" : "",
         "old_category" : "histone modification"
       },
+
       "adapter": {
         "type": "MultiWiggleAdapter",
-        "subadapters": [
-          {
+	"subadapters": [
+            
+	  {
             "type": "BigWigAdapter",
             "group": "group1",
             "name": "h3k4me_60_min",
-            "color": "#08519c",
+            "color": "rgba(8,81,156,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp6_60_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp6_60_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group2",
             "name": "h3k4me_30_min",
-            "color": "#6baed6",
+            "color": "rgba(107,174,214,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp5_30_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp5_30_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group3",
             "name": "h3k4me_15_min",
-            "color": "#bdd7e7",
+            "color": "rgba(189,215,231,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp4_15_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp4_15_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group4",
             "name": "h3k4me_8_min",
-            "color": "#fcae91",
+            "color": "rgba(252,174,145,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp3_8_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp3_8_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group5",
             "name": "h3k4me_4_min",
-            "color": "#fb6a4a",
+            "color": "rgba(251,106,74,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp2_4_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp2_4_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group6",
             "name": "h3k4me_0_min",
-            "color": "#a50f15",
+            "color": "rgba(165,15,21,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp1_0_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me_tp1_0_V64.bw"
             }
           }
-        ]
+	]
       },
       "displays": [
         {
@@ -68891,8 +71315,8 @@
           "displayId": "SGD_Weiner_2015_h3k4me_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
-    },
-    {
+   },     
+   {
       "type": "MultiQuantitativeTrack",
       "trackId": "SGD_Weiner_2015_h3k4me2_0_to_60_mins",
       "name": "h3k4me2_0_to_60_mins",
@@ -68909,7 +71333,7 @@
         "dataset_description" : "High resolution chromosome dynamics time course of h3k4me2 ; 0 to 60 minutes after daimide addition",
         "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
         "assay_term_id" : "OBI:0000716",
-        "assay_term_name" : "ChIP-seq assay",
+	"assay_term_name" : "ChIP-seq assay",
         "biosample_id" : "OBI:0001051",
         "biosample_term_name" : "DNA extract",
         "strain_background" : "S288C",
@@ -68918,64 +71342,66 @@
         "gbrowse_category" : "",
         "old_category" : "histone modification"
       },
+
       "adapter": {
         "type": "MultiWiggleAdapter",
-        "subadapters": [
-          {
+	"subadapters": [
+            
+	  {
             "type": "BigWigAdapter",
             "group": "group1",
             "name": "h3k4me2_60_min",
-            "color": "#08519c",
+            "color": "rgba(8,81,156,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp6_60_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp6_60_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group2",
             "name": "h3k4me2_30_min",
-            "color": "#6baed6",
+            "color": "rgba(107,174,214,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp5_30_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp5_30_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group3",
             "name": "h3k4me2_15_min",
-            "color": "#bdd7e7",
+            "color": "rgba(189,215,231,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp4_15_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp4_15_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group4",
             "name": "h3k4me2_8_min",
-            "color": "#fcae91",
+            "color": "rgba(252,174,145,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp3_8_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp3_8_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group5",
             "name": "h3k4me2_4_min",
-            "color": "#fb6a4a",
+            "color": "rgba(251,106,74,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp2_4_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp2_4_V64.bw"
             }
-          },
-          {
+          }, 
+	  {
             "type": "BigWigAdapter",
             "group": "group6",
             "name": "h3k4me2_0_min",
-            "color": "#a50f15",
+            "color": "rgba(165,15,21,1)",
             "bigWigLocation": {
-              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp1_0_V64.bw"
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me2_tp1_0_V64.bw"
             }
           }
-        ]
+	]
       },
       "displays": [
         {
@@ -68983,6 +71409,100 @@
           "displayId": "SGD_Weiner_2015_h3k4me2_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
-    }
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h3k4me3_0_to_60_mins",
+      "name": "h3k4me3_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h3k4me3; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+	"assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h3k4me3_60_min",
+            "color": "rgba(8,81,156,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me3_tp6_60_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h3k4me3_30_min",
+            "color": "rgba(107,174,214,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me3_tp5_30_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h3k4me3_15_min",
+            "color": "rgba(189,215,231,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me3_tp4_15_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h3k4me3_8_min",
+            "color": "rgba(252,174,145,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me3_tp3_8_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h3k4me3_4_min",
+            "color": "rgba(251,106,74,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me3_tp2_4_V64.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h3k4me3_0_min",
+            "color": "rgba(165,15,21,1)",
+            "bigWigLocation": {
+              "uri": "/SGDData/bigwig/Weiner_2015/Weiner_2015_h3k4me3_tp1_0_V64.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h3k4me3_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+   } 
    ]
 }
