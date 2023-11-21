@@ -68526,11 +68526,30 @@
     },
     {
       "type": "MultiQuantitativeTrack",
-      "trackId": "h2ak5ac_0_to_60_mins",
+      "trackId": "SGD_Weiner_2015_h2ak5ac_0_to_60_mins",
       "name": "h2ak5ac_0_to_60_mins",
       "assemblyNames": [
         "Saccharomyces_cerevisiae"
       ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h2ak5ac; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+        "assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
       "adapter": {
         "type": "MultiWiggleAdapter",
         "subadapters": [
@@ -68593,7 +68612,99 @@
       "displays": [
         {
           "type": "MultiLinearWiggleDisplay",
-          "displayId": "h2ak5ac_0_to_60_mins-MultiLinearWiggleDisplay"
+          "displayId": "SGD_Weiner_2015_h2ak5ac_0_to_60_mins-MultiLinearWiggleDisplay"
+        }
+      ]
+    },
+    {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "SGD_Weiner_2015_h2as129ph_0_to_60_mins",
+      "name": "h2as129ph_0_to_60_mins",
+      "assemblyNames": [
+        "Saccharomyces_cerevisiae"
+      ],
+      "category" : [ "histone modification" ],
+      "metadata" : {
+        "pmid" : "25801168",
+        "first_author" : "Weiner",
+        "lab_pi" : "Friedman, Nir",
+        "lab" : "The Hebrew University",
+        "year" : "2015",
+        "dataset_description" : "High resolution chromosome dynamics time course of h2as129ph; 0 to 60 minutes after daimide addition",
+        "experiment_description" : "Examining chromatin dynamics through genome-wide mapping of 26 histone modifications at 0 4 8 15 30 and 60 minutes after diamide addition using MNase-ChIP",
+        "assay_term_id" : "OBI:0000716",
+        "assay_term_name" : "ChIP-seq assay",
+        "biosample_id" : "OBI:0001051",
+        "biosample_term_name" : "DNA extract",
+        "strain_background" : "S288C",
+        "experiment_dbxref" : "GSE61888",
+        "datafile_name" : "Weiner_2015_PMID_25801168/track_files/",
+        "gbrowse_category" : "",
+        "old_category" : "histone modification"
+      },
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+        "subadapters": [
+          {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "h2as129ph_60_min",
+            "color": "#08519c",
+            "bigWigLocation": {
+              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp6_60_V64.bw"
+            }
+          },
+          {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "h2as129ph_30_min",
+            "color": "#6baed6",
+            "bigWigLocation": {
+              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp5_30_V64.bw"
+            }
+          },
+          {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "h2as129ph_15_min",
+            "color": "#bdd7e7",
+            "bigWigLocation": {
+              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp4_15_V64.bw"
+            }
+          },
+          {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "h2as129ph_8_min",
+            "color": "#fcae91",
+            "bigWigLocation": {
+              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp3_8_V64.bw"
+            }
+          },
+          {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "h2as129ph_4_min",
+            "color": "#fb6a4a",
+            "bigWigLocation": {
+              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp2_4_V64.bw"
+            }
+          },
+          {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "h2as129ph_0_min",
+            "color": "#a50f15",
+            "bigWigLocation": {
+              "uri": "https://stage.dgaayxgqoarxf.amplifyapp.com/SGDData/bigwig/Weiner_2015/Weiner_2015_h2as129ph_tp1_0_V64.bw"
+            }
+          }
+        ]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "SGD_Weiner_2015_h2as129ph_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
     }
