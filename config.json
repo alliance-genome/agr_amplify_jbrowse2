@@ -52448,23 +52448,6 @@
       "trackId" : "SGD_H3R2me2a_plus_strand_ChIP_chip_V64"
    },
     {
-      "name": "wt_methylpurine_guanine_minus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_wt_0_to_2_hrs_NMPseq_Greads_minus"
-   },
-    {
       "type": "FeatureTrack",
       "trackId": "SGD_All Annotated Sequence Features",
       "name": "All Annotated Sequence Features",
@@ -53464,23 +53447,6 @@
         }
       ]
     },
-    {
-      "name": "wt_methylpurine_adenine_minus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_wt_0_to_2_hrs_NMPseq_Areads_minus"
-   },
     {
       "name": "Wacholder_2023_riboseq_ypd_plus",
       "type" : "QuantitativeTrack",
@@ -59198,23 +59164,6 @@
       "trackId" : "SGD_Chereji_2018_Dyads_H3_CC_V64"
    },
     {
-      "name": "wt_methylpurine_adenine_plus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_wt_0_to_2_hrs_NMPseq_Areads_plus"
-   },
-    {
       "name": "H4K12ac_ChIP_chip",
       "type" : "QuantitativeTrack",
       "adapter" : {
@@ -60988,40 +60937,6 @@
 
       "trackId" : "SGD_Rossbach_2017_ty5_V64"
    },
-    {
-      "name": "mag1_methylpurine_adenine_minus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "DNA replication, recombination and repair" ],
-      "metadata" : {
-        "pmid" : "28912372",
-        "first_author" : "Mao",
-        "lab_pi" : "Wyrick, John J.",
-        "lab" : "Washington State University",
-        "year" : "2017",
-        "dataset_description" : "Map of N-methylpurine (NMP) lesion alkalation damage across the yeast genome",
-        "experiment_description" : "NMP adenine lesions on the minus strand in mag1 deletion strain under methyl methanesulfonate (MMS)-induced alkylation over 2 hour time course",
-        "assay_term_id" : "OBI:0001266",
-        "biosample_id" : "OBI:0001051",
-        "biosample_term_name" : "DNA extract",
-        "strain_background" : "S288C",
-        "experiment_dbxref" : "GSE98031",
-        "datafile_name" : "Mao_2017_PMID_28912372/track_files/",
-        "gbrowse_category" : "",
-        "old_category" : "DNA replication, recombination and repair"
-      },
-
-      "trackId" : "SGD_Mao_2017_mag1_0_to_2_hrs_NMPseq_Areads_minus"
-   },
    {
       "type": "VariantTrack",
       "trackId": "SGD_CEN_PK2-1Ca_snp_V64",
@@ -61189,23 +61104,6 @@
       },
 
       "trackId" : "SGD_Hu_2015_H3K56ac-ChIP_H4K44R_V64"
-   },
-    {
-      "name": "mag1_methylpurine_adenine_plus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_mag1_0_to_2_hrs_NMPseq_Areads_plus"
    },
     {
       "name": "Spt5",
@@ -63600,23 +63498,6 @@
       "trackId" : "SGD_H3_vs_WCE_YPD_ChIP_chip_V64"
    },
     {
-      "name": "wt_methylpurine_guanine_plus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_wt_0_to_2_hrs_NMPseq_Greads_plus"
-   },
-    {
       "name": "RNA_PolII_23C_ChIP_chip",
       "type" : "QuantitativeTrack",
       "adapter" : {
@@ -65743,23 +65624,6 @@
         }
       ]
     },
-    {
-      "name": "mag1_methylpurine_guanine_plus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_mag1_0_to_2_hrs_NMPseq_Greads_plus"
-   },
     {
       "name": "Lee_2018_mRNA_set2D_Forward",
       "type" : "QuantitativeTrack",
@@ -68023,23 +67887,6 @@
         }
       ]
     },
-    {
-      "name": "mag1_methylpurine_guanine_minus_0_to_2_hrs",
-      "type" : "QuantitativeTrack",
-      "adapter" : {
-         "bigWigLocation" : {
-            "uri" : "/SGDJBrowse/",
-            "locationType" : "UriLocation"
-         },
-         "type" : "BigWigAdapter"
-      },
-      "assemblyNames" : [
-         "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Other SGD tracks" ],
-      
-      "trackId" : "SGD_Mao_2017_mag1_0_to_2_hrs_NMPseq_Greads_minus"
-   },
     {
       "name": "NrdPlusComp_norm_FullReadPlusStrand",
       "type" : "QuantitativeTrack",
