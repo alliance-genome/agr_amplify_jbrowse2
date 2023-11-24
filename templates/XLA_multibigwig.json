@@ -1,0 +1,1435 @@
+    
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2093_2084",
+      "name": "WE + erfe MO - NF41 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + erfe MO - NF41",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589913_22782.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF41",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589911_22793.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2093_2084-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2094_2084",
+      "name": "WE + erfe MO - NF41 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + erfe MO - NF41",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589915_22787.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF41",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589911_22793.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2094_2084-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1222_967",
+      "name": "heart + tcf21 MO - NF44-45 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "heart + tcf21 MO - NF44-45",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE45786/XENLA_9.2/RNA-Seq/BigWigs/GSM1115089_1032.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "heart + tcf21 control MO - NF44-45",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE45786/XENLA_9.2/RNA-Seq/BigWigs/GSM1115088_1033.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1222_967-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2063_2055",
+      "name": "WE + rnf20 MO - NF11.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + rnf20 MO - NF11.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844827_22768.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF11.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844825_22769.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2063_2055-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1225_791",
+      "name": "WE + Ascl1 MO - NF11 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + Ascl1 MO - NF11",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE76915/XENLA_9.2/RNA-Seq/BigWigs/GSM2040684_1616.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE + Ascl1 control MO - NF11",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE76915/XENLA_9.2/RNA-Seq/BigWigs/GSM2040681_1615.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1225_791-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2017_2016",
+      "name": "WE + mov10 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + mov10 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE86382/XENLA_9.2/RNA-Seq/BigWigs/GSM2301414_22748.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE86382/XENLA_9.2/RNA-Seq/BigWigs/GSM2301411_22747.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2017_2016-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2031_2022",
+      "name": "animal cap explant + tp63 MO - NF25 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "animal cap explant + tp63 MO - NF25",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738799_22754.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "animal cap explant - NF25",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738796_22753.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2031_2022-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2090_2083",
+      "name": "WE + erfe MO - NF37/38 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + erfe MO - NF37/38",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589910_22786.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF37/38",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589906_22792.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2090_2083-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2095_2084",
+      "name": "WE + hbg1 cMO - NF41 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF41",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589912_22784.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF41",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589911_22793.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2095_2084-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2096_2084",
+      "name": "WE + hbg1 cMO - NF41 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF41",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589914_22790.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF41",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589911_22793.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2096_2084-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2065_2059",
+      "name": "WE + rnf20 MO - NF13 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + rnf20 MO - NF13",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844837_22772.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF13",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844835_22773.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2065_2059-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2029_2033",
+      "name": "animal cap explant + tp63 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "animal cap explant + tp63 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738797_22750.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "animal cap explant - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738794_22749.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2029_2033-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2087_2082",
+      "name": "WE + hbg1 cMO - NF35/36 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF35/36",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589902_22780.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF35/36",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589901_22791.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2087_2082-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1220_1462",
+      "name": "foxj1 animal cap + rfx2 MO - NF18 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "foxj1 animal cap + rfx2 MO - NF18",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE78176/XENLA_9.2/ChIP-Seq/BigWigs/GSM2068809_1642.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "input animal cap - NF18",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE78176/XENLA_9.2/ChIP-Seq/BigWigs/GSM2068812_1624.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1220_1462-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2030_2020",
+      "name": "animal cap explant + tp63 MO - NF19 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "animal cap explant + tp63 MO - NF19",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738798_22752.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "animal cap explant - NF19",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738795_22751.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2030_2020-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1230_738",
+      "name": "WE + ctnnb1 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE93195/XENLA_9.2/RNA-Seq/BigWigs/GSM2446098_1140.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE93195/XENLA_9.2/RNA-Seq/BigWigs/GSM2446097_1136.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1230_738-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2091_2083",
+      "name": "WE + hbg1 cMO - NF37/38 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF37/38",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589907_22783.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF37/38",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589906_22792.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2091_2083-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_all_tissues",
+      "name": "GSE73419-adult tissues set",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "RNA-Seq","Adult Tissues" ], "metadata" : { "GEO dataset" : "<a href='http://www.xenbase.org/geneExpression/viewGse.do?method=display&gseId=73419' target='_new'>GSE73419</a>" },
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "brain",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893239_1112.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "eye",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893240_1092.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group3",
+            "name": "heart",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893241_1101.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group4",
+            "name": "intestine",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893242_1097.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group5",
+            "name": "kidney",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893243_1105.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group6",
+            "name": "liver",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893244_1121.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group7",
+            "name": "lung",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893245_1108.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group8",
+            "name": "muscle",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893246_1099.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group9",
+            "name": "ovary",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893247_1110.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group10",
+            "name": "pancreas",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893248_1100.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group11",
+            "name": "skin",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893249_1122.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group12",
+            "name": "spleen",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893250_1114.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group13",
+            "name": "stomach",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893251_1115.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group14",
+            "name": "testis",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE73419/XENLA_9.2/RNA-Seq/BigWigs/GSM1893252_1103.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_all_tissues-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1965_1963",
+      "name": "somite + etv6 MO - NF22 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "somite + etv6 MO - NF22",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE115220/XENLA_9.2/RNA-Seq/BigWigs/GSM3171645_22690.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "somite - NF22",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE115220/XENLA_9.2/RNA-Seq/BigWigs/GSM3171642_22689.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1965_1963-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2050_2046",
+      "name": "WE + kdm3a MO - NF32 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + kdm3a MO - NF32",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE117754/XENLA_9.2/RNA-Seq/BigWigs/GSM3308294_22765.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF32",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE117754/XENLA_9.2/RNA-Seq/BigWigs/GSM3308290_22763.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2050_2046-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2089_2083",
+      "name": "WE + erfe MO - NF37/38 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + erfe MO - NF37/38",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589908_22781.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF37/38",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589906_22792.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2089_2083-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1219_976",
+      "name": "animal cap + rfx2 MO - NF20 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "animal cap + rfx2 MO - NF20",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE50593/XENLA_9.2/RNA-Seq/BigWigs/GSM1224374_1700.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "animal cap - NF20",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE50593/XENLA_9.2/RNA-Seq/BigWigs/GSM1224372_1702.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1219_976-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2066_2060",
+      "name": "WE + rnf20 MO - NF13 late (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + rnf20 MO - NF13 late",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844842_22775.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF13 late",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844840_22774.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2066_2060-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2028_2026",
+      "name": "animal cap explant + tp63 MO - NF24 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "animal cap explant + tp63 MO - NF24",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738805_22758.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "animal cap explant - NF24",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738802_22757.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2028_2026-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2092_2083",
+      "name": "WE + hbg1 cMO - NF37/38 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF37/38",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589909_22789.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF37/38",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589906_22792.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2092_2083-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2051_2046",
+      "name": "WE + kdm5c MO - NF32 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + kdm5c MO - NF32",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE117754/XENLA_9.2/RNA-Seq/BigWigs/GSM3308292_22764.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF32",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE117754/XENLA_9.2/RNA-Seq/BigWigs/GSM3308290_22763.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2051_2046-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2172_2173",
+      "name": "marginal zone explant + pnhd MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "marginal zone explant + pnhd MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE143795/XENLA_9.2/RNA-Seq/BigWigs/GSM4274732_22818.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "marginal zone explant - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE143795/XENLA_9.2/RNA-Seq/BigWigs/GSM4274726_22820.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2172_2173-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2064_2056",
+      "name": "WE + rnf20 MO - NF12 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + rnf20 MO - NF12",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844832_22771.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF12",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844830_22770.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2064_2056-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2032_2025",
+      "name": "animal cap explant + tp63 MO - NF16 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "animal cap explant + tp63 MO - NF16",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738804_22755.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "animal cap explant - NF16",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE130448/XENLA_9.2/RNA-Seq/BigWigs/GSM3738801_22756.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2032_2025-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_1231_910",
+      "name": "WE + ctnnb1 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE93195/XENLA_9.2/RNA-Seq/BigWigs/GSM2446136_1128.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE93195/XENLA_9.2/RNA-Seq/BigWigs/GSM2446126_1138.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_1231_910-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2088_2082",
+      "name": "WE + hbg1 cMO - NF35/36 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF35/36",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589904_22788.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF35/36",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589901_22791.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2088_2082-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2062_2053",
+      "name": "WE + rnf20 MO - NF11 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + rnf20 MO - NF11",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844822_22766.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF11",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE132116/XENLA_9.2/RNA-Seq/BigWigs/GSM3844820_22767.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2062_2053-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2086_2082",
+      "name": "WE + erfe MO - NF35/36 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + erfe MO - NF35/36",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589905_22785.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF35/36",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589901_22791.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2086_2082-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XLA_MBW_2085_2082",
+      "name": "WE + erfe MO - NF35/36 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_laevis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + erfe MO - NF35/36",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589903_22779.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF35/36",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE126058/XENLA_9.2/RNA-Seq/BigWigs/GSM3589901_22791.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XLA_MBW_2085_2082-MultiLinearWiggleDisplay"
+        }
+      ]
+   }, 
