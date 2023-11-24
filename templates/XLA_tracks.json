@@ -1,4 +1,4 @@
-    {
+[    {
       "name": "animal cap + CAnotch1 + foxi1 - NF13",
       "type" : "QuantitativeTrack",
       "adapter" : {
@@ -13095,4 +13095,5 @@
       ],
       "category" : [ "Manipulations","Other" ], 
       "trackId" : "XLA_1820"
-   },
+   }
+]

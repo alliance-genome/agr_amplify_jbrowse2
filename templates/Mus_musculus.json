@@ -1,4 +1,4 @@
-   {
+[   {
       "assemblyNames" : [
          "Mus_musculus"
       ],
@@ -83,3 +83,4 @@
          "Mus_musculus"
       ]
    }
+]

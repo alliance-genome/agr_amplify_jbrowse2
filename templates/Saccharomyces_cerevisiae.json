@@ -1,4 +1,4 @@
-   {
+[   {
       "name" : "All Genes",
       "type" : "FeatureTrack",
       "trackId" : "yeast_all_genes",
@@ -28,3 +28,4 @@
          }
       ]
    }
+]

@@ -1,4 +1,4 @@
-   {
+[   {
       "trackId" : "xlaevis_all_genes",
       "assemblyNames" : [
          "Xenopus_laevis"
@@ -29,3 +29,4 @@
          }
       ]
    }
+]

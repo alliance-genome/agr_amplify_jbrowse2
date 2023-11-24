@@ -1,4 +1,4 @@
-   {
+[   {
       "displays" : [
          {
             "renderer" : {
@@ -1560,3 +1560,4 @@
          "Homo_sapiens"
       ]
    }
+]

@@ -1,4 +1,4 @@
-   {
+[   {
       "adapter" : {
          "type" : "NCListAdapter",
          "rootUrlTemplate" : {
@@ -21552,3 +21552,4 @@
          "UTRome v2"
       ]
    }
+]

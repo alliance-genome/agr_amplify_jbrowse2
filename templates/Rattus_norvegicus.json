@@ -1,4 +1,4 @@
-   {
+[   {
       "type" : "FeatureTrack",
       "name" : "All Genes",
       "assemblyNames" : [
@@ -8938,3 +8938,4 @@
       ],
       "name" : "WN_N (2020)"
    }
+]

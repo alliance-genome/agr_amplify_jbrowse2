@@ -1,4 +1,4 @@
-   {
+[   {
       "name" : "All Genes",
       "type" : "FeatureTrack",
       "trackId" : "xtropicalis_all_genes",
@@ -29,3 +29,4 @@
          }
       ]
    }
+]

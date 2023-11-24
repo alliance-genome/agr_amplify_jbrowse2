@@ -1,4 +1,4 @@
-    {
+[    {
       "name": "avg_input_chromatin_WT",
       "type" : "QuantitativeTrack",
       "adapter" : {
@@ -16743,3 +16743,4 @@
         }
       ]
     }
+]

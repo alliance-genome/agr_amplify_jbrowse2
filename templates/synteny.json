@@ -1,4 +1,4 @@
-   {
+[   {
       "assemblyNames" : [
          "Homo_sapiens",
          "Rattus_norvegicus"
@@ -1448,3 +1448,4 @@
       "type" : "SyntenyTrack",
       "name" : "Zebrafish to Yeast orthology"
    }
+]

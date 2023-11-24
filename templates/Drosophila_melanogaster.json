@@ -1,4 +1,4 @@
-   {
+[   {
       "name" : "All Genes",
       "type" : "FeatureTrack",
       "trackId" : "fruitfly_all_genes",
@@ -58,3 +58,4 @@
          }
       ]
    }
+]
