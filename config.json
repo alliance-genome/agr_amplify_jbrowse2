@@ -2659,37 +2659,6 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "fruitfly_all_genes_from_flybase",
-      "name": "test from fb Genes",
-      "assemblyNames": [
-        "Drosophila_melanogaster"
-      ],
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "http://dev.wormbase.org:9019/https://flybase.org/jbrowse/data/json/dmel/tracks/Gene/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "fruitfly_all_genes_from_flybase-LinearBasicDisplay",
-          "renderer": {
-            "maxHeight" : 5000,
-            "type": "SvgFeatureRenderer",
-            "color3": "#30332E",
-            "color1": "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
-          }
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "fruitfly_all_genes_from_flybase_-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
       "trackId": "worm_all_genes",
       "name": "All Genes",
       "assemblyNames": [
