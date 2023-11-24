@@ -2730,31 +2730,6 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "xl_transcriptionfactors_from_xenbase",
-      "name": "test from xenbase X. laevis",
-      "assemblyNames": [
-        "Xenopus_laevis"
-      ],
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "/XenBaseXLJBrowse/tracks/TFBSv1_0/{refseq}/trackData.json"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "xl_transcriptionfactors_from_xenbase-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "xl_transcriptionfactors_from_xenbase-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
       "trackId": "mouse_all_genes_from_mgi",
       "name": "test from mgi Genes",
       "assemblyNames": [
