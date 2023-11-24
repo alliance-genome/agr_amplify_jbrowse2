@@ -1,4 +1,4 @@
-    {
+[    {
       "name": "avg_input_chromatin_WT",
       "type" : "QuantitativeTrack",
       "adapter" : {
@@ -16742,4 +16742,5 @@
           "displayId": "SGD_W303_snp_V64-ChordVariantDisplay"
         }
       ]
-    },
+    }
+]

@@ -1,5 +1,4 @@
-[
-   {
+[   {
       "adapter" : {
          "type" : "NCListAdapter",
          "rootUrlTemplate" : {

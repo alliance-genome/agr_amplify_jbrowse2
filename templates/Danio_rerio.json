@@ -1,5 +1,4 @@
-[
-   {
+[   {
       "adapter" : {
          "rootUrlTemplate" : {
             "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/zfin/zebrafish-11/tracks/All_Genes/{refseq}/trackData.jsonz",

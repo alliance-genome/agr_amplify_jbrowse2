@@ -1,5 +1,4 @@
-    
-   {
+[   {
       "type": "MultiQuantitativeTrack",
       "trackId": "SGD_MBW_SGD_Weiner_2015_h3k36me2_0_to_60_mins",
       "name": "h3k36me2_0_to_60_mins",
@@ -2978,4 +2977,5 @@
           "displayId": "SGD_MBW_SGD_Weiner_2015_htz1_0_to_60_mins-MultiLinearWiggleDisplay"
         }
       ]
-   }, 
+   } 
+]
