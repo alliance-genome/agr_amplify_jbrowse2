@@ -427,6 +427,15 @@
     {
       "name": "Caenorhabditis_elegans",
       "displayName": "Caenorhabditis elegans",
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "uri": "aliases/aliases_ce.txt",
+            "locationType": "UriLocation"
+          }
+        }
+      },
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Caenorhabditis_elegans_refseq",
