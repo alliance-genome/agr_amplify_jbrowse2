@@ -10,10 +10,24 @@ my $TEMPLATEDIR = "./templates";
 
 my @template_files = <$TEMPLATEDIR/*.json>;
 
+my $config_template_file = "$TEMPLATEDIR/config.template";
+
+my $blob;
+{
+    warn "opening $config_template_file";
+    local $/ = undef;
+    open TEMP, "<$config_template_file" or die "couldn't open $config_template_file: $!";
+
+    $blob = <TEMP>;
+    close TEMP;
+}
+
+my $config = JSON->new->decode($blob);;
+
 my @tracks;
 for my $file (@template_files) {
-    my $blob;
     {
+        warn "opening $file";
         local $/ = undef;
 	open TEMP, "<$file" or die "couldn't open $file: $!";
 
@@ -41,4 +55,6 @@ for my $file (@template_files) {
     push @tracks, @{$track_json};
 }
 
-print JSON->new->pretty->encode(\@tracks);
+$$config{'tracks'} = \@tracks;
+
+print JSON->new->pretty->encode($config);
