@@ -1,0 +1,2419 @@
+    
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1751_1718",
+      "name": " WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": " WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099609_15565.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099618_15585.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1751_1718-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1920_1898",
+      "name": "WE + ctnnb1 MO - NF8 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF8",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477753_22636.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477754_22628.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1920_1898-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1921_1899",
+      "name": "WE + ctnnb1 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477755_22637.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477756_22629.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1921_1899-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1748_1717",
+      "name": "WE + pou5f3.2 MO + pou5f3.3 MO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + pou5f3.2 MO + pou5f3.3 MO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099606_15562.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099624_15584.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1748_1717-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1233_733",
+      "name": "WE + hbg1 MO - NF10.25 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 MO - NF10.25",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE72657/XENTR_9.1/RNA-Seq/BigWigs/GSM1867403_1684.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.25",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE72657/XENTR_9.1/RNA-Seq/BigWigs/GSM1867402_1685.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1233_733-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1927_1913",
+      "name": "WE + sox17a MO + sox17b.1 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + sox17a MO + sox17b.1 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477739_22621.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477740_22643.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1927_1913-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1605_1604",
+      "name": "WE + eomes MO + vegt MO + tbxt MO + tbxt.2 MO - NF12 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + eomes MO + vegt MO + tbxt MO + tbxt.2 MO - NF12",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473756_15472.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WT + hbg1 cMO - NF12",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473768_15476.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1605_1604-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1737_1693",
+      "name": "Pol II WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "Pol II WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099492_15504.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "input WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099502_15560.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1737_1693-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1226_665",
+      "name": "WE + cdx1 MO - NF14 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + cdx1 MO - NF14",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825040_1355.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF14",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825055_1357.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1226_665-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1750_1718",
+      "name": "WE + pou5f3.2 MO + pou5f3.3 MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + pou5f3.2 MO + pou5f3.3 MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099600_15499.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099618_15585.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1750_1718-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1752_1719",
+      "name": " WE + pou5f3.2 MO + pou5f3.3 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": " WE + pou5f3.2 MO + pou5f3.3 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099603_15563.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099621_15586.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1752_1719-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1229_665",
+      "name": "WE + Cdx4 MO - NF14 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + Cdx4 MO - NF14",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825046_1354.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF14",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825055_1357.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1229_665-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1758_1722",
+      "name": "WE + vegt MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + vegt MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099630_15568.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099648_15589.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1758_1722-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1875_1871",
+      "name": "vegetal yolk mass - vegt MO + otx1 MO + vegetal yolk mass explant - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "vegetal yolk mass - vegt MO + otx1 MO + vegetal yolk mass explant - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE118024/XENTR_9.1/RNA-Seq/BigWigs/GSM3317442_22596.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "vegetal yolk mass - vegetal yolk mass explant - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE118024/XENTR_9.1/RNA-Seq/BigWigs/GSM3317439_22592.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1875_1871-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1754_1720",
+      "name": "WE + vegt MO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + vegt MO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099633_15566.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099651_15587.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1754_1720-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1706_1714",
+      "name": "WE + hbg1 cMO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099561_15573.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099570_15581.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1706_1714-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1736_1693",
+      "name": "H3K4me1 + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "H3K4me1 + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099496_15500.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "input WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099502_15560.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1736_1693-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1916_1894",
+      "name": "WE + ctnnb1 MO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477759_22632.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477760_22624.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1916_1894-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1232_1487",
+      "name": "WE + foxh1 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + foxh1 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE53653/XENTR_9.1/RNA-Seq/BigWigs/GSM1298098_1656.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE53653/XENTR_9.1/RNA-Seq/BigWigs/GSM1298097_1829.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1232_1487-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1925_1911",
+      "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF11 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF11",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477747_22619.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF11",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477748_22641.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1925_1911-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1239_733",
+      "name": "WE + wnt8a MO + wnt8a - NF10.25 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + wnt8a MO + wnt8a - NF10.25",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE72657/XENTR_9.1/RNA-Seq/BigWigs/GSM1867405_1682.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.25",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE72657/XENTR_9.1/RNA-Seq/BigWigs/GSM1867402_1685.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1239_733-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1227_665",
+      "name": "WE + cdx1 MO + Cdx2 MO + Cdx4 MO - NF14 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + cdx1 MO + Cdx2 MO + Cdx4 MO - NF14",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825049_1353.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF14",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825055_1357.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1227_665-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1917_1895",
+      "name": "WE + ctnnb1 MO - NF11 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF11",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477763_22633.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF11",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477764_22625.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1917_1895-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1707_1715",
+      "name": "WE + hbg1 cMO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099555_15574.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099564_15582.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1707_1715-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1755_1721",
+      "name": "WE + vegt MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + vegt MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099627_15567.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099645_15588.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1755_1721-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1237_737",
+      "name": "WE + tcf3 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + tcf3 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE56169/XENTR_9.1/RNA-Seq/BigWigs/GSM1357041_1688.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE56169/XENTR_9.1/RNA-Seq/BigWigs/GSM1357039_1690.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1237_737-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1924_1910",
+      "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477745_22617.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477746_22640.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1924_1910-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1234_665",
+      "name": "WE + hbg1 MO - NF14 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 MO - NF14",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825052_1358.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF14",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825055_1357.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1234_665-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1923_1909",
+      "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477743_22618.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477744_22639.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1923_1909-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1753_1719",
+      "name": "WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099612_15507.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099621_15586.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1753_1719-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1575_1570",
+      "name": "WE + hbg1 cMO - NF34 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF34",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537323_15451.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF34",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537320_15459.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1575_1570-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1238_733",
+      "name": "WE + wnt8a MO - NF10.25 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + wnt8a MO - NF10.25",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE72657/XENTR_9.1/RNA-Seq/BigWigs/GSM1867404_1686.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.25",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE72657/XENTR_9.1/RNA-Seq/BigWigs/GSM1867402_1685.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1238_733-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1735_1693",
+      "name": "Smad2/3 WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "Smad2/3 WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099484_15535.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "input WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099502_15560.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1735_1693-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1678_1716",
+      "name": "WE + ctnnb1 MO - NF9  (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF9 ",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099549_15545.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099567_15583.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1678_1716-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1919_1897",
+      "name": "WE + ctnnb1 MO - NF7 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF7",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477751_22635.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF7",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477752_22627.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1919_1897-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1577_1573",
+      "name": "WE +tbxt MO + tbxt.2 MO - NF26 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE +tbxt MO + tbxt.2 MO - NF26",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537317_15454.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF26",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537311_15458.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1577_1573-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1602_1598",
+      "name": "WE + ctnnb1 MO + LDN193189 - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO + LDN193189 - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473730_15482.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473736_15480.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1602_1598-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1223_1469",
+      "name": "Smad2/3 WE + tcf3 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "Smad2/3 WE + tcf3 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE56169/XENTR_9.1/ChIP-Seq/BigWigs/GSM1357034_1689.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "input WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE56169/XENTR_9.1/ChIP-Seq/BigWigs/GSM1357037_1691.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1223_1469-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1609_1608",
+      "name": "WE + eomes MO + vegt MO + tbxt MO + tbxt.2 MO - NF10.25 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + eomes MO + vegt MO + tbxt MO + tbxt.2 MO - NF10.25",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473748_15470.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WT + hbg1 cMO - NF10.25",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473760_15478.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1609_1608-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1926_1912",
+      "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF12 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF12",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477749_22620.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF12",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477750_22642.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1926_1912-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1236_652",
+      "name": "WE + tbxt.2 MO + tbxt MO - NF32 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + tbxt.2 MO + tbxt MO - NF32",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE48663/XENTR_9.1/RNA-Seq/BigWigs/GSM1183056_1064.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE + hbg1 MO - NF32",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE48663/XENTR_9.1/RNA-Seq/BigWigs/GSM1183059_1066.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1236_652-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1757_1721",
+      "name": "WE + hbg1 cMO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099636_15577.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099645_15588.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1757_1721-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1738_1694",
+      "name": "Ctnnb1 WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "Ctnnb1 WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099488_15510.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "input WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/ChIP-Seq/BigWigs/GSM3099504_15561.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1738_1694-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1928_1914",
+      "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF9.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + sox17a MO + sox17b.1/b.2 MO - NF9.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477741_22622.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477742_22644.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1928_1914-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1873_1871",
+      "name": "vegetal yolk mass - otx1 MO + vegetal yolk mass explant - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "vegetal yolk mass - otx1 MO + vegetal yolk mass explant - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE118024/XENTR_9.1/RNA-Seq/BigWigs/GSM3317441_22595.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "vegetal yolk mass - vegetal yolk mass explant - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE118024/XENTR_9.1/RNA-Seq/BigWigs/GSM3317439_22592.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1873_1871-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1574_1570",
+      "name": "WE +tbxt MO + tbxt.2 MO - NF34 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE +tbxt MO + tbxt.2 MO - NF34",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537326_15455.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF34",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537320_15459.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1574_1570-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1749_1717",
+      "name": "WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + pou5f3.2 MO + pou5f3.3 MO + sox3 MO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099615_15564.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099624_15584.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1749_1717-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1607_1606",
+      "name": "WE + eomes MO + vegt MO + tbxt MO + tbxt.2 MO - NF11 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + eomes MO + vegt MO + tbxt MO + tbxt.2 MO - NF11",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473752_15471.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WT + hbg1 cMO - NF11",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473764_15477.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1607_1606-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1610_1598",
+      "name": "WE + ctnnb1 MO + LDN193189 + SB431542 - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO + LDN193189 + SB431542 - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473733_15483.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473736_15480.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1610_1598-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1711_1722",
+      "name": "WE + hbg1 cMO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099639_15578.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099648_15589.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1711_1722-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1612_1598",
+      "name": "WE + ctnnb1 MO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473724_15479.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473736_15480.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1612_1598-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1922_1900",
+      "name": "WE + ctnnb1 MO - NF9.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF9.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477757_22638.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477758_22630.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1922_1900-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1915_1893",
+      "name": "WE + ctnnb1 MO - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477761_22631.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477762_22623.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1915_1893-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1228_665",
+      "name": "WE + Cdx2 MO - NF14 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + Cdx2 MO - NF14",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825043_1356.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF14",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE71006/XENTR_9.1/RNA-Seq/BigWigs/GSM1825055_1357.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1228_665-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1611_1598",
+      "name": "WE + ctnnb1 MO + SB431542 - NF9  (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO + SB431542 - NF9 ",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473727_15481.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE122551/XENTR_9.1/RNA-Seq/BigWigs/GSM3473736_15480.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1611_1598-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1742_1714",
+      "name": "WE + ctnnb1 MO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099552_15505.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099570_15581.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1742_1714-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1576_1573",
+      "name": "WE + hbg1 cMO - NF26 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF26",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537314_15450.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF26",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE96655/XENTR_9.1/RNA-Seq/BigWigs/GSM2537311_15458.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1576_1573-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1756_1720",
+      "name": "WE + hbg1 cMO - NF10 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF10",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099642_15576.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF10",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099651_15587.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1756_1720-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1918_1896",
+      "name": "WE + ctnnb1 MO - NF12 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF12",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477765_22634.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF12",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE148726/XENTR_9.1/RNA-Seq/BigWigs/GSM4477766_22626.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1918_1896-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1877_1871",
+      "name": "vegetal yolk mass - vegt MO + vegetal yolk mass explant - NF10.5 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "vegetal yolk mass - vegt MO + vegetal yolk mass explant - NF10.5",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE118024/XENTR_9.1/RNA-Seq/BigWigs/GSM3317440_22594.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "vegetal yolk mass - vegetal yolk mass explant - NF10.5",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE118024/XENTR_9.1/RNA-Seq/BigWigs/GSM3317439_22592.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1877_1871-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1708_1716",
+      "name": "WE + hbg1 cMO - NF9 (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + hbg1 cMO - NF9",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099558_15575.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF9",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099567_15583.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1708_1716-MultiLinearWiggleDisplay"
+        }
+      ]
+   },     
+   {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "XTR_MBW_1744_1715",
+      "name": "WE + ctnnb1 MO - NF8 MBT (control in blue)",
+      "assemblyNames": [
+        "Xenopus_tropicalis"
+      ],
+      "category" : [ "Manipulations","Morpholino with controls" ], 
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+	"subadapters": [
+            
+	  {
+            "type": "BigWigAdapter",
+            "group": "group1",
+            "name": "WE + ctnnb1 MO - NF8 MBT",
+            "color": "#da7171",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099546_15506.bw"
+            }
+          }, 
+	  {
+            "type": "BigWigAdapter",
+            "group": "group2",
+            "name": "WE - NF8 MBT",
+            "color": "blue",
+            "bigWigLocation": {
+              "uri": "https://bigftp.xenbase.org/pub/xenbase/genomics/GEO/GSE113186/XENTR_9.1/RNA-Seq/BigWigs/GSM3099564_15582.bw"
+            }
+          }
+	]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "XTR_MBW_1744_1715-MultiLinearWiggleDisplay"
+        }
+      ]
+   }, 
