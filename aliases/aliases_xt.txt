@@ -1,0 +1,11 @@
+Chr01	chr1
+Chr02	chr2
+Chr03	chr3
+Chr04	chr4
+Chr05	chr5
+Chr06	chr6
+Chr07	chr7
+Chr08	chr8
+Chr09	chr9
+Chr10	chr10
+MT	chrM

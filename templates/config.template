@@ -380,6 +380,15 @@
     {
       "name": "Xenopus_tropicalis",
       "displayName": "Xenopus tropicalis",
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "uri": "aliases/aliases_xt.txt",
+            "locationType": "UriLocation"
+          }
+        }
+      },
       "sequence": {
         "type": "ReferenceSequenceTrack",
         "trackId": "Xenopus_tropicalis_refseq",
