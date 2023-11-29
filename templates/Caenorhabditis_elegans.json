@@ -29,6 +29,46 @@
       "name" : "All Genes",
       "type" : "FeatureTrack"
    },
+    {
+      "type": "VariantTrack",
+      "trackId": "worm_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Caenorhabditis_elegans"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/worm-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/worm-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "worm_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "worm_variants-ChordVariantDisplay"
+        }
+      ]
+    },
    {
       "adapter" : {
          "type" : "NCListAdapter",
