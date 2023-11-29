@@ -1,4 +1,4 @@
-    
+[    
    {
       "type": "MultiQuantitativeTrack",
       "trackId": "XTR_MBW_1751_1718",
@@ -2416,4 +2416,5 @@
           "displayId": "XTR_MBW_1744_1715-MultiLinearWiggleDisplay"
         }
       ]
-   }, 
+   } 
+]

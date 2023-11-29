@@ -1,4 +1,4 @@
-    {
+[    {
       "name": "WE - NF27 (24hpf) - ClutchA",
       "type" : "QuantitativeTrack",
       "adapter" : {
@@ -19001,4 +19001,5 @@
       ],
       "category" : [ "ATAC-Seq","Whole Embryo","Gastrula NF10 to 12.5" ], 
       "trackId" : "XTR_2187"
-   },
+   }
+]
