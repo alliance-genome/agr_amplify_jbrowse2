@@ -30,31 +30,6 @@
       }
    },
    {
-      "displays" : [
-         {
-            "displayId" : "mouse_MGI_Genome_Features-LinearBasicDisplay",
-            "type" : "LinearBasicDisplay"
-         },
-         {
-            "displayId" : "mouse_MGI_Genome_Features-LinearArcDisplay",
-            "type" : "LinearArcDisplay"
-         }
-      ],
-      "adapter" : {
-         "rootUrlTemplate" : {
-            "uri" : "http://jbrowse.informatics.jax.org/data/GRCm39/tracks/MGI_Genome_Features/{refseq}/trackData.json",
-            "locationType" : "UriLocation"
-         },
-         "type" : "NCListAdapter"
-      },
-      "assemblyNames" : [
-         "Mus_musculus"
-      ],
-      "trackId" : "mouse_MGI_Genome_Features",
-      "type" : "FeatureTrack",
-      "name" : "MGI Genome Features"
-   },
-   {
       "adapter" : {
          "rootUrlTemplate" : {
             "locationType" : "UriLocation",
@@ -82,5 +57,45 @@
       "assemblyNames" : [
          "Mus_musculus"
       ]
-   }
+   },
+       {
+      "type": "VariantTrack",
+      "trackId": "mouse_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/mouse-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/mouse-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "mouse_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "mouse_variants-ChordVariantDisplay"
+        }
+      ]
+    }
 ]

@@ -57,5 +57,81 @@
             "type" : "LinearArcDisplay"
          }
       ]
-   }
+   },
+    {
+      "type": "VariantTrack",
+      "trackId": "fruitfly_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/fly-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/fly-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "fruitfly_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "fruitfly_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "fruitfly_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/HTPOSTVEPVCF_FB_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "fruitfly_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "fruitfly_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    }
 ]
