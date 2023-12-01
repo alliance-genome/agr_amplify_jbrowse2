@@ -253,7 +253,7 @@
       "trackId": "volvox_sv_test",
       "description": "A uniquely interesting track",
       "name": "volvox structural variant test (<i>HTML italic</i>)",
-      "category": ["VCF"],
+      "category": ["Variants"],
       "assemblyNames": ["volvox"],
       "adapter": {
         "type": "VcfTabixAdapter",
@@ -273,7 +273,7 @@
       "type": "VariantTrack",
       "trackId": "volvox_sv_test_renamed",
       "name": "volvox structural variant test w/renamed refs",
-      "category": ["VCF"],
+      "category": ["Variants"],
       "assemblyNames": ["volvox"],
       "adapter": {
         "type": "VcfTabixAdapter",
@@ -320,6 +320,8 @@
       "name": "volvox-sorted.cram (contigA, LinearPileupDisplay, large height)",
       "category": ["Integration test"],
       "metadata": {
+        "description": "this is a metadata description",
+        "name": "this is a metadata name",
         "source": "We generated 150bp paired end reads from a <i>Volvox mythicus</i>, an imaginary species, for this jbrowse demo. See <a href=https://google.com>Google</a>",
         "sub": {
           "subkey": "wow"
@@ -638,7 +640,7 @@
       },
       "name": "volvox 1000genomes vcf",
       "assemblyNames": ["volvox"],
-      "category": ["VCF"],
+      "category": ["Variants"],
       "adapter": {
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
@@ -1148,7 +1150,7 @@
       "trackId": "volvox_filtered_vcf",
       "name": "volvox filtered vcf",
       "assemblyNames": ["volvox"],
-      "category": ["VCF"],
+      "category": ["Variants"],
       "adapter": {
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
@@ -1168,7 +1170,7 @@
       "trackId": "volvox_filtered_vcf_assembly_alias",
       "name": "volvox filtered vcf (with assembly alias)",
       "assemblyNames": ["vvx"],
-      "category": ["VCF"],
+      "category": ["Variants"],
       "adapter": {
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
@@ -1187,6 +1189,9 @@
       "type": "FeatureTrack",
       "trackId": "bigbed_genes",
       "name": "BigBed genes",
+      "formatDetails": {
+        "maxDepth": 0
+      },
       "assemblyNames": ["volvox"],
       "category": ["Miscellaneous"],
       "adapter": {
@@ -1527,7 +1532,7 @@
       "type": "VariantTrack",
       "trackId": "variant_colors",
       "name": "volvox filtered vcf (green snp, purple indel)",
-      "category": ["VCF"],
+      "category": ["Variants"],
       "assemblyNames": ["volvox"],
       "adapter": {
         "type": "VcfTabixAdapter",
@@ -1714,7 +1719,7 @@
       "type": "VariantTrack",
       "trackId": "volvox.inv.vcf",
       "name": "volvox inversions",
-      "category": ["VCF"],
+      "category": ["Variants"],
       "assemblyNames": ["volvox"],
       "adapter": {
         "type": "VcfTabixAdapter",
@@ -1913,7 +1918,7 @@
           "locationType": "UriLocation"
         }
       },
-      "category": ["VCF"],
+      "category": ["Variants"],
       "assemblyNames": ["volvox"]
     },
     {
@@ -1927,7 +1932,7 @@
           "locationType": "UriLocation"
         }
       },
-      "category": ["VCF"],
+      "category": ["Variants"],
       "assemblyNames": ["volvox"]
     },
     {
@@ -2145,6 +2150,26 @@
         }
       },
       "assemblyNames": ["volvox"]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "volvox_bedpe",
+      "name": "BEDPE arcs",
+      "category": ["Variants"],
+      "adapter": {
+        "type": "BedpeAdapter",
+        "bedpeLocation": {
+          "uri": "volvox.bedpe",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": ["volvox"],
+      "displays": [
+        {
+          "type": "LinearPairedArcDisplay",
+          "displayId": "volvox_bedpe-LinearPairedArcDisplay"
+        }
+      ]
     }
   ],
   "plugins": [

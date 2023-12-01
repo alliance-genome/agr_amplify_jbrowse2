@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunk_jbrowse_web=globalThis.webpackChunk_jbrowse_web||[]).push([[4779],{34779:(e,s,b)=>{b.r(s),b.d(s,{checkboxClasses:()=>l.Z,default:()=>a.Z,getCheckboxUtilityClass:()=>l.y});var a=b(70539),l=b(38240)}}]);
