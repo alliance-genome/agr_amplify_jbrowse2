@@ -28,5 +28,47 @@
       "trackId" : "human_all_genes",
       "type" : "FeatureTrack",
       "name" : "All Genes"
-   }
+   },
+{
+  "type": "VariantTrack",
+  "trackId": "clinvar_ncbi_hg38",
+  "name": "ClinVar variants (NCBI)",
+  "assemblyNames": [
+    "Homo_sapiens"
+  ],
+  "category": [
+    "External resources"
+  ],
+  "adapter": {
+    "type": "VcfTabixAdapter",
+    "vcfGzLocation": {
+      "locationType": "UriLocation",
+      "uri": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz"
+    },
+    "index": {
+      "location": {
+        "locationType": "UriLocation",
+        "uri": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz.tbi"
+      }
+    }
+  },
+  "displays": [
+    {
+      "type": "LinearVariantDisplay",
+      "displayId": "clinvar_ncbi_hg38-LinearVariantDisplay",
+      "renderer": {
+        "type": "SvgFeatureRenderer",
+        "color1": "jexl:get(feature,'INFO').CLNSIG=='Benign'?'blue':get(feature,'INFO').CLNSIG=='Likely_benign'?'deepskyblue':get(feature,'INFO').CLNSIG=='Uncertain_significance'?'gray':get(feature,'INFO').CLNSIG=='Pathogenic'?'red':get(feature,'INFO').CLNSIG=='Likely_pathogenic'?'orange':get(feature,'INFO').CLNSIG=='Conflicting_interpretations_of_pathogenicity'?'brown':'purple'"
+      }
+    },
+    {
+      "type": "ChordVariantDisplay",
+      "displayId": "clinvar_ncbi_hg38-ChordVariantDisplay"
+    },
+    {
+      "type": "LinearPairedArcDisplay",
+      "displayId": "clinvar_ncbi_hg38-LinearPairedArcDisplay"
+    }
+  ]
+}
 ]
