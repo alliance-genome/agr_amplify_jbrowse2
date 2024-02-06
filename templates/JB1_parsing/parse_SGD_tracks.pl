@@ -2,27 +2,50 @@
 use strict;
 use warnings;
 
+=pod
+
+Tricky usage issue: the SGD track IDs have a '.' in their names but
+Config::Simple doesn't like that. The easist fix is to
+
+  s/\[track\.]/[tracks_/
+
+=cut
+
 use Text::CSV qw( csv );
 use Config::Simple;
 use JSON;
 use Data::Dumper;
 
-my $aoh = csv (in => "yeastMetaData.csv",
+my $JB1_GIT = "/Users/cain/git/agr_jbrowse_sgd/jbrowse/data/";
+
+my $aoh = csv (in => $JB1_GIT."yeastMetaData.csv",
                headers => "auto");   # as array of hash
 
-       #warn Dumper($aoh);
-       #for my $hash (@$aoh) {
-       #  print "$$hash{category}\n";
-       #}
-       #die;
+#       warn Dumper($aoh);
+#       for my $hash (@$aoh) {
+#         print "$$hash{category}\n";
+#       }
+#       die;
 
 my %tracks;
 my $trackID;
 
 my %Config = ();
-Config::Simple->import_from($ARGV[0], \%Config) or die $Config::Simple->error();
+Config::Simple->import_from($JB1_GIT.'tracks.conf_underscore', \%Config) or die $Config::Simple->error();
 
-warn Dumper(%Config);
+#warn $Config{'tracks_Lee_2018_mRNA_set2D_Forward.storeClass'};
+#die;
+
+#for my $key (keys %Config) {
+#    next unless $key;
+#    warn $key;
+#    warn $Config{$key};
+#}
+
+#die;
+#warn Dumper(%Config);
+#die;
+
 
 my %unflat;
 for my $key (keys %Config) {
@@ -48,7 +71,8 @@ warn Dumper($tracks{'BC187_indel_V64'});
 my $blob;
 {
         local $/ = undef;
-        open TL, "<SGD_trackList.json" or die "couldn't open combined.json: $!";
+        my $file = $JB1_GIT."trackList.json"; 
+        open TL, "<$file" or die "couldn't open $file: $!";
         $blob = <TL>;
         close TL;
 }
@@ -75,11 +99,11 @@ for my $hash (@$aoh) {
 for my $id (keys %tracks) {
     my $config; 
 
-    if ($tracks{$id}{'urlTemplate'} =~ /\.\./) {
-         $tracks{$id}{'urlTemplate'} =~ s/\.\./\/SGDData/;
-    } else {
-         $tracks{$id}{'urlTemplate'} = '/SGDJBrowse/'.$tracks{$id}{'urlTemplate'};
-    }
+#    if ($tracks{$id}{'urlTemplate'} =~ /\.\./) {
+#         $tracks{$id}{'urlTemplate'} =~ s/\.\./\/SGDData/;
+#    } else {
+#         $tracks{$id}{'urlTemplate'} = '/SGDJBrowse/'.$tracks{$id}{'urlTemplate'};
+#    }
 
     my $label = exists $tracks{$id}{'label'} ? $tracks{$id}{'label'} : $id;
 

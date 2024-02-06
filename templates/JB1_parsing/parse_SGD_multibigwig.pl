@@ -7,7 +7,9 @@ use Config::Simple;
 use JSON;
 use Data::Dumper;
 
-my $aoh = csv (in => "yeastMetaData.csv",
+my $JB1_GIT = "/Users/cain/git/agr_jbrowse_sgd/jbrowse/data/";
+
+my $aoh = csv (in => $JB1_GIT."yeastMetaData.csv",
                headers => "auto");   # as array of hash
 
        #warn Dumper($aoh);
@@ -23,7 +25,7 @@ my $trackID;
 my $blob;
 {
         local $/ = undef;
-        open TL, "<SGD_trackList.json" or die "couldn't open combined.json: $!";
+        open TL, "<".$JB1_GIT."trackList.json" or die "couldn't open combined.json: $!";
         $blob = <TL>;
         close TL;
 }
