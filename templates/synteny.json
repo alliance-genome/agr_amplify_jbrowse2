@@ -698,6 +698,56 @@
          "type" : "MCScanAnchorsAdapter"
       }
    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "fly2yeast.anchors",
+      "name": "Fruitfly to Yeast orthology",
+      "assemblyNames": [
+        "Drosophila_melanogaster",
+        "Saccharomyces_cerevisiae"
+      ],
+      "category": [
+        "Alliance Orthology"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/fly2yeast.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed"
+        },
+        "assemblyNames": [
+          "Drosophila_melanogaster",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "fly2yeast.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "fly2yeast.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "fly2yeast.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
+          "displayId": "fly2yeast.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
    {
       "type" : "SyntenyTrack",
       "name" : "X. tropicalis to Worm orthology",
