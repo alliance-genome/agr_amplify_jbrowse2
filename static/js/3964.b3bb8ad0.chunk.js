@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_jbrowse_web=self.webpackChunk_jbrowse_web||[]).push([[3964],{83964:function(e,n,t){t.r(n),t.d(n,{cardContentClasses:function(){return s.Z},default:function(){return r.Z},getCardContentUtilityClass:function(){return s.N}});var r=t(58119),s=t(76262)}}]);

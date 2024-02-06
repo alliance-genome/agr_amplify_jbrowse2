@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunk_jbrowse_web=globalThis.webpackChunk_jbrowse_web||[]).push([[9879],{39879:(s,a,e)=>{e.r(a),e.d(a,{cardActionsClasses:()=>l.Z,default:()=>b.Z,getCardActionsUtilityClass:()=>l.s});var b=e(90617),l=e(53200)}}]);

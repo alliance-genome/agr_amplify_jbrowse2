@@ -1,0 +1,25 @@
+{
+  "type": "FeatureTrack",
+  "trackId": "FB-rna",
+  "name": "RNA",
+  "assemblyNames": [
+    "Drosophila_melanogaster"
+  ],
+  "adapter": {
+    "type": "NCListAdapter",
+    "rootUrlTemplate": {
+      "locationType": "UriLocation",
+      "uri": "/FlyBaseTest/tracks/RNA/{refseq}/trackData.json"
+    }
+  },
+  "displays": [
+    {
+      "type": "LinearBasicDisplay",
+      "displayId": "FB-rna-LinearBasicDisplay"
+    },
+    {
+      "type": "LinearArcDisplay",
+      "displayId": "FB-rna--LinearArcDisplay"
+    }
+  ]
+}
