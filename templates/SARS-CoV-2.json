@@ -1,0 +1,71 @@
+[
+   {
+      "type": "FeatureTrack",
+      "trackId": "SARS-CoV-2_mature_peptides",
+      "name": "Mature peptides",
+      "assemblyNames": [
+        "SARS-CoV-2"
+      ],
+      "description": "Data in this track are primarily derived from RefSeq GFF for NC_045512.2, with some additions noted in the header for the GFF file, at https://github.com/GMOD/sars-cov-2-jbrowse/blob/master/jbrowse/data/SARS-CoV-2/NC_045512.2.gff3.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/SARS-CoV-2/tracks/All Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "SARS-CoV-2_mature_peptides-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "cyan",
+            "outline": "black",
+            "height": 4,
+            "labels": {
+              "name": "jexl:get(feature,'protein_symbol')+' ('+get(feature,'name')+')'",
+              "description": "jexl:get(feature,'protein_name')=='undefined'?get(feature,'protein_name')+'; '+get(feature,'note'): get(feature,'note')"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "SARS-CoV-2_mature_peptides-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "SARS-CoV-2_cds",
+      "name": "CDS",
+      "assemblyNames": [
+        "SARS-CoV-2"
+      ],
+      "description": "Reference sequence and gene features are from RefSeq: https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.  The color scheme for CDS features attempts to mimic the colors used at NextStrain: https://nextstrain.org/ncov?gmin=27585",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/SARS-CoV-2/tracks/CDS/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "SARS-CoV-2_cds-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'name')=='YP_009725295.1'?'#DA994B':get(feature,'name')=='YP_009724389.1'?'#ADBC61':get(feature,'name')=='YP_009724390.1'?'#D2AE52':get(feature,'name')=='YP_009724392.1'?'#D2AE52':get(feature,'name')=='YP_009724391.1'?'#CE5035':get(feature,'name')=='YP_009724393.1'?'#6295B7':get(feature,'name')=='YP_009724394.1'?'#C2B959':get(feature,'name')=='YP_009724395.1'?'#84B586':get(feature,'name')=='YP_009724396.1'?'#72A89E':get(feature,'name')=='YP_009724397.2'?'#D77741':get(feature,'name')=='YP_009725255.1'?'#98BB70':get(feature,'name')=='YP_009725318.1'?'#D4CE86':'darkpink'",
+            "labels": {
+              "name": "jexl:get(feature,'id')+' ('+get(feature,'name')+')'"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "SARS-CoV-2_cds-LinearArcDisplay"
+        }
+      ]
+    }
+]
