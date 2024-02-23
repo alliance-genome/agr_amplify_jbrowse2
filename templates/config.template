@@ -171,6 +171,16 @@
          ],
          "type" : "JBrowse1TextSearchAdapter",
          "textSearchAdapterId" : "yeast_generate-names-index"
+      },
+      {
+         "namesIndexLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/SARS-CoV-2/names/"
+         },
+         "assemblyNames" : [
+            "SARS-CoV-2"
+         ],
+         "type" : "JBrowse1TextSearchAdapter",
+         "textSearchAdapterId" : "SARS-CoV-2_generate-names-index"
       }
   ],
   "assemblies": [
@@ -541,6 +551,39 @@
           }
         ]
       }
+    },
+    {
+      "name": "SARS-CoV-2",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "SARS-CoV-2_refseq",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/sarscov2.fasta.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/sarscov2.fasta.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/sarscov2.fasta.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "SARS-CoV-2_refse-LinearReferenceSequenceDisplay"
+          },
+          {
+            "type": "LinearGCContentDisplay",
+            "displayId": "SARS-CoV-2_refse-LinearGCContentDisplay"
+          }
+        ]
+      },
+      "displayName": "SARS-CoV-2"
     }
   ]
 }
