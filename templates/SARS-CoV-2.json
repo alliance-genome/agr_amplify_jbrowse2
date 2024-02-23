@@ -58,7 +58,7 @@
             "type": "SvgFeatureRenderer",
             "color1": "jexl:get(feature,'name')=='YP_009725295.1'?'#DA994B':get(feature,'name')=='YP_009724389.1'?'#ADBC61':get(feature,'name')=='YP_009724390.1'?'#D2AE52':get(feature,'name')=='YP_009724392.1'?'#D2AE52':get(feature,'name')=='YP_009724391.1'?'#CE5035':get(feature,'name')=='YP_009724393.1'?'#6295B7':get(feature,'name')=='YP_009724394.1'?'#C2B959':get(feature,'name')=='YP_009724395.1'?'#84B586':get(feature,'name')=='YP_009724396.1'?'#72A89E':get(feature,'name')=='YP_009724397.2'?'#D77741':get(feature,'name')=='YP_009725255.1'?'#98BB70':get(feature,'name')=='YP_009725318.1'?'#D4CE86':'darkpink'",
             "labels": {
-              "name": "jexl:get(feature,'id')+' ('+get(feature,'name')+')'"
+              "name": "jexl:get(feature,'name')+' ('+get(feature,'gene')+')'"
             }
           }
         },
