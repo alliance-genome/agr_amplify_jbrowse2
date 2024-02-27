@@ -1,7 +1,7 @@
 [
    {
       "type": "FeatureTrack",
-      "trackId": "SARS-CoV-2_mature_peptides",
+      "trackId": "SARS-CoV-2_all_genes",
       "name": "Mature peptides",
       "assemblyNames": [
         "SARS-CoV-2"
@@ -17,7 +17,7 @@
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "SARS-CoV-2_mature_peptides-LinearBasicDisplay",
+          "displayId": "SARS-CoV-2_all_genes-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "cyan",
@@ -31,7 +31,7 @@
         },
         {
           "type": "LinearArcDisplay",
-          "displayId": "SARS-CoV-2_mature_peptides-LinearArcDisplay"
+          "displayId": "SARS-CoV-2_all_genes-LinearArcDisplay"
         }
       ]
     },
