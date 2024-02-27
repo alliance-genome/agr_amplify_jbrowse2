@@ -30,7 +30,7 @@
       ]
    },
    {
-      "trackId" : "fruitfly_multiple-variant_alleles",
+      "trackId" : "Drosophila_melanogaster_multiple-variant_alleles",
       "assemblyNames" : [
          "Drosophila_melanogaster"
       ],
@@ -50,10 +50,10 @@
                "color1" : "jexl:multiVariantColor(feature)",
                "type" : "SvgFeatureRenderer"
             },
-            "displayId" : "fruitfly_multiple-variant_alleles-LinearBasicDisplay"
+            "displayId" : "Drosophila_melanogaster_multiple-variant_alleles-LinearBasicDisplay"
          },
          {
-            "displayId" : "fruitfly_multiple-variant_alleles-LinearArcDisplay",
+            "displayId" : "Drosophila_melanogaster_multiple-variant_alleles-LinearArcDisplay",
             "type" : "LinearArcDisplay"
          }
       ]
