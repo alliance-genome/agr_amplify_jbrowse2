@@ -7,7 +7,7 @@ use warnings;
 Tricky usage issue: the SGD track IDs have a '.' in their names but
 Config::Simple doesn't like that. The easist fix is to
 
-  s/\[track\.]/[tracks_/
+  % s/\[tracks\./[tracks_/
 
 =cut
 

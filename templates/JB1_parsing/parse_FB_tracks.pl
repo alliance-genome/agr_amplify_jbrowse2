@@ -1,6 +1,19 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use local::lib;
+
+=pod
+
+Tricky usage issue: the SGD track IDs have a '.' in their names but
+Config::Simple doesn't like that. The easist fix is to
+
+  % s/\[tracks\./[tracks_/
+
+Additionally, Config::Simple doesn't like the embedded javascript
+function calls that JBrowse supports, so those have to be deleted too.
+
+=cut
 
 use Config::Simple;
 use JSON;
@@ -13,11 +26,11 @@ my %Config = ();
 Config::Simple->import_from('FB_tracks.conf.txt', \%Config) or die $Config::Simple->error();
 
 
-#for my $key (keys %Config) {
-#    next unless $key;
-#    warn $key;
-#    warn $Config{$key};
-#}
+for my $key (keys %Config) {
+    next unless $key;
+    warn $key;
+    warn $Config{$key};
+}
 
 #die;
 warn Dumper(%Config);
@@ -121,7 +134,6 @@ $config=qq|   {
          "Saccharomyces_cerevisiae"
       ],
       $cat_string
-      $meta_string
       "trackId" : "FB_$id"
    },
 |;
@@ -142,7 +154,6 @@ $config=qq|   {
           "uri": "$tracks{$id}{'urlTemplate'}"
         }
       },
-      $meta_string
       "displays": [
         {
           "type": "LinearBasicDisplay",
