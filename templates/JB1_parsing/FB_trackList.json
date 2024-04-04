@@ -285,7 +285,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
 				 },
          "label" : "deleted_segment_sc",
          "unsafeMouseover": true,
@@ -309,7 +309,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
 				 },
          "label" : "deleted_segment_bdk",
          "unsafeMouseover": true,
@@ -622,7 +622,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{id}",
+           "url" : "/reports/{id}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -643,7 +643,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{id}",
+           "url" : "/reports/{id}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -664,7 +664,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{id}",
+           "url" : "/reports/{id}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -685,7 +685,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{id}",
+           "url" : "/reports/{id}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -706,7 +706,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{id}",
+           "url" : "/reports/{id}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -727,7 +727,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{Alias}",
+           "url" : "/reports/{Alias}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -748,7 +748,7 @@
 				 }, 
          "onClick" : {
            "action" : "iframeDialog",
-           "url" : "/reports/{id}",
+           "url" : "/reports/{id}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
@@ -1151,7 +1151,7 @@
          "unsafePopup": true,
 				 "metadata" : {
 				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
-					 "trackLegend" : '<tr align="left"><td><center><b>Chromatin Types in Kc167 cells (<a target="_blank" href="/reports/FBrf0212051">Filion et al, 2010</a>).</b></center><span style="background: rgb(0,102,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- corresponds to classic (including pericentric) heterochromatin.<br><span style="background: rgb(0,51,172);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- PcG (Polycomb Group) chromatin; subject to epigenetic silencing.<br><span style="background: rgb(34,34,34);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally silent (in cell type assayed); probably dynamic.<br><span style="background: rgb(207,51,51);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually developmentally regulated.<br><span style="background: rgb(255,204,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually broadly expressed.<br></td></tr>'
+					 "trackLegend" : "<tr align='left'><td><center><b>Chromatin Types in Kc167 cells (<a target='_blank' href='/reports/FBrf0212051'>Filion et al, 2010</a>).</b></center><span style='background: rgb(0,102,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- corresponds to classic (including pericentric) heterochromatin.<br><span style='background: rgb(0,51,172);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- PcG (Polycomb Group) chromatin; subject to epigenetic silencing.<br><span style='background: rgb(34,34,34);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally silent (in cell type assayed); probably dynamic.<br><span style='background: rgb(207,51,51);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually developmentally regulated.<br><span style='background: rgb(255,204,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually broadly expressed.<br></td></tr>"
 				 }, 
          "storeClass"    : "flybase-glyphs/Store/TopoView",
          "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
@@ -1170,7 +1170,7 @@
          "unsafePopup": true,
 				 "metadata" : {
 				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
-					 "trackLegend" : '<tr align="left"><td><center><b>Chromatin Types in S2-DRSC cells (<a target="_blank" href="/reports/FBrf0213294">Kharchenko et al, 2011</a>)</b></center><span style="background: rgb(237,32,35);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Active promoter/transcription start site region<br><span style="background: rgb(206,95,144);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon<br><span style="background: rgb(139,70,31);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed intron (enhancer)<br><span style="background: rgb(248,159,123);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Other open chromatin<br><span style="background: rgb(44,139,87);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon on the male X chromosome (dosage compensation)<br><span style="background: rgb(0,0,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Region of Polycomb-mediated repression<br><span style="background: rgb(0,0,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin<br><span style="background: rgb(174,216,230);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin-like region embedded in euchromatin<br><span style="background: rgb(229,229,229);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Transcriptionally silent intergenic euchromatin<br></td></tr>'
+					 "trackLegend" : "<tr align='left'><td><center><b>Chromatin Types in S2-DRSC cells (<a target='_blank' href='/reports/FBrf0213294'>Kharchenko et al, 2011</a>)</b></center><span style='background: rgb(237,32,35);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Active promoter/transcription start site region<br><span style='background: rgb(206,95,144);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon<br><span style='background: rgb(139,70,31);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed intron (enhancer)<br><span style='background: rgb(248,159,123);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Other open chromatin<br><span style='background: rgb(44,139,87);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon on the male X chromosome (dosage compensation)<br><span style='background: rgb(0,0,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Region of Polycomb-mediated repression<br><span style='background: rgb(0,0,255);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin<br><span style='background: rgb(174,216,230);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin-like region embedded in euchromatin<br><span style='background: rgb(229,229,229);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Transcriptionally silent intergenic euchromatin<br></td></tr>"
 				 }, 
          "storeClass"    : "flybase-glyphs/Store/TopoView",
          "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
@@ -1189,7 +1189,7 @@
          "unsafePopup": true,
 				 "metadata" : {
 				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
-					 "trackLegend" : '<tr align="left"><td><center><b>Chromatin Types in S2-DRSC cells (<a target="_blank" href="/reports/FBrf0213294">Kharchenko et al, 2011</a>)</b></center><span style="background: rgb(237,32,35);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Active promoter/transcription start site region<br><span style="background: rgb(206,95,144);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon<br><span style="background: rgb(139,70,31);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed intron (enhancer)<br><span style="background: rgb(248,159,123);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Other open chromatin<br><span style="background: rgb(44,139,87);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon on the male X chromosome (dosage compensation)<br><span style="background: rgb(0,0,0);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Region of Polycomb-mediated repression<br><span style="background: rgb(0,0,255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin<br><span style="background: rgb(174,216,230);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin-like region embedded in euchromatin<br><span style="background: rgb(229,229,229);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Transcriptionally silent intergenic euchromatin<br></td></tr>'
+					 "trackLegend" : "<tr align='left'><td><center><b>Chromatin Types in S2-DRSC cells (<a target='_blank' href='/reports/FBrf0213294'>Kharchenko et al, 2011</a>)</b></center><span style='background: rgb(237,32,35);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Active promoter/transcription start site region<br><span style='background: rgb(206,95,144);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon<br><span style='background: rgb(139,70,31);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed intron (enhancer)<br><span style='background: rgb(248,159,123);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Other open chromatin<br><span style='background: rgb(44,139,87);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon on the male X chromosome (dosage compensation)<br><span style='background: rgb(0,0,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Region of Polycomb-mediated repression<br><span style='background: rgb(0,0,255);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin<br><span style='background: rgb(174,216,230);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin-like region embedded in euchromatin<br><span style='background: rgb(229,229,229);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Transcriptionally silent intergenic euchromatin<br></td></tr>"
 				 }, 
          "storeClass"    : "flybase-glyphs/Store/TopoView",
          "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
@@ -1208,7 +1208,7 @@
          "unsafeMouseover": true,
          "unsafePopup": true,
 				 "metadata" : {
-				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>"
 				 }, 
          "label" : "histone_modifications",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
@@ -1950,7 +1950,7 @@
 					 "iconClass" : "dijitIconDatabase",
            "action" : "contentDialog",
 					 "hideIframeDialogUrl" : "true",
-           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
 				 },
          "label" : "duplicated_segment_sc",
          "unsafeMouseover": true,
@@ -1992,7 +1992,6 @@
 	       "style" : {
             "className" : "image"
          },
-         //"type" : "ImageTrack",
          "urlTemplate" : "tracks/topoview_modencode_30devstages/{refseq}/trackData.json"
       },
       {

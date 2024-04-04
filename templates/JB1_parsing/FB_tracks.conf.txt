@@ -1,7 +1,6 @@
 [tracks_Gene_span]
 key = Gene span
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
-style.label = function(ft) { var name=ft.get('Name'); name=name.replace(/^[.]/,""); return name; }
+category = Reference Genome 
 style.textFont = 10px Verdana
 style.borderColor =  black
 onClick.action = newWindow
@@ -9,7 +8,7 @@ onClick.url = /reports/{Accession}
 
 [tracks_Gene]
 key = Gene: transcript view
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.connectorColor = black
 style.borderColor = black
 style.utrHeightPercent = 100
@@ -18,7 +17,7 @@ subfeatures = true
 
 [tracks_RNA]
 key = RNA
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.connectorColor = black
 displayMode = normal
 style.labelTranscripts = true
@@ -31,7 +30,7 @@ onClick.url = /reports/{id}
 
 [tracks_prote_in]
 key = CDS
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.connectorColor = black
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -41,7 +40,7 @@ onClick.url = /reports/{id}
 
 [tracks_putative_ortholog]
 key = Orthologs
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.textFont = 10px Verdana
 style.color = palegoldenrod
 style.borderColor = black
@@ -49,7 +48,7 @@ style.height = 6
 
 [tracks_transposable_element]
 key = Natural TE
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.color = magenta
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
@@ -59,7 +58,7 @@ onClick.url = /reports/{id}
 
 [tracks_repeat_region]
 key = Repeat region
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.textFont = 10px Verdana
 style.color = darkorchid
 style.height = 6
@@ -67,7 +66,7 @@ style.label = ""
 
 [tracks_chromosome_band]
 key = Estimated Cytological Band
-category = Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]
+category = Reference Genome 
 style.height = 9
 style.textFont = 10px Verdana
 style.color = darkblue
@@ -80,14 +79,14 @@ style.color = darkblue
 
 [tracks_breakpoint]
 key = Aberration Junctions 
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
+category = Aberrations 
 style.textFont = 10px Verdana
 style.color = indianred
 style.borderColor = black
 
 [tracks_deleted_segment]
 key = Deficiencies
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
+category = Aberrations 
 style.textFont = 10px Verdana
 style.connectorColor = black
 style.borderColor = black
@@ -95,16 +94,16 @@ style.height = 4
 
 [tracks_duplicated_segment]
 key = Duplications
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
+category = Aberrations 
 style.textFont = 10px Verdana
 style.connectorColor = black
 style.borderColor = black
 style.height = 4
 
 [tracks_deleted_segment_sc]
-key = Deficiency Stocks in Bloomington, Kyoto
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
-#category = Reagents / Deficiency Stocks <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Deficiency_Stocks> [?]
+key = Deficiency Stocks in Bloomington%2C Kyoto
+category = Aberrations 
+#category = Reagents / Deficiency Stocks 
 style.textFont = 10px Verdana
 style.color = sienna
 style.connectorColor = black
@@ -113,8 +112,8 @@ style.height = 4
 
 [tracks_deleted_segment_bdk]
 key = Bloomington Deficiency Kit: deleted segment
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
-#category = Reagents / Deficiency Stocks <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Deficiency_Stocks> [?]
+category = Aberrations 
+#category = Reagents / Deficiency Stocks 
 style.textFont = 10px Verdana
 style.color = sienna
 style.connectorColor = black
@@ -123,17 +122,17 @@ style.height = 4
 
 [tracks_gap_filling_segment_bdk]
 key = Bloomington Deficiency Kit: gap filling or haploinsufficiency flanking segment
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
-#category = Reagents / Deficiency Stocks <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Deficiency_Stocks> [?]
+category = Aberrations 
+#category = Reagents / Deficiency Stocks 
 style.textFont = 10px Verdana
 style.color = yellow
 style.borderColor = black
 style.height = 4
 
 [tracks_duplicated_segment_sc]
-key = Duplication Stocks in Bloomington, Kyoto
-category = Aberrations <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Aberrations> [?]
-#category = Reagents / Duplication Stocks <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Duplication_Stocks> [?]
+key = Duplication Stocks in Bloomington%2C Kyoto
+category = Aberrations 
+#category = Reagents / Duplication Stocks 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.connectorColor = black
@@ -148,7 +147,7 @@ style.height = 4
 
 [tracks_transposable_element_insertion_site]
 key = Transgenic Insertions
-category = Transgenic Insertions <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transgenic_Insertions> [?] 
+category = Transgenic Insertions 
 style.strandArrow = false
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
@@ -159,8 +158,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_insertion_sc]
-key = Transgenic Insertions Stocks in Bloomington, Kyoto
-category = Transgenic Insertions <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transgenic_Insertions> [?] 
+key = Transgenic Insertions Stocks in Bloomington%2C Kyoto
+category = Transgenic Insertions 
 style.strandArrow = false
 style.textFont = 10px Verdana
 style.color = lightblue
@@ -182,7 +181,7 @@ onClick.url = /reports/{fbid}
 
 [tracks_point_mutation]
 key = Substitutions
-category = Mutations & Sequence Variants / Mutations & Experimentally Induced Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants> [?]
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
 style.backgroundColor = darkgoldenrod
 style.borderColor     = black
 style.textFont = 10px Verdana
@@ -193,8 +192,8 @@ onClick.action = newWindow
 onClick.url = /reports/{related_allele}
 
 [tracks_indels]
-key = Insertions, Deletions
-category = Mutations & Sequence Variants / Mutations & Experimentally Induced Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants> [?]
+key = Insertions%2C Deletions
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
 style.backgroundColor = darkgoldenrod
 style.borderColor     = black
 style.textFont = 10px Verdana
@@ -205,7 +204,7 @@ onClick.url = /reports/{related_allele}
 
 [tracks_complex_substitution]
 key = Complex Substitutions
-category = Mutations & Sequence Variants / Mutations & Experimentally Induced Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants> [?]
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
 style.color = darkred
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -216,7 +215,7 @@ onClick.url = /reports/{related_allele}
 
 [tracks_uncharacterized_change_in_nucleotide_sequence]
 key = Roughly Mapped Mutations 
-category = Mutations & Sequence Variants / Mutations & Experimentally Induced Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants> [?]
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
 style.color = darkred
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -227,13 +226,13 @@ onClick.url = /reports/{related_allele}
 
 [tracks_agr_variants]
 key  = FlyBase Mutations/Variants on Alliance
-category = Mutations & Sequence Variants / Mutations & Experimentally Induced Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants> [?]
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
 
 #------------------------ Polymorphisms & Natural Population Variants ---------------
 
 [tracks_sequence_variant]
 key = FlyBase Annotated Variants
-category = Mutations & Sequence Variants / Polymorphisms & Natural Population Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Polymorphisms_.26_Natural_Population_Variants> [?]
+category = Mutations & Sequence Variants , Polymorphisms & Natural Population Variants 
 style.color = darkred
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -243,13 +242,13 @@ onClick.url = /reports/{related_allele}
 
 [tracks_dgrp_r6]
 key  = DGRP Variants
-category = Mutations & Sequence Variants / Polymorphisms & Natural Population Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Polymorphisms_.26_Natural_Population_Variants> [?]
+category = Mutations & Sequence Variants , Polymorphisms & Natural Population Variants 
 style.textFont = 10px Verdana
 style.borderColor = style.color
 
 [tracks_dgrp_1000]
 key  = Drosophila Genome Nexus (DGN 1000 genomes)
-category = Mutations & Sequence Variants / Polymorphisms & Natural Population Variants <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Polymorphisms_.26_Natural_Population_Variants> [?]
+category = Mutations & Sequence Variants , Polymorphisms & Natural Population Variants 
 style.borderColor = style.color
 style.textFont = 10px Verdana
 
@@ -263,7 +262,7 @@ style.textFont = 10px Verdana
 
 [tracks_GMR_Brain_exp]
 key = Putative Brain Enhancers (Janelia GAL4 lines)
-category = Misc. Reagents / Putative Enhancer Lines <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Putative_Enhancer_Lines> [?]
+category = Misc. Reagents , Putative Enhancer Lines 
 style.color = lightslategray
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -274,7 +273,7 @@ onClick.url = /reports/{id}
 
 [tracks_VDRC_VT]
 key = Putative Enhancers (VDRC Vienna Tile GAL4 lines)
-category = Misc. Reagents / Putative Enhancer Lines <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Putative_Enhancer_Lines> [?]
+category = Misc. Reagents , Putative Enhancer Lines 
 style.color = cornflowerblue
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -283,7 +282,7 @@ style.height = 6
 
 [tracks_trip_oe]
 key = TRiP-OE-VPR sgRNAs (overexpression)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?]
+category = Misc. Reagents , sgRNA Reagents 
 style.color = blue
 style.borderColor = blue
 style.textFont = 10px Verdana
@@ -292,7 +291,7 @@ style.height = 4
 
 [tracks_trip_oe_flysam]
 key = TRiP-OE-flySAM sgRNAs (overexpression)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?]
+category = Misc. Reagents , sgRNA Reagents 
 style.color = limegreen
 style.borderColor = limegreen
 style.textFont = 10px Verdana
@@ -302,7 +301,7 @@ style.height = 4
  
 [tracks_trip_ko]
 key = TRiP-KO sgRNAs (knockout)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?]
+category = Misc. Reagents , sgRNA Reagents 
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
 style.color = blue
@@ -311,7 +310,7 @@ style.height = 4
 
 [tracks_trip_ko_uas]
 key = TRiP-KO-UAS sgRNAs (knockout)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?]
+category = Misc. Reagents , sgRNA Reagents 
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
 style.color = blue
@@ -320,7 +319,7 @@ style.height = 4
 
 [tracks_nig_fly_sgrna]
 key = NIG-Fly-sgRNA (knockout)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?]
+category = Misc. Reagents , sgRNA Reagents 
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
 style.color = blue
@@ -329,7 +328,7 @@ style.height = 4
 
 [tracks_weiz_ko]
 key = Weizmann KO sgRNAs (knockout)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?]
+category = Misc. Reagents , sgRNA Reagents 
 style.color = coral
 style.borderColor = coral
 style.textFont = 10px Verdana
@@ -338,7 +337,7 @@ style.height = 4
  
 [tracks_hd_cfd]
 key = Heidelberg CFD KO sgRNAs (conditional knockout)
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] 
+category = Misc. Reagents , sgRNA Reagents 
 style.color = darkgreen
 style.borderColor = darkgreen
 style.textFont = 10px Verdana
@@ -346,50 +345,50 @@ style.textColor = {highlightingColoring}
 style.height = 4
  
 [tracks_low_nooff]
-key = Predicted sgRNA, no off target, low stringency
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] / Predicted sgRNA 
+key = Predicted sgRNA%2C no off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
 style.color = lightgreen
 style.borderColor = lightgreen
 style.height = 4
  
 [tracks_high_nooff]
-key = Predicted sgRNA, no off target, high stringency
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] / Predicted sgRNA 
+key = Predicted sgRNA%2C no off target%2C high stringency
+category = Misc. Reagents , sgRNA Reagents 
 style.color = darkgreen
 style.borderColor = darkgreen
 style.height = 4
  
 [tracks_med_nooff]
-key = Predicted sgRNA, no off target, medium stringency
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] / Predicted sgRNA 
+key = Predicted sgRNA%2C no off target%2C medium stringency
+category = Misc. Reagents , sgRNA Reagents 
 style.color = limegreen
 style.borderColor = limegreen
 style.height = 4
  
 [tracks_low_nooff]
-key = Predicted sgRNA, no off target, low stringency
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] / Predicted sgRNA 
+key = Predicted sgRNA%2C no off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
 style.color = lightgreen
 style.borderColor = lightgreen
 style.height = 4
  
 [tracks_1to3noncds_off]
-key = Predicted sgRNA, 1 to 3 non-CDS off target, low stringency
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] / Predicted sgRNA 
+key = Predicted sgRNA%2C 1 to 3 non-CDS off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
 style.color = coral
 style.borderColor = coral
 style.height = 4
  
 [tracks_many_off]
-key = Predicted sgRNA, many off target, low stringency
-category = Misc. Reagents / sgRNA Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#sgRNA_Reagents> [?] / Predicted sgRNA 
+key = Predicted sgRNA%2C many off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
 style.color = red
 style.borderColor = red
 style.height = 4
  
 [tracks_pcr_product_2]
 key = DRSC RNAi amplicons
-category = Misc. Reagents / RNAi Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNAi_Reagents> [?]
+category = Misc. Reagents , RNAi Reagents 
 style.color = tomato
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -398,7 +397,7 @@ style.height = 4
 
 [tracks_pcr_product_5]
 key = VDRC RNAi amplicons
-category = Misc. Reagents / RNAi Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNAi_Reagents> [?]
+category = Misc. Reagents , RNAi Reagents 
 style.color = tomato
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -407,7 +406,7 @@ style.height = 4
 
 [tracks_pcr_product_6]
 key = TRiP RNAi amplicons
-category = Misc. Reagents / RNAi Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNAi_Reagents> [?]
+category = Misc. Reagents , RNAi Reagents 
 style.color = tomato
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -416,7 +415,7 @@ style.height = 4
 
 [tracks_pcr_product_7]
 key = BKNA RNAi amplicons
-category = Misc. Reagents / RNAi Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNAi_Reagents> [?]
+category = Misc. Reagents , RNAi Reagents 
 style.color = tomato
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -425,7 +424,7 @@ style.height = 4
 
 [tracks_pcr_product_8]
 key = HFA RNAi amplicons
-category = Misc. Reagents / RNAi Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNAi_Reagents> [?]
+category = Misc. Reagents , RNAi Reagents 
 style.color = tomato
 style.borderColor = black
 style.textColor = {highlightingColoring}
@@ -433,7 +432,7 @@ style.height = 4
 
 [tracks_pcr_product_9]
 key = NIG-Fly RNAi amplicons
-category = Misc. Reagents / RNAi Reagents <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNAi_Reagents> [?]
+category = Misc. Reagents , RNAi Reagents 
 style.color = tomato
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -441,7 +440,7 @@ style.textColor = {highlightingColoring}
 style.height = 4
 
 [tracks_rescue_fragment]
-key = Rescue Fragments <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Rescue_fragments> [?]
+key = Rescue Fragments 
 category = Misc. Reagents 
 style.color = darkred
 style.borderColor = black
@@ -453,7 +452,7 @@ style.height = 4
 
 [tracks_CHORI-321_BAC]
 key = Pacman Chori-321_BAC
-category = Misc. Reagents / Genomic Libraries <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Genomic_Libraries> [?]
+category = Misc. Reagents , Genomic Libraries 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.borderColor = black
@@ -461,7 +460,7 @@ style.height = 4
 
 [tracks_CHORI-322_BAC]
 key = Pacman Chori-322_BAC
-category = Misc. Reagents / Genomic Libraries <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Genomic_Libraries> [?]
+category = Misc. Reagents , Genomic Libraries 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.borderColor = black
@@ -469,7 +468,7 @@ style.height = 4
 
 [tracks_oligo_1]
 key = Affymetrix v1
-category = Misc. Reagents / Microarrays <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Microarrays> [?]
+category = Misc. Reagents , Microarrays 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.borderColor = black
@@ -477,7 +476,7 @@ style.height = 4
 
 [tracks_oligo_2]
 key = Affymetrix v2
-category = Misc. Reagents / Microarrays <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Microarrays> [?]
+category = Misc. Reagents , Microarrays 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.borderColor = black
@@ -485,7 +484,7 @@ style.height = 4
 
 [tracks_pcr_product_1]
 key = DGRC-1 amplicons
-category = Misc. Reagents / Microarrays <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Microarrays> [?]
+category = Misc. Reagents , Microarrays 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.borderColor = black
@@ -493,7 +492,7 @@ style.height = 4
 
 [tracks_oligo_3]
 key = DGRC-2 oligos
-category = Misc. Reagents / Microarrays <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Microarrays> [?]
+category = Misc. Reagents , Microarrays 
 style.textFont = 10px Verdana
 style.color = cornflowerblue
 style.borderColor = black
@@ -512,22 +511,22 @@ style.height = 4
 
 [tracks_topoview_chromatin_domains_kc]
 # following defs MUST be in trackList.json
-#key = Chromatin Domains (5-state model, Kc cells)
-#category = Genome Level Features / Chromatin Features <a target="_blank" href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]
+#key = Chromatin Domains (5-state model%2C Kc cells)
+#category = Genome Level Features / Chromatin Features 
 
 [tracks_topoview_chromatin_domains_s2]
 # following defs MUST be in trackList.json
-#key = Chromatin Domains (9-state model, S2 cells)
-#category = Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]
+#key = Chromatin Domains (9-state model%2C S2 cells)
+#category = Genome Level Features / Chromatin Features 
 
 [tracks_topoview_chromatin_domains_bg3]
 # following defs MUST be in trackList.json
-#key = Chromatin Domains (9-state model, BG3 cells)
-#category = Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]
+#key = Chromatin Domains (9-state model%2C BG3 cells)
+#category = Genome Level Features / Chromatin Features 
 
 [tracks_histone_modifications]
-key = ChIP-seq (embryo 6-8h, mesoderm) - His3 modifications
-category = Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]
+key = ChIP-seq (embryo 6-8h%2C mesoderm) - His3 modifications
+category = Genome Level Features , Chromatin Features 
 style.color = beige
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -539,8 +538,8 @@ onClick.url = /reports/{id}
 #------------------------ Transcriptional Regulatory Elements -----------------------
 
 [tracks_insulator_1]
-key = Insulators (modENCODE, class I)
-category = Genome Level Features / Transcriptional Regulatory Elements <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements> [?]
+key = Insulators (modENCODE%2C class I)
+category = Genome Level Features , Transcriptional Regulatory Elements 
 style.strandArrow = false
 style.color = red
 style.borderColor = black
@@ -552,8 +551,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_insulator_2]
-key = Insulators (modENCODE, class II)
-category = Genome Level Features / Transcriptional Regulatory Elements <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements> [?]
+key = Insulators (modENCODE%2C class II)
+category = Genome Level Features , Transcriptional Regulatory Elements 
 style.strandArrow = false
 style.color = wheat
 style.borderColor = black
@@ -566,7 +565,7 @@ onClick.url = /reports/{id}
 
 [tracks_silencer]
 key = Putative PREs (modENCODE)
-category = Genome Level Features / Transcriptional Regulatory Elements <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements> [?]
+category = Genome Level Features , Transcriptional Regulatory Elements 
 style.color = lightslategray
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -576,7 +575,7 @@ onClick.url = /reports/{id}
 
 [tracks_regulatory_region1]
 key = Transcriptional Regulatory Regions (REDfly)
-category = Genome Level Features / Transcriptional Regulatory Elements <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements> [?]
+category = Genome Level Features , Transcriptional Regulatory Elements 
 style.color = lightslategray
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -588,7 +587,7 @@ onClick.action = newWindow
 
 [tracks_protein_binding_site]
 key = TFBS (REDfly)
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?]
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = lightslategray
 style.borderColor = black
 style.textColor = {highlightingColoring}
@@ -596,8 +595,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_Furlong_TFBS_embryo_2-4h]
-key = embryo, 2-4h - Mef2 sna tin twi
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (Furlong lab, ChIP-chip,  mesodermal TFs)
+key = embryo%2C 2-4h - Mef2 sna tin twi
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = beige
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -607,8 +606,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_Furlong_TFBS_embryo_4-6h]
-key = embryo, 4-6h - Doc2 pMad Mef2 pan pnr slp1 tin twi
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (Furlong lab, ChIP-chip,  mesodermal TFs)
+key = embryo%2C 4-6h - Doc2 pMad Mef2 pan pnr slp1 tin twi
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = beige
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -618,8 +617,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_Furlong_TFBS_embryo_6-8h]
-key = embryo, 6-8h - bap bin Doc2 lmd pMad Mef2 pan pnr slp1 tin ttk twi
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (Furlong lab, ChIP-chip,  mesodermal TFs)
+key = embryo%2C 6-8h - bap bin Doc2 lmd pMad Mef2 pan pnr slp1 tin ttk twi
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = beige
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -629,8 +628,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_Furlong_TFBS_embryo_8-10h]
-key = embryo, 8-10h - bin Mef2
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (Furlong lab, ChIP-chip,  mesodermal TFs)
+key = embryo%2C 8-10h - bin Mef2
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = beige
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -640,8 +639,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_Furlong_TFBS_embryo_10-12h]
-key = embryo, 10-12h - bin Mef2
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (Furlong lab, ChIP-chip,  mesodermal TFs)
+key = embryo%2C 10-12h - bin Mef2
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = beige
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -651,8 +650,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_tf_binding_site5]
-key = whole embryo, TFBS HOT spot analysis 
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (modENCODE, ChIP-chip, whole embryo)
+key = whole embryo%2C TFBS HOT spot analysis 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.borderColor = black
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
@@ -661,8 +660,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_tf_binding_site1]
-key = whole embryo, Zinc Finger TFBS 
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (modENCODE, ChIP-chip, whole embryo)
+key = whole embryo%2C Zinc Finger TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.borderColor = black
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
@@ -671,8 +670,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_tf_binding_site2]
-key = whole embryo, Homeodomain TFBS 
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (modENCODE, ChIP-chip, whole embryo)
+key = whole embryo%2C Homeodomain TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = wheat
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -682,8 +681,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_tf_binding_site3]
-key = whole embryo, Helix-loop-helix TFBS 
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (modENCODE, ChIP-chip, whole embryo)
+key = whole embryo%2C Helix-loop-helix TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = lightcoral
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -693,8 +692,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_tf_binding_site4]
-key = whole embryo, BTB/POZ ChIP TFBS 
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (modENCODE, ChIP-chip, whole embryo)
+key = whole embryo%2C BTB/POZ ChIP TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = darkorchid
 style.textFont = 10px Verdana
 style.textColor = {highlightingColoring}
@@ -704,8 +703,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_tf_binding_site6]
-key = whole embryo, Other classes TFBS 
-category = Genome Level Features / Transcription Factor Binding Sites (TFBS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites> [?] / TFBS (modENCODE, ChIP-chip, whole embryo)
+key = whole embryo%2C Other classes TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
 style.color = deepskyblue
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -715,8 +714,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_origin_of_replication]
-key = Origins of replication (modENCODE, Kc, S2, BG3 cells)
-category = Genome Level Features / Other Sequence Elements <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Other_Sequence_Elements> [?]
+key = Origins of replication (modENCODE%2C Kc%2C S2%2C BG3 cells)
+category = Genome Level Features , Other Sequence Elements 
 style.color = wheat
 style.borderColor = black
 style.textFont = 10px Verdana
@@ -737,7 +736,7 @@ onClick.url = /reports/{id}
 
 [tracks_cDNA]
 key = Sequenced cDNAs
-category = Transcript Level Features / Transcript Sequences / cDNA <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#cDNA> [?]
+category = Transcript Level Features , Transcript Sequences , cDNA 
 type = CanvasFeatures
 style.connectorColor = black
 style.color = limegreen
@@ -749,15 +748,15 @@ onClick.url = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?tool=FlyBase&db=nuce
 
 [tracks_other_aligned]
 key = Inferred transcript sequences
-category = Transcript Level Features / Transcript Sequences / cDNA <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#cDNA> [?]
+category = Transcript Level Features , Transcript Sequences , cDNA 
 type = CanvasFeatures
 style.height = 4
 style.label = ""
 glyph = JBrowse/View/FeatureGlyph/Segments
 
 [tracks_EST]
-key = EST <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#EST_.28Expressed_Sequence_Tag.29> [?]
-category = Transcript Level Features / Transcript Sequences 
+key = EST 
+category = Transcript Level Features , Transcript Sequences 
 type = CanvasFeatures
 style.connectorColor = black
 style.color = green
@@ -768,8 +767,8 @@ onClick.action = newWindow
 onClick.url = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?tool=FlyBase&db=nucest&term={Target}
 	 
 [tracks_TSS_embryonic]
-key = TSS (modENCODE, embryo)
-category = Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]
+key = TSS (modENCODE%2C embryo)
+category = Transcript Level Features , Transcription Start Sites (TSS) 
 type = CanvasFeatures
 style.strandArrow = false
 style.color = blue
@@ -780,8 +779,8 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_TSS_rampage]
-key = TSS (RAMPAGE, peak calls)
-category = Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]
+key = TSS (RAMPAGE%2C peak calls)
+category = Transcript Level Features , Transcription Start Sites (TSS) 
 type = CanvasFeatures
 style.color = green
 onClick.action = newWindow
@@ -789,26 +788,26 @@ onClick.url = /reports/{id}
 
 [tracks_topoview_rampage_tss_stranded1]
 # following defs MUST be in trackList.json
-#key = TSS (RAMPAGE, early embryo 0-12hr, stranded RNA-Seq)
-#category = Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]
+#key = TSS (RAMPAGE%2C early embryo 0-12hr%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
 
 [tracks_topoview_rampage_tss_stranded2]
 # following defs MUST be in trackList.json
-#key = TSS (RAMPAGE, late embryo 13-24hr, stranded RNA-Seq)
-#category = Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]
+#key = TSS (RAMPAGE%2C late embryo 13-24hr%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
 
 [tracks_topoview_rampage_tss_stranded5]
 # following defs MUST be in trackList.json
-#key = TSS (RAMPAGE, larva/pupa/adult, stranded RNA-Seq)
-#category = Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]
+#key = TSS (RAMPAGE%2C larva/pupa/adult%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
 
 [tracks_topoview_machibase_tss_cage]
 # following defs MUST be in trackList.json
-#key = TSS (MachiBase, stranded RNA-Seq)
-#category = Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]
+#key = TSS (MachiBase%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
 
 [tracks_exon_junction]
-key = RNA-Seq exon junctions <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-seq_Exon_Junctions> [?]
+key = RNA-Seq exon junctions 
 category = Transcript Level Features 
 style.strandArrow = false
 style.color = blue
@@ -818,7 +817,7 @@ style.height = 10
 style.label = ""
 	 
 [tracks_polyA_site]
-key = Polyadenylation Sites <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Polyadenylation_Sites> [?]
+key = Polyadenylation Sites 
 category = Transcript Level Features 
 style.color = blue
 style.borderColor = black
@@ -828,7 +827,7 @@ onClick.action = newWindow
 onClick.url = /reports/{id}
 
 [tracks_modified_RNA_base_feature]
-key = RNA Editing Sites <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA_Editing_Sites> [?]
+key = RNA Editing Sites 
 category = Transcript Level Features 
 style.textFont = 10px Verdana
 style.color = blue
@@ -846,7 +845,7 @@ onClick.url = /reports/{id}
 
 [tracks_protein_domains]
 key = Pfam
-category = Protein Level Features / Protein Domains <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Protein_Domains> [?]
+category = Protein Level Features , Protein Domains 
 type = CanvasFeatures
 style.textFont = 10px Verdana
 glyph = JBrowse/View/FeatureGlyph/Segments
@@ -855,7 +854,7 @@ onClick.url = http://pfam.xfam.org/family/{Pfam}
 
 [tracks_protein_domains_smart]
 key = SMART
-category = Protein Level Features / Protein Domains <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Protein_Domains> [?]
+category = Protein Level Features , Protein Domains 
 type = CanvasFeatures
 style.textFont = 10px Verdana
 glyph = JBrowse/View/FeatureGlyph/Segments
@@ -864,7 +863,7 @@ onClick.url = https://www.ebi.ac.uk/interpro/entry/{Interpro}
 
 [tracks_proteomic_peptides]
 key = Developmental Proteomes
-category = Protein Level Features / Peptide Sequences <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Peptide_Sequences> [?]
+category = Protein Level Features , Peptide Sequences 
 type = CanvasFeatures
 style.color = brown
 style.borderColor = black
@@ -877,7 +876,7 @@ onClick.url = /reports/{ID}.html
 
 [tracks_peptideatlas_peptides]
 key = Peptide Atlas
-category = Protein Level Features / Peptide Sequences <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Peptide_Sequences> [?]
+category = Protein Level Features , Peptide Sequences 
 type = CanvasFeatures
 style.textFont = 10px Verdana
 style.color = brown
@@ -895,87 +894,87 @@ style.height = 6
 [tracks_topoview_modencode_30devstages]
 # following defs MUST be in trackList.json
 #key = Developmental stages
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_tissues_stranded1]
 # following defs MUST be in trackList.json
 #key = Digestive system
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_tissues_stranded2]
 # following defs MUST be in trackList.json
 #key = Fat body and salivary glands
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_tissues_stranded3]
 # following defs MUST be in trackList.json
 #key = Imaginal disc and other carcass
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_tissues_stranded4]
 # following defs MUST be in trackList.json
 #key = CNS and adult head
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_tissues_stranded5]
 # following defs MUST be in trackList.json
 #key = Gonads and male accessory glands
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_celllines_stranded1]
 # following defs MUST be in trackList.json
 #key = Cell lines
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_treatments_stranded1]
 # following defs MUST be in trackList.json
 #key = Treatments/Conditions
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_neuron_stranded1]
 # following defs MUST be in trackList.json
 #key = L3 CNS neuron
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Knoblich lab L3 CNS transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_nb_stranded1]
 # following defs MUST be in trackList.json
 #key = L3 CNS neuroblast
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Knoblich lab L3 CNS transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_NCBI_aggregate_10000]
 # following defs MUST be in trackList.json
-#key = Aggregated RNA-Seq, cutoff 10,000
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Oliver lab SRA Aggregated RNA-Seq
+#key = Aggregated RNA-Seq%2C cutoff 10%2C000
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_NCBI_aggregate_1000]
 # following defs MUST be in trackList.json
-#key = Aggregated RNA-Seq, cutoff 1,000
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Oliver lab SRA Aggregated RNA-Seq
+#key = Aggregated RNA-Seq%2C cutoff 1%2C000
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_NCBI_aggregate_100]
 # following defs MUST be in trackList.json
-#key = Aggregated RNA-Seq, cutoff 100
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Oliver lab SRA Aggregated RNA-Seq
+#key = Aggregated RNA-Seq%2C cutoff 100
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_flyatlas2_nervous_system]
 # following defs MUST be in trackList.json
 #key = Nervous system
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_flyatlas2_digestive_system]
 # following defs MUST be in trackList.json
 #key = Digestive system
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_flyatlas2_reproductive_system]
 # following defs MUST be in trackList.json
 #key = Reproductive system
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / RNA-Seq 
 
 [tracks_topoview_flyatlas2_other_systems]
 # following defs MUST be in trackList.json
 #key = Other systems and whole organism
-#category = Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / RNA-Seq 
 
 
 
@@ -984,47 +983,47 @@ style.height = 6
 [tracks_topoview_Lai_devstages]
 # following defs MUST be in trackList.json
 #key = Developmental stages
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_Lai_tissues]
 # following defs MUST be in trackList.json
 #key = Tissues
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_Lai_clones_1]
 # following defs MUST be in trackList.json
 #key = Schneider and embryonic-derived
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes / Cell lines
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_Lai_clones_2]
 # following defs MUST be in trackList.json
 #key = Imaginal disc-derived
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes / Cell lines
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_Lai_clones_3]
 # following defs MUST be in trackList.json
-#key = CNS-, ovary- and blood-derived
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes / Cell lines
+#key = CNS-%2C ovary- and blood-derived
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_flyatlas2_small_nervous_system]
 # following defs MUST be in trackList.json
 #key = Nervous system
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_flyatlas2_small_digestive_system]
 # following defs MUST be in trackList.json
 #key = Digestive system
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_flyatlas2_small_reproductive_system]
 # following defs MUST be in trackList.json
 #key = Reproductive system
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / Small RNA-Seq 
 
 [tracks_topoview_flyatlas2_small_other_systems]
 # following defs MUST be in trackList.json
 #key = Other systems and whole organism
-#category = Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes
+#category = Expression / Small RNA-Seq 
 
 
 
@@ -1034,15 +1033,15 @@ style.height = 6
 #---------------------- Gene Predictions ------------------------------
 
 [tracks_NCBI_gnomon_1]
-key = NCBI Gnomon, 2006
-category = Gene Predictions <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Gene_Predictions> [?]
+key = NCBI Gnomon%2C 2006
+category = Gene Predictions 
 style.color = cornflowerblue
 style.borderColor = black
 style.height = 4
 
 [tracks_CONGO_1]
 key = PhyloCSF (CONGO)
-category = Gene Predictions <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Gene_Predictions> [?]
+category = Gene Predictions 
 style.color = cornflowerblue
 style.borderColor = black
 style.height = 4
