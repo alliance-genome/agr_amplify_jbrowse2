@@ -2892,51 +2892,6 @@
       ]
     },
     {
-      "type": "FeatureTrack",
-      "trackId": "SGD_Experimental_N_Termini",
-      "name": "Experimental_N_Termini",
-      "assemblyNames": [
-        "Saccharomyces_cerevisiae"
-      ],
-      "category" : [ "Reference sequence" ],
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/SGD/jbrowse/data/tracks/Experimental_N_Termini/{refseq}/trackData.json"
-        }
-      },
-      "metadata" : {
-        "pmid" : "24374639",
-        "first_author" : "Engel",
-        "lab_pi" : "Cherry, J. Michael",
-        "lab" : "SGD",
-        "year" : "2014",
-        "dataset_description" : "The Saccharomyces cerevisiae Third Party Annotation (TPA) sequence was derived from the primary nucleotide sequence submitted to DDBJ/EMBL/GenBank International Nucleotide Sequence Database and assembled by Saccharomyces Genome Database. ",
-        "experiment_description" : "",
-        "assay_term_id" : "OBI:0002117",
-	"assay_term_name" : "whole genome sequencing assay",
-        "biosample_id" : "",
-        "biosample_term_name" : "",
-        "strain_background" : "S288C",
-        "experiment_dbxref" : "PRJNA43747",
-        "datafile_name" : "",
-        "gbrowse_category" : "",
-        "old_category" : ""
-      },
-
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "SGD_Experimental_N_Termini-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "SGD_Experimental_N_Termini-LinearArcDisplay"
-        }
-      ]
-    },
-    {
       "name": "Sir2_mutant_histone_H3R2A_minus_strand_ChIP_chip",
       "type" : "QuantitativeTrack",
       "adapter" : {

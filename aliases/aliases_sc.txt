@@ -1,0 +1,17 @@
+chrI	ChrI	I
+chrII	ChrII	II
+chrIII	ChrIII	III
+chrIV	ChrIV	IV
+chrV	ChrV	V
+chrVI	ChrVI	VI
+chrVII	ChrVII	VII
+chrVIII	ChrVIII	VIII
+chrIX	ChrIX	IX
+chrX	ChrX	X
+chrXI	ChrXI	XI
+chrXII	ChrXII	XII
+chrXIII	ChrXIII	XIII
+chrXIV	ChrXIV	XIV
+chrXV	ChrXV	XV
+chrXVI	ChrXVI	XVI
+chrmt	chrM	ChrM	MT
