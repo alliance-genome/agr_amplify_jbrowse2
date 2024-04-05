@@ -1,25 +1,2438 @@
-{
-  "type": "FeatureTrack",
-  "trackId": "FB-rna",
-  "name": "RNA",
-  "assemblyNames": [
-    "Drosophila_melanogaster"
-  ],
-  "adapter": {
-    "type": "NCListAdapter",
-    "rootUrlTemplate": {
-      "locationType": "UriLocation",
-      "uri": "/FlyBaseTest/tracks/RNA/{refseq}/trackData.json"
-    }
-  },
-  "displays": [
     {
-      "type": "LinearBasicDisplay",
-      "displayId": "FB-rna-LinearBasicDisplay"
+      "type": "FeatureTrack",
+      "trackId": "FB_med_nooff",
+      "name": "Predicted sgRNA%2C no off target%2C medium stringency",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/med_nooff/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "limegreen","height" : "4"
+         },
+          "displayId": "FB_med_nooff-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_med_nooff-LinearArcDisplay"
+        }
+      ]
     },
     {
-      "type": "LinearArcDisplay",
-      "displayId": "FB-rna--LinearArcDisplay"
+      "type": "FeatureTrack",
+      "trackId": "FB_Gene",
+      "name": "Gene: transcript view",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Gene/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  
+          "displayId": "FB_Gene-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Gene-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_GMR_Brain_exp",
+      "name": "Putative Brain Enhancers (Janelia GAL4 lines)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Putative Enhancer Lines" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/GMR_Brain_exp/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightslategray","height" : "6"
+         },
+          "displayId": "FB_GMR_Brain_exp-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_GMR_Brain_exp-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_trip_oe_flysam",
+      "name": "TRiP-OE-flySAM sgRNAs (overexpression)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/trip_oe_flysam/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "limegreen","height" : "4"
+         },
+          "displayId": "FB_trip_oe_flysam-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_trip_oe_flysam-LinearArcDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "FB_agr_variants",
+      "name": "FlyBase Mutations/Variants on Alliance",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Mutations & Experimentally Induced Variants" ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "agr_variants/fly-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "agr_variants/fly-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+	  
+          "displayId": "FB_agr_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "FB_agr_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_tf_binding_site1",
+      "name": "whole embryo%2C Zinc Finger TFBS",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/tf_binding_site1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "6"
+         },
+          "displayId": "FB_tf_binding_site1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_tf_binding_site1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_duplicated_segment_sc",
+      "name": "Duplication Stocks in Bloomington%2C Kyoto",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/duplicated_segment_sc/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_duplicated_segment_sc-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_duplicated_segment_sc-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_protein_domains_smart",
+      "name": "SMART",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Protein Level Features","Protein Domains" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/protein_domains_smart/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  
+          "displayId": "FB_protein_domains_smart-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_protein_domains_smart-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_deleted_segment_bdk",
+      "name": "Bloomington Deficiency Kit: deleted segment",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/deleted_segment_bdk/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "sienna","height" : "4"
+         },
+          "displayId": "FB_deleted_segment_bdk-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_deleted_segment_bdk-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_EST",
+      "name": "EST",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features","Transcript Sequences" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/EST/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "green","height" : "4"
+         },
+          "displayId": "FB_EST-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_EST-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_modified_RNA_base_feature",
+      "name": "RNA Editing Sites",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/modified_RNA_base_feature/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue"
+         },
+          "displayId": "FB_modified_RNA_base_feature-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_modified_RNA_base_feature-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_insertion_sc",
+      "name": "Transgenic Insertions Stocks in Bloomington%2C Kyoto",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transgenic Insertions" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/insertion_sc/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightblue","height" : "10"
+         },
+          "displayId": "FB_insertion_sc-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_insertion_sc-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_uncharacterized_change_in_nucleotide_sequence",
+      "name": "Roughly Mapped Mutations",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Mutations & Experimentally Induced Variants" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/uncharacterized_change_in_nucleotide_sequence/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkred","height" : "4"
+         },
+          "displayId": "FB_uncharacterized_change_in_nucleotide_sequence-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_uncharacterized_change_in_nucleotide_sequence-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_Gene_span",
+      "name": "Gene span",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Gene_span/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  
+          "displayId": "FB_Gene_span-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Gene_span-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_Furlong_TFBS_embryo_4-6h",
+      "name": "embryo%2C 4-6h - Doc2 pMad Mef2 pan pnr slp1 tin twi",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Furlong_TFBS_embryo_4-6h/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "beige","height" : "6"
+         },
+          "displayId": "FB_Furlong_TFBS_embryo_4-6h-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Furlong_TFBS_embryo_4-6h-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_histone_modifications",
+      "name": "ChIP-seq (embryo 6-8h%2C mesoderm) - His3 modifications",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Chromatin Features" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/histone_modifications/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "beige","height" : "6"
+         },
+          "displayId": "FB_histone_modifications-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_histone_modifications-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_1",
+      "name": "DGRC-1 amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Microarrays" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_pcr_product_1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_deleted_segment_sc",
+      "name": "Deficiency Stocks in Bloomington%2C Kyoto",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/deleted_segment_sc/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "sienna","height" : "4"
+         },
+          "displayId": "FB_deleted_segment_sc-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_deleted_segment_sc-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_8",
+      "name": "HFA RNAi amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","RNAi Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_8/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "tomato","height" : "4"
+         },
+          "displayId": "FB_pcr_product_8-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_8-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_CHORI-322_BAC",
+      "name": "Pacman Chori-322_BAC",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Genomic Libraries" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/CHORI-322_BAC/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_CHORI-322_BAC-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_CHORI-322_BAC-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_origin_of_replication",
+      "name": "Origins of replication (modENCODE%2C Kc%2C S2%2C BG3 cells)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Other Sequence Elements" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/origin_of_replication/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "wheat","height" : "6"
+         },
+          "displayId": "FB_origin_of_replication-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_origin_of_replication-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_oligo_3",
+      "name": "DGRC-2 oligos",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Microarrays" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/oligo_3/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_oligo_3-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_oligo_3-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_CHORI-321_BAC",
+      "name": "Pacman Chori-321_BAC",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Genomic Libraries" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/CHORI-321_BAC/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_CHORI-321_BAC-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_CHORI-321_BAC-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_cDNA",
+      "name": "Sequenced cDNAs",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features","Transcript Sequences","cDNA" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/cDNA/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "limegreen","height" : "8"
+         },
+          "displayId": "FB_cDNA-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_cDNA-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_high_nooff",
+      "name": "Predicted sgRNA%2C no off target%2C high stringency",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/high_nooff/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkgreen","height" : "4"
+         },
+          "displayId": "FB_high_nooff-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_high_nooff-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_silencer",
+      "name": "Putative PREs (modENCODE)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcriptional Regulatory Elements" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/silencer/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightslategray"
+         },
+          "displayId": "FB_silencer-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_silencer-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_VDRC_VT",
+      "name": "Putative Enhancers (VDRC Vienna Tile GAL4 lines)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Putative Enhancer Lines" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/VDRC_VT/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "6"
+         },
+          "displayId": "FB_VDRC_VT-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_VDRC_VT-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_TSS_embryonic",
+      "name": "TSS (modENCODE%2C embryo)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features","Transcription Start Sites (TSS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/TSS_embryonic/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue","height" : "0"
+         },
+          "displayId": "FB_TSS_embryonic-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_TSS_embryonic-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_6",
+      "name": "TRiP RNAi amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","RNAi Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_6/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "tomato","height" : "4"
+         },
+          "displayId": "FB_pcr_product_6-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_6-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_duplicated_segment",
+      "name": "Duplications",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/duplicated_segment/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "4"
+         },
+          "displayId": "FB_duplicated_segment-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_duplicated_segment-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_tf_binding_site2",
+      "name": "whole embryo%2C Homeodomain TFBS",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/tf_binding_site2/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "wheat","height" : "6"
+         },
+          "displayId": "FB_tf_binding_site2-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_tf_binding_site2-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_insulator_1",
+      "name": "Insulators (modENCODE%2C class I)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcriptional Regulatory Elements" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/insulator_1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "red","height" : "10"
+         },
+          "displayId": "FB_insulator_1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_insulator_1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_polyA_site",
+      "name": "Polyadenylation Sites",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/polyA_site/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue"
+         },
+          "displayId": "FB_polyA_site-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_polyA_site-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_transposable_element",
+      "name": "Natural TE",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/transposable_element/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "magenta","height" : "6"
+         },
+          "displayId": "FB_transposable_element-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_transposable_element-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_tf_binding_site6",
+      "name": "whole embryo%2C Other classes TFBS",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/tf_binding_site6/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "deepskyblue","height" : "6"
+         },
+          "displayId": "FB_tf_binding_site6-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_tf_binding_site6-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_protein_binding_site",
+      "name": "TFBS (REDfly)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/protein_binding_site/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightslategray"
+         },
+          "displayId": "FB_protein_binding_site-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_protein_binding_site-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_low_nooff",
+      "name": "Predicted sgRNA%2C no off target%2C low stringency",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/low_nooff/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightgreen","height" : "4"
+         },
+          "displayId": "FB_low_nooff-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_low_nooff-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_trip_oe",
+      "name": "TRiP-OE-VPR sgRNAs (overexpression)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/trip_oe/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue","height" : "4"
+         },
+          "displayId": "FB_trip_oe-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_trip_oe-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_chromosome_band",
+      "name": "Estimated Cytological Band",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/chromosome_band/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkblue","height" : "9"
+         },
+          "displayId": "FB_chromosome_band-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_chromosome_band-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_proteomic_peptides",
+      "name": "Developmental Proteomes",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Protein Level Features","Peptide Sequences" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/proteomic_peptides/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "brown","height" : "6"
+         },
+          "displayId": "FB_proteomic_peptides-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_proteomic_peptides-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_transposable_element_insertion_site",
+      "name": "Transgenic Insertions",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transgenic Insertions" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/transposable_element_insertion_site/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightblue","height" : "10"
+         },
+          "displayId": "FB_transposable_element_insertion_site-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_transposable_element_insertion_site-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_oligo_2",
+      "name": "Affymetrix v2",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Microarrays" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/oligo_2/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_oligo_2-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_oligo_2-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_Furlong_TFBS_embryo_10-12h",
+      "name": "embryo%2C 10-12h - bin Mef2",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Furlong_TFBS_embryo_10-12h/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "beige","height" : "6"
+         },
+          "displayId": "FB_Furlong_TFBS_embryo_10-12h-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Furlong_TFBS_embryo_10-12h-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_5",
+      "name": "VDRC RNAi amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","RNAi Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_5/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "tomato","height" : "4"
+         },
+          "displayId": "FB_pcr_product_5-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_5-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_trip_ko",
+      "name": "TRiP-KO sgRNAs (knockout)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/trip_ko/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue","height" : "4"
+         },
+          "displayId": "FB_trip_ko-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_trip_ko-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_tf_binding_site5",
+      "name": "whole embryo%2C TFBS HOT spot analysis",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/tf_binding_site5/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "6"
+         },
+          "displayId": "FB_tf_binding_site5-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_tf_binding_site5-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_NCBI_gnomon_1",
+      "name": "NCBI Gnomon%2C 2006",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Gene Predictions" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/NCBI_gnomon_1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_NCBI_gnomon_1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_NCBI_gnomon_1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_hd_cfd",
+      "name": "Heidelberg CFD KO sgRNAs (conditional knockout)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/hd_cfd/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkgreen","height" : "4"
+         },
+          "displayId": "FB_hd_cfd-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_hd_cfd-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_tf_binding_site4",
+      "name": "whole embryo%2C BTB/POZ ChIP TFBS",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/tf_binding_site4/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkorchid","height" : "6"
+         },
+          "displayId": "FB_tf_binding_site4-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_tf_binding_site4-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_TSS_rampage",
+      "name": "TSS (RAMPAGE%2C peak calls)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features","Transcription Start Sites (TSS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/TSS_rampage/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "green"
+         },
+          "displayId": "FB_TSS_rampage-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_TSS_rampage-LinearArcDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "FB_dgrp_r6",
+      "name": "DGRP Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Polymorphisms & Natural Population Variants" ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "dgrp_r6/dgrp.r2.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "dgrp_r6/dgrp.r2.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+	  
+          "displayId": "FB_dgrp_r6-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "FB_dgrp_r6-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_other_aligned",
+      "name": "Inferred transcript sequences",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features","Transcript Sequences","cDNA" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/other_aligned/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "4"
+         },
+          "displayId": "FB_other_aligned-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_other_aligned-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_gap_filling_segment_bdk",
+      "name": "Bloomington Deficiency Kit: gap filling or haploinsufficiency flanking segment",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/gap_filling_segment_bdk/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "yellow","height" : "4"
+         },
+          "displayId": "FB_gap_filling_segment_bdk-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_gap_filling_segment_bdk-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_indels",
+      "name": "Insertions%2C Deletions",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Mutations & Experimentally Induced Variants" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/indels/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "4"
+         },
+          "displayId": "FB_indels-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_indels-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_Furlong_TFBS_embryo_2-4h",
+      "name": "embryo%2C 2-4h - Mef2 sna tin twi",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Furlong_TFBS_embryo_2-4h/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "beige","height" : "6"
+         },
+          "displayId": "FB_Furlong_TFBS_embryo_2-4h-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Furlong_TFBS_embryo_2-4h-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_rescue_fragment",
+      "name": "Rescue Fragments",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/rescue_fragment/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkred","height" : "4"
+         },
+          "displayId": "FB_rescue_fragment-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_rescue_fragment-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_complex_substitution",
+      "name": "Complex Substitutions",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Mutations & Experimentally Induced Variants" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/complex_substitution/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkred","height" : "4"
+         },
+          "displayId": "FB_complex_substitution-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_complex_substitution-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_1to3noncds_off",
+      "name": "Predicted sgRNA%2C 1 to 3 non-CDS off target%2C low stringency",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/1to3noncds_off/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "coral","height" : "4"
+         },
+          "displayId": "FB_1to3noncds_off-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_1to3noncds_off-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_deleted_segment",
+      "name": "Deficiencies",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/deleted_segment/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "4"
+         },
+          "displayId": "FB_deleted_segment-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_deleted_segment-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_weiz_ko",
+      "name": "Weizmann KO sgRNAs (knockout)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/weiz_ko/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "coral","height" : "4"
+         },
+          "displayId": "FB_weiz_ko-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_weiz_ko-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_Furlong_TFBS_embryo_6-8h",
+      "name": "embryo%2C 6-8h - bap bin Doc2 lmd pMad Mef2 pan pnr slp1 tin ttk twi",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Furlong_TFBS_embryo_6-8h/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "beige","height" : "6"
+         },
+          "displayId": "FB_Furlong_TFBS_embryo_6-8h-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Furlong_TFBS_embryo_6-8h-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_insulator_2",
+      "name": "Insulators (modENCODE%2C class II)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcriptional Regulatory Elements" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/insulator_2/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "wheat","height" : "10"
+         },
+          "displayId": "FB_insulator_2-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_insulator_2-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_sequence_variant",
+      "name": "FlyBase Annotated Variants",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Polymorphisms & Natural Population Variants" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/sequence_variant/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkred"
+         },
+          "displayId": "FB_sequence_variant-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_sequence_variant-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_protein_domains",
+      "name": "Pfam",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Protein Level Features","Protein Domains" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/protein_domains/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  
+          "displayId": "FB_protein_domains-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_protein_domains-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_prote_in",
+      "name": "CDS",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/prote_in/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "8"
+         },
+          "displayId": "FB_prote_in-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_prote_in-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_nig_fly_sgrna",
+      "name": "NIG-Fly-sgRNA (knockout)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/nig_fly_sgrna/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue","height" : "4"
+         },
+          "displayId": "FB_nig_fly_sgrna-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_nig_fly_sgrna-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_RNA",
+      "name": "RNA",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/RNA/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  
+          "displayId": "FB_RNA-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_RNA-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_exon_junction",
+      "name": "RNA-Seq exon junctions",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Transcript Level Features" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/exon_junction/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue","height" : "10"
+         },
+          "displayId": "FB_exon_junction-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_exon_junction-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_9",
+      "name": "NIG-Fly RNAi amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","RNAi Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_9/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "tomato","height" : "4"
+         },
+          "displayId": "FB_pcr_product_9-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_9-LinearArcDisplay"
+        }
+      ]
+    },
+   {
+      "type": "VariantTrack",
+      "trackId": "FB_dgrp_1000",
+      "name": "Drosophila Genome Nexus (DGN 1000 genomes)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Polymorphisms & Natural Population Variants" ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "DGN_1000/nexus.all-chrs.vars.AN268.R6.share.verboseINFO.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "DGN_1000/nexus.all-chrs.vars.AN268.R6.share.verboseINFO.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+	  
+          "displayId": "FB_dgrp_1000-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "FB_dgrp_1000-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_point_mutation",
+      "name": "Substitutions",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Mutations & Sequence Variants","Mutations & Experimentally Induced Variants" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/point_mutation/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "height" : "4"
+         },
+          "displayId": "FB_point_mutation-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_point_mutation-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_regulatory_region1",
+      "name": "Transcriptional Regulatory Regions (REDfly)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcriptional Regulatory Elements" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/regulatory_region1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightslategray","height" : "5"
+         },
+          "displayId": "FB_regulatory_region1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_regulatory_region1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_breakpoint",
+      "name": "Aberration Junctions",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Aberrations" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/breakpoint/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "indianred"
+         },
+          "displayId": "FB_breakpoint-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_breakpoint-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_oligo_1",
+      "name": "Affymetrix v1",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","Microarrays" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/oligo_1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_oligo_1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_oligo_1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_putative_ortholog",
+      "name": "Orthologs",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/putative_ortholog/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "palegoldenrod","height" : "6"
+         },
+          "displayId": "FB_putative_ortholog-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_putative_ortholog-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_Furlong_TFBS_embryo_8-10h",
+      "name": "embryo%2C 8-10h - bin Mef2",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/Furlong_TFBS_embryo_8-10h/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "beige","height" : "6"
+         },
+          "displayId": "FB_Furlong_TFBS_embryo_8-10h-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_Furlong_TFBS_embryo_8-10h-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_trip_ko_uas",
+      "name": "TRiP-KO-UAS sgRNAs (knockout)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/trip_ko_uas/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "blue","height" : "4"
+         },
+          "displayId": "FB_trip_ko_uas-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_trip_ko_uas-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_7",
+      "name": "BKNA RNAi amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","RNAi Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_7/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "tomato","height" : "4"
+         },
+          "displayId": "FB_pcr_product_7-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_7-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_pcr_product_2",
+      "name": "DRSC RNAi amplicons",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","RNAi Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/pcr_product_2/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "tomato","height" : "4"
+         },
+          "displayId": "FB_pcr_product_2-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_pcr_product_2-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_tf_binding_site3",
+      "name": "whole embryo%2C Helix-loop-helix TFBS",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Genome Level Features","Transcription Factor Binding Sites (TFBS)" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/tf_binding_site3/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "lightcoral","height" : "6"
+         },
+          "displayId": "FB_tf_binding_site3-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_tf_binding_site3-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_peptideatlas_peptides",
+      "name": "Peptide Atlas",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Protein Level Features","Peptide Sequences" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/peptideatlas_peptides/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "brown","height" : "6"
+         },
+          "displayId": "FB_peptideatlas_peptides-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_peptideatlas_peptides-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_many_off",
+      "name": "Predicted sgRNA%2C many off target%2C low stringency",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Misc. Reagents","sgRNA Reagents" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/many_off/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "red","height" : "4"
+         },
+          "displayId": "FB_many_off-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_many_off-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_CONGO_1",
+      "name": "PhyloCSF (CONGO)",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Gene Predictions" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/CONGO_1/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "cornflowerblue","height" : "4"
+         },
+          "displayId": "FB_CONGO_1-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_CONGO_1-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "FB_repeat_region",
+      "name": "Repeat region",
+      "assemblyNames": [
+        "Drosophila_melanogaster"
+      ],
+      "category" : [ "Reference Genome" ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://flybase-jbrowse.s3.amazonaws.com/tracks/repeat_region/{refseq}/trackData.json"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+	  "renderer" : {
+	    "color" : "darkorchid","height" : "6"
+         },
+          "displayId": "FB_repeat_region-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "FB_repeat_region-LinearArcDisplay"
+        }
+      ]
     }
-  ]
-}
