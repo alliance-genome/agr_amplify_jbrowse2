@@ -124,7 +124,7 @@ for my $id (keys %tracks) {
 	my $color;
 	my $height;
 	if (defined $tracks{$id}{'color'}) {
-            $color = '"color" : "' . $tracks{$id}{'color'} .'"';
+            $color = '"color1" : "' . $tracks{$id}{'color'} .'"';
 	}
 	if (defined $tracks{$id}{'height'}) {
             $height= '"height" : "'. $tracks{$id}{'height'} .'"';
