@@ -74,6 +74,7 @@ for my $key (keys %unflat) {
 	#	$tracks{$trackID}{'urlTemplate'} = $unflat{$key}{'urlTemplate'};
 	#$tracks{$trackID}{'storeClass'} = $unflat{$key}{'storeClass'};
 	$tracks{$trackID}{'color'}      = $unflat{$key}{'style'}{'color'};
+	$tracks{$trackID}{'color2'}     = $unflat{$key}{'style'}{'borderColor'};
 	$tracks{$trackID}{'height'}     = $unflat{$key}{'style'}{'height'};
 	$tracks{$trackID}{'key'}        = $unflat{$key}{'key'};
 	if (ref $unflat{$key}{'category'} eq 'ARRAY') {
@@ -101,6 +102,8 @@ for my $track (@{$$json{'tracks'}}) {
     $trackID                         = $$track{'label'};
     $tracks{$trackID}{'urlTemplate'} = $$track{'urlTemplate'};
     $tracks{$trackID}{'storeClass'}  = $$track{'storeClass'};
+    $tracks{$trackID}{'shortInfo'}   = $$track{'metadata'}{'shortInfo'};
+    $tracks{$trackID}{'trackLegend'} = $$track{'metadata'}{'trackLegend'};
     #warn $$track{'key'};
     #warn $tracks{$trackID}{'key'};
     $tracks{$trackID}{'key'}         ||= exists $$track{'key'} ? $$track{'key'} : $$track{'label'};
@@ -119,31 +122,46 @@ for my $id (keys %tracks) {
 
     my $label = exists $tracks{$id}{'key'} ? $tracks{$id}{'key'} : $id;
 
+    my $metadata = '';
+    if (defined $tracks{$id}{'shortInfo'} or defined $tracks{$id}{'trackLegend'} ) {
+        my @meta;
+	if (defined $tracks{$id}{'shortInfo'} ) {
+            push @meta, '"shortInfo" : "' . $tracks{$id}{'shortInfo'} .'"';
+	}
+	if (defined $tracks{$id}{'trackLegend'} ) {
+            push @meta, '"trackLegend" : "' . $tracks{$id}{'trackLegend'} . "'";
+	}
+	my $values = join(',', @meta);
+	$metadata=qq|"metadata" : {
+            $values
+       },|;
+    }
+
     my $renderer = '';
-    if (defined $tracks{$id}{'color'} or defined $tracks{$id}{'height'}) {
-	my $color;
-	my $height;
+    if (defined $tracks{$id}{'color'} 
+	            or defined $tracks{$id}{'color2'}
+		    or defined $tracks{$id}{'height'}) {
+
+	my @styles;
 	if (defined $tracks{$id}{'color'}) {
-            $color = '"color1" : "' . $tracks{$id}{'color'} .'"';
+            push @styles, '"color1" : "' . $tracks{$id}{'color'} .'"';
 	}
 	if (defined $tracks{$id}{'height'}) {
-            $height= '"height" : '. $tracks{$id}{'height'};
+            push @styles, '"height" : '. $tracks{$id}{'height'};
 	}
-	my $final;
-	if ($color and $height) {
-            $final = $color . "," .$height;
-	} elsif ($color) {
-            $final = $color;
-	} elsif ($height) {
-            $final = $height;
+	if (defined $tracks{$id}{'color2'}) {
+            push @styles, '"color2" : "' . $tracks{$id}{'color2'} .'"';
 	}
+	my $styles = join(",", @styles);
         $renderer=qq|"renderer" : {
-	    $final
+	     $styles
          },|;
     }
 
     my $cat_list = join('","', @{$tracks{$id}{category}}) if exists $tracks{$id}{category};
     my $cat_string = exists $tracks{$id}{category} ? "\"category\" : [ \"$cat_list\" ]," : '"category" : [ "Other FlyBase tracks" ],';
+    $cat_string =~ s/%2C/,/g;
+    $label      =~ s/%2C/,/g;
 
     if ( $tracks{$id}{'storeClass'} =~ /VCFTabix/ ) {
 $config=qq|   {
@@ -211,6 +229,7 @@ $config=qq|   {
         "Drosophila_melanogaster"
       ],
       $cat_string
+      $metadata
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
