@@ -55,6 +55,10 @@ for my $key (keys %Config) {
 	#warn $two;
 	if ($one =~ /(.+)\.([^.]+)/) {
             $unflat{$1}{$2}{$two} = $Config{$key};
+	    #	    if ($1 eq 'insulator_1' and $2 eq 'style' and $two eq 'label') {
+	    #    warn exists $unflat{$1}{$2}{$two};
+	    #	die;
+	    #}
 	}
 	else {
 	    $unflat{$one}{$two} = $Config{$key};
@@ -83,6 +87,9 @@ for my $key (keys %unflat) {
 	    my @temp;
 	    $temp[0] = $unflat{$key}{'category'};
             $tracks{$trackID}{'category'}   = \@temp;
+	}
+	if (exists $unflat{$key}{'style'}{'label'} and !$unflat{$key}{'style'}{'label'}) {
+            $tracks{$trackID}{'featurelabel'} = 'false';
 	}
 }
 
@@ -140,7 +147,8 @@ for my $id (keys %tracks) {
     my $renderer = '';
     if (defined $tracks{$id}{'color'} 
 	            or defined $tracks{$id}{'color2'}
-		    or defined $tracks{$id}{'height'}) {
+		    or defined $tracks{$id}{'height'}
+                    or defined $tracks{$id}{'featurelabel'}) {
 
 	my @styles;
 	if (defined $tracks{$id}{'color'}) {
@@ -151,6 +159,9 @@ for my $id (keys %tracks) {
 	}
 	if (defined $tracks{$id}{'color2'}) {
             push @styles, '"color2" : "' . $tracks{$id}{'color2'} .'"';
+	}
+	if (defined $tracks{$id}{'featurelabel'}) {
+            push @styles, '"showLabels" : false';
 	}
 	my $styles = join(",", @styles);
         $renderer=qq|"renderer" : {
