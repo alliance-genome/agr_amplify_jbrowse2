@@ -46,40 +46,40 @@
   "aggregateTextSearchAdapters" : [
     {
       "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "hg38-index",
+      "textSearchAdapterId": "mRatBN7.2-index",
       "ixFilePath": {
-        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/hg38.ix",
+        "uri" : "/jbrowsedata/RGDJBrowse/trix/mRatBN7.2.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/hg38.ixx",
+        "uri" : "/jbrowsedata/RGDJBrowse/trix/trix/mRatBN7.2.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/hg38_meta.json",
-        "locationType": "UriLocation"
-      },
-      "assemblyNames": [
-        "Homo_sapiens"
-      ]
-    },
-    {
-      "type": "TrixTextSearchAdapter",
-      "textSearchAdapterId": "rn7.2-index",
-      "ixFilePath": {
-        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/rn7.2.ix",
-        "locationType": "UriLocation"
-      },
-      "ixxFilePath": {
-        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/rn7.2.ixx",
-        "locationType": "UriLocation"
-      },
-      "metaFilePath": {
-        "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/RGD/trix/rn7.2_meta.json",
+        "uri" : "/jbrowsedata/RGDJBrowse/trix/mRatBN7.2_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": [
         "Rattus_norvegicus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "GRCh38.p14-index",
+      "ixFilePath": {
+        "uri" : "/jbrowsedata/RGDJBrowse/trix/GRCh38.p14.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri" : "/jbrowsedata/RGDJBrowse/trix/GRCh38.p14.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri" : "/jbrowsedata/RGDJBrowse/trix/GRCh38.p14_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Homo_sapiens"
       ]
     },
       {

@@ -21,25 +21,25 @@ my @rat_tracks;
 for my $track (@{ $$json{'tracks'} }) {
     next if $$track{'type'} eq 'SyntenyTrack';
 
-    next unless ($$track{'assemblyNames'}[0] eq 'rn7.2'
-    	      or $$track{'assemblyNames'}[0] eq 'hg38' );
+    next unless ($$track{'assemblyNames'}[0] eq 'mRatBN7.2'
+    	      or $$track{'assemblyNames'}[0] eq 'GRCh38.p14' );
 
     if (exists $$track{'adapter'}{'uri'}) {
-        $$track{'adapter'}{'uri'} = '/RGDJBrowse/'.$$track{'adapter'}{'uri'};
+        $$track{'adapter'}{'uri'} = '/jbrowsedata/RGDJBrowse/'.$$track{'adapter'}{'uri'};
     }
     elsif (exists $$track{'adapter'}{'gffGzLocation'}{'uri'}) {
-        $$track{'adapter'}{'gffGzLocation'}{'uri'}     = '/RGDJBrowse/'.$$track{'adapter'}{'gffGzLocation'}{'uri'};
-        $$track{'adapter'}{'index'}{'location'}{'uri'} = '/RGDJBrowse/'.$$track{'adapter'}{'index'}{'location'}{'uri'};
+        $$track{'adapter'}{'gffGzLocation'}{'uri'}     = '/jbrowsedata/RGDJBrowse/'.$$track{'adapter'}{'gffGzLocation'}{'uri'};
+        $$track{'adapter'}{'index'}{'location'}{'uri'} = '/jbrowsedata/RGDJBrowse/'.$$track{'adapter'}{'index'}{'location'}{'uri'};
     }
     elsif (exists $$track{'adapter'}{'bedGzLocation'}{'uri'}) {
-        $$track{'adapter'}{'bedGzLocation'}{'uri'}     = '/RGDJBrowse/'.$$track{'adapter'}{'bedGzLocation'}{'uri'};
-        $$track{'adapter'}{'index'}{'location'}{'uri'} = '/RGDJBrowse/'.$$track{'adapter'}{'index'}{'location'}{'uri'};
+        $$track{'adapter'}{'bedGzLocation'}{'uri'}     = '/jbrowsedata/RGDJBrowse/'.$$track{'adapter'}{'bedGzLocation'}{'uri'};
+        $$track{'adapter'}{'index'}{'location'}{'uri'} = '/jbrowsedata/RGDJBrowse/'.$$track{'adapter'}{'index'}{'location'}{'uri'};
     }
 
-    if ($$track{'assemblyNames'}[0] eq 'rn7.2') {
+    if ($$track{'assemblyNames'}[0] eq 'mRatBN7.2') {
         $$track{'assemblyNames'}[0] = 'Rattus_norvegicus';
     }
-    elsif ($$track{'assemblyNames'}[0] eq 'hg38') {
+    elsif ($$track{'assemblyNames'}[0] eq 'GRCh38.p14') {
         $$track{'assemblyNames'}[0] = 'Homo_sapiens';
     }
 
