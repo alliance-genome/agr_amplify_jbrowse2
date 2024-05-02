@@ -1,0 +1,32 @@
+[   {
+      "trackId" : "xlaevis_all_genes",
+      "assemblyNames" : [
+         "Xenopus_laevis"
+      ],
+      "name" : "All Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/XenBase/x_laevis/tracks/All_Genes/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'",
+               "maxHeight" : 5000,
+               "color3" : "#30332E",
+               "type" : "SvgFeatureRenderer"
+            },
+            "displayId" : "xlaevis_all_genes-LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "xlaevis_all_genes-LinearArcDisplay"
+         }
+      ]
+   }
+]

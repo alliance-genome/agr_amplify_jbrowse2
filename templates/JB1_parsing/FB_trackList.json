@@ -1,0 +1,2548 @@
+{
+   "dataset_id" : "dmel",
+   "formatVersion" : 1,
+   "names" : {
+      "type" : "Hash",
+      "url" : "names/"
+   },
+	 "include" : [ "functions.conf", "alliance-functions.conf" ],
+   "tracks" : [
+      {
+         "chunkSize" : 20000,
+				 "category" : "Reference Genome <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Reference_Genome> [?]",
+         "key" : "Nucleotide View",
+         "label" : "DNA",
+         "seqType" : "dna",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "type" : "SequenceTrack",
+         "urlTemplate" : "seq/{refseq_dirpath}/{refseq}-"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "onClick" : {
+						"action": "newWindow",
+						"url": "/reports/{ID}",
+					  "label": "{geneBalloon}"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "JBrowse/View/Track/CanvasFeatures",
+         "urlTemplate" : "tracks/Gene_span/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "JBrowse/View/Track/CanvasFeatures",
+         "label" : "Gene_span"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "glyph": "JBrowse/View/FeatureGlyph/Gene",
+				 "subfeatureClasses" : { 
+							"three_prime_UTR" : "transcript-UTR",
+							"exon" : "transcript-exon",
+							"CDS" : "transcript-CDS",
+							"tRNA_part" : "transcript-CDS",
+							"pseudogene_part" : "transcript-CDS",
+							"five_prime_UTR" : "transcript-UTR" 
+				 },
+  			 "subfeatureDetailLevel": 3,
+				 "feature" : [ "mRNA","tRNA","pseudogene" ],
+         "onClick" : {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : true,
+           "content" : "<iframe src='/cgi-bin/get_summary.pl?mode=ForJBrowse&db=fbgn&fbid={id}' width=450 height=250></iframe>",
+           "label" : "function() { return 'View automated summary for gene '+this.feature.get('name'); }"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "trackType" : "JBrowse/View/Track/CanvasFeatures",
+				 "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "urlTemplate" : "tracks/Gene/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Gene"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+  			 "subfeatureDetailLevel": 3,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "JBrowse/View/Track/CanvasFeatures",
+         "urlTemplate" : "tracks/RNA/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "RNA"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/prote_in/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "prote_in"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "onClick" : {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : "true",
+           "content" : "<iframe id='{ID}' src='/cgi-bin/get_summary.pl?mode=OrthologsLinks&caller=JBrowse&species=dmel&fbid={Accession}' height='150' width='250'></iframe>",
+           "label" : "View orthologs"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/putative_ortholog/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "putative_ortholog"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/transposable_element/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "transposable_element"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/repeat_region/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "repeat_region"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "strandArrow" : false
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Reference_Genome'>Reference_Genome</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Range",
+         "urlTemplate" : "tracks/chromosome_band/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "chromosome_band"
+      },
+
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "function() { var fbab=this.feature.get('break_of'); if( fbab ) { if( Array.isArray(fbab) ) { return 'javascript:void(0)'; } } else { return 'javascript:void(0)'; } return '/reports/'+fbab; }"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Aberrations'>Aberrations</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/breakpoint/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "breakpoint"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : "true",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+					 "label": "{aberrationBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Aberrations'>Aberrations</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
+         "urlTemplate" : "tracks/deleted_segment/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "deleted_segment"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : "true",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>",
+					 "label": "{aberrationBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Aberrations'>Aberrations</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
+         "urlTemplate" : "tracks/duplicated_segment/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "duplicated_segment"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : "true",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
+				 },
+         "label" : "deleted_segment_sc",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Deficiency_Stocks'>Deficiency Stocks</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+				    "arrowhedClass" : null,
+            "className" : "match_part"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
+         "urlTemplate" : "tracks/deleted_segment_sc/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : "true",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
+				 },
+         "label" : "deleted_segment_bdk",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Deficiency_Stocks'>Deficiency Stocks</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+				    "strabdArrow" : null,
+            "className" : "match_part"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
+         "urlTemplate" : "tracks/deleted_segment_bdk/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "gap_filling_segment_bdk",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Deficiency_Stocks'>Deficiency Stocks</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+				    "strabdArrow" : null,
+            "className" : "match_part"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/gap_filling_segment_bdk/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}",
+						"label": "{insertionBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transgenic_Insertions'>Transgenic_Insertions</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/transposable_element_insertion_site/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
+         "label" : "transposable_element_insertion_site"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{FBID}",
+						"label": "{insertionBalloon}"
+				 },
+         "label" : "insertion_sc",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transgenic_Insertion_Stocks'>Transgenic Insertion Stocks</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
+         "urlTemplate" : "tracks/insertion_sc/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{related_allele}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants'>Mutations & Experimentally Induced Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/point_mutation/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "point_mutation"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{related_allele}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants'>Mutations & Experimentally Induced Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/indels/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "indels"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{related_allele}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants'>Mutations & Experimentally Induced Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/complex_substitution/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "complex_substitution"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{related_allele}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants'>Mutations & Experimentally Induced Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/uncharacterized_change_in_nucleotide_sequence/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "uncharacterized_change_in_nucleotide_sequence"
+      },
+      {
+         "compress" : 0,
+         "label" : "agr_variants",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "style" : {
+             "color" : "{variationColor}",
+             "height" : 8,
+	      		 "description" : "{variationDescription}",
+             "label" : "{variationLabel}"
+				 },
+         "onClick" : {
+						"action" : "contentDialog",
+						"title" : "{name}",
+					  "content" : "{variantsBalloon}",
+					  "label" : "{variantsBalloon}"
+         },
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Mutations_.26_Experimentally_Induced_Variants'>Mutations & Experimentally Induced Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+				 "glyph" : "{variationGlyph}",
+         "urlTemplate" : "agr_variants/fly-latest.vcf.gz",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{related_allele}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Polymorphisms_.26_Natural_Population_Variants'>Polymorphisms & Natural Population Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/sequence_variant/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "sequence_variant"
+      },
+      {
+         "compress" : 0,
+         "label" : "dgrp_r6",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Polymorphisms_.26_Natural_Population_Variants'>Polymorphisms & Natural Population Variants</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "urlTemplate" : "dgrp_r6/dgrp.r2.vcf.gz",
+         "type" : "JBrowse/View/Track/HTMLVariants"
+      },
+      {
+         "compress" : 0,
+         "label" : "dgrp_1000",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "urlTemplate" : "DGN_1000/nexus.all-chrs.vars.AN268.R6.share.verboseINFO.vcf.gz",
+         "type" : "JBrowse/View/Track/HTMLVariants"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "key" : "Putative Brain Enhancers (Janelia GAL4 lines)",
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Putative_Enhancer_Lines'>Putative_Enhancer_Lines</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/GMR_Brain_exp/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "GMR_Brain_exp"
+      },
+
+      {
+         "compress" : 0,
+         "key" : "Putative Enhancers (VDRC Vienna Tile GAL4 lines)",
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{Id}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Putative_Enhancer_Lines'>Putative_Enhancer_Lines</a>"
+				 }, 
+         "label" : "VDRC_VT",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/VDRC_VT/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "compress" : 0,
+         "label" : "trip_oe",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{id}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/trip_oe/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "trip_oe_flysam",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{id}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/trip_oe_flysam/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "trip_ko",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{id}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/trip_ko/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "trip_ko_uas",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{id}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/trip_ko_uas/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "nig_fly_sgrna",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{id}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/nig_fly_sgrna/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "weiz_ko",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{Alias}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/weiz_ko/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "hd_cfd",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "onClick" : {
+           "action" : "iframeDialog",
+           "url" : "/reports/{id}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/hd_cfd/{refseq}/trackData.json"
+      },
+
+
+
+
+
+
+
+
+      {
+         "compress" : 0,
+         "label" : "high_nooff",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/high_nooff/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "med_nooff",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/med_nooff/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "low_nooff",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/low_nooff/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "1to3noncds_off",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/1to3noncds_off/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "many_off",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#sgRNA_Reagents'>sgRNA_Reagents</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/many_off/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNAi_Reagents'>RNAi_Reagents</a>"
+				 }, 
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{Alias}"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_2/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "pcr_product_2"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNAi_Reagents'>RNAi_Reagents</a>"
+				 }, 
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_5/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "pcr_product_5"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNAi_Reagents'>RNAi_Reagents</a>"
+				 }, 
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_6/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "pcr_product_6"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNAi_Reagents'>RNAi_Reagents</a>"
+				 }, 
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_7/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "pcr_product_7"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNAi_Reagents'>RNAi_Reagents</a>"
+				 }, 
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_8/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "pcr_product_8"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNAi_Reagents'>RNAi_Reagents</a>"
+				 }, 
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{Accession}"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_9/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "pcr_product_9"
+      },
+
+
+
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{related_allele}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Rescue_fragments'>Rescue_fragments</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/rescue_fragment/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "rescue_fragment"
+      },
+
+
+
+
+
+
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{Associated_with}"
+				 },
+         "label" : "CHORI-321_BAC",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Genomic_Libraries'>Genomic Libraries</a>"
+				 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/CHORI-321_BAC/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{Associated_with}"
+				 },
+         "label" : "CHORI-322_BAC",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Genomic_Libraries'>Genomic Libraries</a>"
+				 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/CHORI-322_BAC/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "compress" : 0,
+         "key" : "Affymetrix v1",
+         "label" : "oligo_1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Microarrays'>Microarrays</a>"
+				 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/oligo_1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "key" : "Affymetrix v2",
+         "label" : "oligo_2",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Microarrays'>Microarrays</a>"
+				 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/oligo_2/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "key" : "DGRC-1 amplicons",
+         "label" : "pcr_product_1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Microarrays'>Microarrays</a>"
+				 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/pcr_product_1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "key" : "DGRC-2 oligos",
+         "label" : "oligo_3",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Microarrays'>Microarrays</a>"
+				 },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/oligo_3/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "compress" : 0,
+	       "label" : "topoview_chromatin_domains_kc",
+				 "key" : "Chromatin Domains (5-state model, Kc cells)",
+         "category" : "Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
+					 "trackLegend" : "<tr align='left'><td><center><b>Chromatin Types in Kc167 cells (<a target='_blank' href='/reports/FBrf0212051'>Filion et al, 2010</a>).</b></center><span style='background: rgb(0,102,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- corresponds to classic (including pericentric) heterochromatin.<br><span style='background: rgb(0,51,172);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- PcG (Polycomb Group) chromatin; subject to epigenetic silencing.<br><span style='background: rgb(34,34,34);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally silent (in cell type assayed); probably dynamic.<br><span style='background: rgb(207,51,51);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually developmentally regulated.<br><span style='background: rgb(255,204,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- transcriptionally active euchromatin; genes usually broadly expressed.<br></td></tr>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_chromatin_domains_kc/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_chromatin_domains_s2",
+         "key" : "Chromatin Domains (9-state model, S2 cells)",
+         "category" : "Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
+					 "trackLegend" : "<tr align='left'><td><center><b>Chromatin Types in S2-DRSC cells (<a target='_blank' href='/reports/FBrf0213294'>Kharchenko et al, 2011</a>)</b></center><span style='background: rgb(237,32,35);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Active promoter/transcription start site region<br><span style='background: rgb(206,95,144);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon<br><span style='background: rgb(139,70,31);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed intron (enhancer)<br><span style='background: rgb(248,159,123);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Other open chromatin<br><span style='background: rgb(44,139,87);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon on the male X chromosome (dosage compensation)<br><span style='background: rgb(0,0,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Region of Polycomb-mediated repression<br><span style='background: rgb(0,0,255);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin<br><span style='background: rgb(174,216,230);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin-like region embedded in euchromatin<br><span style='background: rgb(229,229,229);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Transcriptionally silent intergenic euchromatin<br></td></tr>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_chromatin_domains_s2/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_chromatin_domains_bg3",
+         "key" : "Chromatin Domains (9-state model, BG3 cells)",
+         "category" : "Genome Level Features / Chromatin Features <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Chromatin_Features> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>",
+					 "trackLegend" : "<tr align='left'><td><center><b>Chromatin Types in S2-DRSC cells (<a target='_blank' href='/reports/FBrf0213294'>Kharchenko et al, 2011</a>)</b></center><span style='background: rgb(237,32,35);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Active promoter/transcription start site region<br><span style='background: rgb(206,95,144);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon<br><span style='background: rgb(139,70,31);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed intron (enhancer)<br><span style='background: rgb(248,159,123);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Other open chromatin<br><span style='background: rgb(44,139,87);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Actively transcribed exon on the male X chromosome (dosage compensation)<br><span style='background: rgb(0,0,0);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Region of Polycomb-mediated repression<br><span style='background: rgb(0,0,255);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin<br><span style='background: rgb(174,216,230);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Heterochromatin-like region embedded in euchromatin<br><span style='background: rgb(229,229,229);'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -- Transcriptionally silent intergenic euchromatin<br></td></tr>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_chromatin_domains_bg3/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Chromatin_Features'>Chromatin_Features</a>"
+				 }, 
+         "label" : "histone_modifications",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/histone_modifications/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}",
+						"label": "{insulatorBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements'>Transcriptional_Regulatory_Elements</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/insulator_1/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
+         "label" : "insulator_1"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}",
+						"label": "{insulatorBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements'>Transcriptional_Regulatory_Elements</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/insulator_2/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Insertion",
+         "label" : "insulator_2"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements'>Transcriptional_Regulatory_Elements</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/silencer/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "silencer"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcriptional_Regulatory_Elements'>Transcriptional_Regulatory_Elements</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/regulatory_region1/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "regulatory_region1"
+      },
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/protein_binding_site/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "protein_binding_site"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "label" : "Furlong_TFBS_embryo_2-4h",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Furlong_TFBS_embryo_2-4h/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "label" : "Furlong_TFBS_embryo_4-6h",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Furlong_TFBS_embryo_4-6h/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "label" : "Furlong_TFBS_embryo_6-8h",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Furlong_TFBS_embryo_6-8h/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "label" : "Furlong_TFBS_embryo_8-10h",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Furlong_TFBS_embryo_8-10h/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "label" : "Furlong_TFBS_embryo_10-12h",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Furlong_TFBS_embryo_10-12h/{refseq}/trackData.json"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/tf_binding_site5/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "tf_binding_site5"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/tf_binding_site1/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "tf_binding_site1"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/tf_binding_site2/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "tf_binding_site2"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/tf_binding_site3/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "tf_binding_site3"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/tf_binding_site4/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "tf_binding_site4"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Factor_Binding_Sites'>Transcription_Factor_Binding_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/tf_binding_site6/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "tf_binding_site6"
+      },
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Other_Sequence_Elements'>Other_Sequence_Elements</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/origin_of_replication/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "origin_of_replication"
+      },
+
+
+
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?tool=FlyBase&dopt=GenBank&db=nuccore&term={Target}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='http://wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#cDNA'>cDNA</a>"
+				 },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/cDNA/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "cDNA"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#cDNA'>cDNA</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/other_aligned/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "other_aligned"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?tool=FlyBase&db=nucest&term={Target}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank' href='https://wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#EST_.28Expressed_Sequence_Tag.29'>EST</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/EST/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "EST"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}",
+					  "label": "{TSSRNASeqBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Start_Sites'>Transcription_Start_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/TSS_embryonic/{refseq}/trackData.json",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/TSS_RNASeq",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "TSS_embryonic"
+      },
+      {
+         "label" : "TSS_rampage",
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Start_Sites'>Transcription_Start_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/TSS_rampage/{refseq}/trackData.json",
+         "type" : "CanvasFeatures",
+         "compress" : 0
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_rampage_tss_stranded1",
+         "key" : "TSS (RAMPAGE, early embryo 0-12hr, stranded RNA-Seq)",
+         "category" : "Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Start_Sites'>Transcription_Start_Sites</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_rampage_tss_stranded1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_rampage_tss_stranded2",
+         "key" : "TSS (RAMPAGE, late embryo 13-24hr, stranded RNA-Seq)",
+         "category" : "Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Start_Sites'>Transcription_Start_Sites</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_rampage_tss_stranded2/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_rampage_tss_stranded5",
+         "key" : "TSS (RAMPAGE, larva/pupa/adult, stranded RNA-Seq)",
+         "category" : "Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Start_Sites'>Transcription_Start_Sites</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_rampage_tss_stranded5/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_machibase_tss_cage",
+         "key" : "TSS (MachiBase, stranded RNA-Seq)",
+         "category" : "Transcript Level Features / Transcription Start Sites (TSS) <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Transcription_Start_Sites> [?]",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Transcription_Start_Sites'>Transcription_Start_Sites</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_machibase_tss_cage/{refseq}/trackData.json"
+      },
+      {
+         "label" : "exon_junction",
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{Accession}",
+					  "label": "{junctionBalloon}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-seq_Exon_Junctions'>RNA-seq_Exon_Junctions</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/exon_junction/{refseq}/trackData.json",
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/ExonJunction",
+         "compress" : 0
+      },
+      {
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Polyadenylation_Sites'>Polyadenylation_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/polyA_site/{refseq}/trackData.json",
+         "label" : "polyA_site"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA_Editing_Sites'>RNA_Editing_Sites</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/modified_RNA_base_feature/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/DownTriangle",
+         "label" : "modified_RNA_base_feature"
+      },
+
+
+
+
+
+
+
+
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "http://pfam.xfam.org/family/{Pfam}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Protein_Domains'>Protein_Domains</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/protein_domains/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "protein_domains"
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+				 "onClick": {
+						"action": "newWindow",
+            "url" : "https://www.ebi.ac.uk/interpro/entry/{Interpro}"
+				 },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Protein_Domains'>Protein_Domains</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/protein_domains_smart/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "protein_domains_smart"
+      },
+      {
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+				 "onClick": {
+						"action": "newWindow",
+						"url": "/reports/{ID}.html"
+				 },
+         "label" : "proteomic_peptides",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Peptide_Sequences'>Peptide_Sequences</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/proteomic_peptides/{refseq}/trackData.json",
+         "compress" : 0
+      },
+      {
+         "style" : {
+            "className" : "generic_parent",
+            "arrowheadClass" : "arrowhead"
+         },
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Peptide_Sequences'>Peptide_Sequences</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/peptideatlas_peptides/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "peptideatlas_peptides"
+      },
+
+
+
+
+
+
+      {
+         "compress" : 0,
+				 "onClick": {
+					 "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+					 "hideIframeDialogUrl" : "true",
+           "content" : "<iframe id='{ID}_fbab' src='/cgi-bin/get_summary.pl?mode=ForJBrowse&caller=JBrowse&db=fbab&xtra={ID}_fbab&fbid={Accession}' width=150 height=150></iframe>"
+				 },
+         "label" : "duplicated_segment_sc",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#Duplication_Stocks'>Duplications</a>"
+				 }, 
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+				    "arrowhedClass" : null,
+            "className" : "match_part"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "glyph" : "flybase-glyphs/View/FeatureGlyph/Aberration",
+         "urlTemplate" : "tracks/duplicated_segment_sc/{refseq}/trackData.json"
+      },
+
+
+
+
+      {
+         "compress" : 0,
+	       "label" : "topoview_modencode_30devstages",
+        "key" : "Developmental stages",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL"  : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+				 "selectedSubsets": "all",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_modencode_30devstages/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_tissues_stranded1",
+        "key" : "Digestive system",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"          : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_tissues_stranded1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_tissues_stranded2",
+        "key" : "Fat body and salivary glands",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_tissues_stranded2/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_tissues_stranded3",
+        "key" : "Imaginal disc and other carcass",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_tissues_stranded3/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_tissues_stranded4",
+        "key" : "CNS and adult head",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_tissues_stranded4/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_tissues_stranded5",
+        "key" : "Gonads and male accessory glands",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes / Tissues",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_tissues_stranded5/{refseq}/trackData.json"
+      },
+
+      {
+         "compress" : 0,
+	       "label" : "topoview_celllines_stranded1",
+        "key" : "Cell lines",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_celllines_stranded1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_treatments_stranded1",
+        "key" : "Treatments/Conditions",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / modENCODE transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_treatments_stranded1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_neuron_stranded1",
+        "key" : "L3 CNS neuron",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Knoblich lab L3 CNS transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsYshift"  : "17",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_neuron_stranded1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_nb_stranded1",
+        "key" : "L3 CNS neuroblast",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Knoblich lab L3 CNS transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsYshift"  : "17",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_nb_stranded1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_NCBI_aggregate_10000",
+        "key" : "Aggregated RNA-Seq, cutoff 10,000",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Oliver lab SRA Aggregated RNA-Seq",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_NCBI_aggregate_10000/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_NCBI_aggregate_1000",
+        "key" : "Aggregated RNA-Seq, cutoff 1,000",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Oliver lab SRA Aggregated RNA-Seq",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_NCBI_aggregate_1000/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_NCBI_aggregate_100",
+        "key" : "Aggregated RNA-Seq, cutoff 100",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / Oliver lab SRA Aggregated RNA-Seq",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+	       "style" : {
+            "className" : "image"
+         },
+         "type" : "ImageTrack",
+         "urlTemplate" : "tracks/topoview_NCBI_aggregate_100/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_nervous_system",
+        "key" : "Nervous system",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_nervous_system/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_digestive_system",
+        "key" : "Digestive system",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_digestive_system/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_reproductive_system",
+        "key" : "Reproductive system",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_reproductive_system/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_other_systems",
+        "key" : "Other systems and whole organism",
+        "category" : "Expression / RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>RNA-Seq</a>"
+				 }, 
+         "storeClass"     : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_other_systems/{refseq}/trackData.json"
+      },
+
+
+
+
+      {
+         "compress" : 0,
+	       "label" : "topoview_Lai_devstages",
+        "key" : "Developmental stages",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_Lai_devstages/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_Lai_tissues",
+        "key" : "Tissues",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_Lai_tissues/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_Lai_clones_1",
+        "key" : "Schneider and embryonic-derived",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes / Cell lines",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_Lai_clones_1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_Lai_clones_2",
+        "key" : "Imaginal disc-derived",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes / Cell lines",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_Lai_clones_2/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_Lai_clones_3",
+        "key" : "CNS-, ovary- and blood-derived",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / Lai lab transcriptomes / Cell lines",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_Lai_clones_3/{refseq}/trackData.json"
+      },
+
+
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_small_nervous_system",
+        "key" : "Nervous system",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_small_nervous_system/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_small_digestive_system",
+        "key" : "Digestive system",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_small_digestive_system/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_small_reproductive_system",
+        "key" : "Reproductive system",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_small_reproductive_system/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+	       "label" : "topoview_flyatlas2_small_other_systems",
+        "key" : "Other systems and whole organism",
+        "category" : "Expression / Small RNA-Seq <a target='_blank' href=wiki_FlyBase:JBrowse_Tracks#Small_RNA-Seq> [?] / FlyAtlas2 transcriptomes",
+         "unsafeMouseover": true,
+         "unsafePopup": true,
+				 "metadata" : {
+				   "shortInfo" : "FlyBase wiki: <a target='_blank'  href='https:/wiki.flybase.org/wiki/FlyBase:JBrowse_Tracks#RNA-Seq'>Small_RNA-Seq</a>"
+				 }, 
+         "storeClass"    : "flybase-glyphs/Store/TopoView",
+         "type"           : "flybase-glyphs/View/Track/TopoView",
+         "scriptBaseURL" : "/cgi-bin/get_topoview_tile.pl?species=dmel",
+				 "signalScale"    : "log",
+				 "subsetsXshift"  : "2",
+				 "subsetsYshift"  : "13",
+	       "style" : {
+            "className" : "image"
+         },
+         "urlTemplate" : "tracks/topoview_flyatlas2_small_other_systems/{refseq}/trackData.json"
+      },
+
+
+
+
+
+      {
+         "compress" : 0,
+         "label" : "NCBI_gnomon_1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/NCBI_gnomon_1/{refseq}/trackData.json"
+      },
+      {
+         "compress" : 0,
+         "label" : "CONGO_1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "arrowheadClass" : "arrowhead",
+            "className" : "generic_parent"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/CONGO_1/{refseq}/trackData.json"
+      }
+   ]
+}

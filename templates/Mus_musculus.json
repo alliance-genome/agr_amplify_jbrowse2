@@ -1,0 +1,101 @@
+[   {
+      "assemblyNames" : [
+         "Mus_musculus"
+      ],
+      "trackId" : "mouse_all_genes",
+      "type" : "FeatureTrack",
+      "name" : "All Genes",
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "color3" : "#30332E",
+               "maxHeight" : 5000,
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'"
+            },
+            "displayId" : "mouse_all_genes-LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "mouse_all_genes-LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
+         }
+      }
+   },
+   {
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/3.2.0/MGI/mouse/tracks/Multiple-Variant Alleles/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "color1" : "jexl:multiVariantColor(feature)"
+            },
+            "displayId" : "mouse_multiple-variant_alleles-LinearBasicDisplay",
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "displayId" : "mouse_multiple-variant_alleles-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ],
+      "name" : "Multiple-Variant Alleles",
+      "type" : "FeatureTrack",
+      "trackId" : "mouse_multiple-variant_alleles",
+      "assemblyNames" : [
+         "Mus_musculus"
+      ]
+   },
+       {
+      "type": "VariantTrack",
+      "trackId": "mouse_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Mus_musculus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/mouse-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/mouse-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "mouse_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "mouse_variants-ChordVariantDisplay"
+        }
+      ]
+    }
+]

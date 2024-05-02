@@ -1,0 +1,1047 @@
+[tracks_Gene_span]
+key = Gene span
+category = Reference Genome 
+style.textFont = 10px Verdana
+style.borderColor =  black
+onClick.action = newWindow
+onClick.url = /reports/{Accession}
+
+[tracks_Gene]
+key = Gene: transcript view
+category = Reference Genome 
+style.connectorColor = black
+style.borderColor = black
+style.utrHeightPercent = 100
+style.textFont = 10px Verdana
+subfeatures = true
+
+[tracks_RNA]
+key = RNA
+category = Reference Genome 
+style.connectorColor = black
+displayMode = normal
+style.labelTranscripts = true
+style.borderColor = black
+style.utrHeightPercent = 100
+style.textFont = 10px Verdana
+subfeatures = true
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_prote_in]
+key = CDS
+category = Reference Genome 
+style.connectorColor = black
+style.borderColor = black
+style.textFont = 10px Verdana
+style.height = 8
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_putative_ortholog]
+key = Orthologs
+category = Reference Genome 
+style.textFont = 10px Verdana
+style.color = palegoldenrod
+style.borderColor = black
+style.height = 6
+
+[tracks_transposable_element]
+key = Natural TE
+category = Reference Genome 
+style.color = magenta
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_repeat_region]
+key = Repeat region
+category = Reference Genome 
+style.textFont = 10px Verdana
+style.color = darkorchid
+style.height = 6
+style.label = ""
+
+[tracks_chromosome_band]
+key = Estimated Cytological Band
+category = Reference Genome 
+style.height = 9
+style.textFont = 10px Verdana
+style.color = darkblue
+
+
+
+#######################################################################
+#######################################################################
+#------------------------ Aberrations -----------------------
+
+[tracks_breakpoint]
+key = Aberration Junctions 
+category = Aberrations 
+style.textFont = 10px Verdana
+style.color = indianred
+style.borderColor = black
+
+[tracks_deleted_segment]
+key = Deficiencies
+category = Aberrations 
+style.textFont = 10px Verdana
+style.connectorColor = black
+style.borderColor = black
+style.height = 4
+
+[tracks_duplicated_segment]
+key = Duplications
+category = Aberrations 
+style.textFont = 10px Verdana
+style.connectorColor = black
+style.borderColor = black
+style.height = 4
+
+[tracks_deleted_segment_sc]
+key = Deficiency Stocks in Bloomington%2C Kyoto
+category = Aberrations 
+#category = Reagents / Deficiency Stocks 
+style.textFont = 10px Verdana
+style.color = sienna
+style.connectorColor = black
+style.borderColor = black
+style.height = 4
+
+[tracks_deleted_segment_bdk]
+key = Bloomington Deficiency Kit: deleted segment
+category = Aberrations 
+#category = Reagents / Deficiency Stocks 
+style.textFont = 10px Verdana
+style.color = sienna
+style.connectorColor = black
+style.borderColor = black
+style.height = 4
+
+[tracks_gap_filling_segment_bdk]
+key = Bloomington Deficiency Kit: gap filling or haploinsufficiency flanking segment
+category = Aberrations 
+#category = Reagents / Deficiency Stocks 
+style.textFont = 10px Verdana
+style.color = yellow
+style.borderColor = black
+style.height = 4
+
+[tracks_duplicated_segment_sc]
+key = Duplication Stocks in Bloomington%2C Kyoto
+category = Aberrations 
+#category = Reagents / Duplication Stocks 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.connectorColor = black
+style.borderColor = black
+style.height = 4
+
+
+
+#######################################################################
+#######################################################################
+#------------------------ Transgenic Insertions -----------------------
+
+[tracks_transposable_element_insertion_site]
+key = Transgenic Insertions
+category = Transgenic Insertions 
+style.strandArrow = false
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.color = lightblue
+style.borderColor = darkblue
+style.height = 10
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_insertion_sc]
+key = Transgenic Insertions Stocks in Bloomington%2C Kyoto
+category = Transgenic Insertions 
+style.strandArrow = false
+style.textFont = 10px Verdana
+style.color = lightblue
+style.borderColor = darkblue
+style.height = 10
+onClick.action = newWindow
+onClick.url = /reports/{fbid}
+
+
+
+
+
+
+#######################################################################
+#######################################################################
+#------------------------ Mutations & Sequence Variants ---------------
+
+#------------------------ Experimentally Induced Variants ---------------
+
+[tracks_point_mutation]
+key = Substitutions
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
+style.backgroundColor = darkgoldenrod
+style.borderColor     = black
+style.textFont = 10px Verdana
+style.textColor       = {highlightingColoring}
+style.className = ibeam
+style.height = 4
+onClick.action = newWindow
+onClick.url = /reports/{related_allele}
+
+[tracks_indels]
+key = Insertions%2C Deletions
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
+style.backgroundColor = darkgoldenrod
+style.borderColor     = black
+style.textFont = 10px Verdana
+style.textColor       = {highlightingColoring}
+style.height = 4
+onClick.action = newWindow
+onClick.url = /reports/{related_allele}
+
+[tracks_complex_substitution]
+key = Complex Substitutions
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
+style.color = darkred
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+onClick.action = newWindow
+onClick.url = /reports/{related_allele}
+
+[tracks_uncharacterized_change_in_nucleotide_sequence]
+key = Roughly Mapped Mutations 
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
+style.color = darkred
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+onClick.action = newWindow
+onClick.url = /reports/{related_allele}
+
+[tracks_agr_variants]
+key  = FlyBase Mutations/Variants on Alliance
+category = Mutations & Sequence Variants , Mutations & Experimentally Induced Variants 
+
+#------------------------ Polymorphisms & Natural Population Variants ---------------
+
+[tracks_sequence_variant]
+key = FlyBase Annotated Variants
+category = Mutations & Sequence Variants , Polymorphisms & Natural Population Variants 
+style.color = darkred
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+onClick.action = newWindow
+onClick.url = /reports/{related_allele}
+
+[tracks_dgrp_r6]
+key  = DGRP Variants
+category = Mutations & Sequence Variants , Polymorphisms & Natural Population Variants 
+style.textFont = 10px Verdana
+style.borderColor = style.color
+
+[tracks_dgrp_1000]
+key  = Drosophila Genome Nexus (DGN 1000 genomes)
+category = Mutations & Sequence Variants , Polymorphisms & Natural Population Variants 
+style.borderColor = style.color
+style.textFont = 10px Verdana
+
+
+
+
+
+#######################################################################
+#######################################################################
+#--------------------- Misc. Reagents --------------------------------
+
+[tracks_GMR_Brain_exp]
+key = Putative Brain Enhancers (Janelia GAL4 lines)
+category = Misc. Reagents , Putative Enhancer Lines 
+style.color = lightslategray
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_VDRC_VT]
+key = Putative Enhancers (VDRC Vienna Tile GAL4 lines)
+category = Misc. Reagents , Putative Enhancer Lines 
+style.color = cornflowerblue
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+
+[tracks_trip_oe]
+key = TRiP-OE-VPR sgRNAs (overexpression)
+category = Misc. Reagents , sgRNA Reagents 
+style.color = blue
+style.borderColor = blue
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_trip_oe_flysam]
+key = TRiP-OE-flySAM sgRNAs (overexpression)
+category = Misc. Reagents , sgRNA Reagents 
+style.color = limegreen
+style.borderColor = limegreen
+style.textFont = 10px Verdana
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+ 
+[tracks_trip_ko]
+key = TRiP-KO sgRNAs (knockout)
+category = Misc. Reagents , sgRNA Reagents 
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.color = blue
+style.borderColor = blue
+style.height = 4
+
+[tracks_trip_ko_uas]
+key = TRiP-KO-UAS sgRNAs (knockout)
+category = Misc. Reagents , sgRNA Reagents 
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.color = blue
+style.borderColor = blue
+style.height = 4
+
+[tracks_nig_fly_sgrna]
+key = NIG-Fly-sgRNA (knockout)
+category = Misc. Reagents , sgRNA Reagents 
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.color = blue
+style.borderColor = blue
+style.height = 4
+
+[tracks_weiz_ko]
+key = Weizmann KO sgRNAs (knockout)
+category = Misc. Reagents , sgRNA Reagents 
+style.color = coral
+style.borderColor = coral
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+ 
+[tracks_hd_cfd]
+key = Heidelberg CFD KO sgRNAs (conditional knockout)
+category = Misc. Reagents , sgRNA Reagents 
+style.color = darkgreen
+style.borderColor = darkgreen
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+ 
+[tracks_low_nooff]
+key = Predicted sgRNA%2C no off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
+style.color = lightgreen
+style.borderColor = lightgreen
+style.height = 4
+ 
+[tracks_high_nooff]
+key = Predicted sgRNA%2C no off target%2C high stringency
+category = Misc. Reagents , sgRNA Reagents 
+style.color = darkgreen
+style.borderColor = darkgreen
+style.height = 4
+ 
+[tracks_med_nooff]
+key = Predicted sgRNA%2C no off target%2C medium stringency
+category = Misc. Reagents , sgRNA Reagents 
+style.color = limegreen
+style.borderColor = limegreen
+style.height = 4
+ 
+[tracks_low_nooff]
+key = Predicted sgRNA%2C no off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
+style.color = lightgreen
+style.borderColor = lightgreen
+style.height = 4
+ 
+[tracks_1to3noncds_off]
+key = Predicted sgRNA%2C 1 to 3 non-CDS off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
+style.color = coral
+style.borderColor = coral
+style.height = 4
+ 
+[tracks_many_off]
+key = Predicted sgRNA%2C many off target%2C low stringency
+category = Misc. Reagents , sgRNA Reagents 
+style.color = red
+style.borderColor = red
+style.height = 4
+ 
+[tracks_pcr_product_2]
+key = DRSC RNAi amplicons
+category = Misc. Reagents , RNAi Reagents 
+style.color = tomato
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_pcr_product_5]
+key = VDRC RNAi amplicons
+category = Misc. Reagents , RNAi Reagents 
+style.color = tomato
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_pcr_product_6]
+key = TRiP RNAi amplicons
+category = Misc. Reagents , RNAi Reagents 
+style.color = tomato
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_pcr_product_7]
+key = BKNA RNAi amplicons
+category = Misc. Reagents , RNAi Reagents 
+style.color = tomato
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_pcr_product_8]
+key = HFA RNAi amplicons
+category = Misc. Reagents , RNAi Reagents 
+style.color = tomato
+style.borderColor = black
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_pcr_product_9]
+key = NIG-Fly RNAi amplicons
+category = Misc. Reagents , RNAi Reagents 
+style.color = tomato
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 4
+
+[tracks_rescue_fragment]
+key = Rescue Fragments 
+category = Misc. Reagents 
+style.color = darkred
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor       = {highlightingColoring}
+onClick.action = newWindow
+onClick.url = /reports/{related_allele}
+style.height = 4
+
+[tracks_CHORI-321_BAC]
+key = Pacman Chori-321_BAC
+category = Misc. Reagents , Genomic Libraries 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+[tracks_CHORI-322_BAC]
+key = Pacman Chori-322_BAC
+category = Misc. Reagents , Genomic Libraries 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+[tracks_oligo_1]
+key = Affymetrix v1
+category = Misc. Reagents , Microarrays 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+[tracks_oligo_2]
+key = Affymetrix v2
+category = Misc. Reagents , Microarrays 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+[tracks_pcr_product_1]
+key = DGRC-1 amplicons
+category = Misc. Reagents , Microarrays 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+[tracks_oligo_3]
+key = DGRC-2 oligos
+category = Misc. Reagents , Microarrays 
+style.textFont = 10px Verdana
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+
+
+
+
+
+#######################################################################
+#######################################################################
+#------------------------ Genome Level features -----------------------
+
+#------------------------ Chromatin Features -----------------------
+
+[tracks_topoview_chromatin_domains_kc]
+# following defs MUST be in trackList.json
+#key = Chromatin Domains (5-state model%2C Kc cells)
+#category = Genome Level Features / Chromatin Features 
+
+[tracks_topoview_chromatin_domains_s2]
+# following defs MUST be in trackList.json
+#key = Chromatin Domains (9-state model%2C S2 cells)
+#category = Genome Level Features / Chromatin Features 
+
+[tracks_topoview_chromatin_domains_bg3]
+# following defs MUST be in trackList.json
+#key = Chromatin Domains (9-state model%2C BG3 cells)
+#category = Genome Level Features / Chromatin Features 
+
+[tracks_histone_modifications]
+key = ChIP-seq (embryo 6-8h%2C mesoderm) - His3 modifications
+category = Genome Level Features , Chromatin Features 
+style.color = beige
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+#------------------------ Transcriptional Regulatory Elements -----------------------
+
+[tracks_insulator_1]
+key = Insulators (modENCODE%2C class I)
+category = Genome Level Features , Transcriptional Regulatory Elements 
+style.strandArrow = false
+style.color = red
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 10
+style.label = ""
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_insulator_2]
+key = Insulators (modENCODE%2C class II)
+category = Genome Level Features , Transcriptional Regulatory Elements 
+style.strandArrow = false
+style.color = wheat
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 10
+style.label = ""
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_silencer]
+key = Putative PREs (modENCODE)
+category = Genome Level Features , Transcriptional Regulatory Elements 
+style.color = lightslategray
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_regulatory_region1]
+key = Transcriptional Regulatory Regions (REDfly)
+category = Genome Level Features , Transcriptional Regulatory Elements 
+style.color = lightslategray
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 5
+onClick.action = newWindow
+
+#------------------------ Transcriptional Factor Binding Sites -----------------------
+
+[tracks_protein_binding_site]
+key = TFBS (REDfly)
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = lightslategray
+style.borderColor = black
+style.textColor = {highlightingColoring}
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_Furlong_TFBS_embryo_2-4h]
+key = embryo%2C 2-4h - Mef2 sna tin twi
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = beige
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_Furlong_TFBS_embryo_4-6h]
+key = embryo%2C 4-6h - Doc2 pMad Mef2 pan pnr slp1 tin twi
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = beige
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_Furlong_TFBS_embryo_6-8h]
+key = embryo%2C 6-8h - bap bin Doc2 lmd pMad Mef2 pan pnr slp1 tin ttk twi
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = beige
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_Furlong_TFBS_embryo_8-10h]
+key = embryo%2C 8-10h - bin Mef2
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = beige
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_Furlong_TFBS_embryo_10-12h]
+key = embryo%2C 10-12h - bin Mef2
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = beige
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_tf_binding_site5]
+key = whole embryo%2C TFBS HOT spot analysis 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_tf_binding_site1]
+key = whole embryo%2C Zinc Finger TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_tf_binding_site2]
+key = whole embryo%2C Homeodomain TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = wheat
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_tf_binding_site3]
+key = whole embryo%2C Helix-loop-helix TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = lightcoral
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_tf_binding_site4]
+key = whole embryo%2C BTB/POZ ChIP TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = darkorchid
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+style.borderColor = black
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_tf_binding_site6]
+key = whole embryo%2C Other classes TFBS 
+category = Genome Level Features , Transcription Factor Binding Sites (TFBS) 
+style.color = deepskyblue
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_origin_of_replication]
+key = Origins of replication (modENCODE%2C Kc%2C S2%2C BG3 cells)
+category = Genome Level Features , Other Sequence Elements 
+style.color = wheat
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+
+
+
+
+
+
+#######################################################################
+#######################################################################
+#---------------------- Transcript Level Features ---------------------
+
+[tracks_cDNA]
+key = Sequenced cDNAs
+category = Transcript Level Features , Transcript Sequences , cDNA 
+type = CanvasFeatures
+style.connectorColor = black
+style.color = limegreen
+style.height = 8
+style.label = ""
+glyph = JBrowse/View/FeatureGlyph/Segments
+onClick.action = newWindow
+onClick.url = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?tool=FlyBase&db=nucest&term={Target}
+
+[tracks_other_aligned]
+key = Inferred transcript sequences
+category = Transcript Level Features , Transcript Sequences , cDNA 
+type = CanvasFeatures
+style.height = 4
+style.label = ""
+glyph = JBrowse/View/FeatureGlyph/Segments
+
+[tracks_EST]
+key = EST 
+category = Transcript Level Features , Transcript Sequences 
+type = CanvasFeatures
+style.connectorColor = black
+style.color = green
+style.height = 4
+style.label = ""
+glyph = JBrowse/View/FeatureGlyph/Segments
+onClick.action = newWindow
+onClick.url = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?tool=FlyBase&db=nucest&term={Target}
+	 
+[tracks_TSS_embryonic]
+key = TSS (modENCODE%2C embryo)
+category = Transcript Level Features , Transcription Start Sites (TSS) 
+type = CanvasFeatures
+style.strandArrow = false
+style.color = blue
+style.height = 0
+style.marginTop = 23
+style.label = "" 
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_TSS_rampage]
+key = TSS (RAMPAGE%2C peak calls)
+category = Transcript Level Features , Transcription Start Sites (TSS) 
+type = CanvasFeatures
+style.color = green
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_topoview_rampage_tss_stranded1]
+# following defs MUST be in trackList.json
+#key = TSS (RAMPAGE%2C early embryo 0-12hr%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
+
+[tracks_topoview_rampage_tss_stranded2]
+# following defs MUST be in trackList.json
+#key = TSS (RAMPAGE%2C late embryo 13-24hr%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
+
+[tracks_topoview_rampage_tss_stranded5]
+# following defs MUST be in trackList.json
+#key = TSS (RAMPAGE%2C larva/pupa/adult%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
+
+[tracks_topoview_machibase_tss_cage]
+# following defs MUST be in trackList.json
+#key = TSS (MachiBase%2C stranded RNA-Seq)
+#category = Transcript Level Features / Transcription Start Sites (TSS) 
+
+[tracks_exon_junction]
+key = RNA-Seq exon junctions 
+category = Transcript Level Features 
+style.strandArrow = false
+style.color = blue
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 10
+style.label = ""
+	 
+[tracks_polyA_site]
+key = Polyadenylation Sites 
+category = Transcript Level Features 
+style.color = blue
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+[tracks_modified_RNA_base_feature]
+key = RNA Editing Sites 
+category = Transcript Level Features 
+style.textFont = 10px Verdana
+style.color = blue
+style.borderColor = black
+style.textColor = {highlightingColoring}
+onClick.action = newWindow
+onClick.url = /reports/{id}
+
+
+
+
+#######################################################################
+#######################################################################
+#--------------------- Protein Level Features -------------------------
+
+[tracks_protein_domains]
+key = Pfam
+category = Protein Level Features , Protein Domains 
+type = CanvasFeatures
+style.textFont = 10px Verdana
+glyph = JBrowse/View/FeatureGlyph/Segments
+onClick.action = newWindow
+onClick.url = http://pfam.xfam.org/family/{Pfam}
+
+[tracks_protein_domains_smart]
+key = SMART
+category = Protein Level Features , Protein Domains 
+type = CanvasFeatures
+style.textFont = 10px Verdana
+glyph = JBrowse/View/FeatureGlyph/Segments
+onClick.action = newWindow
+onClick.url = https://www.ebi.ac.uk/interpro/entry/{Interpro}
+
+[tracks_proteomic_peptides]
+key = Developmental Proteomes
+category = Protein Level Features , Peptide Sequences 
+type = CanvasFeatures
+style.color = brown
+style.borderColor = black
+style.textFont = 10px Verdana
+style.textColor = {highlightingColoring}
+style.height = 6
+#style.label = ""
+onClick.action = newWindow
+onClick.url = /reports/{ID}.html
+
+[tracks_peptideatlas_peptides]
+key = Peptide Atlas
+category = Protein Level Features , Peptide Sequences 
+type = CanvasFeatures
+style.textFont = 10px Verdana
+style.color = brown
+style.borderColor = black
+style.height = 6
+
+
+
+
+
+#######################################################################
+#######################################################################
+#------------------------- Expression ---------------------------------
+
+[tracks_topoview_modencode_30devstages]
+# following defs MUST be in trackList.json
+#key = Developmental stages
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_tissues_stranded1]
+# following defs MUST be in trackList.json
+#key = Digestive system
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_tissues_stranded2]
+# following defs MUST be in trackList.json
+#key = Fat body and salivary glands
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_tissues_stranded3]
+# following defs MUST be in trackList.json
+#key = Imaginal disc and other carcass
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_tissues_stranded4]
+# following defs MUST be in trackList.json
+#key = CNS and adult head
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_tissues_stranded5]
+# following defs MUST be in trackList.json
+#key = Gonads and male accessory glands
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_celllines_stranded1]
+# following defs MUST be in trackList.json
+#key = Cell lines
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_treatments_stranded1]
+# following defs MUST be in trackList.json
+#key = Treatments/Conditions
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_neuron_stranded1]
+# following defs MUST be in trackList.json
+#key = L3 CNS neuron
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_nb_stranded1]
+# following defs MUST be in trackList.json
+#key = L3 CNS neuroblast
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_NCBI_aggregate_10000]
+# following defs MUST be in trackList.json
+#key = Aggregated RNA-Seq%2C cutoff 10%2C000
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_NCBI_aggregate_1000]
+# following defs MUST be in trackList.json
+#key = Aggregated RNA-Seq%2C cutoff 1%2C000
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_NCBI_aggregate_100]
+# following defs MUST be in trackList.json
+#key = Aggregated RNA-Seq%2C cutoff 100
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_flyatlas2_nervous_system]
+# following defs MUST be in trackList.json
+#key = Nervous system
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_flyatlas2_digestive_system]
+# following defs MUST be in trackList.json
+#key = Digestive system
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_flyatlas2_reproductive_system]
+# following defs MUST be in trackList.json
+#key = Reproductive system
+#category = Expression / RNA-Seq 
+
+[tracks_topoview_flyatlas2_other_systems]
+# following defs MUST be in trackList.json
+#key = Other systems and whole organism
+#category = Expression / RNA-Seq 
+
+
+
+
+
+[tracks_topoview_Lai_devstages]
+# following defs MUST be in trackList.json
+#key = Developmental stages
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_Lai_tissues]
+# following defs MUST be in trackList.json
+#key = Tissues
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_Lai_clones_1]
+# following defs MUST be in trackList.json
+#key = Schneider and embryonic-derived
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_Lai_clones_2]
+# following defs MUST be in trackList.json
+#key = Imaginal disc-derived
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_Lai_clones_3]
+# following defs MUST be in trackList.json
+#key = CNS-%2C ovary- and blood-derived
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_flyatlas2_small_nervous_system]
+# following defs MUST be in trackList.json
+#key = Nervous system
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_flyatlas2_small_digestive_system]
+# following defs MUST be in trackList.json
+#key = Digestive system
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_flyatlas2_small_reproductive_system]
+# following defs MUST be in trackList.json
+#key = Reproductive system
+#category = Expression / Small RNA-Seq 
+
+[tracks_topoview_flyatlas2_small_other_systems]
+# following defs MUST be in trackList.json
+#key = Other systems and whole organism
+#category = Expression / Small RNA-Seq 
+
+
+
+
+#######################################################################
+#######################################################################
+#---------------------- Gene Predictions ------------------------------
+
+[tracks_NCBI_gnomon_1]
+key = NCBI Gnomon%2C 2006
+category = Gene Predictions 
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4
+
+[tracks_CONGO_1]
+key = PhyloCSF (CONGO)
+category = Gene Predictions 
+style.color = cornflowerblue
+style.borderColor = black
+style.height = 4

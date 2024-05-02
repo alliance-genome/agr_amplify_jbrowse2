@@ -1,0 +1,1531 @@
+    {
+      "type": "FeatureTrack",
+      "trackId": "Animal Diseases Related Genes-hg38",
+      "name": "Animal Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Animal Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Animal Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Animal Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Bacterial Infections and Mycoses Related Genes-hg38",
+      "name": "Bacterial Infections and Mycoses Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Bacterial Infections and Mycoses Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Bacterial Infections and Mycoses Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Bacterial Infections and Mycoses"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Cardiovascular Diseases Related Genes-hg38",
+      "name": "Cardiovascular Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Cardiovascular Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Cardiovascular Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Cardiovascular Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes-hg38",
+      "name": "Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Congenital-Hereditary-Neonatal Diseases and Abnormalities"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Developmental Diseases Related Genes-hg38",
+      "name": "Developmental Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Developmental Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Developmental Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Developmental Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Digestive System Diseases Related Genes-hg38",
+      "name": "Digestive System Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Digestive System Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Digestive System Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Digestive System Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Diseases of the Aged Related Genes-hg38",
+      "name": "Diseases of the Aged Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Diseases of the Aged Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Diseases of the Aged Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Diseases of the Aged"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Endocrine System Diseases Related Genes-hg38",
+      "name": "Endocrine System Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Endocrine System Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Endocrine System Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Endocrine System Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Eye Diseases Related Genes-hg38",
+      "name": "Eye Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Eye Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Eye Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Eye Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Female Urogenital Diseases and Pregnancy Complications Related Genes-hg38",
+      "name": "Female Urogenital Diseases and Pregnancy Complications Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Female Urogenital Diseases and Pregnancy Complications"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Hemic and Lymphatic Diseases Related Genes-hg38",
+      "name": "Hemic and Lymphatic Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Hemic and Lymphatic Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Hemic and Lymphatic Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Hemic and Lymphatic Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Immune System Diseases Related Genes-hg38",
+      "name": "Immune System Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Immune System Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Immune System Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Immune System Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Induced Disorders Related Genes-hg38",
+      "name": "Induced Disorders Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Induced Disorders Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Induced Disorders Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Induced Disorders"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Male Urogenital Diseases Related Genes-hg38",
+      "name": "Male Urogenital Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Male Urogenital Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Male Urogenital Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Male Urogenital Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Mental Disorders Related Genes-hg38",
+      "name": "Mental Disorders Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Mental Disorders Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Mental Disorders Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Mental Disorders"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Musculoskeletal Diseases Related Genes-hg38",
+      "name": "Musculoskeletal Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Musculoskeletal Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Musculoskeletal Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Musculoskeletal Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Neoplasms Related Genes-hg38",
+      "name": "Neoplasms Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Neoplasms Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Neoplasms Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Neoplasms"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Nervous System Diseases Related Genes-hg38",
+      "name": "Nervous System Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Nervous System Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Nervous System Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Nervous System Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Nutritional and Metabolic Diseases Related Genes-hg38",
+      "name": "Nutritional and Metabolic Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Nutritional and Metabolic Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Nutritional and Metabolic Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Nutritional and Metabolic Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Occupational Diseases Related Genes-hg38",
+      "name": "Occupational Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Occupational Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Occupational Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Occupational Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Otorhinolaryngologic Diseases Related Genes-hg38",
+      "name": "Otorhinolaryngologic Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Otorhinolaryngologic Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Otorhinolaryngologic Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Otorhinolaryngologic Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Parasitic Diseases Related Genes-hg38",
+      "name": "Parasitic Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Parasitic Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Parasitic Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Parasitic Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Respiratory Tract Diseases Related Genes-hg38",
+      "name": "Respiratory Tract Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Respiratory Tract Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Respiratory Tract Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Respiratory Tract Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Signs and Symptoms Related Genes-hg38",
+      "name": "Signs and Symptoms Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Signs and Symptoms Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Signs and Symptoms Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Signs and Symptoms"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Skin and Connective Tissue Diseases Related Genes-hg38",
+      "name": "Skin and Connective Tissue Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Skin and Connective Tissue Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Skin and Connective Tissue Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Skin and Connective Tissue Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Stomatognathic Diseases Related Genes-hg38",
+      "name": "Stomatognathic Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Stomatognathic Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Stomatognathic Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Stomatognathic Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Virus Diseases Related Genes-hg38",
+      "name": "Virus Diseases Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Virus Diseases Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Virus Diseases Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Virus Diseases"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Wounds and Injuries Related Genes-hg38",
+      "name": "Wounds and Injuries Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Wounds and Injuries Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Wounds and Injuries Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Disease Related Tracks",
+        "Wounds and Injuries"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Aetiopathogenetic Role Related Genes-hg38",
+      "name": "Aetiopathogenetic Role Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Aetiopathogenetic Role Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Aetiopathogenetic Role Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Aetiopathogenetic Role"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Antigen Related Genes-hg38",
+      "name": "Antigen Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Antigen Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Antigen Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Antigen"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Antimicrobial Agent Related Genes-hg38",
+      "name": "Antimicrobial Agent Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Antimicrobial Agent Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Antimicrobial Agent Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Antimicrobial Agent"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Antimutagen Related Genes-hg38",
+      "name": "Antimutagen Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Antimutagen Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Antimutagen Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Antimutagen"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Biochemical Role Related Genes-hg38",
+      "name": "Biochemical Role Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Biochemical Role Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Biochemical Role Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Biochemical Role"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Biophysical Role Related Genes-hg38",
+      "name": "Biophysical Role Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Biophysical Role Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Biophysical Role Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Biophysical Role"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Epitope Related Genes-hg38",
+      "name": "Epitope Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Epitope Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Epitope Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Epitope"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Fixative Related Genes-hg38",
+      "name": "Fixative Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Fixative Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Fixative Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Fixative"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Glutathione Depleting Agent Related Genes-hg38",
+      "name": "Glutathione Depleting Agent Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Glutathione Depleting Agent Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Glutathione Depleting Agent Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Glutathione Depleting Agent"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Growth Regulator Related Genes-hg38",
+      "name": "Growth Regulator Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Growth Regulator Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Growth Regulator Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Growth Regulator"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Hapten Related Genes-hg38",
+      "name": "Hapten Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Hapten Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Hapten Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Hapten"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Immunomodulator Related Genes-hg38",
+      "name": "Immunomodulator Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Immunomodulator Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Immunomodulator Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Immunomodulator"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Inhibitor Related Genes-hg38",
+      "name": "Inhibitor Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Inhibitor Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Inhibitor Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Inhibitor"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Insect Attractant Related Genes-hg38",
+      "name": "Insect Attractant Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Insect Attractant Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Insect Attractant Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Insect Attractant"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Mitogen Related Genes-hg38",
+      "name": "Mitogen Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Mitogen Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Mitogen Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Mitogen"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Molecular Messenger Related Genes-hg38",
+      "name": "Molecular Messenger Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Molecular Messenger Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Molecular Messenger Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Molecular Messenger"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Osmolyte Related Genes-hg38",
+      "name": "Osmolyte Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Osmolyte Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Osmolyte Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Osmolyte"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pharmacological Role Related Genes-hg38",
+      "name": "Pharmacological Role Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Pharmacological Role Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Pharmacological Role Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Pharmacological Role"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Physiological Role Related Genes-hg38",
+      "name": "Physiological Role Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Physiological Role Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Physiological Role Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Physiological Role"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Poison Related Genes-hg38",
+      "name": "Poison Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Poison Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Poison Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Poison"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Prohormone Related Genes-hg38",
+      "name": "Prohormone Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Prohormone Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Prohormone Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Prohormone"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Provitamin Related Genes-hg38",
+      "name": "Provitamin Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Provitamin Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Provitamin Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Provitamin"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Specialized Proresolving Mediator Related Genes-hg38",
+      "name": "Specialized Proresolving Mediator Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Specialized Proresolving Mediator Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Specialized Proresolving Mediator Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Specialized Proresolving Mediator"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Xenobiotic Related Genes-hg38",
+      "name": "Xenobiotic Related Genes",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Xenobiotic Related Genes.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Xenobiotic Related Genes.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene-Chemical Interaction Tracks",
+        "Biological Role",
+        "Xenobiotic"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ensembl (GRCh38.110) Features-hg38",
+      "name": "Ensembl (GRCh38.110) Features",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Ensembl (GRCh38.110) Features.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Ensembl (GRCh38.110) Features.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene Models",
+        "Ensembl Gene Features"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ensembl (GRCh38.110) Model-hg38",
+      "name": "Ensembl (GRCh38.110) Model",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Ensembl (GRCh38.110) Model.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Ensembl (GRCh38.110) Model.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene Models",
+        "Ensembl Gene Features"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Human GRCh38.p14 (hg38) Genes and Transcripts-hg38",
+      "name": "Human GRCh38.p14 (hg38) Genes and Transcripts",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) Genes and Transcripts.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) Genes and Transcripts.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene Models",
+        "NCBI Gene Features"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Human GRCh38.p14 (hg38) Genes Only-hg38",
+      "name": "Human GRCh38.p14 (hg38) Genes Only",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) Genes Only.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) Genes Only.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene Models",
+        "NCBI Gene Features"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Human GRCh38.p14 (hg38) Protein Domains-hg38",
+      "name": "Human GRCh38.p14 (hg38) Protein Domains",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) Protein Domains.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) Protein Domains.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "Gene Models",
+        "NCBI Gene Features"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Human GRCh38.p14 (hg38) QTLs-hg38",
+      "name": "Human GRCh38.p14 (hg38) QTLs",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) QTLs.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri" : "https://rgd.mcw.edu/jbrowse2/hg38/Human GRCh38.p14 (hg38) QTLs.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "category": [
+        "QTLs"
+      ],
+      "assemblyNames": [
+        "Homo_sapiens"
+      ]
+    }

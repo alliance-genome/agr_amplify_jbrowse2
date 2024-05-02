@@ -1,0 +1,108 @@
+[   {
+      "type" : "FeatureTrack",
+      "name" : "All Genes",
+      "assemblyNames" : [
+         "Rattus_norvegicus"
+      ],
+      "trackId" : "rat_all_genes",
+      "displays" : [
+         {
+            "renderer" : {
+               "maxHeight" : 5000,
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'",
+               "color3" : "#30332E",
+               "type" : "SvgFeatureRenderer"
+            },
+            "displayId" : "trackdata.jsonz-1676655636388-LinearBasicDisplay",
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "trackdata.jsonz-1676655636388-LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      }
+   },
+       {
+      "type": "VariantTrack",
+      "trackId": "rat_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/rat-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/rat-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "rat_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "rat_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+        {
+      "type": "VariantTrack",
+      "trackId": "rat_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Rattus_norvegicus"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/HTPOSTVEPVCF_RGD_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/HTPOSTVEPVCF_RGD_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "rat_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "rat_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    }
+]

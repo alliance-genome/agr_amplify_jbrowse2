@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_jbrowse_web=self.webpackChunk_jbrowse_web||[]).push([[1174],{91174:function(e,n,r){r.r(n),r.d(n,{FormLabelRoot:function(){return t.D},default:function(){return t.Z},formLabelClasses:function(){return u.Z},getFormLabelUtilityClasses:function(){return u.M}});var t=r(2868),u=r(49538)}}]);

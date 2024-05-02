@@ -1,0 +1,515 @@
+[   {
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/docker/$RELEASE/zfin/zebrafish-11/tracks/All_Genes/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "jexl:get(feature,'strand')<0?'teal':'darkviolet'",
+               "maxHeight" : 5000,
+               "color3" : "#30332E",
+               "type" : "SvgFeatureRenderer"
+            },
+            "displayId" : "zebrafish_all_genes-LinearBasicDisplay"
+         },
+         {
+            "displayId" : "zebrafish_all_genes-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ],
+      "trackId" : "zebrafish_all_genes",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "name" : "All Genes",
+      "type" : "FeatureTrack"
+   },
+    {
+      "type": "VariantTrack",
+      "trackId": "zebrafish_variants",
+      "name": "Variants",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/zebrafish-latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/zebrafish-latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "labels" : {
+                  "name" : "jexl:variantLabel(feature)",
+                  "description": "jexl:variantDescription(feature)"
+              },
+              "color1" : "jexl:variantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "zebrafish_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "zebrafish_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "zebrafish_ht_variants",
+      "name": "High Throughput Variants",
+      "assemblyNames": [
+        "Danio_rerio"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/HTPOSTVEPVCF_ZFIN_latest.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/$RELEASE/HTPOSTVEPVCF_ZFIN_latest.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+           "renderer" : {
+              "maxHeight" : 5000,
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:htVariantColor(feature)"
+           },
+          "type": "LinearVariantDisplay",
+          "displayId": "zebrafish_ht_variants-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "zebrafish_ht_variants-ChordVariantDisplay"
+        }
+      ]
+    },
+   {
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "displayId" : "zfin_gene-1687907419159-LinearBasicDisplay",
+            "renderer" : {
+               "displayMode" : "reducedRepresentation",
+               "color1" : "#088080",
+               "type" : "SvgFeatureRenderer"
+            }
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "zfin_gene-1687907419159-LinearArcDisplay"
+         }
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{id:null,curie:null,ZFIN:'<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "trackId" : "zfin_gene",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "name" : "ZFIN Gene",
+      "type" : "FeatureTrack"
+   },
+   {
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "displays" : [
+         {
+            "displayId" : "transcript-1687907635485-LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "#6792ED",
+               "type" : "SvgFeatureRenderer"
+            },
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "transcript-1687907635485-LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "type" : "FeatureTrack",
+      "name" : "Transcript",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "trackId" : "zfin_transcript"
+   },
+   {
+      "trackId" : "zfin_genes_with_phenotype",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "name" : "ZFIN Genes with Phenotype",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Phenotype/{refseq}/trackData.jsonz"
+         }
+      },
+      "displays" : [
+         {
+            "displayId" : "zfin_genes_with_phenotype-1687908071014-LinearBasicDisplay",
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "zfin_genes_with_phenotype-1687908071014-LinearArcDisplay"
+         }
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ]
+   },
+   {
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Antibody_Data/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "displayId" : "zfin_genes_with_antibody_data-1687908124039-LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "zfin_genes_with_antibody_data-1687908124039-LinearArcDisplay"
+         }
+      ],
+      "name" : "ZFIN Genes with Antibody Data",
+      "type" : "FeatureTrack",
+      "trackId" : "zfin_genes_with_antibody_data",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ]
+   },
+   {
+      "type" : "FeatureTrack",
+      "name" : "ZFIN Genes with Expression",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "trackId" : "zfin_genes_with_expression",
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "displays" : [
+         {
+            "displayId" : "zfin_genes_with_expression-1687908166699-LinearBasicDisplay",
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "displayId" : "zfin_genes_with_expression-1687908166699-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Expression/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         }
+      }
+   },
+   {
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "white",
+               "type" : "SvgFeatureRenderer",
+               "outline" : "#8CADF1"
+            },
+            "displayId" : "complete_assembly_clones-1687908227633-LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "complete_assembly_clones-1687908227633-LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Complete_Assembly_Clones/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "NCListAdapter"
+      },
+      "type" : "FeatureTrack",
+      "name" : "Complete Assembly Clones",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "trackId" : "zfin_complete_assembly_clones"
+   },
+   {
+      "type" : "FeatureTrack",
+      "name" : "Additional Transcripts",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "trackId" : "zfin_additional_transcripts",
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "color1" : "#FE0200"
+            },
+            "displayId" : "additional_transcripts-1687908387689-LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "additional_transcripts-1687908387689-LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Additional_Transcripts/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         }
+      }
+   },
+   {
+      "name" : "Knockdown Reagent",
+      "type" : "FeatureTrack",
+      "trackId" : "zfin_knockdown_reagent",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Knockdown_Reagent/{refseq}/trackData.jsonz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "color1" : "#3DB471"
+            },
+            "displayId" : "knockdown_reagent-1687908500113-LinearBasicDisplay"
+         },
+         {
+            "displayId" : "knockdown_reagent-1687908500113-LinearArcDisplay",
+            "type" : "LinearArcDisplay"
+         }
+      ]
+   },
+   {
+      "trackId" : "zfin_assembly",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "name" : "Assembly",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Assembly/{refseq}/trackData.jsonz"
+         }
+      },
+      "displays" : [
+         {
+            "renderer" : {
+               "color1" : "#6792ED",
+               "type" : "SvgFeatureRenderer"
+            },
+            "displayId" : "assembly-1687908614561-LinearBasicDisplay",
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "assembly-1687908614561-LinearArcDisplay"
+         }
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ]
+   },
+   {
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Zebrafish_Mutation_Project/{refseq}/trackData.jsonz"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "displayId" : "zebrafish_mutation_project-1687908719190-LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "#800080",
+               "type" : "SvgFeatureRenderer"
+            }
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "zebrafish_mutation_project-1687908719190-LinearArcDisplay"
+         }
+      ],
+      "name" : "Zebrafish Mutation Project",
+      "type" : "FeatureTrack",
+      "trackId" : "zfin_zebrafish_mutation_project",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ]
+   },
+   {
+      "adapter" : {
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Features/{refseq}/trackData.jsonz"
+         },
+         "type" : "NCListAdapter"
+      },
+      "displays" : [
+         {
+            "displayId" : "zfin_features-1687908884139-LinearBasicDisplay",
+            "renderer" : {
+               "color1" : "#800080",
+               "type" : "SvgFeatureRenderer"
+            },
+            "type" : "LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "zfin_features-1687908884139-LinearArcDisplay"
+         }
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
+      },
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "trackId" : "zfin_features",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "name" : "ZFIN Features",
+      "type" : "FeatureTrack"
+   },
+   {
+      "type" : "FeatureTrack",
+      "name" : "Transgenic Insertion",
+      "assemblyNames" : [
+         "Danio_rerio"
+      ],
+      "trackId" : "zfin_transgenic_insertion",
+      "category" : [
+         "ZFIN tracks"
+      ],
+      "formatDetails" : {
+         "feature" : "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "displays" : [
+         {
+            "type" : "LinearBasicDisplay",
+            "renderer" : {
+               "type" : "SvgFeatureRenderer",
+               "color1" : "#7135B3"
+            },
+            "displayId" : "transgenic_insertion-1687908986143-LinearBasicDisplay"
+         },
+         {
+            "type" : "LinearArcDisplay",
+            "displayId" : "transgenic_insertion-1687908986143-LinearArcDisplay"
+         }
+      ],
+      "adapter" : {
+         "type" : "NCListAdapter",
+         "rootUrlTemplate" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Transgenic_Insertion/{refseq}/trackData.jsonz"
+         }
+      }
+   }
+]

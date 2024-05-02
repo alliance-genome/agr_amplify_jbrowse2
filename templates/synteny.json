@@ -1,0 +1,1501 @@
+[   {
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Rattus_norvegicus"
+      ],
+      "trackId" : "human2rat.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Human to Rat orthology ($TYPE)",
+      "displays" : [
+         {
+            "displayId" : "human2rat.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "displayId" : "human2rat.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2rat.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "human2rat.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Rattus_norvegicus"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed",
+            "locationType" : "UriLocation"
+         },
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2rat.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter" : {
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed"
+         },
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Mus_musculus"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2mouse.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "human2mouse.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "human2mouse.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2mouse.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "human2mouse.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "name" : "Human to Mouse orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "trackId" : "human2mouse.$TYPE.anchors",
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Mus_musculus"
+      ]
+   },
+   {
+      "displays" : [
+         {
+            "displayId" : "human2zebrafish.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "human2zebrafish.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2zebrafish.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "human2zebrafish.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2zebrafish.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Danio_rerio"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Danio_rerio"
+      ],
+      "trackId" : "human2zebrafish.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Human to Zebrafish orthology ($TYPE)"
+   },
+   {
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "human2xenopuslaevis.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "human2xenopuslaevis.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2xenopuslaevis.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "human2xenopuslaevis.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2xenopuslaevis.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Xenopus_laevis"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXL.bed",
+            "locationType" : "UriLocation"
+         },
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed"
+         }
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Xenopus_laevis"
+      ],
+      "trackId" : "human2xenopuslaevis.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Human to X. laevis orthology ($TYPE)"
+   },
+   {
+      "type" : "SyntenyTrack",
+      "name" : "Human to X. tropicalis orthology ($TYPE)",
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Xenopus_tropicalis"
+      ],
+      "trackId" : "human2xenopustropicalis.$TYPE.anchors",
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "human2xenopustropicalis.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "human2xenopustropicalis.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2xenopustropicalis.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "human2xenopustropicalis.$TYPE.anchors-LGVSyntenyDisplay",
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Xenopus_tropicalis"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed"
+         },
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2xenopustropicalis.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         }
+      }
+   },
+   {
+      "assemblyNames" : [
+         "Rattus_norvegicus",
+         "Xenopus_tropicalis"
+      ],
+      "trackId" : "rat2xenopustropicalis.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Rat to X. tropicalis orthology ($TYPE)",
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "rat2xenopustropicalis.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "rat2xenopustropicalis.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "rat2xenopustropicalis.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "rat2xenopustropicalis.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Rattus_norvegicus",
+            "Xenopus_tropicalis"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed"
+         },
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/rat2xenopustropicalis.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/rat2zebrafish.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "assemblyNames" : [
+            "Rattus_norvegicus",
+            "Danio_rerio"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed"
+         },
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "displayId" : "rat2zebrafish.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "rat2zebrafish.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "rat2zebrafish.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "rat2zebrafish.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "trackId" : "rat2zebrafish.$TYPE.anchors",
+      "assemblyNames" : [
+         "Rattus_norvegicus",
+         "Danio_rerio"
+      ],
+      "name" : "Rat to Zebrafish orthology ($TYPE)",
+      "type" : "SyntenyTrack"
+   },
+   {
+      "type" : "SyntenyTrack",
+      "name" : "Mouse to X. tropicalis orthology ($TYPE)",
+      "assemblyNames" : [
+         "Mus_musculus",
+         "Xenopus_tropicalis"
+      ],
+      "trackId" : "mouse2xenopustropicalis.$TYPE.anchors",
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "displayId" : "mouse2xenopustropicalis.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "displayId" : "mouse2xenopustropicalis.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "mouse2xenopustropicalis.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "mouse2xenopustropicalis.$TYPE.anchors-LGVSyntenyDisplay",
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name"
+         }
+      ],
+      "adapter" : {
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed"
+         },
+         "assemblyNames" : [
+            "Mus_musculus",
+            "Xenopus_tropicalis"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/mouse2xenopustropicalis.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         }
+      }
+   },
+   {
+      "name" : "Mouse to Zebrafish orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "trackId" : "mouse2zebrafish.$TYPE.anchors",
+      "assemblyNames" : [
+         "Mus_musculus",
+         "Danio_rerio"
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter" : {
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Mus_musculus",
+            "Danio_rerio"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/mouse2zebrafish.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "displayId" : "mouse2zebrafish.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "mouse2zebrafish.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "mouse2zebrafish.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "mouse2zebrafish.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ]
+   },
+   {
+      "adapter" : {
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/zebrafish2worm.$TYPE.anchors"
+         },
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed"
+         },
+         "assemblyNames" : [
+            "Danio_rerio",
+            "Caenorhabditis_elegans"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "zebrafish2worm.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "zebrafish2worm.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "zebrafish2worm.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay",
+            "displayId" : "zebrafish2worm.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "trackId" : "zebrafish2worm.$TYPE.anchors",
+      "assemblyNames" : [
+         "Danio_rerio",
+         "Caenorhabditis_elegans"
+      ],
+      "name" : "Zebrafish to Worm orthology ($TYPE)",
+      "type" : "SyntenyTrack"
+   },
+   {
+      "trackId" : "zebrafish2xenopustropicalis.$TYPE.anchors",
+      "assemblyNames" : [
+         "Danio_rerio",
+         "Xenopus_tropicalis"
+      ],
+      "name" : "Zebrafish to X. tropicalis orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "adapter" : {
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed"
+         },
+         "assemblyNames" : [
+            "Danio_rerio",
+            "Xenopus_tropicalis"
+         ],
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/zebrafish2xenopustropicalis.$TYPE.anchors"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "zebrafish2xenopustropicalis.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "zebrafish2xenopustropicalis.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "zebrafish2xenopustropicalis.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "zebrafish2xenopustropicalis.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "name" : "X. laevis to X. tropicalis orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "trackId" : "xenopuslaevis2xenopustropicalis.$TYPE.anchors",
+      "assemblyNames" : [
+         "Xenopus_laevis",
+         "Xenopus_tropicalis"
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/xenopuslaevis2xenopustropicalis.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Xenopus_laevis",
+            "Xenopus_tropicalis"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXL.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "xenopuslaevis2xenopustropicalis.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "xenopuslaevis2xenopustropicalis.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "xenopuslaevis2xenopustropicalis.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "xenopuslaevis2xenopustropicalis.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ]
+   },
+   {
+      "trackId" : "worm2fly.$TYPE.anchors",
+      "assemblyNames" : [
+         "Caenorhabditis_elegans",
+         "Drosophila_melanogaster"
+      ],
+      "name" : "Worm to Fruitfly orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/worm2fly.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Caenorhabditis_elegans",
+            "Drosophila_melanogaster"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "worm2fly.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "worm2fly.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "worm2fly.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "worm2fly.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "type" : "SyntenyTrack",
+      "name" : "Worm to Yeast orthology ($TYPE)",
+      "assemblyNames" : [
+         "Caenorhabditis_elegans",
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "worm2yeast.$TYPE.anchors",
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "worm2yeast.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "worm2yeast.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "worm2yeast.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "worm2yeast.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Caenorhabditis_elegans",
+            "Saccharomyces_cerevisiae"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed",
+            "locationType" : "UriLocation"
+         },
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed",
+            "locationType" : "UriLocation"
+         },
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/worm2yeast.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      }
+   },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "fly2yeast.$TYPE.anchors",
+      "name": "Fruitfly to Yeast orthology ($TYPE)",
+      "assemblyNames": [
+        "Drosophila_melanogaster",
+        "Saccharomyces_cerevisiae"
+      ],
+      "category": [
+        "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/fly2yeast.$TYPE.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed"
+        },
+        "assemblyNames": [
+          "Drosophila_melanogaster",
+          "Saccharomyces_cerevisiae"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "fly2yeast.$TYPE.anchors-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "fly2yeast.$TYPE.anchors-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "fly2yeast.$TYPE.anchors-LinearSyntenyDisplay"
+        },
+        {
+          "type": "LGVSyntenyDisplay",
+          "mouseover" : "jexl:get(feature,'mate').name",
+          "displayId": "fly2yeast.$TYPE.anchors-LGVSyntenyDisplay"
+        }
+      ]
+    },
+   {
+      "type" : "SyntenyTrack",
+      "name" : "X. tropicalis to Worm orthology ($TYPE)",
+      "assemblyNames" : [
+         "Xenopus_tropicalis",
+         "Caenorhabditis_elegans"
+      ],
+      "trackId" : "xenopustropicalis2worm.$TYPE.anchors",
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "displayId" : "xenopustropicalis2worm.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "xenopustropicalis2worm.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "xenopustropicalis2worm.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "xenopustropicalis2worm.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/xenopustropicalis2worm.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Xenopus_tropicalis",
+            "Caenorhabditis_elegans"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed"
+         }
+      }
+   },
+   {
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "xenopustropicalis2fly.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "xenopustropicalis2fly.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "xenopustropicalis2fly.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "xenopustropicalis2fly.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Xenopus_tropicalis",
+            "Drosophila_melanogaster"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed",
+            "locationType" : "UriLocation"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/xenopustropicalis2fly.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "type" : "SyntenyTrack",
+      "name" : "X. tropicalis to Fruitfly orthology ($TYPE)",
+      "assemblyNames" : [
+         "Xenopus_tropicalis",
+         "Drosophila_melanogaster"
+      ],
+      "trackId" : "xenopustropicalis2fly.$TYPE.anchors"
+   },
+   {
+      "assemblyNames" : [
+         "Xenopus_tropicalis",
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "xenopustropicalis2yeast.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "X. tropicalis to Yeast orthology ($TYPE)",
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "xenopustropicalis2yeast.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "xenopustropicalis2yeast.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "xenopustropicalis2yeast.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "xenopustropicalis2yeast.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Xenopus_tropicalis",
+            "Saccharomyces_cerevisiae"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/XBXT.bed",
+            "locationType" : "UriLocation"
+         },
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/xenopustropicalis2yeast.$TYPE.anchors"
+         }
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "name" : "Zebrafish to Fruitfly orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "trackId" : "zebrafish2fly.$TYPE.anchors",
+      "assemblyNames" : [
+         "Danio_rerio",
+         "Drosophila_melanogaster"
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter" : {
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Danio_rerio",
+            "Drosophila_melanogaster"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed",
+            "locationType" : "UriLocation"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/zebrafish2fly.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "zebrafish2fly.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "zebrafish2fly.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "zebrafish2fly.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "zebrafish2fly.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ]
+   },
+   {
+      "name" : "Human to Fruitfly orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "trackId" : "human2fly.$TYPE.anchors",
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Drosophila_melanogaster"
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2fly.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Drosophila_melanogaster"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed",
+            "locationType" : "UriLocation"
+         },
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "human2fly.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "human2fly.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2fly.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay",
+            "displayId" : "human2fly.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ]
+   },
+   {
+      "type" : "SyntenyTrack",
+      "name" : "Human to Worm orthology ($TYPE)",
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Caenorhabditis_elegans"
+      ],
+      "trackId" : "human2worm.$TYPE.anchors",
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "displayId" : "human2worm.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "human2worm.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "human2worm.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "human2worm.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Caenorhabditis_elegans"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed"
+         },
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed",
+            "locationType" : "UriLocation"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2worm.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      }
+   },
+   {
+      "assemblyNames" : [
+         "Homo_sapiens",
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "human2yeast.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Human to Yeast orthology ($TYPE)",
+      "displays" : [
+         {
+            "displayId" : "human2yeast.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "displayId" : "human2yeast.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "human2yeast.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "human2yeast.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/HUMAN.bed"
+         },
+         "assemblyNames" : [
+            "Homo_sapiens",
+            "Saccharomyces_cerevisiae"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/human2yeast.$TYPE.anchors"
+         }
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "name" : "Rat to Worm orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "trackId" : "rat2worm.$TYPE.anchors",
+      "assemblyNames" : [
+         "Rattus_norvegicus",
+         "Caenorhabditis_elegans"
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Rattus_norvegicus",
+            "Caenorhabditis_elegans"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed",
+            "locationType" : "UriLocation"
+         },
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/rat2worm.$TYPE.anchors"
+         }
+      },
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "rat2worm.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "rat2worm.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "rat2worm.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "rat2worm.$TYPE.anchors-LGVSyntenyDisplay",
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name"
+         }
+      ]
+   },
+   {
+      "displays" : [
+         {
+            "displayId" : "rat2fly.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "displayId" : "rat2fly.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "rat2fly.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "rat2fly.$TYPE.anchors-LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/rat2fly.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "assemblyNames" : [
+            "Rattus_norvegicus",
+            "Drosophila_melanogaster"
+         ],
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed"
+         },
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "assemblyNames" : [
+         "Drosophila_melanogaster",
+         "Rattus_norvegicus"
+      ],
+      "trackId" : "rat2fly.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Rat to Fruitfly orthology ($TYPE)"
+   },
+   {
+      "trackId" : "mouse2worm.$TYPE.anchors",
+      "assemblyNames" : [
+         "Mus_musculus",
+         "Caenorhabditis_elegans"
+      ],
+      "name" : "Mouse to Worm orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "adapter" : {
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/WB.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Mus_musculus",
+            "Caenorhabditis_elegans"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/mouse2worm.$TYPE.anchors"
+         }
+      },
+      "displays" : [
+         {
+            "displayId" : "mouse2worm.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "displayId" : "mouse2worm.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "mouse2worm.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay",
+            "displayId" : "mouse2worm.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "rat2mouse.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "rat2mouse.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "rat2mouse.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "rat2mouse.$TYPE.anchors-LGVSyntenyDisplay",
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name"
+         }
+      ],
+      "adapter" : {
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed"
+         },
+         "assemblyNames" : [
+            "Rattus_norvegicus",
+            "Mus_musculus"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/rat2mouse.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "assemblyNames" : [
+         "Mus_musculus",
+         "Rattus_norvegicus"
+      ],
+      "trackId" : "rat2mouse.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Rat to Mouse orthology ($TYPE)"
+   },
+   {
+      "displays" : [
+         {
+            "displayId" : "mouse2fly.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "displayId" : "mouse2fly.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "mouse2fly.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "displayId" : "mouse2fly.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "assemblyNames" : [
+            "Mus_musculus",
+            "Drosophila_melanogaster"
+         ],
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed"
+         },
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/FB.bed"
+         },
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/mouse2fly.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "assemblyNames" : [
+         "Drosophila_melanogaster",
+         "Mus_musculus"
+      ],
+      "trackId" : "mouse2fly.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Mouse to Fruitfly orthology ($TYPE)"
+   },
+   {
+      "trackId" : "rat2yeast.$TYPE.anchors",
+      "assemblyNames" : [
+         "Rattus_norvegicus",
+         "Saccharomyces_cerevisiae"
+      ],
+      "name" : "Rat to Yeast orthology ($TYPE)",
+      "type" : "SyntenyTrack",
+      "adapter" : {
+         "type" : "MCScanAnchorsAdapter",
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/rat2yeast.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Rattus_norvegicus",
+            "Saccharomyces_cerevisiae"
+         ],
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/RGD.bed",
+            "locationType" : "UriLocation"
+         }
+      },
+      "displays" : [
+         {
+            "displayId" : "rat2yeast.$TYPE.anchors-DotplotDisplay",
+            "type" : "DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "rat2yeast.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "rat2yeast.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "displayId" : "rat2yeast.$TYPE.anchors-LGVSyntenyDisplay",
+            "type" : "LGVSyntenyDisplay",
+            "mouseover" : "jexl:get(feature,'mate').name"
+         }
+      ],
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ]
+   },
+   {
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "mouse2yeast.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "type" : "LinearComparativeDisplay",
+            "displayId" : "mouse2yeast.$TYPE.anchors-LinearComparativeDisplay"
+         },
+         {
+            "displayId" : "mouse2yeast.$TYPE.anchors-LinearSyntenyDisplay",
+            "type" : "LinearSyntenyDisplay"
+         },
+         {
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay",
+            "displayId" : "mouse2yeast.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "bed1Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/MGI.bed",
+            "locationType" : "UriLocation"
+         },
+         "assemblyNames" : [
+            "Mus_musculus",
+            "Saccharomyces_cerevisiae"
+         ],
+         "bed2Location" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed",
+            "locationType" : "UriLocation"
+         },
+         "mcscanAnchorsLocation" : {
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/mouse2yeast.$TYPE.anchors",
+            "locationType" : "UriLocation"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "type" : "SyntenyTrack",
+      "name" : "Mouse to Yeast orthology ($TYPE)",
+      "assemblyNames" : [
+         "Mus_musculus",
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "mouse2yeast.$TYPE.anchors"
+   },
+   {
+      "displays" : [
+         {
+            "type" : "DotplotDisplay",
+            "displayId" : "zebrafish2yeast.$TYPE.anchors-DotplotDisplay"
+         },
+         {
+            "displayId" : "zebrafish2yeast.$TYPE.anchors-LinearComparativeDisplay",
+            "type" : "LinearComparativeDisplay"
+         },
+         {
+            "type" : "LinearSyntenyDisplay",
+            "displayId" : "zebrafish2yeast.$TYPE.anchors-LinearSyntenyDisplay"
+         },
+         {
+            "mouseover" : "jexl:get(feature,'mate').name",
+            "type" : "LGVSyntenyDisplay",
+            "displayId" : "zebrafish2yeast.$TYPE.anchors-LGVSyntenyDisplay"
+         }
+      ],
+      "adapter" : {
+         "bed1Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/ZFIN.bed"
+         },
+         "assemblyNames" : [
+            "Danio_rerio",
+            "Saccharomyces_cerevisiae"
+         ],
+         "bed2Location" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/SGD.bed"
+         },
+         "mcscanAnchorsLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "https://s3.amazonaws.com/agrjbrowse/orthology/$RELEASE/zebrafish2yeast.$TYPE.anchors"
+         },
+         "type" : "MCScanAnchorsAdapter"
+      },
+      "category" : [
+         "Alliance Orthology" , "$TYPE"
+      ],
+      "assemblyNames" : [
+         "Danio_rerio",
+         "Saccharomyces_cerevisiae"
+      ],
+      "trackId" : "zebrafish2yeast.$TYPE.anchors",
+      "type" : "SyntenyTrack",
+      "name" : "Zebrafish to Yeast orthology ($TYPE)"
+   }
+]
