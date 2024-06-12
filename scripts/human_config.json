@@ -1,0 +1,1533 @@
+[
+   {
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Animal Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Animal Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Animal Diseases Related Genes",
+      "trackId" : "Animal Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "category" : [
+         "Disease Related Tracks",
+         "Animal Diseases"
+      ]
+   },
+   {
+      "name" : "Bacterial Infections and Mycoses Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Bacterial Infections and Mycoses Related Genes-GRCh38.p14",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Bacterial Infections and Mycoses Related Genes.gff3.gz.tbi"
+            }
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Bacterial Infections and Mycoses Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         }
+      },
+      "category" : [
+         "Disease Related Tracks",
+         "Bacterial Infections and Mycoses"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Cardiovascular Diseases"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Cardiovascular Diseases Related Genes-GRCh38.p14",
+      "name" : "Cardiovascular Diseases Related Genes",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Cardiovascular Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Cardiovascular Diseases Related Genes.gff3.gz.tbi"
+            }
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "name" : "Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes",
+      "trackId" : "Congenital-Hereditary-Neonatal Diseases and Abnormalities Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "category" : [
+         "Disease Related Tracks",
+         "Congenital-Hereditary-Neonatal Diseases and Abnormalities"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Developmental Diseases"
+      ],
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Developmental Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Developmental Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Developmental Diseases Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Developmental Diseases Related Genes-GRCh38.p14"
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Digestive System Diseases"
+      ],
+      "name" : "Digestive System Diseases Related Genes",
+      "trackId" : "Digestive System Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Digestive System Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Digestive System Diseases Related Genes.gff3.gz"
+         }
+      }
+   },
+   {
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Diseases of the Aged Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Diseases of the Aged Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "trackId" : "Diseases of the Aged Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Diseases of the Aged Related Genes",
+      "category" : [
+         "Disease Related Tracks",
+         "Diseases of the Aged"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Endocrine System Diseases"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Endocrine System Diseases Related Genes.gff3.gz"
+         },
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Endocrine System Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Endocrine System Diseases Related Genes-GRCh38.p14",
+      "name" : "Endocrine System Diseases Related Genes"
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Eye Diseases"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Eye Diseases Related Genes-GRCh38.p14",
+      "name" : "Eye Diseases Related Genes",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Eye Diseases Related Genes.gff3.gz.tbi"
+            }
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Eye Diseases Related Genes.gff3.gz"
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Female Urogenital Diseases and Pregnancy Complications Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Female Urogenital Diseases and Pregnancy Complications Related Genes",
+      "trackId" : "Female Urogenital Diseases and Pregnancy Complications Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "category" : [
+         "Disease Related Tracks",
+         "Female Urogenital Diseases and Pregnancy Complications"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Hemic and Lymphatic Diseases"
+      ],
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Hemic and Lymphatic Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Hemic and Lymphatic Diseases Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Hemic and Lymphatic Diseases Related Genes-GRCh38.p14",
+      "name" : "Hemic and Lymphatic Diseases Related Genes"
+   },
+   {
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Immune System Diseases Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Immune System Diseases Related Genes.gff3.gz.tbi"
+            }
+         }
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Immune System Diseases Related Genes-GRCh38.p14",
+      "name" : "Immune System Diseases Related Genes",
+      "category" : [
+         "Disease Related Tracks",
+         "Immune System Diseases"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Induced Disorders"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Induced Disorders Related Genes-GRCh38.p14",
+      "name" : "Induced Disorders Related Genes",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Induced Disorders Related Genes.gff3.gz"
+         },
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Induced Disorders Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Male Urogenital Diseases Related Genes.gff3.gz"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Male Urogenital Diseases Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Male Urogenital Diseases Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Male Urogenital Diseases Related Genes-GRCh38.p14",
+      "category" : [
+         "Disease Related Tracks",
+         "Male Urogenital Diseases"
+      ]
+   },
+   {
+      "trackId" : "Mental Disorders Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Mental Disorders Related Genes",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Mental Disorders Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         },
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Mental Disorders Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Disease Related Tracks",
+         "Mental Disorders"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Musculoskeletal Diseases"
+      ],
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Musculoskeletal Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Musculoskeletal Diseases Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "trackId" : "Musculoskeletal Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Musculoskeletal Diseases Related Genes"
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Neoplasms"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Neoplasms Related Genes-GRCh38.p14",
+      "name" : "Neoplasms Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Neoplasms Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Neoplasms Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      }
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Nervous System Diseases"
+      ],
+      "trackId" : "Nervous System Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Nervous System Diseases Related Genes",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Nervous System Diseases Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Nervous System Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Nutritional and Metabolic Diseases"
+      ],
+      "name" : "Nutritional and Metabolic Diseases Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Nutritional and Metabolic Diseases Related Genes-GRCh38.p14",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Nutritional and Metabolic Diseases Related Genes.gff3.gz"
+         },
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Nutritional and Metabolic Diseases Related Genes.gff3.gz.tbi"
+            }
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "trackId" : "Occupational Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Occupational Diseases Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Occupational Diseases Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Occupational Diseases Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "category" : [
+         "Disease Related Tracks",
+         "Occupational Diseases"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Otorhinolaryngologic Diseases"
+      ],
+      "trackId" : "Otorhinolaryngologic Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Otorhinolaryngologic Diseases Related Genes",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Otorhinolaryngologic Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Otorhinolaryngologic Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Parasitic Diseases"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Parasitic Diseases Related Genes-GRCh38.p14",
+      "name" : "Parasitic Diseases Related Genes",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Parasitic Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Parasitic Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack"
+   },
+   {
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Respiratory Tract Diseases Related Genes-GRCh38.p14",
+      "name" : "Respiratory Tract Diseases Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Respiratory Tract Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Respiratory Tract Diseases Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "category" : [
+         "Disease Related Tracks",
+         "Respiratory Tract Diseases"
+      ]
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Signs and Symptoms Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Signs and Symptoms Related Genes.gff3.gz"
+         }
+      },
+      "trackId" : "Signs and Symptoms Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Signs and Symptoms Related Genes",
+      "category" : [
+         "Disease Related Tracks",
+         "Signs and Symptoms"
+      ]
+   },
+   {
+      "trackId" : "Skin and Connective Tissue Diseases Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Skin and Connective Tissue Diseases Related Genes",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Skin and Connective Tissue Diseases Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Skin and Connective Tissue Diseases Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Disease Related Tracks",
+         "Skin and Connective Tissue Diseases"
+      ]
+   },
+   {
+      "category" : [
+         "Disease Related Tracks",
+         "Stomatognathic Diseases"
+      ],
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Stomatognathic Diseases Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Stomatognathic Diseases Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Stomatognathic Diseases Related Genes-GRCh38.p14",
+      "name" : "Stomatognathic Diseases Related Genes"
+   },
+   {
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Virus Diseases Related Genes-GRCh38.p14",
+      "name" : "Virus Diseases Related Genes",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Virus Diseases Related Genes.gff3.gz.tbi"
+            }
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Virus Diseases Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Disease Related Tracks",
+         "Virus Diseases"
+      ]
+   },
+   {
+      "name" : "Wounds and Injuries Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Wounds and Injuries Related Genes-GRCh38.p14",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Wounds and Injuries Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Wounds and Injuries Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "category" : [
+         "Disease Related Tracks",
+         "Wounds and Injuries"
+      ]
+   },
+   {
+      "name" : "Aetiopathogenetic Role Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Aetiopathogenetic Role Related Genes-GRCh38.p14",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Aetiopathogenetic Role Related Genes.gff3.gz"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Aetiopathogenetic Role Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Aetiopathogenetic Role"
+      ]
+   },
+   {
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Antigen Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Antigen Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Antigen Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Antigen Related Genes-GRCh38.p14",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Antigen"
+      ]
+   },
+   {
+      "name" : "Antimicrobial Agent Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Antimicrobial Agent Related Genes-GRCh38.p14",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Antimicrobial Agent Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Antimicrobial Agent Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Antimicrobial Agent"
+      ]
+   },
+   {
+      "name" : "Antimutagen Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Antimutagen Related Genes-GRCh38.p14",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Antimutagen Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Antimutagen Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Antimutagen"
+      ]
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Biochemical Role"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Biochemical Role Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Biochemical Role Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "name" : "Biochemical Role Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Biochemical Role Related Genes-GRCh38.p14"
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Biophysical Role"
+      ],
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Biophysical Role Related Genes.gff3.gz"
+         },
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Biophysical Role Related Genes.gff3.gz.tbi"
+            }
+         }
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Biophysical Role Related Genes-GRCh38.p14",
+      "name" : "Biophysical Role Related Genes"
+   },
+   {
+      "name" : "Epitope Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Epitope Related Genes-GRCh38.p14",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Epitope Related Genes.gff3.gz.tbi"
+            }
+         },
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Epitope Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Epitope"
+      ]
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Fixative"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Fixative Related Genes-GRCh38.p14",
+      "name" : "Fixative Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Fixative Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Fixative Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      }
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Glutathione Depleting Agent"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Glutathione Depleting Agent Related Genes.gff3.gz"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Glutathione Depleting Agent Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Glutathione Depleting Agent Related Genes-GRCh38.p14",
+      "name" : "Glutathione Depleting Agent Related Genes"
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Growth Regulator"
+      ],
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Growth Regulator Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Growth Regulator Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Growth Regulator Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Growth Regulator Related Genes-GRCh38.p14"
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Hapten"
+      ],
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Hapten Related Genes.gff3.gz.tbi"
+            }
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Hapten Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Hapten Related Genes-GRCh38.p14",
+      "name" : "Hapten Related Genes"
+   },
+   {
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Immunomodulator Related Genes.gff3.gz"
+         },
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Immunomodulator Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "name" : "Immunomodulator Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Immunomodulator Related Genes-GRCh38.p14",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Immunomodulator"
+      ]
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Inhibitor"
+      ],
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Inhibitor Related Genes-GRCh38.p14",
+      "name" : "Inhibitor Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Inhibitor Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Inhibitor Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      }
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Insect Attractant Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Insect Attractant Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "name" : "Insect Attractant Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Insect Attractant Related Genes-GRCh38.p14",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Insect Attractant"
+      ]
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Mitogen Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Mitogen Related Genes.gff3.gz"
+         }
+      },
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Mitogen Related Genes-GRCh38.p14",
+      "name" : "Mitogen Related Genes",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Mitogen"
+      ]
+   },
+   {
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Molecular Messenger Related Genes-GRCh38.p14",
+      "name" : "Molecular Messenger Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Molecular Messenger Related Genes.gff3.gz.tbi"
+            }
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Molecular Messenger Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Molecular Messenger"
+      ]
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Osmolyte Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         },
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Osmolyte Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "trackId" : "Osmolyte Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Osmolyte Related Genes",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Osmolyte"
+      ]
+   },
+   {
+      "name" : "Pharmacological Role Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Pharmacological Role Related Genes-GRCh38.p14",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Pharmacological Role Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Pharmacological Role Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Pharmacological Role"
+      ]
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Physiological Role"
+      ],
+      "name" : "Physiological Role Related Genes",
+      "trackId" : "Physiological Role Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Physiological Role Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Physiological Role Related Genes.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      }
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Poison"
+      ],
+      "trackId" : "Poison Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Poison Related Genes",
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Poison Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Poison Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         }
+      }
+   },
+   {
+      "name" : "Prohormone Related Genes",
+      "trackId" : "Prohormone Related Genes-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "adapter" : {
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Prohormone Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         },
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Prohormone Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         }
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Prohormone"
+      ]
+   },
+   {
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Provitamin Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         },
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Provitamin Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Provitamin Related Genes-GRCh38.p14",
+      "name" : "Provitamin Related Genes",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Provitamin"
+      ]
+   },
+   {
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Specialized Proresolving Mediator"
+      ],
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Specialized Proresolving Mediator Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Specialized Proresolving Mediator Related Genes.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Specialized Proresolving Mediator Related Genes-GRCh38.p14",
+      "name" : "Specialized Proresolving Mediator Related Genes"
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Xenobiotic Related Genes.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Xenobiotic Related Genes.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "name" : "Xenobiotic Related Genes",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Xenobiotic Related Genes-GRCh38.p14",
+      "category" : [
+         "Gene-Chemical Interaction Tracks",
+         "Biological Role",
+         "Xenobiotic"
+      ]
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Ensembl (GRCh38.110) Features.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Ensembl (GRCh38.110) Features.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            }
+         }
+      },
+      "trackId" : "Ensembl (GRCh38.110) Features-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Ensembl (GRCh38.110) Features",
+      "category" : [
+         "Gene Models",
+         "Ensembl Gene Features"
+      ]
+   },
+   {
+      "category" : [
+         "Gene Models",
+         "Ensembl Gene Features"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Ensembl (GRCh38.110) Model.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         },
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Ensembl (GRCh38.110) Model.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter"
+      },
+      "trackId" : "Ensembl (GRCh38.110) Model-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Ensembl (GRCh38.110) Model"
+   },
+   {
+      "name" : "Human GRCh38.p14 (hg38) Genes and Transcripts",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Human GRCh38.p14 (hg38) Genes and Transcripts-GRCh38.p14",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) Genes and Transcripts.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) Genes and Transcripts.gff3.gz.tbi"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene Models",
+         "NCBI Gene Features"
+      ]
+   },
+   {
+      "name" : "Human GRCh38.p14 (hg38) Genes Only",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "trackId" : "Human GRCh38.p14 (hg38) Genes Only-GRCh38.p14",
+      "adapter" : {
+         "type" : "Gff3TabixAdapter",
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) Genes Only.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "index" : {
+            "location" : {
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) Genes Only.gff3.gz.tbi",
+               "locationType" : "UriLocation"
+            },
+            "indexType" : "TBI"
+         }
+      },
+      "type" : "FeatureTrack",
+      "category" : [
+         "Gene Models",
+         "NCBI Gene Features"
+      ]
+   },
+   {
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "locationType" : "UriLocation",
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) Protein Domains.gff3.gz"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) Protein Domains.gff3.gz.tbi"
+            }
+         }
+      },
+      "trackId" : "Human GRCh38.p14 (hg38) Protein Domains-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "name" : "Human GRCh38.p14 (hg38) Protein Domains",
+      "category" : [
+         "Gene Models",
+         "NCBI Gene Features"
+      ]
+   },
+   {
+      "category" : [
+         "QTLs"
+      ],
+      "name" : "Human GRCh38.p14 (hg38) QTLs",
+      "trackId" : "Human GRCh38.p14 (hg38) QTLs-GRCh38.p14",
+      "assemblyNames" : [
+         "Homo_sapiens"
+      ],
+      "type" : "FeatureTrack",
+      "adapter" : {
+         "gffGzLocation" : {
+            "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) QTLs.gff3.gz",
+            "locationType" : "UriLocation"
+         },
+         "type" : "Gff3TabixAdapter",
+         "index" : {
+            "indexType" : "TBI",
+            "location" : {
+               "locationType" : "UriLocation",
+               "uri" : "/jbrowsedata/RGDJBrowse/GRCh38.p14/Human GRCh38.p14 (hg38) QTLs.gff3.gz.tbi"
+            }
+         }
+      }
+   }
+]
