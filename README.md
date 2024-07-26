@@ -47,7 +47,7 @@ The other thing that needs to be updated in the JBrowse configuration is the
 Alliance release number. A similar one-liner can take care of this:
 
 ```
-perl -pi -e 's/\/7\.2\/0\//7.3.0/' config.json
+perl -pi -e 's!/7\.2\./0/!/7.3.0/!' config.json
 ```
 
 After making these changes, a commit to the stage branch will
