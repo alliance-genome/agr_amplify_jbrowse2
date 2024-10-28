@@ -1,0 +1,19 @@
+chr1L	Chr1L
+chr5S	Chr5S
+chr2S	Chr2S
+chr7L	Chr7L
+chr4S	Chr4S
+chr6L	Chr6L
+chr9_10S	Chr9_10S
+chr2L	Chr2L
+chr3L	Chr3L
+chr4L	Chr4L
+chr8S	Chr8S
+chr7S	Chr7S
+chr8L	Chr8L
+chr9_10L	Chr9_10L
+chr5L	Chr5L
+chr6S	Chr6S
+chr3S	Chr3S
+chr1S	Chr1S
+MT	chrMT	chrM	ChrMT	ChrM
