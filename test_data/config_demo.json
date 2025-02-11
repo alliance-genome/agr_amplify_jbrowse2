@@ -3957,7 +3957,6 @@
         }
       ]
     },
-
     {
       "type": "SyntenyTrack",
       "trackId": "hg19ToHg38.over.chain.gz-1645073157673",
@@ -4326,6 +4325,130 @@
         }
       },
       "assemblyNames": ["chm13v2.0"]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "hprc-v1.0-minigraph-grch38.bb.bed",
+      "name": "hprc-v1.0-minigraph-grch38.bb.bed",
+      "adapter": {
+        "type": "BedTabixAdapter",
+        "bedGzLocation": {
+          "uri": "hprc-v1.0-minigraph-grch38.bb.bed.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "hprc-v1.0-minigraph-grch38.bb.bed.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": ["hg38"]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "NA12878_LINE1",
+      "name": "NA12878_LINE1",
+      "category": ["NA12878"],
+      "adapter": {
+        "type": "VcfAdapter",
+        "vcfLocation": {
+          "uri": "https://jbrowse.org/genomes/hg19/NA12878_LINE1.vcf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": ["hg19"]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "NA12878_SVA",
+      "name": "NA12878_SVA",
+      "category": ["NA12878"],
+      "adapter": {
+        "type": "VcfAdapter",
+        "vcfLocation": {
+          "uri": "https://jbrowse.org/genomes/hg19/NA12878_SVA.vcf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": ["hg19"]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "NA12878_ALU",
+      "name": "NA12878_ALU",
+      "category": ["NA12878"],
+      "adapter": {
+        "type": "VcfAdapter",
+        "vcfLocation": {
+          "uri": "https://jbrowse.org/genomes/hg19/NA12878_ALU.vcf",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": ["hg19"]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "tiberius_grch38",
+      "name": "Tiberius gene predictions",
+      "category": ["Annotation"],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://jbrowse.org/genomes/GRCh38/tiberius_grch38.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "https://jbrowse.org/genomes/GRCh38/tiberius_grch38.gff.gz.tbi",
+            "locationType": "UriLocation"
+          }
+        }
+      },
+      "assemblyNames": ["hg38"]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "gencode_47",
+      "name": "Gencode 47",
+      "category": ["Annotation"],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://jbrowse.org/genomes/GRCh38/gencode/gencode.v47.chr_patch_hapl_scaff.annotation.sorted.gff3.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "https://jbrowse.org/genomes/GRCh38/gencode/gencode.v47.chr_patch_hapl_scaff.annotation.sorted.gff3.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": ["hg38"]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ncbi_08_24",
+      "name": "NCBI RefSeq (Aug 2024)",
+      "category": ["Annotation"],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "https://jbrowse.org/genomes/GRCh38/ncbi_refseq/genomic.sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "https://jbrowse.org/genomes/GRCh38/ncbi_refseq/genomic.sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": ["hg38"]
     }
   ],
   "connections": [],

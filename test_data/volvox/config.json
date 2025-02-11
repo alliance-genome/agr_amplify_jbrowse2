@@ -1890,7 +1890,7 @@
     {
       "type": "SyntenyTrack",
       "category": ["Synteny"],
-      "trackId": "volvox_del.paf-1658813720770",
+      "trackId": "volvox_del.paf",
       "name": "volvox_del.paf",
       "assemblyNames": ["volvox", "volvox_del"],
       "adapter": {
@@ -1905,7 +1905,7 @@
     {
       "type": "SyntenyTrack",
       "category": ["Synteny"],
-      "trackId": "volvox_ins.paf-1658813720770",
+      "trackId": "volvox_ins.paf",
       "name": "volvox_ins.paf",
       "assemblyNames": ["volvox", "volvox_ins"],
       "adapter": {
@@ -2180,6 +2180,42 @@
           "displayId": "volvox_bedpe-LinearPairedArcDisplay"
         }
       ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "volvox_ins.pif",
+      "name": "volvox_ins.pif",
+      "category": ["Synteny"],
+      "adapter": {
+        "type": "PairwiseIndexedPAFAdapter",
+        "pifGzLocation": {
+          "uri": "volvox_ins.pif.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "volvox_ins.pif.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        },
+        "assemblyNames": ["volvox_ins", "volvox"]
+      },
+      "assemblyNames": ["volvox_ins", "volvox"]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "test",
+      "name": "Multi-part feature segments",
+      "category": ["Integration test"],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "multipart.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": ["volvox"]
     }
   ],
   "plugins": [
