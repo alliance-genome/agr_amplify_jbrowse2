@@ -483,19 +483,19 @@
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/dmel-all-chromosome-r6.67.fasta.gz"
           },
           "faiLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz.fai"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/dmel-all-chromosome-r6.67.fasta.gz.fai"
           },
           "metadataLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.yaml"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/dmel-all-chromosome-r6.67.fasta.yaml"
           },
           "gziLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz.gzi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/dmel-all-chromosome-r6.67.fasta.gz.gzi"
           }
         },
         "displays": [
