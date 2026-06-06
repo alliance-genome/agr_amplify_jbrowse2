@@ -7122,12 +7122,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/mod-datadumps/variants/HUMAN/HUMAN.vep.vcf.gz"
+          "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/HUMAN/HUMAN.vep.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/HUMAN/HUMAN.vep.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/HUMAN/HUMAN.vep.vcf.gz.tbi"
           }
         }
       },
@@ -7156,70 +7156,70 @@
         "type": "SplitVcfTabixAdapter",
         "vcfGzLocationMap": {
           "1": {
-            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.1.vcf.gz"
+            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.1.vcf.gz"
           },
           "2": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.2.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.2.vcf.gz"
           },
           "3": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.3.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.3.vcf.gz"
           },
           "4": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.4.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.4.vcf.gz"
           },
           "5": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.5.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.5.vcf.gz"
           },
           "6": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.6.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.6.vcf.gz"
           },
           "7": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.7.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.7.vcf.gz"
           },
           "8": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.8.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.8.vcf.gz"
           },
           "9": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.9.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.9.vcf.gz"
           },
           "10": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.10.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.10.vcf.gz"
           },
           "11": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.11.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.11.vcf.gz"
           },
           "12": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.12.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.12.vcf.gz"
           },
           "13": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.13.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.13.vcf.gz"
           },
           "14": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.14.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.14.vcf.gz"
           },
           "15": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.15.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.15.vcf.gz"
           },
           "16": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.16.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.16.vcf.gz"
           },
           "17": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.17.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.17.vcf.gz"
           },
           "18": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.18.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.18.vcf.gz"
           },
           "19": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.19.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.19.vcf.gz"
           },
           "MT": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.MT.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.MT.vcf.gz"
           },
           "X": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.X.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.X.vcf.gz"
           },
           "Y": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.Y.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.0.0/MGI/MGI.vep.Y.vcf.gz"
           }
         }
       },
