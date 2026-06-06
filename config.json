@@ -7122,12 +7122,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/mod-datadumps/variants/HUMAN/HUMAN.vep.vcf.gz"
+          "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/HUMAN/HUMAN.vep.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/HUMAN/HUMAN.vep.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/HUMAN/HUMAN.vep.vcf.gz.tbi"
           }
         }
       },
@@ -7156,10 +7156,10 @@
         "type": "SplitVcfTabixAdapter",
         "vcfGzLocationMap": {
           "1": {
-            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.1.vcf.gz"
+            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.1.vcf.gz"
           },
           "2": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.2.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.2.vcf.gz"
           },
           "3": {
              "uri": "https://s3.amazonaws.com/mod-datadumps/variants/MGI/MGI.vep.3.vcf.gz"
