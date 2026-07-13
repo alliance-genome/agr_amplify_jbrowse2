@@ -62,36 +62,72 @@
       "assemblyNames": ["Homo_sapiens"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "fruitfly_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Drosophila_melanogaster"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "fruitfly_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Drosophila_melanogaster"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "rat_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Rattus_norvegicus"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "rat_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Rattus_norvegicus"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "mouse_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Mus_musculus"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "mouse_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Mus_musculus"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "human_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/trix/GFF_HUMAN.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Homo_sapiens"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "human_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/trix/GFF_HUMAN.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/trix/GFF_HUMAN.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Homo_sapiens"]
     },
     {
       "namesIndexLocation": {
@@ -102,36 +138,72 @@
       "textSearchAdapterId": "zebrafish_generate-names-index"
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "worm_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Caenorhabditis_elegans"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "worm_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Caenorhabditis_elegans"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "xlaevis_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Xenopus_laevis"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "xlaevis_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Xenopus_laevis"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "xtropicalis_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Xenopus_tropicalis"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "xtropicalis_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Xenopus_tropicalis"]
     },
     {
-      "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/names/"
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "yeast_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
       },
-      "assemblyNames": ["Saccharomyces_cerevisiae"],
-      "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "yeast_generate-names-index"
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Saccharomyces_cerevisiae"]
     },
     {
       "type": "TrixTextSearchAdapter",
@@ -6239,10 +6311,17 @@
       "name": "All Genes",
       "assemblyNames": ["Homo_sapiens"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/GFF_HUMAN.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/GFF_HUMAN.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6271,10 +6350,17 @@
       "name": "All Genes",
       "assemblyNames": ["Saccharomyces_cerevisiae"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/GFF_SGD.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/GFF_SGD.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6693,10 +6779,17 @@
       "name": "All Genes",
       "assemblyNames": ["Xenopus_laevis"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/GFF_XBXL.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/GFF_XBXL.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6725,10 +6818,17 @@
       "name": "All Genes",
       "assemblyNames": ["Xenopus_tropicalis"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/GFF_XBXT.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/GFF_XBXT.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6757,10 +6857,17 @@
       "name": "All Genes",
       "assemblyNames": ["Rattus_norvegicus"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/GFF_RGD.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/GFF_RGD.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6789,10 +6896,17 @@
       "name": "All Genes",
       "assemblyNames": ["Mus_musculus"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/GFF_MGI.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/GFF_MGI.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6821,10 +6935,17 @@
       "name": "All Genes",
       "assemblyNames": ["Drosophila_melanogaster"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/GFF_FB.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/GFF_FB.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6853,10 +6974,17 @@
       "name": "All Genes",
       "assemblyNames": ["Caenorhabditis_elegans"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/GFF_WB.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/GFF_WB.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
