@@ -130,12 +130,29 @@
       "assemblyNames": ["Homo_sapiens"]
     },
     {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "zebrafish_generate-names-index",
+      "ixFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": ["Danio_rerio"]
+    },
+    {
       "namesIndexLocation": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish-11/names/"
+        "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/names/"
       },
       "assemblyNames": ["Danio_rerio"],
       "type": "JBrowse1TextSearchAdapter",
-      "textSearchAdapterId": "zebrafish_generate-names-index"
+      "textSearchAdapterId": "zfin_GRCz12tu_generate-names-index"
     },
     {
       "type": "TrixTextSearchAdapter",
@@ -288,19 +305,15 @@
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.fna.gz"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_049306965.1_GRCz12tu_genomic.fna.gz"
           },
           "faiLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.fna.gz.fai"
-          },
-          "metadataLocation": {
-            "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.yaml"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_049306965.1_GRCz12tu_genomic.fna.gz.fai"
           },
           "gziLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_000002035.6_GRCz11_genomic.fna.gz.gzi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_049306965.1_GRCz12tu_genomic.fna.gz.gzi"
           }
         },
         "displays": [
@@ -6388,10 +6401,17 @@
       "name": "All Genes",
       "assemblyNames": ["Danio_rerio"],
       "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish-11/tracks/All_Genes/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN.sorted.gff.gz.tbi"
+          }
         }
       },
       "formatDetails": {
@@ -6427,7 +6447,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -6448,173 +6468,31 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "zfin_transcript",
-      "name": "Transcript",
+      "trackId": "zfin_refseq",
+      "name": "RefSeq",
       "assemblyNames": ["Danio_rerio"],
+      "formatDetails": {
+        "feature": "jexl:{id:null,curie:null,ZFIN:'<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
+      },
+      "category": ["ZFIN tracks"],
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/RefSeq/{refseq}/trackData.jsonz"
         }
-      },
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
       },
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "transcript-1687907635485-LinearBasicDisplay",
+          "displayId": "zfin_refseq-LinearBasicDisplay",
           "renderer": {
-            "type": "SvgFeatureRenderer",
-            "color1": "#6792ED"
+            "type": "SvgFeatureRenderer"
           }
         },
         {
           "type": "LinearArcDisplay",
-          "displayId": "transcript-1687907635485-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "zfin_genes_with_phenotype",
-      "name": "ZFIN Genes with Phenotype",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
-      },
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Phenotype/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "zfin_genes_with_phenotype-1687908071014-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "zfin_genes_with_phenotype-1687908071014-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "zfin_genes_with_antibody_data",
-      "name": "ZFIN Genes with Antibody Data",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
-      },
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Antibody_Data/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "zfin_genes_with_antibody_data-1687908124039-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "zfin_genes_with_antibody_data-1687908124039-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "zfin_genes_with_expression",
-      "name": "ZFIN Genes with Expression",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.gene_id+' \">'+feature.name+'</a>'}"
-      },
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Genes_with_Expression/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "zfin_genes_with_expression-1687908166699-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "zfin_genes_with_expression-1687908166699-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "zfin_complete_assembly_clones",
-      "name": "Complete Assembly Clones",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
-      },
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Complete_Assembly_Clones/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "complete_assembly_clones-1687908227633-LinearBasicDisplay",
-          "renderer": {
-            "type": "SvgFeatureRenderer",
-            "color1": "white",
-            "outline": "#8CADF1"
-          }
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "complete_assembly_clones-1687908227633-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "zfin_additional_transcripts",
-      "name": "Additional Transcripts",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Additional_Transcripts/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "additional_transcripts-1687908387689-LinearBasicDisplay",
-          "renderer": {
-            "type": "SvgFeatureRenderer",
-            "color1": "#FE0200"
-          }
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "additional_transcripts-1687908387689-LinearArcDisplay"
+          "displayId": "zfin_refseq-LinearArcDisplay"
         }
       ]
     },
@@ -6631,7 +6509,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Knockdown_Reagent/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/Knockdown_Reagent/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -6651,37 +6529,6 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "zfin_assembly",
-      "name": "Assembly",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.zdb_id+' \">'+feature.name+'</a>'}"
-      },
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Assembly/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "assembly-1687908614561-LinearBasicDisplay",
-          "renderer": {
-            "type": "SvgFeatureRenderer",
-            "color1": "#6792ED"
-          }
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "assembly-1687908614561-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
       "trackId": "zfin_zebrafish_mutation_project",
       "name": "Zebrafish Mutation Project",
       "assemblyNames": ["Danio_rerio"],
@@ -6693,7 +6540,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Zebrafish_Mutation_Project/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/Zebrafish_Mutation_Project/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -6724,7 +6571,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/ZFIN_Features/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/ZFIN_Features/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
@@ -6739,37 +6586,6 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "zfin_features-1687908884139-LinearArcDisplay"
-        }
-      ]
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "zfin_transgenic_insertion",
-      "name": "Transgenic Insertion",
-      "assemblyNames": ["Danio_rerio"],
-      "category": ["ZFIN tracks"],
-      "formatDetails": {
-        "feature": "jexl:{ ZFIN: '<a href=\"http://zfin.org/'+feature.id+' \">'+feature.name+'</a>'}"
-      },
-      "adapter": {
-        "type": "NCListAdapter",
-        "rootUrlTemplate": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/tracks/Transgenic_Insertion/{refseq}/trackData.jsonz"
-        }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "transgenic_insertion-1687908986143-LinearBasicDisplay",
-          "renderer": {
-            "type": "SvgFeatureRenderer",
-            "color1": "#7135B3"
-          }
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "transgenic_insertion-1687908986143-LinearArcDisplay"
         }
       ]
     },
