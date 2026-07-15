@@ -9,7 +9,7 @@
             if(f?.variant?.INFO?.geneImpact?.[0]==='MODIFIER') { return 'purple' }
             if(f?.variant?.INFO?.geneImpact?.[0]==='MODERATE') { return 'gold' }
             if(f?.variant?.INFO?.geneImpact?.[0]==='LOW')      { return 'cyan' }
-            return 'black';
+            return 'red';
       })
     }
 
