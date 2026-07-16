@@ -1,4 +1,11 @@
 ;(function () {
+  function stripQuotes(str) {
+    if (typeof str === 'string' && str.length >= 2 && str.startsWith('"') && str.endsWith('"')) {
+        return str.slice(1, -1)
+    }
+    return str
+  }
+
   class Plugin {
     name = 'VariantDescriptionPlugin'
     version = '1.0'
@@ -7,13 +14,13 @@
       pluginManager.jexl.addFunction('variantDescription', f => {
 
     var type = f.get('INFO').soTerm;
-    type = type[0];
+    type = stripQuotes(type[0]);
     if (type == 'point_mutation') {
         type = 'SNV';
     }
-    var ref_allele = f.get('REF');
+    var ref_allele = stripQuotes(f.get('REF'));
     var alt_allele = f.get('ALT');
-    alt_allele = alt_allele[0]
+    alt_allele = stripQuotes(alt_allele[0])
     if (alt_allele == '<R>') {
         alt_allele = 'A or G';
     }
