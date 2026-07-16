@@ -7,6 +7,7 @@
       pluginManager.jexl.addFunction('variantColor', f => {
             console.log(f)
             console.log(f.get('INFO'))
+            console.log(f.get('INFO')).geneImpact
             const geneImpact = f.get('INFO')?.geneImpact
             if(geneImpact?.[0]==='HIGH')     { return 'red' }
             if(geneImpact?.[0]==='MODIFIER') { return 'purple' }
