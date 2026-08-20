@@ -14,13 +14,13 @@
       pluginManager.jexl.addFunction('variantDescription', f => {
 
     var type = f.get('INFO').soTerm;
-    type = stripQuotes(type[0]);
+    type = (type && type[0] != null) ? stripQuotes(type[0]) : '';
     if (type == 'point_mutation') {
         type = 'SNV';
     }
     var ref_allele = stripQuotes(f.get('REF'));
     var alt_allele = f.get('ALT');
-    alt_allele = stripQuotes(alt_allele[0])
+    alt_allele = (alt_allele && alt_allele[0] != null) ? stripQuotes(alt_allele[0]) : '.'
     if (alt_allele == '<R>') {
         alt_allele = 'A or G';
     }
