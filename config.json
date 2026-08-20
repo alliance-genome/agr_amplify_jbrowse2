@@ -6473,6 +6473,40 @@
     },
     {
       "type": "FeatureTrack",
+      "trackId": "Danio_rerio_non-gene_features",
+      "name": "Non-gene features",
+      "assemblyNames": ["Danio_rerio"],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN_nongene.sorted.gff.gz"
+        },
+        "index": {
+          "indexType": "TBI",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN_nongene.sorted.gff.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "Danio_rerio_non-gene_features-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "pink"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "Danio_rerio_non-gene_features-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "zfin_gene",
       "name": "ZFIN Gene",
       "assemblyNames": ["Danio_rerio"],
@@ -7241,40 +7275,6 @@
         {
           "type": "ChordVariantDisplay",
           "displayId": "Rattus_norvegicus_ht_variants-ChordVariantDisplay"
-        }
-      ]
-    },
-    {
-      "type": "VariantTrack",
-      "trackId": "Danio_rerio_ht_variants",
-      "name": "High Throughput Variants",
-      "assemblyNames": ["Danio_rerio"],
-      "adapter": {
-        "type": "VcfTabixAdapter",
-        "vcfGzLocation": {
-          "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_ZFIN_latest.vcf.gz"
-        },
-        "index": {
-          "location": {
-            "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_ZFIN_latest.vcf.gz.tbi"
-          }
-        }
-      },
-      "displays": [
-        {
-          "renderer": {
-            "maxHeight": 5000,
-            "type": "SvgFeatureRenderer",
-            "color1": "jexl:htVariantColor(feature)"
-          },
-          "type": "LinearVariantDisplay",
-          "displayId": "Danio_rerio_ht_variants-LinearVariantDisplay"
-        },
-        {
-          "type": "ChordVariantDisplay",
-          "displayId": "Danio_rerio_ht_variants-ChordVariantDisplay"
         }
       ]
     },
