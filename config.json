@@ -65,15 +65,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "fruitfly_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/FlyBase/fruitfly/trix/GFF_FB.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Drosophila_melanogaster"]
@@ -82,15 +82,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "rat_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/RGD/rat/trix/GFF_RGD.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Rattus_norvegicus"]
@@ -99,15 +99,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "mouse_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/MGI/mouse/trix/GFF_MGI.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Mus_musculus"]
@@ -116,15 +116,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "human_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/trix/GFF_HUMAN.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/human/trix/GFF_HUMAN.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/trix/GFF_HUMAN.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/human/trix/GFF_HUMAN.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/trix/GFF_HUMAN.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/human/trix/GFF_HUMAN.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Homo_sapiens"]
@@ -133,15 +133,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "zebrafish_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/trix/GFF_ZFIN.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Danio_rerio"]
@@ -158,15 +158,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "worm_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/WormBase/c_elegans_PRJNA13758/trix/GFF_WB.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Caenorhabditis_elegans"]
@@ -175,15 +175,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "xlaevis_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/trix/GFF_XBXL.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Xenopus_laevis"]
@@ -192,15 +192,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "xtropicalis_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_tropicalis/trix/GFF_XBXT.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Xenopus_tropicalis"]
@@ -209,15 +209,15 @@
       "type": "TrixTextSearchAdapter",
       "textSearchAdapterId": "yeast_generate-names-index",
       "ixFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz.ix",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz.ix",
         "locationType": "UriLocation"
       },
       "ixxFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz.ixx",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz.ixx",
         "locationType": "UriLocation"
       },
       "metaFilePath": {
-        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz_meta.json",
+        "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/trix/GFF_SGD.sorted.gff.gz_meta.json",
         "locationType": "UriLocation"
       },
       "assemblyNames": ["Saccharomyces_cerevisiae"]
@@ -1305,16 +1305,16 @@
       "adapter": {
         "assemblyNames": ["Homo_sapiens", "Rattus_norvegicus"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2rat.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2rat.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -1325,16 +1325,16 @@
       "adapter": {
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Mus_musculus"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2mouse.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2mouse.stringent.anchors",
           "locationType": "UriLocation"
         }
       },
@@ -1385,16 +1385,16 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2zebrafish.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2zebrafish.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Homo_sapiens", "Danio_rerio"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -1427,17 +1427,17 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopuslaevis.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopuslaevis.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Homo_sapiens", "Xenopus_laevis"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed",
           "locationType": "UriLocation"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         }
       },
       "category": ["Alliance Orthology", "stringent"],
@@ -1475,15 +1475,15 @@
         "assemblyNames": ["Homo_sapiens", "Xenopus_tropicalis"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopustropicalis.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopustropicalis.stringent.anchors",
           "locationType": "UriLocation"
         }
       }
@@ -1516,15 +1516,15 @@
         "assemblyNames": ["Rattus_norvegicus", "Xenopus_tropicalis"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2xenopustropicalis.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2xenopustropicalis.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -1534,16 +1534,16 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2zebrafish.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2zebrafish.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Rattus_norvegicus", "Danio_rerio"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -1600,16 +1600,16 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Mus_musculus", "Xenopus_tropicalis"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2xenopustropicalis.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2xenopustropicalis.stringent.anchors",
           "locationType": "UriLocation"
         }
       }
@@ -1622,17 +1622,17 @@
       "category": ["Alliance Orthology", "stringent"],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Danio_rerio"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2zebrafish.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2zebrafish.stringent.anchors",
           "locationType": "UriLocation"
         }
       },
@@ -1661,15 +1661,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2worm.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2worm.stringent.anchors"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Danio_rerio", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -1706,17 +1706,17 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Danio_rerio", "Xenopus_tropicalis"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2xenopustropicalis.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2xenopustropicalis.stringent.anchors"
         }
       },
       "displays": [
@@ -1748,17 +1748,17 @@
       "category": ["Alliance Orthology", "stringent"],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopuslaevis2xenopustropicalis.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopuslaevis2xenopustropicalis.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_laevis", "Xenopus_tropicalis"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed",
           "locationType": "UriLocation"
         }
       },
@@ -1790,17 +1790,17 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2fly.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2fly.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Caenorhabditis_elegans", "Drosophila_melanogaster"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         }
       },
       "displays": [
@@ -1852,15 +1852,15 @@
       "adapter": {
         "assemblyNames": ["Caenorhabditis_elegans", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2yeast.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2yeast.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -1876,15 +1876,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/fly2yeast.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/fly2yeast.stringent.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Drosophila_melanogaster", "Saccharomyces_cerevisiae"]
       },
@@ -1935,18 +1935,18 @@
       ],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2worm.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2worm.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Caenorhabditis_elegans"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         }
       }
     },
@@ -1973,17 +1973,17 @@
       ],
       "adapter": {
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Drosophila_melanogaster"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2fly.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2fly.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -2019,17 +2019,17 @@
       "adapter": {
         "assemblyNames": ["Xenopus_tropicalis", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2yeast.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2yeast.stringent.anchors"
         }
       },
       "category": ["Alliance Orthology", "stringent"]
@@ -2042,17 +2042,17 @@
       "category": ["Alliance Orthology", "stringent"],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Danio_rerio", "Drosophila_melanogaster"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2fly.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2fly.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -2084,17 +2084,17 @@
       "category": ["Alliance Orthology", "stringent"],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2fly.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2fly.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Homo_sapiens", "Drosophila_melanogaster"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         }
       },
@@ -2147,15 +2147,15 @@
         "assemblyNames": ["Homo_sapiens", "Caenorhabditis_elegans"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2worm.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2worm.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       }
@@ -2187,17 +2187,17 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Saccharomyces_cerevisiae"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2yeast.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2yeast.stringent.anchors"
         }
       },
       "category": ["Alliance Orthology", "stringent"]
@@ -2211,17 +2211,17 @@
       "adapter": {
         "assemblyNames": ["Rattus_norvegicus", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2worm.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2worm.stringent.anchors"
         }
       },
       "displays": [
@@ -2266,17 +2266,17 @@
       ],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2fly.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2fly.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Rattus_norvegicus", "Drosophila_melanogaster"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         }
       },
@@ -2293,18 +2293,18 @@
       "type": "SyntenyTrack",
       "adapter": {
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2worm.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2worm.stringent.anchors"
         }
       },
       "displays": [
@@ -2351,16 +2351,16 @@
       "adapter": {
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Mus_musculus"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2mouse.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2mouse.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -2394,14 +2394,14 @@
         "assemblyNames": ["Mus_musculus", "Drosophila_melanogaster"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2fly.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2fly.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -2420,16 +2420,16 @@
       "adapter": {
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2yeast.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2yeast.stringent.anchors",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Rattus_norvegicus", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         }
       },
@@ -2477,16 +2477,16 @@
       ],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Saccharomyces_cerevisiae"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2yeast.stringent.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2yeast.stringent.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -2519,16 +2519,16 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Danio_rerio", "Saccharomyces_cerevisiae"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2yeast.stringent.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2yeast.stringent.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -2565,16 +2565,16 @@
       "adapter": {
         "assemblyNames": ["Homo_sapiens", "Rattus_norvegicus"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2rat.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2rat.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -2585,16 +2585,16 @@
       "adapter": {
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Mus_musculus"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2mouse.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2mouse.none.anchors",
           "locationType": "UriLocation"
         }
       },
@@ -2645,16 +2645,16 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2zebrafish.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2zebrafish.none.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Homo_sapiens", "Danio_rerio"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -2687,17 +2687,17 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopuslaevis.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopuslaevis.none.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Homo_sapiens", "Xenopus_laevis"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed",
           "locationType": "UriLocation"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         }
       },
       "category": ["Alliance Orthology", "none"],
@@ -2735,15 +2735,15 @@
         "assemblyNames": ["Homo_sapiens", "Xenopus_tropicalis"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopustropicalis.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopustropicalis.none.anchors",
           "locationType": "UriLocation"
         }
       }
@@ -2776,15 +2776,15 @@
         "assemblyNames": ["Rattus_norvegicus", "Xenopus_tropicalis"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2xenopustropicalis.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2xenopustropicalis.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -2794,16 +2794,16 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2zebrafish.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2zebrafish.none.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Rattus_norvegicus", "Danio_rerio"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -2860,16 +2860,16 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Mus_musculus", "Xenopus_tropicalis"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2xenopustropicalis.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2xenopustropicalis.none.anchors",
           "locationType": "UriLocation"
         }
       }
@@ -2882,17 +2882,17 @@
       "category": ["Alliance Orthology", "none"],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Danio_rerio"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2zebrafish.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2zebrafish.none.anchors",
           "locationType": "UriLocation"
         }
       },
@@ -2921,15 +2921,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2worm.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2worm.none.anchors"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Danio_rerio", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -2966,17 +2966,17 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Danio_rerio", "Xenopus_tropicalis"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2xenopustropicalis.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2xenopustropicalis.none.anchors"
         }
       },
       "displays": [
@@ -3008,17 +3008,17 @@
       "category": ["Alliance Orthology", "none"],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopuslaevis2xenopustropicalis.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopuslaevis2xenopustropicalis.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_laevis", "Xenopus_tropicalis"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed",
           "locationType": "UriLocation"
         }
       },
@@ -3050,17 +3050,17 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2fly.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2fly.none.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Caenorhabditis_elegans", "Drosophila_melanogaster"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         }
       },
       "displays": [
@@ -3112,15 +3112,15 @@
       "adapter": {
         "assemblyNames": ["Caenorhabditis_elegans", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2yeast.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2yeast.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -3136,15 +3136,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/fly2yeast.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/fly2yeast.none.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Drosophila_melanogaster", "Saccharomyces_cerevisiae"]
       },
@@ -3195,18 +3195,18 @@
       ],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2worm.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2worm.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Caenorhabditis_elegans"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         }
       }
     },
@@ -3233,17 +3233,17 @@
       ],
       "adapter": {
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Drosophila_melanogaster"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2fly.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2fly.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -3279,17 +3279,17 @@
       "adapter": {
         "assemblyNames": ["Xenopus_tropicalis", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2yeast.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2yeast.none.anchors"
         }
       },
       "category": ["Alliance Orthology", "none"]
@@ -3302,17 +3302,17 @@
       "category": ["Alliance Orthology", "none"],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Danio_rerio", "Drosophila_melanogaster"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2fly.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2fly.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -3344,17 +3344,17 @@
       "category": ["Alliance Orthology", "none"],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2fly.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2fly.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Homo_sapiens", "Drosophila_melanogaster"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         }
       },
@@ -3407,15 +3407,15 @@
         "assemblyNames": ["Homo_sapiens", "Caenorhabditis_elegans"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2worm.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2worm.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       }
@@ -3447,17 +3447,17 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Saccharomyces_cerevisiae"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2yeast.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2yeast.none.anchors"
         }
       },
       "category": ["Alliance Orthology", "none"]
@@ -3471,17 +3471,17 @@
       "adapter": {
         "assemblyNames": ["Rattus_norvegicus", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2worm.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2worm.none.anchors"
         }
       },
       "displays": [
@@ -3526,17 +3526,17 @@
       ],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2fly.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2fly.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Rattus_norvegicus", "Drosophila_melanogaster"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         }
       },
@@ -3553,18 +3553,18 @@
       "type": "SyntenyTrack",
       "adapter": {
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2worm.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2worm.none.anchors"
         }
       },
       "displays": [
@@ -3611,16 +3611,16 @@
       "adapter": {
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Mus_musculus"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2mouse.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2mouse.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -3654,14 +3654,14 @@
         "assemblyNames": ["Mus_musculus", "Drosophila_melanogaster"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2fly.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2fly.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -3680,16 +3680,16 @@
       "adapter": {
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2yeast.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2yeast.none.anchors",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Rattus_norvegicus", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         }
       },
@@ -3737,16 +3737,16 @@
       ],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Saccharomyces_cerevisiae"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2yeast.none.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2yeast.none.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -3779,16 +3779,16 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Danio_rerio", "Saccharomyces_cerevisiae"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2yeast.none.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2yeast.none.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -3825,16 +3825,16 @@
       "adapter": {
         "assemblyNames": ["Homo_sapiens", "Rattus_norvegicus"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2rat.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2rat.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -3845,16 +3845,16 @@
       "adapter": {
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Mus_musculus"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2mouse.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2mouse.moderate.anchors",
           "locationType": "UriLocation"
         }
       },
@@ -3905,16 +3905,16 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2zebrafish.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2zebrafish.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Homo_sapiens", "Danio_rerio"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -3947,17 +3947,17 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopuslaevis.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopuslaevis.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Homo_sapiens", "Xenopus_laevis"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed",
           "locationType": "UriLocation"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         }
       },
       "category": ["Alliance Orthology", "moderate"],
@@ -3995,15 +3995,15 @@
         "assemblyNames": ["Homo_sapiens", "Xenopus_tropicalis"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopustropicalis.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopustropicalis.moderate.anchors",
           "locationType": "UriLocation"
         }
       }
@@ -4036,15 +4036,15 @@
         "assemblyNames": ["Rattus_norvegicus", "Xenopus_tropicalis"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2xenopustropicalis.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2xenopustropicalis.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -4054,16 +4054,16 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2zebrafish.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2zebrafish.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Rattus_norvegicus", "Danio_rerio"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -4120,16 +4120,16 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Mus_musculus", "Xenopus_tropicalis"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2xenopustropicalis.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2xenopustropicalis.moderate.anchors",
           "locationType": "UriLocation"
         }
       }
@@ -4142,17 +4142,17 @@
       "category": ["Alliance Orthology", "moderate"],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Danio_rerio"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2zebrafish.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2zebrafish.moderate.anchors",
           "locationType": "UriLocation"
         }
       },
@@ -4181,15 +4181,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2worm.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2worm.moderate.anchors"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Danio_rerio", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         }
       },
@@ -4226,17 +4226,17 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Danio_rerio", "Xenopus_tropicalis"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2xenopustropicalis.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2xenopustropicalis.moderate.anchors"
         }
       },
       "displays": [
@@ -4268,17 +4268,17 @@
       "category": ["Alliance Orthology", "moderate"],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopuslaevis2xenopustropicalis.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopuslaevis2xenopustropicalis.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_laevis", "Xenopus_tropicalis"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed",
           "locationType": "UriLocation"
         }
       },
@@ -4310,17 +4310,17 @@
       "adapter": {
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2fly.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2fly.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Caenorhabditis_elegans", "Drosophila_melanogaster"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         }
       },
       "displays": [
@@ -4372,15 +4372,15 @@
       "adapter": {
         "assemblyNames": ["Caenorhabditis_elegans", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2yeast.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2yeast.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -4396,15 +4396,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/fly2yeast.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/fly2yeast.moderate.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Drosophila_melanogaster", "Saccharomyces_cerevisiae"]
       },
@@ -4455,18 +4455,18 @@
       ],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2worm.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2worm.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Caenorhabditis_elegans"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         }
       }
     },
@@ -4493,17 +4493,17 @@
       ],
       "adapter": {
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Drosophila_melanogaster"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2fly.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2fly.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -4539,17 +4539,17 @@
       "adapter": {
         "assemblyNames": ["Xenopus_tropicalis", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2yeast.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2yeast.moderate.anchors"
         }
       },
       "category": ["Alliance Orthology", "moderate"]
@@ -4562,17 +4562,17 @@
       "category": ["Alliance Orthology", "moderate"],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Danio_rerio", "Drosophila_melanogaster"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2fly.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2fly.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -4604,17 +4604,17 @@
       "category": ["Alliance Orthology", "moderate"],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2fly.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2fly.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Homo_sapiens", "Drosophila_melanogaster"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed",
           "locationType": "UriLocation"
         }
       },
@@ -4667,15 +4667,15 @@
         "assemblyNames": ["Homo_sapiens", "Caenorhabditis_elegans"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2worm.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2worm.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       }
@@ -4707,17 +4707,17 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Saccharomyces_cerevisiae"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2yeast.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2yeast.moderate.anchors"
         }
       },
       "category": ["Alliance Orthology", "moderate"]
@@ -4731,17 +4731,17 @@
       "adapter": {
         "assemblyNames": ["Rattus_norvegicus", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2worm.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2worm.moderate.anchors"
         }
       },
       "displays": [
@@ -4786,17 +4786,17 @@
       ],
       "adapter": {
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2fly.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2fly.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "assemblyNames": ["Rattus_norvegicus", "Drosophila_melanogaster"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         }
       },
@@ -4813,18 +4813,18 @@
       "type": "SyntenyTrack",
       "adapter": {
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Caenorhabditis_elegans"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2worm.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2worm.moderate.anchors"
         }
       },
       "displays": [
@@ -4871,16 +4871,16 @@
       "adapter": {
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Mus_musculus"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2mouse.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2mouse.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -4914,14 +4914,14 @@
         "assemblyNames": ["Mus_musculus", "Drosophila_melanogaster"],
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2fly.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2fly.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -4940,16 +4940,16 @@
       "adapter": {
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2yeast.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2yeast.moderate.anchors",
           "locationType": "UriLocation"
         },
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Rattus_norvegicus", "Saccharomyces_cerevisiae"],
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed",
           "locationType": "UriLocation"
         }
       },
@@ -4997,16 +4997,16 @@
       ],
       "adapter": {
         "bed1Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed",
           "locationType": "UriLocation"
         },
         "assemblyNames": ["Mus_musculus", "Saccharomyces_cerevisiae"],
         "bed2Location": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed",
           "locationType": "UriLocation"
         },
         "mcscanAnchorsLocation": {
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2yeast.moderate.anchors",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2yeast.moderate.anchors",
           "locationType": "UriLocation"
         },
         "type": "MCScanAnchorsAdapter"
@@ -5039,16 +5039,16 @@
       "adapter": {
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Danio_rerio", "Saccharomyces_cerevisiae"],
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2yeast.moderate.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2yeast.moderate.anchors"
         },
         "type": "MCScanAnchorsAdapter"
       },
@@ -5068,15 +5068,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2rat.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2rat.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Rattus_norvegicus"]
       },
@@ -5110,15 +5110,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2mouse.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2mouse.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Mus_musculus"]
       },
@@ -5152,15 +5152,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2zebrafish.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2zebrafish.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Danio_rerio"]
       },
@@ -5194,15 +5194,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopuslaevis.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopuslaevis.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Xenopus_laevis"]
       },
@@ -5236,15 +5236,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2xenopustropicalis.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2xenopustropicalis.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Xenopus_tropicalis"]
       },
@@ -5278,15 +5278,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2xenopustropicalis.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2xenopustropicalis.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Xenopus_tropicalis"]
       },
@@ -5320,15 +5320,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2zebrafish.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2zebrafish.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Danio_rerio"]
       },
@@ -5362,15 +5362,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2xenopustropicalis.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2xenopustropicalis.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "assemblyNames": ["Mus_musculus", "Xenopus_tropicalis"]
       },
@@ -5404,15 +5404,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2zebrafish.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2zebrafish.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "assemblyNames": ["Mus_musculus", "Danio_rerio"]
       },
@@ -5446,15 +5446,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2worm.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2worm.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Danio_rerio", "Caenorhabditis_elegans"]
       },
@@ -5488,15 +5488,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2xenopustropicalis.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2xenopustropicalis.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "assemblyNames": ["Danio_rerio", "Xenopus_tropicalis"]
       },
@@ -5530,15 +5530,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopuslaevis2xenopustropicalis.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopuslaevis2xenopustropicalis.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXL.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXL.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "assemblyNames": ["Xenopus_laevis", "Xenopus_tropicalis"]
       },
@@ -5572,15 +5572,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2fly.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2fly.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "assemblyNames": ["Caenorhabditis_elegans", "Drosophila_melanogaster"]
       },
@@ -5614,15 +5614,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/worm2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/worm2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Caenorhabditis_elegans", "Saccharomyces_cerevisiae"]
       },
@@ -5656,15 +5656,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/fly2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/fly2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Drosophila_melanogaster", "Saccharomyces_cerevisiae"]
       },
@@ -5698,15 +5698,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2worm.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2worm.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Caenorhabditis_elegans"]
       },
@@ -5740,15 +5740,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2fly.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2fly.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Drosophila_melanogaster"]
       },
@@ -5782,15 +5782,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/xenopustropicalis2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/xenopustropicalis2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/XBXT.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/XBXT.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Xenopus_tropicalis", "Saccharomyces_cerevisiae"]
       },
@@ -5824,15 +5824,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2fly.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2fly.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "assemblyNames": ["Danio_rerio", "Drosophila_melanogaster"]
       },
@@ -5866,15 +5866,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2fly.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2fly.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Drosophila_melanogaster"]
       },
@@ -5908,15 +5908,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2worm.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2worm.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Caenorhabditis_elegans"]
       },
@@ -5950,15 +5950,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/human2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/human2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/HUMAN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/HUMAN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Homo_sapiens", "Saccharomyces_cerevisiae"]
       },
@@ -5992,15 +5992,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2worm.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2worm.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Caenorhabditis_elegans"]
       },
@@ -6034,15 +6034,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2fly.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2fly.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Drosophila_melanogaster"]
       },
@@ -6076,15 +6076,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2worm.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2worm.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/WB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/WB.bed"
         },
         "assemblyNames": ["Mus_musculus", "Caenorhabditis_elegans"]
       },
@@ -6118,15 +6118,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2mouse.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2mouse.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Mus_musculus"]
       },
@@ -6160,15 +6160,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2fly.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2fly.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/FB.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/FB.bed"
         },
         "assemblyNames": ["Mus_musculus", "Drosophila_melanogaster"]
       },
@@ -6202,15 +6202,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/rat2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/rat2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/RGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/RGD.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Rattus_norvegicus", "Saccharomyces_cerevisiae"]
       },
@@ -6244,15 +6244,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/mouse2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/mouse2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/MGI.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/MGI.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Mus_musculus", "Saccharomyces_cerevisiae"]
       },
@@ -6286,15 +6286,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/zebrafish2yeast.best.anchors"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/zebrafish2yeast.best.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/ZFIN.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/ZFIN.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.1.0/SGD.bed"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/orthology/9.2.0/SGD.bed"
         },
         "assemblyNames": ["Danio_rerio", "Saccharomyces_cerevisiae"]
       },
@@ -6327,13 +6327,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/GFF_HUMAN.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/human/GFF_HUMAN.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/human/GFF_HUMAN.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/human/GFF_HUMAN.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6366,13 +6366,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/GFF_SGD.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/GFF_SGD.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/GFF_SGD.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/GFF_SGD.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6404,13 +6404,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/GFF_SGD_nongene.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/GFF_SGD_nongene.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/SGD/yeast/GFF_SGD_nongene.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/SGD/yeast/GFF_SGD_nongene.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6441,13 +6441,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/GFF_ZFIN.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/GFF_ZFIN.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6480,13 +6480,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN_nongene.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/GFF_ZFIN_nongene.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/zfin/zebrafish/GFF_ZFIN_nongene.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/zfin/zebrafish/GFF_ZFIN_nongene.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6669,13 +6669,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/GFF_XBXL.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/GFF_XBXL.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/GFF_XBXL.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/GFF_XBXL.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6708,13 +6708,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/GFF_XBXL_nongene.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/GFF_XBXL_nongene.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_laevis/GFF_XBXL_nongene.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_laevis/GFF_XBXL_nongene.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6742,13 +6742,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/GFF_XBXT.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_tropicalis/GFF_XBXT.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/XenBase/x_tropicalis/GFF_XBXT.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/XenBase/x_tropicalis/GFF_XBXT.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6781,13 +6781,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/GFF_RGD.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/RGD/rat/GFF_RGD.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/RGD/rat/GFF_RGD.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/RGD/rat/GFF_RGD.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6820,13 +6820,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/GFF_MGI.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/MGI/mouse/GFF_MGI.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/MGI/mouse/GFF_MGI.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/MGI/mouse/GFF_MGI.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6859,13 +6859,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/GFF_FB.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/FlyBase/fruitfly/GFF_FB.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/FlyBase/fruitfly/GFF_FB.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/FlyBase/fruitfly/GFF_FB.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6898,13 +6898,13 @@
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/GFF_WB.sorted.gff.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/WormBase/c_elegans_PRJNA13758/GFF_WB.sorted.gff.gz"
         },
         "index": {
           "indexType": "TBI",
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.1.0/WormBase/c_elegans_PRJNA13758/GFF_WB.sorted.gff.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/docker/9.2.0/WormBase/c_elegans_PRJNA13758/GFF_WB.sorted.gff.gz.tbi"
           }
         }
       },
@@ -6937,12 +6937,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/rat-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/rat-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/rat-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/rat-latest.vcf.gz.tbi"
           }
         }
       },
@@ -6975,12 +6975,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/mouse-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/mouse-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/mouse-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/mouse-latest.vcf.gz.tbi"
           }
         }
       },
@@ -7013,12 +7013,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/zebrafish-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/zebrafish-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/zebrafish-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/zebrafish-latest.vcf.gz.tbi"
           }
         }
       },
@@ -7051,12 +7051,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/fly-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/fly-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/fly-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/fly-latest.vcf.gz.tbi"
           }
         }
       },
@@ -7089,12 +7089,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/worm-latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/worm-latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/worm-latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/worm-latest.vcf.gz.tbi"
           }
         }
       },
@@ -7127,12 +7127,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/HUMAN/HUMAN.vep.vcf.gz"
+          "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/HUMAN/HUMAN.vep.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/HUMAN/HUMAN.vep.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/HUMAN/HUMAN.vep.vcf.gz.tbi"
           }
         }
       },
@@ -7161,70 +7161,70 @@
         "type": "SplitVcfTabixAdapter",
         "vcfGzLocationMap": {
           "1": {
-            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.1.vcf.gz"
+            "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.1.vcf.gz"
           },
           "2": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.2.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.2.vcf.gz"
           },
           "3": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.3.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.3.vcf.gz"
           },
           "4": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.4.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.4.vcf.gz"
           },
           "5": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.5.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.5.vcf.gz"
           },
           "6": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.6.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.6.vcf.gz"
           },
           "7": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.7.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.7.vcf.gz"
           },
           "8": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.8.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.8.vcf.gz"
           },
           "9": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.9.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.9.vcf.gz"
           },
           "10": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.10.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.10.vcf.gz"
           },
           "11": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.11.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.11.vcf.gz"
           },
           "12": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.12.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.12.vcf.gz"
           },
           "13": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.13.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.13.vcf.gz"
           },
           "14": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.14.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.14.vcf.gz"
           },
           "15": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.15.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.15.vcf.gz"
           },
           "16": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.16.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.16.vcf.gz"
           },
           "17": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.17.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.17.vcf.gz"
           },
           "18": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.18.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.18.vcf.gz"
           },
           "19": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.19.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.19.vcf.gz"
           },
           "MT": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.MT.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.MT.vcf.gz"
           },
           "X": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.X.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.X.vcf.gz"
           },
           "Y": {
-             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.1.0/MGI/MGI.vep.Y.vcf.gz"
+             "uri": "https://s3.amazonaws.com/mod-datadumps/variants/9.2.0/MGI/MGI.vep.Y.vcf.gz"
           }
         }
       },
@@ -7253,12 +7253,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_RGD_latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_RGD_latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_RGD_latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_RGD_latest.vcf.gz.tbi"
           }
         }
       },
@@ -7287,12 +7287,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_WB_latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_WB_latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_WB_latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_WB_latest.vcf.gz.tbi"
           }
         }
       },
@@ -7321,12 +7321,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_FB_latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_FB_latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_FB_latest.vcf.gz.tbi"
           }
         }
       },
@@ -7355,12 +7355,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_SGD_latest.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_SGD_latest.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.1.0/HTPOSTVEPVCF_SGD_latest.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/VCF/9.2.0/HTPOSTVEPVCF_SGD_latest.vcf.gz.tbi"
           }
         }
       },
