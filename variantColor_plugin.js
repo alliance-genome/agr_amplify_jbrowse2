@@ -5,10 +5,11 @@
 
     install(pluginManager) {
       pluginManager.jexl.addFunction('variantColor', f => {
-            if(f?.variant?.INFO?.geneImpact?.[0]==='HIGH')     { return 'red' }
-            if(f?.variant?.INFO?.geneImpact?.[0]==='MODIFIER') { return 'purple' }
-            if(f?.variant?.INFO?.geneImpact?.[0]==='MODERATE') { return 'gold' }
-            if(f?.variant?.INFO?.geneImpact?.[0]==='LOW')      { return 'cyan' }
+            const geneImpact = f.get('INFO')?.geneImpact?.[0]
+            if(geneImpact?.includes('HIGH'))     { return 'red' }
+            if(geneImpact?.includes('MODIFIER')) { return 'purple' }
+            if(geneImpact?.includes('MODERATE')) { return 'gold' }
+            if(geneImpact?.includes('LOW'))      { return 'cyan' }
             return 'black';
       })
     }

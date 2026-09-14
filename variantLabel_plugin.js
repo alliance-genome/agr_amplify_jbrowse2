@@ -1,4 +1,11 @@
 ;(function () {
+  function stripQuotes(str) {
+    if (typeof str === 'string' && str.length >= 2 && str.startsWith('"') && str.endsWith('"')) {
+        return str.slice(1, -1)
+    }
+    return str
+  }
+
   class Plugin {
     name = 'VariantLabelPlugin'
     version = '1.0'
@@ -6,13 +13,13 @@
     install(pluginManager) {
       pluginManager.jexl.addFunction('variantLabel', f => {
 
-        const symbols = f.get('INFO').allele_symbols 
+        const symbols = f.get('INFO').allele_symbols
         if (! (typeof symbols=== 'undefined') ) {
-            var temp = symbols[0].replace('<sup>', '<').replace('</sup>','>');
+            var temp = stripQuotes(symbols[0]).replace('<sup>', '<').replace('</sup>','>');
             return temp;
         }
 
-        const name = f.get('name')
+        const name = stripQuotes(f.get('name'))
         if (! (typeof name === 'undefined') ) {
             var temp = name.replace('<sup>', '<').replace('</sup>','>');
             return temp;
